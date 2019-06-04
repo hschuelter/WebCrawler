@@ -1,0 +1,640 @@
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Design de interação para dispositivos móveis como ferramenta de apoio a pesquisas
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: de Sousa, Taissa Abdalla Filgueiras; Agner, Luiz
+Keywords: interaction design; mobile device; survey
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Virtual presenter
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Hippler, Denise; De Martino, José Mario
+Keywords: embodied conversational agent (ECA); facial animation; non-verbal behavior; virtual presenter
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Labbos: uma rede social para pesquisa colaborativa
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Arcoverde, Daniel F.; Melo, Cássio A.; Franco, Raoni O. S.
+Keywords: collaborative filtering; collective intelligence; computer supported cooperative work; social networks
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Inferindo as emoções do usuário pela face através de um sistema psicológico de codificação facial
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: de Oliveira, Eduardo; Jaques, Patrícia Augustin
+Keywords: affect; computer-mediated communication; emotion
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Mídia cruzada em serviços de governo: conceito e aplicação
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Miyamaru, Flavio; Leite, Leonardo; Bertuzzi, André; Filgueiras, Lucia
+Keywords: X-gov; governo eletrônico prova de conceito; mídia cruzada
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Uma estratégia de apoio à institucionalização da usabilidade em ambientes de desenvolvimento ágil
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Barbosa, David Falcão; Furtado, Elizabeth S.; Gomes, Albert Schilling
+Keywords: ISO TR 18529; P-CMM; agile development; institutionalization of usability; usability maturity
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Artefatos físicos de interação com a TVDI: desafios e diretrizes para o cenário brasileiro
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: de Miranda, Leonardo Cunha; Piccolo, Lara Schibelsky G.; Baranauskas, M. Cecília C.
+Keywords: TV digital interativa; análise semiótica; artefatos digitais; design da interação; interação humano-computador
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Um prospecto de sistemas colaborativos: modelos e frameworks
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Almeida, Leonelo Dell Anhol; Baranauskas, Maria Cecília Calani
+Keywords:  frameworks ; modelos; sistemas colaborativos
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: How computers can help teachers to produce cultural sensitive web-based learning material
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Anacleto, Junia Coutinho; Carlos, Alessandro José Francisco; de Carvalho, Aparecido Fabiano Pinatti; Dias, Ana Luiza
+Keywords: common sense; e-learning; framework; patterns
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: MEX - modelo genérico de experiência do usuário: uma evolução conceitual
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: de Carvalho, Carlos Rosemberg Maia
+Keywords: experiência do usuário; modelos
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Um sistema para criação de conteúdos em diversas plataformas a partir da experiência dos usuários
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Mendes, Marília; Matos, Ítalo; Furtado, Elizabeth; Mayora, Oscar
+Keywords: digital interactive TV; human computer interaction; location-based services; mobile applications; mobile interaction design
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Definindo uma proposta para avaliações de usabilidade de aplicações para o sistema brasileiro de TV digital
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Flores, Luciano Vargas; Faust, Richard; Pimenta, Marcelo Soares
+Keywords: Brazilian digital TV system; SBTVD; digital TV; usability evaluation methodology
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Simulador do desempenho Humano S. PERERE
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Cortez, Thiago Henrique; Begosso, Luiz Carlos
+Keywords: HCI design human error; critical systems
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Design de ajudas inteligentes em interfaces educativas
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: de Melo Queiroz, Ana Emília; Braga, Maurício Motta; Gomes, Alex Sandro
+Keywords:  scaffolding ; análise instrumental da aprendizagem; interfaces educativas; teoria dos campos conceituais
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Aplicando conceitos e técnicas de serviços em IHC
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Pinhanez, Claudio
+Keywords:  scaffolding ; análise instrumental da aprendizagem; interfaces educativas; teoria dos campos conceituais
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: iFitPro: tecnologia interativa para a prática de atividades físicas
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Silva, Anderson G.; Marques, Bruno F.; Riff, Diego N.; Barreto, Lucas A.; Santos, Rafael B. C.
+Keywords:  interactive fitness ; interação humano-computador; jogo 3D; realidade virtual
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Classificação da direção do olhar para interatividade humana utilizando processamento de imagens digitais
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Peixoto, Helton Maia; de Farias Gomes, Sheyla; de M. Martins, Allan; Costa, José Alfredo F.
+Keywords: detecção da direção do olhar; interação homem-máquina; processamento digital de imagens
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Design da interação de novos produtos para TVD: abordagens qualitativas
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Gomes, Alex Sandro; Monteiro, Bruno; Melo, Cássio; Arcoverde, Daniel; Frota, Carina
+Keywords: contextual design; interactive TV; parallel design; qualitative methods in design
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: HCI in Brazil: lessons learned and new perspectives
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: de Souza, Clarisse Sieckenius; Baranauskas, M. Cecilia C.; Prates, Raquel Oliveira; Pimenta, Marcelo S.
+Keywords: HCI in Brazil; challenges; community; history; research
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Raciocínio semiótico abdutivo e conhecimentos prévios na aquisição de conhecimentos inerentes à interação humano-computador
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: de Souza Matos, Ecivaldo
+Keywords: abdução; abductive reasoning; previous knowledge; semiótica; semiotics; teorias de IHC
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Considerações sobre apresentação de informações de contexto em interfaces com o usuário
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Calvetti, Patrick Ücker; Silveira, Milene Selbach
+Keywords: context awareness; mobile computing
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: A expressão da diversidade de usuários no projeto de interação com padrões e personas 
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Aquino Jr, Plinio Thomaz; Filgueiras, Lucia Vilela Leite
+Keywords:  Personas ; interface patterns; user modeling; user profile
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Analisando sistemas de classificação na web sob a perspectiva da interação social em comunidades de prática
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Filho, Fernando M. Figueira; de Geus, Paulo Lício; de Albuquerque, João Porto
+Keywords: classification systems; communities of practice; social web; web collaborative systems
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Montando questionários para medir a satisfação do usuário: avaliação de interface de um sistema que utiliza técnicas de recuperação de imagens por conteúdo
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Filardi, Ana Lúcia; Traina, Agma Juci Machado
+Keywords: CBIR; HCI; QUIS; evaluation; human-computer interaction
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: A service science perspective for interfaces of online service applications
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Pinhanez, Claudio
+Keywords: online applications; online services; service science
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: The common sense-based educational quiz game framework What is it?
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Ferreira, Alexandre; Pereira, Eliane; Anacleto, Junia; Carvalho, Aparecido; Carelli, Izaura
+Keywords: online applications; online services; service science
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: A web-based user interaction framework for collaboratively building and validating ontologies
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Scharl, Arno; Weichselbraun, Albert; Wohlgenannt, Gerhard
+Keywords: collaborative editing; games with a purpose; graph visualization; ontology engineering; social networking platforms; tightly-coupled interfaces
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Folksonomias: uma análise crítica focada na interação e na natureza da técnica
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Pereira, Roberto; da Silva, Sérgio Roberto P.
+Keywords:  folkauthority ; cognitive authority; folksonomy; information overload
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: CampusMates: encontrando parceiros de estudos
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Melo, Cássio A.
+Keywords: dispositivos móveis; m-learning; redes sociais
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Uma proposta de organização do vocabulário de tags dos usuários de sistemas baseados em folksonomia
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Côgo, Filipe Roseiro; da Silva, Sérgio Roberto P.
+Keywords:  tags ; folksonomia; recuperação de informações; vocabulário
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Exposição virtual sobre pesquisa e desenvolvimento em design tipográfico
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Machado Jr, Felipe Stanque
+Keywords: Quest3D; exposição virtual; tipografia
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Do learning styles influence the way students perceive interface agents?
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Reategui, Eliseo; Zattera, Cláudia
+Keywords: interface agents; recommender systems
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Linguagens computacionais como interfaces: um estudo com nested context language
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: de Salles Soares Neto, Carlos; de Souza, Clarisse Sieckenius; Soares, Luiz Fernando Gomes
+Keywords: end-user programming; interactive digital TV applications; middleware Ginga; nested context language; user studies
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Aspectos da interação humano-computador na Web social
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: da Silva, Sérgio Roberto P.; Pereira, Roberto
+Keywords: HCI; social software; social web; web 2.0
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Solução interativa baseada em tela sensível ao toque
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: de Siqueira, Eunice Gomes; Ribeiro, Júlio Resende; de Magalhães, Alexandre Franco; Barbone, Patrícia Seda
+Keywords: automação comercial; interface com telas sensíveis ao toque; solução de software
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Uma proposta de interface de usuário para Web 2.0
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: de Oliveira, Felipe Soares; Palmeira, Andre Felipe; Câmara, Andrew Anderson Chagas; Tavares, Tatiana Aires; de Souza Filho, Guido Lemos
+Keywords: A 3 TV; e interface de usuário; social TV; web 2.0
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Supporting requirements in a traceability approach between business process and user interfaces
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Sousa, Kênia; Mendonça, Hildeberto; Vanderdonckt, Jean; Pimenta, Marcelo S.
+Keywords: business process modeling; model-driven engineering; requirements engineering; user-centered design
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Comunidade democrática cidadã (CDC): um ambiente para consulta e votação na web
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Maciel, Cristiano; Roque, Licinio; Garcia, Ana Cristina B.
+Keywords: decision-making; e-democracy; virtual communities
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Comunidade democrática cidadã (CDC): um ambiente para consulta e votação na web
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Program Chair-Filgueiras, Lucia; Program Chair-Winckler, Marco
+Keywords: decision-making; e-democracy; virtual communities
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Utilizando sons como forma de comunicação, entretenimento e material pedagógico para auxiliar o desenvolvimento da percepção musical infantil
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: de Jesus, Elieser Ademir; Uriarte, Mônica Zewe; Raabe, André Luis Alice
+Keywords: computer aided musical education; human factors and children
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Uma interface multimodal para objetos de aprendizagem visualizados na TV digital
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: de Jesus Lima Gomes, Fábio; de Lima, José Valdeni; de Nevado, Rosane Aragon
+Keywords: digital TV; distance learning; paper interface; usability
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Contribuições da engenharia semiótica para os métodos científicos de pesquisa em IHC
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: de Souza, Clarisse Sieckenius; Leitão, Carla Faria
+Keywords: métodos qualitativos; metodologia científica; teorias de IHC
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Using web scripts to improve accessibility
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Intrator, Chantal; de Souza, Clarisse Sieckenius
+Keywords: collaboration; scripting; web accessibility
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Heva: uma ferramenta de suporte à avaliação heurística para sistemas web
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Oeiras, Janne Yukiko Y.; Bentolila, David Leonardo M.; Figueiredo, Mayara Costa
+Keywords: HCI education; curriculum; heuristic evaluation; usability
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Design participativo numa comunidade de software livre: o caso do website BrOffice.org
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: van Amstel, Frederick M. C.
+Keywords: free software; information architecture; participatory design
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Usabilidade, acessibilidade e inteligibilidade aplicadas em interfaces para analfabetos, idosos e pessoas com deficiência
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Tambascia, Claudia; Ávila, Ismael; Piccolo, Lara; Melo, Amanda Meincke
+Keywords: acessibilidade; inclusão digital; inteligibilidade; usabilidade
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: TVMark: benchmarking para TV digital
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Brackmann, Christian P.; Silva, Cauane Blumenberg; Luzzardi, Paulo Roberto G.
+Keywords: HDTV e TV interativa; JavaTV; SBTVD; TV digital; TVMark; benchmarking; embedded systems; interactive digital TV
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Avaliação da manas na identificação de problemas de impacto social: um estudo de caso
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: da Silva, Rodrigo Ferreira; Prates, Raquel Oliveira
+Keywords: collaborative systems; manas; mediated communication; semiotic engineering; sociability; social impact
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Prototipação de software e design participativo: uma experiência do atlântico
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Rosemberg, Carlos; Schilling, Albert; Bastos, Cristianne; Araripe, Rodrigo
+Keywords: low-fidelity prototyping; participatory design; requirements
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Fitts' law for older adults: considering a factor of age
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Bakaev, Maxim
+Keywords: Fitts' law; elder people; human-computer interaction; throughput
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Antecipando a avaliação de IHC: verificação de diretrizes a partir de modelos
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: da Silva, Tiago Silva; Silveira, Milene Selbach
+Keywords: HCI; guideline review; model-based; usability evaluation
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Usuários podem escrever especificações de sistemas? Um estudo empírico com uma linguagem de script
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Sampaio, Andréia Libório; de Souza, Clarisse Sieckenius
+Keywords: end user development; end user programming; especificação de sistemas; extensão de sistemas; linguagens de descrição
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Integrando testes de usabilidade em projetos sigilosos
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Ximenes, Victor; Levi, Filipe
+Keywords: nondisclosure agreement; recruitment; software development process; usability tests
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Task patterns for e-government services
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Miyamaru, Flavio; Leite, Leonardo; Bertuzzi, André; Filgueiras, Lucia
+Keywords: design patterns; e-government; task patterns
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Enhancing interaction and collaboration in multimedia rooms with multilayered annotations and telepointers
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Sánchez, J. Alfredo; Strazzulla, Daniel; Paredes, Rosa G.
+Keywords: annotations; interactive displays; multi-layer systems; strata; synchronous collaboration; telepointers
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: An exploratory study on non-visual mobile phone interfaces for games
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Valente, Luis; de Souza, Clarisse Sieckenius; Feijó, Bruno
+Keywords: accessibility; audio games; haptics and gestures; mobile games; non-visual games; semiotic engineering; visually-impaired users
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: TalkTV e TalkPC: soluções inteligentes em comunicação à distância
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Mendonça, André; Ribeiro, Artur; Araújo, Breno; Franklin, Eduardo; Vasconcelos, Rodrigo Freitas e Rodolfo
+Keywords: TalkPC; TalkTV; communications; internet; software
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Personalization in e-learning: the adaptive system vs. the intelligent agent approaches
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Schiaffino, Silvia; Amandi, Analía; Gasparini, Isabela; Pimenta, Marcelo S.
+Keywords: adaptive systems; e-learning; intelligent agents
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Zoomia: filtragem colaborativa de produtos a partir da leitura do código de barras
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Melo, Cássio A.
+Keywords: dispositivos móveis; filtragem colaborativa; m-commerce
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Aplicação semi-estruturada do método de inspeção semiótica: estudo de caso para o domínio educacional
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Oliveira, Erica R.; Luz, Luiz C. S.; Prates, Raquel O.
+Keywords: communicability; educational software; evaluation method; semiotic engineering
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Abordagem para o desenvolvimento e avaliação de interfaces multimodais web pautada em princípios de usabilidade
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Neto, Americo Talarico; Bittar, Thiago Jabur; Pontin, Renata; Fortes, Mattos; Felizardo, Kátia
+Keywords: evaluation of multimodal interfaces; multimodal user interfaces; voice user interfaces; web
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Proposta de perfis de usuário para a TV interativa no Brasil
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Barros, Gil; Zuffo, Marcelo K.
+Keywords: Brasil; SBTVD; interface com o usuário; perfil de usuário; televisão interativa
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Parceria universidade-empresa para inclusão digital
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: da Silva Osorio, Alexandre Freire; Schmidt, Cláudia Povoas; Duarte, Robson Eudes
+Keywords: HCI; academicenterprise partnership; acessibility; digital divide; illiterate users; inteligibility; plain language
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems
+Title: Towards user psychological profile
+Date: 10/21/2008
+ISBN: 978-85-7669-203-4
+Authors: Nunes, Maria Augusta S. N.; Cerri, Stefano A.; Blanc, Nathalie
+Keywords: personality traits; recommendation; reputation; user psychological profile
+
+####################################
+

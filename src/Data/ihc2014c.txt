@@ -1,0 +1,380 @@
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Avaliação de interação do aplicativo RunKeeper
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Barbosa, Anna; Silva, Karla; Bonfim, Nanci; Silva, Raniere; Santana, Thalita; Matos, Ecivaldo
+Keywords: RunKeeper; heuristic evaluation; run app; semiotic engineering
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: SideTalk: comunicação interpessoal na/sobre a web
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Monteiro, Ingrid Teixeira; Tolmasquim, Eduardo Tiomno; de Souza, Clarisse Sieckenius
+Keywords: computer-mediated communication; end-user development; social participation
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Dico: um modelo conceitual de recursos de busca avançada para pesquisa exploratória na web
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Duarte, Emanuel Felipe; Pereira, Roberto; Junior, Edson A. Oliveira
+Keywords:  information seeking ; busca avançada; pesquisa exploratória
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Painel: IHC no mercado de trabalho
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Bim, Sílvia Amélia; Boscarioli, Clodis
+Keywords: computação; design; interação humano-computador; mercado; profissão; trabalho
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: WCIHC 2014: I workshop sobre questões culturais em IHC
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Gasparini, Isabela; de Castro Salgado, Luciana C.; Pereira, Roberto
+Keywords: computação; design; interação humano-computador; mercado; profissão; trabalho
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Técnica para projeto de diagramas de atividades visando a usabilidade nas aplicações interativas
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Silva, Williamson; Conte, Tayana
+Keywords: computação; design; interação humano-computador; mercado; profissão; trabalho
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Analfabetos fncionais e interfaces governamentais: estudo de caso de rupturas de comunicação do MAC associado ao rastreamento ocular
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Di Maio, Letícia Régis; Ferreira, Simone Bacellar Leal; Diniz, Morganna Carmem
+Keywords: acessibilidade; analfabetismo funcional; comunicabilidade; e-Gov; método de avaliação de; rastreamento ocular
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: JLogam: interfaces naturais de usuário baseadas em gestos
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Pinheiro, Luan Rafael Castor; Bertoti, Giuliano Araujo
+Keywords: gesture based interfaces; mobile interfaces; natural user interfaces
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Design thinking experience
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Vieira, Renato Correa; de Jesus Rafael, Guilherme; da Costa, Juliana A. R.
+Keywords: colaboração; design thinking; gestão do conhecimento
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: idAuthority: um modelo para a identificação de autoridade cognitiva em redes sociais
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Toledo, Douglas Francisquini; Junior, Edson A. Oliveira; Pereira, Roberto
+Keywords: análise de rede social; análise de sentimento; autoridade cognitiva; recomendação de pessoas
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: idAuthority: um modelo para a identificação de autoridade cognitiva em redes sociais
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: General Chair-Boscarioli, Clodis; General Chair-Bim, Sílvia Amélia; Program Chair-Leitão, Carla; Program Chair-Maciel, Cristiano
+Keywords: análise de rede social; análise de sentimento; autoridade cognitiva; recomendação de pessoas
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Modelo de interação para o nível de conhecimento em sistemas de registro eletrônico de saúde baseados no OpenEHR
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: de Albergaria, Elisa Tuler; Bax, Marcello Peixoto; Prates, Raquel Oliveira
+Keywords: análise de rede social; análise de sentimento; autoridade cognitiva; recomendação de pessoas
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Avaliação da usabilidade de games de interação gestual: resultados preliminares de uma revisão sistemática
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Simor, Fernando Winckler; Rieder, Rafael; De Marchi, Carolina B.
+Keywords: game design and evaluation; gesture-based interaction; usability for senior citizens
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Estendendo a MoLIC para apoiar o design de sistemas colaborativos
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: de Souza, Luiz Gustavo; Barbosa, Simone Diniz Junqueira
+Keywords: game design and evaluation; gesture-based interaction; usability for senior citizens
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Portal da casa de oswaldo cruz e o prêmio nacional de acessibilidade na web
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: do Sacramento, Carolina Christina; e Silva, Cláudia Souza; Conceição, Fábio Iglesias; de Moraes, Fábio Luiz Daudt; de Castro, Igor Machado; Zorzanelli, Luciano Pinto; Barros, Ygor Santos
+Keywords: WCAG; acessibilidade web; portal acessível
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Criando um restaurante interativo: curso prático de prototipagem da experiência
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Martins, Marcos André Franco
+Keywords: design da experiência; design da interação; prototipagem
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Avaliação do impacto do contexto e do canal de comunicação na usabilidade de aplicativos móveis
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Gonçalves, Edson; Bonifácio, Bruno
+Keywords: context usability; mobile application; usability
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Visualização de informação: introdução e influências de IHC
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: da Silva, Celmar Guimarães
+Keywords: context usability; mobile application; usability
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Design da interação humano-computador com MoLIC
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Barbosa, Simone Diniz Junqueira; da Silva, Bruno Santana
+Keywords: MoLIC; design da interação; engenharia semiótica
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Proposta de checklist para inspeção da acessibilidade de páginas web 
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Moura, Edison Jhonatan R.; Melo, Amanda Meincke; Cheiran, Jean Felipe
+Keywords: accessibility inspection; checklist; web accessibility
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Acessibilidade e inclusão digital
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Melo, Amanda Meincke
+Keywords: accessibility inspection; checklist; web accessibility
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Análise do contexto baseado em avaliação de prioridades de diretrizes de acessibilidade em processo de engenharia web
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: de O. Camenar, Leticia Maria; Matos, Simone Nasser; Watanabe, Willian Massami
+Keywords: accessibility; guidelines; process
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Sydy: um aplicativo desenvolvido para melhorar a experiência dos acadêmicos com os dispositivos móveis no ambiente educacional
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Araújo, Alexandre N.; Procopiou, Adrian T.; Noite, Ariane A.; Nogueira, Danilo M.; Maciel, Cristiano
+Keywords: education; interactivity; mobile devices; mobility
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Competição de avaliação IHC'14: avaliação do aplicativo para corridas RunKeeper
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Alvarenga, Charles; Americano, Frederico; Souza, Priscila; Prates, Raquel
+Keywords: CEM; HCI; RunKeeper; SIM; heuristic evaluation; smartphone
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Learning analytics: entendendo e otimizando o aprendizado
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Moissa, Barbara; Kemczinski, Avanilde; Gasparini, Isabela
+Keywords: HCI; MOOC; computers in education; learning analytics; technology enhanced learning
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Zumbis vs sedentários: quem irá vencer? Avaliando a usabilidade do aplicativo Zombie's, run!
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Cortes, Walter Ritzel Paixo; Zanin, Aline; Soletti, Leonardo Veronese; Machado, Vanessa Stangherlin; Silveira, Milene Selbach; da Silva, Pedro Henrique Lopes
+Keywords: gamificação; prática de atividades físicas; usabilidade
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Inspeção heurística e observação no contexto de uso: um estudo de caso com o RunKeeper
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Soares, Horácio Pastor; Cavalcante, Ney Wagner F.; Di Maio, Letícia Régis; Ferreira, Simone Bacellar Leal
+Keywords: RunKeeper; heuristic inspection; usability; users
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Codesign de atividades gamificadas: uma abordagem participativa do design instrucional em ambientes virtuais de aprendizagem
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Alves, Fábio Pereira; Maciel, Cristiano
+Keywords: RunKeeper; heuristic inspection; usability; users
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Como foi o meu desempenho na corrida hoje?: avaliação de comunicabilidade do aplicativo adidas miCoach mobile
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Weiand, Augusto; Santos, Caroline Queiroz; Ghilardi, Marcelo Cabral; Campos, Tallitha; Silveira, Milene S.
+Keywords: communicability; evaluation methods; semiotic engineering; smartphones application
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Aplicando análise estatística de dados de interação de larga escala no design centrado no usuário
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Urbano, Paulo; Cruz, Rodrigo; Duarte, Tâmara
+Keywords: communicability; evaluation methods; semiotic engineering; smartphones application
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Programação com CodeMime: manipulação de conceitos computacionais através de gestos
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Roque, Hugo; Raposo, Alberto; de Souza, Clarisse Sieckenius
+Keywords: educational game; gestual interface
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Heurísticas para avaliação da usabilidade de interfaces com usuários de aplicações web com enfoque em pessoas da terceira idade
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: dos Santos Alves, Deivid; Júnior, Paulo Afonso Parreira
+Keywords: heuristic evaluation; older people; usability; web application
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: PTI virtual: interação transpondo barreiras
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Junior, Airton Bordin; de Oliveira Veronezi, Daniela Priscila; da Silva, Nathan Medronha
+Keywords: heuristic evaluation; older people; usability; web application
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Proposta de Guidelines de interfaces com foco em aspectos do autismo
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Britto, Talita C. Pagani; Pizzolato, Ednaldo Brigante
+Keywords: autismo; design universal; guidelines de interface
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: WEIHC 2014: V workshop sobre o ensino de IHC
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Boscarioli, Clodis; Silveira, Milene Selbach; Barbosa, Simone Diniz Junqueira; Bim, Sílvia Amélia
+Keywords: autismo; design universal; guidelines de interface
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: SIGNUM: tradutor Português-Libras baseado em mineração de texto como extensão para navegador web
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Gelatti, Giovana Jaskulski; Cassales, Vinícius Alves; Vargas, André Prisco; de Felippe, Carla Imaraya; dos Santos Machado, Karina
+Keywords: LIBRAS; assistive technology; deafness; mutism; translator
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Design de tecnologias adaptáveis para uso de profissionais da área de autismo
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Braz, Priscilla; Raposo, Alberto; de Souza, Clarisse Sieckenius
+Keywords: engenharia semiótica; meta-design; sondas de design; tecnologias de apoio aos transtornos do espectro do autismo
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Design universal em Touchscreens : um modelo de interação acessível
+Date: 10/27/2014
+ISBN: 978-1-4503-6377-8
+Authors: Hayashi, Elaine C. S.; Martins, Ewerton M.; Duarte, Robson E.; Martins, Claudinei; Costa, Henrique M.; Duarte, Sergio H. Mourthé
+Keywords:  touchscreen ; accessibility; design universal; self-service kiosks
+
+####################################
+

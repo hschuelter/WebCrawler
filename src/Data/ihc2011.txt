@@ -1,0 +1,500 @@
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Social computational thinking tools: reinventing computation education in public schools
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Repenning, Alexander
+Keywords: Mobile devices; accessibility; empirical study; gestures; systematic review; touch-screen; visually impaired people
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Avaliação da usabilidade de um sistema de informação acadêmico
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Rodrigues, Yane Wanderley Dos Santos; Alves, Carina Frota
+Keywords: information systems; usability; web
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Scalable annotation mechanisms for digital content aggregation and context-aware authoring
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Scharl, Arno; Hubmann-Haidvogel, Alexander; Wohlgenannt, Gerhard; Weichselbraun, Albert; Dickinger, Astrid
+Keywords: classification; collaborative authoring; content production and consumption; context-awareness; real-time annotation
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Developing an accessible interaction model for touch screen mobile devices: preliminary results
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Piccolo, Lara Schibelsky G.; De Menezes, Ewerton M.; De Campos Buccolo, Bruno
+Keywords: accessibility; assistive technology; screen reader; touch screen; visually impaired
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Evaluation of web accessibility tools
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Tanaka, Eduardo Hideki; Da Rocha, Heloísa Vieira
+Keywords: accessibility evaluation; accessibility tools; guidelines; web accessibility
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Interação de idosos com celulares: flexibilidade para atender a diversidade
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Gonçalves, Vinícius Pereira; De Almeida Neris, Vânia Paula; Ueyama, Jó
+Keywords: cell phone; design; elderly; flexibility; tailorable interfaces
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Vive la différence!: a survey of cultural-aware issues in HCI
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Gasparini, Isabela; Pimenta, Marcelo S.; De Oliveira, José Palazzo M.
+Keywords: cultural aspects of HCI; cultural-aware issues; internationalization; localization
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Anãlise da sociabilidade de comunidades online para os usuários surdos: um estudo de caso do Orkut
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Barbosa, Glívia A. R.; Prates, Raquel O.; Corrêa, Luiz P. D.
+Keywords: deaf; online communities; semiotic engineering; sociability; social networks
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Motivational aspects in energy feedback systems design
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Piccolo, Lara Schibelsky Godoy; Baranauskas, Maria Cecília Calani
+Keywords: eco-feedback technology; motivation; residential energy feedback systems
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Mundos virtuales: ¿usabilidad real?
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Muñoz, Roberto; Rusu, Cristian
+Keywords: usability evaluation; usability heuristics; virtual worlds
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: USABILICS: avaliação remota de usabilidade e métricas baseadas na análise de tarefas
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: De Vasconcelos, Leandro Guarino; Júnior, Laércio Augusto Baldochi
+Keywords: análise de comportamento do usuário; avaliação remota de usabilidade; modelo de interface; rastreamento da interação do usuário
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Diseñando interfaces graficas usables de aplicaciones en entornos de television digital interactiva
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Solano, Andrés F.; Chanchí, Gabriel E.; Collazos, César A.; Arciniegas, José L.; Rusu, Cristian A.
+Keywords: análise de comportamento do usuário; avaliação remota de usabilidade; modelo de interface; rastreamento da interação do usuário
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Anãlise comparativa de heurísticas para avaliação de jogos digitais
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Barcelos, Thiago Schumacher; Carvalho, Thiago; Schimiguel, Juliano; Silveira, Ismar Frango
+Keywords: digital games; heuristic evaluation; playability
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Anãlise comparativa de heurísticas para avaliação de jogos digitais
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: General Chair-Gomes, Alex Sandro; Program Chair-de Souza, Clarisse Sieckenius; Program Chair-Sanchez, J. Alfredo
+Keywords: digital games; heuristic evaluation; playability
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Unindo IHC e negócios através do uso de personas: um estudo de caso no mercado de aplicativos móveis
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: De Carvalho, Carlos Rosemberg Maia; Costa, Gabriela Campos; Andrade, Carlos Diego; Gomes, Albert Schilling; Cysne, Carlos Marcellus Bandeira
+Keywords: colaboração; inovação; negócios; personas
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Definición de un marco de desarrollo de sistemas interactivos usables: a partir de la integración de CIAF y MPIu+a
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Villegas, Maria L.; Giraldo, William J.; Granollers, Toni; Trefftz, Helmuth
+Keywords: desarrollo de la interfaz de usuario; integración de procesos software; marco de desarrollo; sistema interactivo; usabilidad
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Widgets internship: developing learners skills in a user-centered development process
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Oliveira, Eduardo A.; Falcão, Taciana Pontual; Ximenes, Victor; Melo, Paulo
+Keywords: mobile; problem-based learning; user-centered design; widgets
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Um modelo de avaliação da usabilidade baseado na captura automática de dados de interação do usuário em ambientes reais
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Kronbauer, Artur Henrique; Santos, Celso A. Saibel
+Keywords: aspect oriented programming; automatic usability evaluation; integrating IHC and software engineering; interacting with new devices; interfaces for mobile and ambient systems; metrics; mobile devices; process model
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Knowledge and information and needs of system administrators in IT service factories
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: De Souza, Cleidson R. B.; Pinhanez, Claudio S.; Cavalcante, Victor
+Keywords: IT services; information needs; information seeking; information technology management; knowledge management; service factories; system administrators
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Avaliação da usabilidade de MUI: um estudo de caso
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Barbosa, Ana Esther Victor; De Sousa Ferreira, Danilo; De Queiroz, José Eustáquio Rangel; Ramos, André Luís B. M.
+Keywords: aplicação multimodal; avaliação de usabilidade; interface multimodal com o usuário; metodologia híbrida
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Uma estratégia para análise da adoção de sistemas colaborativos baseada nas relações entre experiências de usuário, tecnologia e marketing 
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Furtado, Elizabeth S.; Santiago, Leandro; Furtado, Vasco
+Keywords:  marketing ; experiências de usuário; sistema colaborativo; tecnologia
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Multidirectional knowledge extraction process for creating behavioral personas
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Masiero, Andrey A.; Leite, Mayara G.; Filgueiras, Lucia Vilela Leite; Aquino Jr., Plinio Thomaz
+Keywords: behavioral personas; data mining; knowledge extraction; user modeling; user profile
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Voice interfaces for real-time translation of common tourist conversation
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Pires, Eduardo M.; Vital, Lais V.; Alves, Carina F.; Gomes, Alex S.
+Keywords: interaction model; real-time translator; short-term conversation
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Issues of the social web interaction project faced with afterlife digital legacy
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Maciel, Cristiano
+Keywords: digital legacy; digital life and death; posthumous interaction; social web; volition
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Panorama, oportunidades e recomendações para o contexto brasileiro de interação humano-computador e design centrado no usuário a partir do uso de personas
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Guimarães, Danielly Barboza; Carvalho, Carlos Rosemberg M.; Furtado, Elizabeth S.
+Keywords: design centrado no usuário; interação humano-computador; persona
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Shape-based versus sketch-based UI prototyping: a comparative study
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Segura, Vinícius C. V. B.; Barbosa, Simone D. J.
+Keywords: early prototyping; pen-based interaction; sketching user interface behavior; user interface sketching
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Towards a participatory development technique of assistive technology for mobility and speech impaired patients
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: De Faria Borges, Luciana Correia Lima; Filgueiras, Lucia Vilela Leite; Maciel, Cristiano
+Keywords: assistive technology; computer-aided therapy; participatory design; verbally impaired people
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Avaliação de interfaces em redes sociais para investigação do contexto interacional
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Melo, Lafayette Batista
+Keywords: avaliação; contexto; interação; linguística; redes sociais
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Análise de comportamento da terceira idade ao efetuar uma compra no site Americanas.com
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: De Almeida, Rafael Xavier Esteves; Ferreira, Simone Bacellar Leal; Da Silveira, Denis Silva
+Keywords: accessibility; e-commerce; elderly users; usability
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Using and utilizing an innovative media development tool
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Roast, Chris; Dearden, Andy; Uruchurtu, Elizabeth
+Keywords: automating media production; automation; disruptive technology; post-production; user centered evaluation
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Acessibilidade sensível ao contexto para adultos mais velhos em sistemas web
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: De Lara, Silvana M. Affonso; Oliveira, Denis; Fortes, Renata P. Mattos
+Keywords: acessibilidade; adultos de meia-idade; idosos; web
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Pamphlet vs. mobile: sensemaking of health information
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Calvillo-Gãmez, Eduardo H.; Grimaldo-Martínez, Ana I.; Gonzãlez, Víctor M.; Contreras, Rafael Llamas
+Keywords: information processing; m-health; sensemaking
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: On the epistemic nature of cultural viewpoint metaphors
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: De Castro Salgado, Luciana Cardoso; De Souza, Clarisse Sieckenius; Leitão, Carla Faria
+Keywords: HCI and culture; conceptual metaphors for HCI design; cross-cultural systems
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Applicability of the semiotic inspection method: a systematic literature review
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: De S. Reis, Soraia; Prates, Raquel O.
+Keywords: applicability; semiotic engineering; semiotic inspection method; systematic literature review
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Afinando a comunicação entre pares para melhorar a compreensão da mensagem do designer 
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Leite, Leticia Lopes; Silveira, Milene Selbach
+Keywords: engenharia semiótica; expressões de comunicabilidade; sistemas de ajuda em pares
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: UsabilityGame: jogo simulador para apoio ao ensino de usabilidade
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Sommariva, Leonardo; Benitti, Fabiane B. Vavassori; Dalcin, Felipe Simoni
+Keywords: ciclo de vida de usabilidade; interação humano computador; jogos
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: First, do no harm: user studies in pervasive healthcare research
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Favela, Jesús
+Keywords: ciclo de vida de usabilidade; interação humano computador; jogos
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Uma revisão sistemática sobre métodos de avaliação de usabilidade aplicados em software de telefones celulares
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Gonçalves, Vinícius P.; Neris, Vânia P. A.; Morandini, Marcelo; Nakagawa, Elisa Y.; Ueyama, Jó
+Keywords: dispositives móveis; métodos de avaliação; revisão sistemática; telefones celulares; usabilidade
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Model-based design and generation of a gesture-based user interface navigation control
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Feuerstack, Sebastian; Anjo, Mauro Dos Santos; Pizzolato, Ednaldo B.
+Keywords: HCI; hand-gesture recognition; interface navigation; model-driven design of user interfaces (MDDUI)
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Usabilidade e carga de trabalho: um estudo de caso para a prevenção de doenças ocupacionais em informática
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Brazil, Isaias Horta; Valente, Wander Antunes Gaspar
+Keywords: HCI; ergonomics; usability engineering
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Designing a game controller for motor impaired players
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Pereira, Bianca O.; Expedito, Cristiano; De Faria, Fabrício Firmino; Vivacqua, Adriana S.
+Keywords: accessibility; devices; human computer interaction; video games
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Speak up your mind: using speech to capture innovative ideas on interactive surfaces
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Huerta, Osvaldo; Sánchez, J. Alfredo; Fuentes, Salvador; Cervantes, Ofelia
+Keywords: innovation; interactive surfaces; multi-tactile interfaces; speech recognition; voice interfaces
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Eu também quero jogar!: reavaliando as práticas e diretrizes de acessibilidade em jogos
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Cheiran, Jean Felipe Patikowski; Pimenta, Marcelo Soares
+Keywords: accessibility; accessibility guidelines; content analysis; electronic games; people with special needs
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Modelo colaborativo y distribuido para enseñanza de la usabilidad
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Aballay, Laura; Collazos, César A.; Herrera, Myriam
+Keywords: aprendizaje colaborativo; grupos de trabajo distribuidos; interface humano computador; usabilidad
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Adaptação contextualizada do conteúdo da interface de um jogo narrativo educacional
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Silva, Marcos Alexandre Rose; Anacleto, Junia Coutinho
+Keywords: estudo de caso; interface adaptativa; jogos narrativos
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Accessibility for people with cerebral palsy: the use of blogs as an agent of social inclusion
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Ferreira, Ariane Oliveira; Ferreira, Simone Bacellar Leal; Da Silveira, Denis Silva; Ferreira, Aurélio Fernando
+Keywords: cerebral palsy; social inclusion; web accessibility
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Identificando problemas de usabilidade através de inspeção no modelo de interação
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Neto, Macilon A. Costa; De Souza, Alessandro J.; Leite, Jair C.
+Keywords: linguagem de modelagem; modelos de interação humano-computador; técnicas de inspeção de usabilidade
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Interactive analysis of Likert scale data using a multichart visualization tool
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Petrillo, Fabio; Spritzer, André Suslik; Freitas, Carla Dal Sasso; Pimenta, Marcelo
+Keywords: Likert scale; information visualization; user interfaces
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Relationship between accessibility and software evolution
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Kobayashi, Alline Mayumi Ribeiro; Letizio, Caroline Castello; Tanaka, Eduardo Hideki
+Keywords: accessibility; accessibility evaluation; software evolution
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction
+Title: Evaluation of web accessibility from the perspective of functional illiteracy
+Date: 10/25/2011
+ISBN: 978-85-7669-257-7
+Authors: Capra, Eliane Pinheiro; Ferreira, Simone Bacellar Leal; Da Silveira, Denis Silva; Ribeiro, Bruno Brochado; Modesto, Débora Maurmo
+Keywords: accessibility recommendations; functional illiteracy
+
+####################################
+

@@ -1,0 +1,470 @@
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Personas celulares do mercado Brasileiro
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Cirelli, Mauricio; Aquino, Plínio Thomaz; Filgueiras, Lucia Vilela Leite
+Keywords: CSCW; computer music; cooperative music prototyping; human-computer interaction; networked music
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Interação em nuvens
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Preti, João Paulo Delgado; Filgueiras, Lucia Vilela Leite
+Keywords: cloud computing; crossmedia; human-cloud interaction; interaction clouds
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Biblioteca digital inclusiva no ensino superior
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Giacomelli, Joseane; Melo, Amanda Meincke; Hohemberger, Rumenigue
+Keywords: digital libraries; university; user centered design; web accessibility
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Análise da relação entre acessibilidade web e usabilidade para pessoas com deficiência visual
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Rocha, Janicy Aparecida Pereira; de Lima, Tiago França Melo
+Keywords: accessibility; e-government; usability; visually impaired
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: iTAOS: uma ferramenta para modelagem de tarefas
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Petrônio, Francisco; Júnior, Bernardo Lula; de Medeiros, Alencar; da S. Júnior, Nielson J. P.; Lima, Giuseppe A.
+Keywords: accessibility; e-government; usability; visually impaired
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: FAVIHC - framework de avaliação da interação Humano Computador, estudo de caso na televisão digital
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Gomes, Albert Schilling; Furtado, Elizabeth S.
+Keywords: interação humano computador; validação; verificação
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Reconstruindo o diálogo em sistemas de ajuda
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Santos, Mauro F.; Silveira, Milene Selbach
+Keywords: dialogue; online help systems
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Validação de um método para identificação de problemas de usabilidade a partir de diagramas UML
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: da Silva, Tiago Silva; Silveira, Milene Selbach
+Keywords: dialogue; online help systems
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: A user interface proposal for mobile devices: a study on information architecture and e-book readers
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: da Silva, Maria Amélia Teixeira; Dias, Guilherme Ataíde
+Keywords: e-book; e-book reader; human-machine interaction; information architecture; interfaces; mobile devices
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Bringing users of a digital divide context to website evaluation using WELFIT
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: de Santana, Vagner Figuerêdo; Baranauskas, Maria Cecília Calani
+Keywords: accessibility; digital divide; website evaluation
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Qualidade de uso de um sistema de TV digital
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Guimarães, Danielly B.; Furtado, Elizabeth S.
+Keywords: accessibility; digital divide; website evaluation
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Incremental computation of information landscapes for dynamic web interfaces
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Sabol, Vedran; Syed, Kamran Ali Ahmad; Scharl, Arno; Muhr, Markus; Hubmann-Haidvogel, Alexander
+Keywords: document clustering; information landscapes; information visualization; multi-dimensional scaling; visual analytics
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Estratégias para comunicar qualidade na Wikipedia
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: dos Santos, Raquel Lara; Prates, Raquel Oliveira
+Keywords: Wikipedia; collaborative encyclopedia; quality; semiotic engineering; semiotic inspection method
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Avaliação de usabilidade de dispositivos móveis de coleta de dados domiciliares através de entrevistas baseadas em cenários e tarefas
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Tavares, Patricia; Agner, Luiz; Ferreira, Simone Bacellar Leal
+Keywords: PDA; design; interviews; methodology; statistics; testing; usability
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Meta-communication in inclusive scenarios: issues and alternatives
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Hayashi, Elaine C. S.; Baranauskas, M. Cecília C.
+Keywords: design rationale; inclusive social networks; meta-communication; socially aware design
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Investigando a comunicação sobre qualidade de artigos na Wikipedia para seus usuários
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: dos Santos, Raquel Lara; Prates, Raquel Oliveira
+Keywords: design rationale; inclusive social networks; meta-communication; socially aware design
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Aplicação de técnicas e métodos de IHC para avaliar a QoE de serviços de TV interativa
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Piccolo, Lara Schibelsky Godoy; Bonadia, Graziella Cardoso; de Andrade Tambascia, Claudia
+Keywords: design rationale; inclusive social networks; meta-communication; socially aware design
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Making interactive systems more flexible: an approach based on users' participation and norms
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: de Almeida Neris, Vânia Paula; Baranauskas, M. Cecília C.
+Keywords: flexible systems; norms; participatory design; tailoring; user interface design
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Estendendo a linguagem MoLIC para o projeto conjunto de interação e interface
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Sangiorgi, Ugo Braga; Barbosa, Simone Diniz Junqueira
+Keywords: interaction design; interaction modeling; semiotic engineering
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Avaliação de usabilidade de aplicações em dispositivos móveis
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Bonifácio, Bruno; Oliveira, Horácio; Conte, Tayana
+Keywords: evaluation technique; usability; web mobile applications
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Impacto da usabilidade na educação a distância: um estudo de caso no Moodle IFAM
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Magalhães, Edna; Gomes, Viviane; Rodrigues, Alexandre; Santos, Leonardo; Conte, Tayana
+Keywords: Moodle; communicability evaluation; distant education; usability evaluation
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Avaliação de interface de um aplicativo para uso em telefone celular e voltado para a terceira idade
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Mol, Artur Martins; Ishitani, Lucila
+Keywords: mobile; old people; user interface
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: GPS para deficientes visuais
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Siller, Felipe; Braga, Juliana Cristina
+Keywords: mobile; old people; user interface
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: O uso de descrições narrativas para avaliar significados em interfaces de usuário
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Neto, Macilon Araújo Costa; Leite, Jair Cavalcanti
+Keywords: descrições narrativas; engenharia semiótica; modelagem de interface
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Estendendo o conhecimento afetivo da EmotionML
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Nunes, Maria Augusta S. N.; Bezerra, Jonas S.; de Oliveira, Adicinéia A.
+Keywords: AKR; EmotionML; affective computing; emotion
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: SMART: uma ferramenta de apoio a projetos de sistemas colaborativos com foco em impactos sociais
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: da Silva, Rodrigo Ferreira; Salles, Victor Josué; Prates, Raquel Oliveira
+Keywords: Manas; collaborative systems; semiotic engineering; social impacts
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: MoLIC Designer: uma ferramenta para o projeto conjunto de interação e interface
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Sangiorgi, Ugo Braga; Barbosa, Simone Diniz Junqueira
+Keywords: Manas; collaborative systems; semiotic engineering; social impacts
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Softwares sociais: uma visão orientada a valores
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Pereira, Roberto; Baranauskas, M. Cecília C.; da Silva, Sergio Roberto P.
+Keywords: Manas; collaborative systems; semiotic engineering; social impacts
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Softwares sociais: uma visão orientada a valores
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: General Chair-Prates, Raquel Oliveira; General Chair-Moro, Mirella Moura
+Keywords: Manas; collaborative systems; semiotic engineering; social impacts
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Avaliando modelos de interação para comunicação de deficientes auditivos
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Martins, Stefan; Filgueiras, Lucia
+Keywords: Manas; collaborative systems; semiotic engineering; social impacts
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Patterns for the design of musical interaction with everyday mobile devices
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Flores, Luciano V.; Pimenta, Marcelo S.; Miranda, Eduardo R.; Radanovitsck, Eduardo A. A.; Keller, Damián
+Keywords: computer music; interaction design patterns; mobile devices; mobile interaction design; mobile music
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Uso de user story mapping para planejamento de produtos interativos
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Drumond, Karine; Alves, Leandro
+Keywords: agile; product development; usability; user story mapping
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: MEX experience boards: a set of agile tools for user experience design
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: de Carvalho, Carlos Rosemberg Maia
+Keywords: MEX; agile; interaction design
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: An approach for interactive dialogue modelling of multimodal applications
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Feuerstack, Sebastian
+Keywords: HCI; interaction modeling; model-based user interface development; multimodal interaction
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Institucionalizando o foco na experiência do usuário através do six sigma em uma organização CMMI5
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Schilling, Albert; Rosemberg, Carlos; Barbosa, Joice; Telles, Gabriela
+Keywords: HCI; interaction modeling; model-based user interface development; multimodal interaction
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Workshop sobre o ensino de IHC (WEIHC)
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Bim, Sílvia Amélia; Winckler, Marco; Prates, Raquel Oliveira; Silveira, Milene Selbach
+Keywords: HCI curriculum; education in HCI; pedagogic approaches for teaching HCI
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Aplicando técnicas de inspeção de usabilidade para avaliar aplicações móveis
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Bonifácio, Bruno; Viana, Davi; Vieira, Sérgio; Araújo, Cristina; Conte, Tayana
+Keywords: HCI 2010; evaluation; inspection; usability; web mobile
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: II WAIHCWS: workshop de aspectos da interação humano-computador para a web social
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: da Silva, Sergio Roberto P.; Pereira, Roberto; de Almeida Neris, Vania P.
+Keywords:  web social; IHC'10; software social
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Um sistema de interação baseado em gestos manuais tridimensionais para ambientes virtuais
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Ghirotti, Silvia E.; Morimoto, Carlos H.
+Keywords: 3D gesture recognition; gesture interface; interaction in 3D virtual environments
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Considerações sobre Aplicação do Método de Avaliação de Comunicabilidade ao domínio educacional
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: de Oliveira, Erica R.; Prates, Raquel O.; Werneck, Gisleide A. M.
+Keywords: communicability evaluation method; educational software; semiotic engineering
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: MISTool: um ambiente colaborativo de apoio ao Método de Inspeção Semiótica
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: de Jesus, Angelo Magno; da Silva, Elton José
+Keywords: HCI teaching; collaborative environments; evaluation methods; semiotic inspection
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: FATA: um caminho para soluções interativas individualizadas para reabilitação
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: de Faria Borges, Luciana Correia Lima; Filgueiras, Lucia Vilela Leite; Maciel, Cristiano
+Keywords: cerebral palsy; computer assisted therapy; user centered project
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Inclusão de usabilidade no processo de desenvolvimento de software da DATAPREV
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: de Sousa Ferreira, Danilo; de Oliveira, Karolyne Maria Alves; de Araújo Alencar, Aline
+Keywords: cerebral palsy; computer assisted therapy; user centered project
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title:  Conversas online: a synchronous communication tool integrated to inclusive social networks
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Almeida, Leonelo D. A.; Hayashi, Elaine C. S.; Reis, Júlio C.; Martins, M. Cecília; Baranauskas, M. Cecília C.
+Keywords: awareness; communication; inclusive social networks; instant messaging tools; organizational semiotics; participatory design
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Interação com conteúdo complementar para apoio ao entendimento de programas televisivos
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Rodrigues, Kamila R. H.; Melo, Erick L.; Nakagawa, Patricia I.; Teixeira, Cesar A. C.
+Keywords: accessibility; additional content; cognitive psychology; comprehension of video; digital TV; human-computer interaction
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Avaliação do uso da manas como ferramenta epistêmica no projeto de sistemas colaborativos
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Prates, Raquel Oliveira; da Silva, Rodrigo Ferreira
+Keywords: Manas; collaborative systems; epistemic tools; mediated communication; semiotic engineering; social impact
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Proceedings of the IX Symposium on Human Factors in Computing Systems
+Title: Universal design principles combined with web accessibility guidelines: a case study
+Date: 10/05/2010
+ISBN: 1-59593-432-4
+Authors: Almeida, Leonelo Dell Anhol; Baranauskas, Maria Cecília Calani
+Keywords: evaluation; universal design; web accessibility guidelines
+
+####################################
+

@@ -1,0 +1,720 @@
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Designing for people
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Horton, Sarah; Sloan, David
+Keywords: personality traits; recommendation; reputation; user psychological profile
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Usando eyetracker para analisar a interação de usuários de alto e baixo letramento
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Di Maio, Letícia; Cavalcante, Ney; Ferreira, Simone Bacellar Leal; dos Anjos Rosa, José Luiz; Soares, Horacio; Alves, Aline
+Keywords: accessibility; eyetracking; human computer-interaction; low-literate users; web interface
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Multimodal gaming for navigation skills in players who are blind
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Sánchez, Jaime; de Borba Campos, Marcia; Espinoza, Matías
+Keywords: audio; haptics; multimodal interfaces; videogames; visually impaired
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Estudo comparativo entre diagrama de atividade e análise hierárquica de tarefas: uma análise da facilidade de modelagem e compreensão
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Silva, Williamson; Valentim, Natasha M. Costa; Conte, Tayana
+Keywords: análise hierárquica de tarefa; diagrama de atividade; estudo empírico; modelo de tarefas
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: A percepção dos usuários sobre a utilização da análise de sentimentos como apoio à seleção de notícias
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Reis, Júlio; Gonçalves, Pollyanna; Miranda, Lucas; Prates, Raquel; Benevenuto, Fabrício
+Keywords: content selection; semistructured interview; sentiment analysis; underlying discourse unveiling method (UDUM); user experience
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: A percepção dos usuários sobre a utilização da análise de sentimentos como apoio à seleção de notícias
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: General Chair-Boscarioli, Clodis; General Chair-Bim, Sílvia Amélia; Program Chair-Leitão, Carla; Program Chair-Maciel, Cristiano
+Keywords: content selection; semistructured interview; sentiment analysis; underlying discourse unveiling method (UDUM); user experience
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Uma revisão sistemática sobre medição da experiência do usuário
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Maia, Camila Loiola Brito; Furtado, Elizabeth Sucupira
+Keywords: measurement; systematic review; user experience
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Minha casa ou sua casa!: levando em conta o antissocial
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Laufer, Carlos
+Keywords: HCI; anti-social behavior; human factors; social network; user intention semantics
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Uma investigação sobre as técnicas de visualização de informação quantitativas e qualitativas
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Barros, Diego; Prates, Raquel; Melo-Minardi, Raquel
+Keywords: frameworks; information visualization; qualitative research; quantitative research
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Análise de abordagens objetivas para avaliação de softwares educativos
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: de Oliveira B. Junior, Ozonias; Aguiar, Yuska Paola Costa
+Keywords: educational software; learning process; objective evaluation; teaching
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Uma proposta para classificação baseada em contexto para técnicas de visualização
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Ribeiro, Fernanda C.; Costa, Luan; de Paula, Melise M. V.; de Souza, Jano Moreira
+Keywords: classification of visualization techniques; context-based recommender system; information visualization
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Padrões de interface, gameficação e mobilidade no desenvolvimento de aplicações educacionais
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Ellwanger, Cristiane; Santos, Cristina Paludo; Moreira, Guilherme Jantsch
+Keywords: gameficaçã; gamification; mobilidade; mobility; padrões de interface; standard interfaces
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Como suportar os desejos de privacidade dinâmicos e contextuais dos usuários em ubicomp?: uma interseção entre questões: ubiquidade e privacidade
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Teles, Ariel Soares; da Silva e Silva, Francisco J.; Endler, Markus
+Keywords: access control; privacy; ubiquitous computing
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Interaction techniques for laymen in immersive virtual reality
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Taunay, Henrique; Nascimento, Leonardo; Neto, Vicente; Raposo, Alberto
+Keywords: 3D user interaction; cybersickness; immersive systems; oculus rift; virtual reality
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Energy consumption awareness in the workplace: technical artefacts and practices
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Piccolo, Lara S. G.; Baranauskas, Cecília; Fernandez, Miriam; Alani, Harith; de Liddo, Anna
+Keywords: awareness; collective knowledge construction; energy consumption; organisational semiotics
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Normalização do locutor em sistemas de reconhecimento de fala para usuários crianças
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Martins, Ramon Mayor; Ynoguti, Carlos Alberto
+Keywords: automatic speech recognition; children speech recognition; speaker normalization; vocal tract length normalization
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Investigating the case-based reasoning process during HCI design
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Gonçalves Motta, José Antonio; Barbosa, Simone Diniz Junqueira
+Keywords: HCI design; case-based reasoning; design knowledge; design tools; human-computer interaction; semiotic engineering
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Unsupervised annotation of usability test videos
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: de Santana, Vagner Figueredo; Pinhanez, Claudio Santos; de Paula, Rogério Abreu
+Keywords: user interface evaluation; video annotation
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Still at the office: designing for physical movement-inclusion during office work
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Tobiasson, Helena; Hedman, Anders; Sundblad, Yngve
+Keywords: user interface evaluation; video annotation
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: AmbLEDs para ambientes de moradia assistidos em cidades inteligentes
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Cunha, Marcio; Fuks, Hugo
+Keywords: ambient assisted living; collaborative systems; collective intelligence; internet of things; smart cities; smart light
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Interação na web ubíqua e multimodal: interconectando pessoas em uma internet heterogênea e dinâmica
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Reis, Julio Cesar Dos; Bonacin, Rodrigo
+Keywords: multimodal interaction; social semantic web; ubiquitous computing; web of data; web of people; web of things
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Presente e futuro da formação em IHC: ações da academia e do mercado de software
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Zaina, Luciana A. M.; Alvaro, Alexandre; Melo, Paulo
+Keywords: HCI course; UX process; software development
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Enriquecimento de personas para apoio ao design de aplicações terapêuticas para a saúde mental
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Rodrigues, Kamila R. H.; Bocanegra, Lucas F.; Gonçalves, Vinícius P.; Carvalho, Vinícius G.; Neris, Vânia P. A.
+Keywords: design; human-computer interaction organizational semiotics; personas; stakeholders; therapeutic applications
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Migrando das redes sociais offline para as redes sociais online: o que houve com a privacidade?
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Xavier, Simone I. R.; Villela, Maria L. B.; Prates, Raquel O.; Prates, Marcos O.; Prates, Antônio A. P.; Cardoso, Alexandre A.
+Keywords: privacy; qualitative study; social networks
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Prospecção de desafios em IHC para comunidades orais
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Chagas, Daniel A.; Furtado, Elizabeth S.; de Souza, Marcelino M.
+Keywords: GrandIHC; IHC; illiteracy; oral; usability
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Design de aplicações para interação em espaços públicos: formalizando as lições aprendidas
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: da Silva, Rener Baffa; Colnago, Jessica; Anacleto, Junia
+Keywords: guidelines; interaction; observation; public displays
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Visualização de incertezas para a melhoria da consciência situacional em sistemas de chamadas de emergência
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Oliveira, Natália; Botega, Leonardo; Berti, Claudia; Campos, Márcio; e, Vânia Neris; de Araújo, Regina Borges
+Keywords: situation awareness; uncertainty visualization
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Design da informação para sistemas de realidade mediada
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Falcone, Daniela; Vasconcelos, Luis; Breyer, Felipe; Reis, Bernardo; Cavalcanti, Aline; Kelner, Judith; Carmo, Ubiratan
+Keywords: information design; mediated reality; technical operations; visual instructions
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Measuring the emotional experience of users through a hybrid semantic approach
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Xavier, Rogério Aparecido Campanari; de Almeida Neris, Vânia Paula
+Keywords: emotion; emotional assessment; emotional experience; human-computer interaction; method of evaluation
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Oportunidades de pesquisa na área de interação humano-computador com vistas à sustentabilidade
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: de Almeida Neris, Vânia Paula; da Hora Rodrigues, Kamila Rios
+Keywords: human-computer interaction; research; sustainability
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Teacher's presence mediated by virtual learning environment interfaces: evidences of the Self 
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: da Silveira Espindola, Luciana; Silveira, Milene Selbach
+Keywords: end-user programming; self-expression; semiotic engineering; virtual learning environments
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: A influência das estratégias persuasivas no comportamento dos usuários no Facebook
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: da Silveira, Pedro Henrique Batista Ruas; Nobre, Cristiane Neri; Cardoso, Ana Maria Pereira
+Keywords: Facebook; online social networks; persuasion strategies
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Identificando problemas de usabilidade em um aplicativo móvel para treino de memória em idosos
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: De Marchi, Ana Carolina Bertoletti; Colussi, Eliane Lucia; Zimmer, Muriane; Trombetta, Mateus; Biduski, Daiana
+Keywords: HCI for mobile devices; design and evaluation of games; usability of interfaces for elderly
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: A flexibilização curricular da disciplina interação humano computador (IHC) para enfrentar desafios emergentes
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: da Silva, José Valderlei; Côgo, Filipe Roseiro
+Keywords: challenge; curriculum; education; flexibility; practice
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Supporting the collaborative editing of documents with real-time content recommendations
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Scharl, Arno; Reyes, Carmina; Hubmann-Haidvogel, Alexander
+Keywords: automated annotation; climate change; content recommendations; document editor; knowledge co-creation
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Desafios do ensinar para enfrentar os desafios de IHC
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Barbosa, Simone D. J.; Bim, Silvia Amélia; Boscarioli, Clodis; Silveira, Milene S.
+Keywords: HCI challenges in Brazil; HCI education in Brazil
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Recomendações para desenvolvimento de interfaces web em tablet ipad com ênfase em usuários da terceira idade
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: de Almeida, Rafael Xavier Esteves; Ferreira, Simone Bacellar Leal; Soares, Horacio Pastor
+Keywords: elderly; iPad; interface; tablet; usability
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Realistic prototyping of interfaces using multiple devices: a case study
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Sangiorgi, Ugo Braga; Kieffer, Suzanne; Vanderdonckt, Jean
+Keywords: interaction design; prototyping; user experience
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Crit érios para avaliação de sistemas gerenciadores de conteúdo com enfoque no desenvolvimento de websites acessíveis: um estudo experimental
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: de Araújo Neto, Alfredo Gomes; Bevilaqua, Diego; Souza, Isaque Elcio; dos Santos, Marcos Alves; Júnior, Paulo Afonso Parreira
+Keywords: accessibility criteria; content management systems; quantitative study; web accessibility
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Characterizing the tool-notation-people Triplet in software modeling tasks
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Ferreira, Juliana Jansen; de Souza, Clarisse Sieckenius; Cerqueira, Renato
+Keywords: cognitive dimensions of notations; communicability; human-computer interaction; notations; semiotic engineering; software development tools; usability
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Facilitating accessibility and digital inclusion using gaze-aware wearable computing
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Kurauchi, Andrew T. N.; Tula, Antonio Diaz; Morimoto, Carlos H.
+Keywords: accessibility; augmented cognition; digital inclusion; gaze interaction; gaze tracking; wearable computing
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Conceitos de transparência como promotores da ética e do usuário auditor em sistemas de informação
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Pinheiro, Alexandre; Cappelli, Claudia; Maciel, Cristiano
+Keywords: ethics; human values; responsibility; systems design; user auditor
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Manipulando histórias: uma investigação sobre o uso de interfaces tangíveis e narrativas na escola
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Gutiérrez Posada, Julián E.; Baranauskas, M. Cecília C.; Maike, Vanessa R. M. L.
+Keywords: TUI; reacTIVision; scratch; storytelling; tangible interfaces
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Um estudo experimental sobre a captura automática dos dados de interação em ambientes virtuais tridimensionais
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Nunes, Eunice P. S.; Nunes, Fátima; Testa, Rafael; Roque, Licínio G.
+Keywords: aspect-oriented programming; interaction monitoring; three-dimensional virtual environments
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Tangible beats: uma interface tangível para expressão e exploração musical
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: de Sousa, Alexandre M. F.; Morimoto, Carlos H.
+Keywords: Kinect; collaborative music expression; exploration; tangible interface
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: estratégias de comunicação de marketing para o website corporativo do promenade champagnat: usando o mis para o turismo
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Silva, Marcelle Rodrigues; dos Santos Coutinho, Flávio Roberto; de Oliveira, Ana Paula Guimarães Santos
+Keywords: communication; marketing and website
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Human computer interaction and societal impact: can HCI influence public policy making IT politics?
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Gulliksen, Jan
+Keywords: communication; marketing and website
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Meta-keys: extending the functionality of gaze-based interaction
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Tula, Antonio Diaz; Morimoto, Carlos H.
+Keywords: gaze gesture; gaze-based interaction; meta-keys
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Consolidação de recomendações sobre jogos acessíveis aos surdos
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Waki, Ana Luiza Kaori; dos Santos Fujiyoshi, Guilherme; Almeida, Leonelo Dell Anhol
+Keywords: accessibility; deaf; games; guidelines; recommendations
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Uso de design probes no design de tecnologias para terapeutas de crianças com autismo
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Braz, Priscilla; Raposo, Alberto; de Souza, Clarisse Sieckenius
+Keywords: design probes; meta design; semiotic engineering; support technologies for autism spectrum disorder treatment
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Design of a Brazilian Portuguese virtual keyboard for people with severe motor disability
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Antonio, Nirvana S.; Levy, Pamela C.; Caetano, Rogério; Souza, Priscila G.
+Keywords: accessibility; text entry; user interface design and evaluation; virtual keyboard
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: An approach for knowledge discovery in a web usability context
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Boza, Betty Chávez; Schiaffino, Silvia; Teyseyre, Alfredo; Godoy, Daniela
+Keywords: data mining; evaluation; knowledge discovery; web usability
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Sherlock: uma plataforma para avaliar a experiência dos usuários com dispositivos móveis
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Kronbauer, Artur H.; Machado, Díferson; Junior, Omar G.; Santos, Celso A. S.
+Keywords: ESM; experiment; mobile device; usability evaluation; user experience
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Espelho virtual interativo para simulação de maquiagem
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: de Campos, Filipe Morgado Simões; Morimoto, Carlos H.
+Keywords: human computer interaction; makeup simulation
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Análise das redes de coautoria do simpósio brasileiro sobre fatores humanos em sistemas computacionais
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Gasparini, Isabela; da Cunha, Lucas F.; Kimura, Marcos H.; Pimenta, Marcelo S.
+Keywords: Brazilian symposium; HCI; co-authorship network; collaboration analysis; social network analysis; visual exploration
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Desafios da computação ubíqua por uma visão de IHC
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Ramos, Leticia; Betini, Roberto C.
+Keywords: human computer interaction; ubiquitous computing; user experience
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Interaction in MyEnglishOnline's placement test from a semiotic perspective
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Ramalho, Phillipe Marcel M.; Lopes, Aron Daniel; Araujo, Alexandre; Pereira, Vinicius Carvalho; Maciel, Cristiano
+Keywords: english as second language; inspection method; placement test; semiotic
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Human values: the gap between academia and industry
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Hornung, Heiko; Piccolo, Lara S. G.; Arpetti, Alessandro
+Keywords: GranDIHC-BR; design; ethics; grand challenge; human values
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Tecnologias ubíquas na educação e os desafios da otimização da experiência do usuário
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Maia, Camila Loiola Brito; de Carvalho, Carlos Rosemberg Maia; Furtado, Elizabeth Sucupira
+Keywords: UX optimization; ubiquity; ubiquity in education
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Estudo de hábitos alimentares e de bebida usando mídia social
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Silva, Thiago H.; de Melo, Pedro O. S. Vaz; Almeida, Jussara M.; Loureiro, Antonio A. F.
+Keywords: cultural differences; foursquare; online social networks
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Avaliação da metacomunicação da cultura com participação de usuários de sistemas multiculturais
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Ferreira, Catia Maria Dias; de Castro Salgado, Luciana C.; de Souza, Clarisse Sieckenius
+Keywords: HCI and culture; HCI evaluation; cultural viewpoint metaphors; semiotic engineering
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Projetando diagramas de atividade visando a usabilidade de aplicações interativas
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Silva, Williamson; Costa Valentim, Natasha M.; Conte, Tayana
+Keywords: activity diagrams; design; reading technique; usability
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: A morte como parte da vida digital: uma agenda de pesquisa em IHC
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Maciel, Cristiano; Pereira, Vinícius Carvalho
+Keywords: death; post-mortem digital legacy; posthumous interaction
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Towards design guidelines for software applications that collect user data for Ubicomp
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: de Alencar, Tatiana Silva; de Almeida Neris, Vânia Paula
+Keywords: data collection; guidelines; mobile application; participatory design; pictive; ubiquitous computing; user profile
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Corpo e mente: uma análise educacional e de usabilidade da interação corporal em jogos de videogame
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Falcão, Taciana Pontual; Santos, Rafael; Rodrigues, Alcantara; Silva, Pedro
+Keywords: embodied interaction; embodied learning; videogames for learning
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Uma análise comparativa dos modelos de sistemas colaborativos fundamentados na engenharia semiótica
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Barros, Emanuelly F. M.; Prates, Raquel O.
+Keywords: MoLIC; collaborative systems; design models; manas; modeling; semiotic engineering
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Cultura importa e faz diferença: uma discussão sobre os grandes desafios de pesquisa em IHC no Brasil
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Pereira, Roberto; Gasparini, Isabela; Salgado, Luciana
+Keywords: HCI; culture; design; grand challenges; social
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: MHNSS: um middleware para o desenvolvimento de aplicações móveis com interações baseadas na fala
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: de O. Ferreira, Arikleyton; Teles, Ariel Soares; da S. e Silva, Francisco José
+Keywords: accessibility; interaction; mobile applications; speech-based
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Revelando problemas de usabilidade em aplicações para dispositivos móveis através da mineração de dados
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Kronbauer, Artur Henrique; Santos, Celso Alberto Saibel
+Keywords: association rules; context of use; data mining; evaluation usability; mobile device; smartphones
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Recomendações para o design de memórias digitais na web social
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Lopes, Aron Daniel; Maciel, Cristiano; Pereira, Vinícius Carvalho
+Keywords: digital memorials; guidelines; mourning; prototyping; social web; users'sensations
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Usage pattern mining for smartphone use personalization
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Rios, Carlos; Rodriguez, Juan Manuel; Godoy, Daniela; Schiaffino, Silvia; Zunino, Alejandro
+Keywords: personalization; smartphones; usage mining
+
+####################################
+
+Publisher: Sociedade Brasileira de Computação
+Conference: Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems
+Title: Uma infraestrutura de captura & acesso para instrumentação de avaliações qualitativas de IHC
+Date: 10/27/2014
+ISBN: 978-85-7669-291-1
+Authors: Brandão, Rafael; de Souza, Clarisse; Cerqueira, Renato
+Keywords: capture & access; hypermedia documents; qualitative research; research traceability
+
+####################################
+

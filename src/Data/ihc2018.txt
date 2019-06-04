@@ -1,0 +1,550 @@
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Design universal em Touchscreens : um modelo de interação acessível
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Conference Chair-Mota, Marcelle; Conference Chair-Serique, Bianchi; Program Chair-Prates, Raquel O.; Program Chair-Candello, Heloísa
+Keywords:  touchscreen ; accessibility; design universal; self-service kiosks
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Observed Appropriation of IoT Technology: A Semiotic Account
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Chagas, Bruno A.; Redmiles, David F.; de Souza, Clarisse S.
+Keywords: Appropriation; Internet of Things; Semiotic Engineering
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Experiencing and Delineating a Vocabulary for a Tangible Environment to Support Alternative and Augmentative Communication
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Moreira, Eliana Alves; Baranauskas, Maria Cecília Calani
+Keywords: Alternative and Augmentative Communication; graphic symbols; participative design; tangible technology
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: A Proposal for an Adaptive Game to Support the Skills Development in Children with Disabilities
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Barata, Pablo Eduardo Cabral; Mota, Marcelle Pereira
+Keywords: Sistemas adaptativos; design de jogos acessíveis; jogo de quebracabeça
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Simulator of the Glycolytic Pathway in a Virtual Reality Environment as a Learning Resource for Teaching Cellular Respiration
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Alves, Glenda Quaresma; Reis, Juliardnas Rigamont dos; Rodrigues, Abel Fernando Barros; De Gregoriis, Giordanna; Oliveira, Felipe de Melo Rodrigues e; Batista, Isabela Lopes Matias; Monteiro, Dionne Cavalcante
+Keywords: Didactic Resources; Education; Molecular Biology; Virtual Reality
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Scientific Collaboration Networks of the Academic Brazilian Community of HCI
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: de Mendonça, Felipe Ciacia; Gasparini, Isabela; Schroeder, Rebeca; Silveira, Milene Selbach; Barbosa, Simone Diniz Junqueira
+Keywords: Bibliometric Analysis; Data Mining; IHC; Scientific Collaboration Networks; Social Network Analysis
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Developer Assistance Tools for Creating Native Mobile Applications Accessible to Visually Impaired People: A Systematic Review
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: de Oliveira, Arthur Floriano Barbosa Andrade; Filgueiras, Lucia Vilela Leite
+Keywords: Accessibility; Application development tools; Mobile; Systematic literature review; Visual impairment
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: CoDesign in the Exploratory Phase of an Assistive Technology product Design to support the Teaching-Learning Process of Brazilian-Portuguese Language for Visual Persons
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Paim, Polianna; Prietch, Soraia; Duarte, Anderson
+Keywords: Assistive Technology; CoDesign; Semantic Numbers; Visual People
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: An Exploratory Analysis of Interactive Systems for Introducing Programming based on Cultural Viewpoint Metaphors
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: de Oliveira, Gabriela Amaral A.; Ferreira, Rafael Sales Medina; Prates, Raquel Oliveira
+Keywords: Computational Thinking; Cultural Viewpoint Metaphors; Semiotic Engineering; Semiotic Inspection Method
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: A Participatory Method for Multidimensional Analysis and Proposing Improvements in Collaborative Systems
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Lima, Bernardo Alves Villarinho; Almeida, Leonelo Dell Anhol
+Keywords: Computer-Supported Cooperative Work; Participatory Design
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Improvised Video as a Medium for Learning and Designing Interactions
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: van Amstel, Frederick M. C.; Gonzatto, Rodrigo Freese; Moro, Gláucio H. M.
+Keywords: Body; Education; Interaction Design; Prototyping; Video
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: A Systematic Mapping on Software for Teaching Foreign Languages for Visually Impaired Users
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: de Lima Rocha, Anna Isabelly; Mendes, Marília Soares; Marques, Anna Beatriz dos S.
+Keywords: Accessibility; Educative Software; Foreign Language; Visual Impairment
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Methodologies and Evaluation Tools Used in Tangible User Interfaces: A Systematic Literature Review
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: da Costa, Vinicius Kruger; de Vasconcellos, Ana Priscila Valerão; Darley, Natalia Toralles; Tavares, Tatiana Aires
+Keywords: Human Computer Interaction; Methodology and evaluation tools; Tangible User Interface
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Do Usability and Agility Combine?: Investigating the Adoption of Usability Modeling in an Agile Software Project in the Industry
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Marques, Anna Beatriz; Figueiredo, Rodrigo; Amorin, Warlem; Rabelo, Jacilane; Barbosa, Simone D. J.; Conte, Tayana
+Keywords: agile design; case study; interaction model; navigation model; usability-oriented design
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Analysis, Redesign and Validation of Accessibility Resources Applied to an Official Electronic Journal for the Promotion of Equal Access to Public Acts
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Rodrigues, Laura A. C.; Prietch, Soraia S.
+Keywords: Design and Evaluation; Government; Web Accessibility
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Evaluating the PROMISE framework for Trust in Sharing Economy System
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Santos, Geanderson E. dos; Prates, Raquel O.
+Keywords: Coding; PROMISE; Semiotic Inspection Method; Sharing Economy; Trust
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Evaluation of Wearable Devices for Belt Conveyor Inspection Using Augmented Reality
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Keller, Breno; Lonczynski, João Pedro; D'Angelo, Thiago; Delabrida, Saul
+Keywords: Augmented Reality; Inspection; User Experience
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Handling Out-of-Vocabulary Words in Lexicons to Polarity Classification
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Nascimento, Gabriel; Duarte, Fellipe; Guedes, Gustavo Paiva
+Keywords: LIWC; OOV; lexicon; out-of-vocabulary; word embeddings
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Guidelines for Developing Social Networking Mobile Apps to Deaf Audience: a Proposal Based on User experience and Technical Issues
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Schefer, Ricardo Pezzotti; Areão, Andreza Silva; Zaina, Luciana A. Martinez
+Keywords: Deaf audience; Guidelines; Mobile devices; Social networking
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: The Brazilian Challenge to Accessibility and Digital Inclusion for People With Autistic Spectrum Disorders
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Cordeiro, Rafael F.; Ferreira, Williby S.; Aguiar, Yuska P. C.; Saraiva, Juliana A. G.; Tardif, Carole; Galy, Edith
+Keywords: Accessibility; Autism Spectrum Disorder; Digital Inclusion; Human Computer Interaction
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Adaptation and Automation of a Cancellation Test for Evaluation of Exploratory Visual Behavior
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Cascaes, Renata; Lameira, Kalill; Sarmanho, Ricardo; Pinheiro, Kelly; Mota, Marcelle Pereira; Pereira, Antônio; Neto, Nelson Cruz Sampaio
+Keywords: Automated testing tool; Cancellation test; Visual exploration
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: What Do Social Media Data Analysts Want?: An Analysis from the Perspective of Data Visualization
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Santos, Caroline Q.; Silveira, Milene S.
+Keywords: Data analysis; Data visualization; Social media
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Evaluating Usability of IFML Models: How Usability is Perceived and Propagated
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Queiroz, Randerson; Marques, Anna Beatriz; Lopes, Adriana; Oliveira, Edson; Conte, Tayana
+Keywords: Empirical studies; FUFs; IFML; Interface Model; Usability; User Interface
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Requirements for Avatar in Virtual Environment of Support Learning in the Literacy of Deaf People in Portuguese Mediated by LIBRAS
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Ferreira, Marta Angélica Montiel; García, Laura Sánchez
+Keywords: Avatar; Deaf; Libras; Sign language; Virtual environment
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Context-Aware Task Distribution for Mobile Crowdsourcing
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Pestana, Maria Clara; Vieira, Vaninha
+Keywords: Context Awareness; Crowdsourcing; Task Distribution
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Intermediated Semiotic Inspection Method
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: de Oliveira, Erica Rodrigues; Prates, Raquel Oliveira
+Keywords: Intermediated Semiotic Inspection Method (ISIM); Semiotic engineering; communicability; evaluation method
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Towards an Interaction Model for the Programming of Devices by Children in the Age of Internet of Things
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Neto, Benedito Silva; Neris, Vânia
+Keywords: Children; Interaction Model; Internet of Things; Organizational Semiotics; Programming
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Analysis of The Perception of Users of Empathic Games in Discussion Forums and Their Relation to Death
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Santos, Danilo Barros dos; Maciel, Cristiano; Pereira, Vinicius Carvalho; Nunes, Eunice Pereira dos Santos
+Keywords: Death; Digital Games; Empathy; Forums; Human Fragility; Users
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Towards a Methodology to Support Augmentative and Alternative Communication by means of Personalized Gestural Interaction
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Ascari, Rúbia E. O. Schultz; Pereira, Roberto; Silva, Luciano
+Keywords: Accessibility; Assistive Technology; Augmentative and Alternative Communication; Computer Vision; Gesture Recognition
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: CDNA: A Context-Aware Notification System for Driver Interruption
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: da Silva, Alberto Vianna Dias; Borges, Lucas; Vieira, Vaninha
+Keywords: Context-Awareness; Driver Notification; Driver disruption; Human-computer Interaction; Interruption; Mobile Computing; Mobile Notification
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Evaluation of User Experience and Sociability on Social Softwares in an Elderly People Perspective: A Facebook Case Study
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: de Paula, Natália; Barbosa, Glívia Angélica Rodrigues; Silva, Ismael Santana; de Souza Silva, Thiago Alexandre
+Keywords: Facebook; Online social networks; interface evaluation; older people; sociability; user experience
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: A Set of Privacy Inspection Techniques for Online Social Networks
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Rodrigues, Andrey; Valentim, Natasha M. C.; Feitosa, Eduardo
+Keywords: Empirical Study; Privacy Evaluation; Privacy Inspection; Social Network; User privacy
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: A Study of Hedonic Experience Related to UX Capture Techniques
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: da Silva Júnior, João Batista; Kronbauer, Artur Henrique
+Keywords: Affect Grid; Affective IM; AttrakDiff; ESM; Emocards; PANAS; PrEMO; SAM; UX method; User eXperience; hedonic experience
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Human Data-Interaction: A Systematic Mapping
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Strey, Mateus Rambo; Pereira, Roberto; de Castro Salgado, Luciana C.
+Keywords: Human-Computer Interaction; Human-Data Interaction; Systematic Mapping Review
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Empathic Computer Science: A Systematic Mapping
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: de Jesus Santos, Fabrícia; de Almeida, Antonio Lucas; Santos, Breno Santana; de Souza, Caio César Alves; Santos, Marcos Neto
+Keywords: Computer Science; Empathy; Rapport; Secondary Study; Systematic Mapping
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: A Gamification Proposal to Support the Onboarding of Newcomers in the FLOSScoach Portal
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Toscani, Carolina; Gery, Daniel; Steinmacher, Igor; Marczak, Sabrina
+Keywords: Game elements; Gamification; Newcomers; Onboarding; Open Source Software; Prototype
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Usability Considerations For Coercion-Resistant Election Systems
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Neto, André Silva; Leite, Matheus; Araújo, Roberto; Mota, Marcelle Pereira; Neto, Nelson Cruz Sampaio; Traoré, Jacques
+Keywords: Coercion-Resistance; Electronic Elections Security; Internet Elections Systems
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Considering the Diversity of Users in the Development of a Flexible Bus Stop
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Alencar, Tatiana; Barbosa, Marcelo; Machado, Luciano; Neris, Luciano; Neris, Vânia
+Keywords: Adaptive interface; Calm Technology; Ubiquitous Computing; Urban Computing
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Watch or Immerse?: Redefining Your Role in Big Shows
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Vasconcelos, Victor; Amazonas, Mauro; Castro, Thais; Freitas, Rosiane; Gadelha, Bruno
+Keywords: Crowd Engagement; audience interaction; crowd dynamics
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: An Analysis of Users' Preferences on Pre-Management of Digital Legacy
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Yamauchi, Eduardo Akimitsu; Maciel, Cristiano; Pereira, Vinícius Carvalho
+Keywords: Digital Legacy; Digital Life and Death; Posthumous Interaction; Privacy
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Early Privacy: Approximating Mental Models in the Definition of Privacy Requirements in Systems Design
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Silva Junior, Deógenes P.; de Souza, Patricia Cristiane; de Jesus Gonçalves, Thaíres A.
+Keywords: Early Privacy; Mobile Computing; Participatory Design; Privacy; Ubiquitous Computing
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Young Adults' Perspective on Managing Digital Legacy: An Analytical and Exploratory Study
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Tempesta, Fernanda; Pereira, Fabrício H. Sales; Prates, Raquel Oliveira
+Keywords: Death; Digital Legacy; Digital Legacy Technologies; Remembrance; Semiotic Inspection Method
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Do I Know What My Code is Saying?: A study on novice programmers' perceptions of what reused source code may mean
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Müller, Luana; Silveira, Milene Selbach; de Souza, Clarisse Sieckenius
+Keywords: Semiotic Engineering; Source code reuse; metacommunication; novice programmers
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Mobile Application Accessibility in the Context of Visually Impaired Users
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: da Silva, Cláudia Ferreira; Ferreira, Simone B. Leal; Sacramento, Carolina
+Keywords: Accessibility; mobile applications; visual impairment
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Privacy: What is the Research Scenario in Brazilian Symposium IHC?
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Silva, Edenildo; Torres, Bruno; Sacramento, Carolina; Capra, Eliane Pinheiro; Ferreira, Simone Bacellar Leal; Garcia, Ana Cristina Bicharra
+Keywords: GranDIHC-BR; HCI; Privacy; systematic literature review
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Automatically Generated Summaries as In-Page Web Navigation Accelerators for Blind Users
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Alves, Erick Antonio; Cardoso, Paula Christina Figueira; Freire, André Pimenta
+Keywords: Accessibility; automatic text summarization; in-page navigation; screen readers
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: The Cheat Sheet as an Instrument of Study and Learning in HCI Tests
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Monteiro, Ingrid Teixeira; de Queiroz, Maria Jêsca Nobre
+Keywords: Learning assessment; cheat sheet; paper tests
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Creating Personas focused on Representing Potential Requirements to Support the Design of Applications
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Ferreira, Bruna; Barbosa, Simone; Conte, Tayana
+Keywords: Empathy Map; Personas; Requirements Elicitation
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Revisiting Interactive Art from an Interaction Design Perspective: Opening a Research Agenda
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Duarte, Emanuel Felipe; Baranauskas, M. Cecília C.
+Keywords: Interaction Design; Interactive Art; Interactive Art Evaluation; Interactive Art Examples; Literature Survey
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Going Beyond The Challenge!: Investigating The Aspects That Attract People to Participate in Hackathons
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: de Almeida Melo, Leandro; da Silva Junior, Fábio Freire; Leite, Tiago Henrique da S.; Filho, Fernando Figueira; de Souza, Cleidson R. B.
+Keywords: Collocation; Corporate Hackathons; Engagement; Motivation
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Two HCI Communities in Perspective: Revealing and Contrasting Trends
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: da Costa Lima, Franklin Matheus; de Miranda, Leonardo Cunha; Baranauskas, M. Cecília C.
+Keywords: CHI; HCI; IHC; community; conference; titles; words
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Investigating the Influence of Subtitles Synchronization in the Viewer's Quality of Experience
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Guimarães, Rodrigo Laiola; Brito, Jessica Oliveira; Santos, Celso A. S.
+Keywords: Captions; QoE; SRT; Subtitles; Synchronization
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Analyzing User Experience in Mobile Web, Native and Progressive Web Applications: A User and HCI Specialist Perspectives
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: de Andrade Cardieri, Giulia; Zaina, Luciana Martinez
+Keywords: mobile devices; mobile web applications; native applications; progressive web application; user experience; user interface
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Teaching Platonic Polyhedrons through Augmented Reality and Virtual Reality
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Alves Júnior, Fernando C. C.; Diniz, Marcos M.; Rodrigues, Abel; Monteiro, Dionne C.
+Keywords: Augmented Reality; Geometry; Regular polyhedrons; Virtual Reality
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems
+Title: Human Values Expressed by Users Regarding Digital Immortality
+Date: 10/22/2018
+ISBN: 978-1-4503-6601-4
+Authors: Galvão, Vinícius F.; Maciel, Cristiano; Viterbo, José
+Keywords: Digital Immortality; Digital Legacy; Human Values; Post-Mortem
+
+####################################
+

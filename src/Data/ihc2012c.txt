@@ -1,0 +1,290 @@
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Customizando heurísticas de usabilidade para celulares
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Salazar, Luiz Henrique A.; Lacerda, Thaísa; von Wangenheim, Christiane Gresse; Barbalho, Rodrigo Araújo
+Keywords: mobile phone; smartphone; usability heuristic; usability principle
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Um diagnóstico do uso da modelagem da interação em métodos ágeis no mercado de software
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: de Oliveira Baldus, Maihara F.; Maciel, Cristiano; de Souza, Patrícia Cristiane
+Keywords: interação humano-computador (IHC); métodos ágeis; técnicas de modelagem
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Análise da percepção e interação de usuários sobre privacidade e segurança no Facebook
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: de Souza, Luiz Gustavo; Cardoso, André Specian; Sippert, Tiago Alexandre Schulz; Boscarioli, Clodis
+Keywords: Facebook; avaliação de IHC; privacidade; redes sociais
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Desenvolvendo soluções com interface baseada em voz
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Maciel, Alexandre M. A.; Rodrigues, Rodrigo L.; Barros, Pablo V. A.; Carvalho, Edson C. B.
+Keywords: framework; tutorial; voice user interface
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Sistematização de revisões bibliográficas em pesquisas da área de IHC
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Munzlinger, Elizabete; Narcizo, Fabricio Batista; de Queiroz, José Eustáquio Rangel
+Keywords: human-computer interaction; scientific research; systematic review
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Exposição de imagem no Facebook: um estudo sobre a privacidade na rede social
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Oliveira, Átila S.; Oliveira, Arthur T.; Oliveira, Deivith S. M.; Carneiro, Mateus P. G.; Almeida, Rodrigo L. A.; Darin, Ticianne G. R.
+Keywords: Facebook; controle de privacidade; fotos pessoais; interface; privacidade; rede social
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Imagem e privacidade: contradições no Facebook
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Terto, Ana; Alves, Cláudio; Rocha, Janicy; Prates, Raquel
+Keywords: Avaliação de comunicabilidade; Facebook; Privacidade
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Sistema de apoio à aplicação do MIS
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Dias, Junio Soares; Prates, Raquel Oliveira
+Keywords: comunicabilidade; engenharia semiótica; ferramenta de avaliação; método de inspeção semiótica
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Adicionando sociabilidade à interação em ambientes virtuais de aprendizagem
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Santana, Edie Correia; Maciel, Cristiano; Alonso, Katia Morosov
+Keywords: sociability; virtual communities; virtual learning environments
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Algoritmos de clusterização e python científico apoiando modelagem de usuário
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Masiero, Andrey Araujo; Ferreira, Leonardo A.; Aquino Jr., Plinio Thomaz
+Keywords: Python; clustering; personas; user modeling
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: O papel da interação centrada ao usuário para suporte à colaboração em uma unidade de emergência médica
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Andrade, Rodrigo; Vivacqua, Adriana; Garcia, Ana Cristina Bicharra
+Keywords: collaboration; interaction; medical informatics
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: A fantástica fábrica de chocolate: levando o sabor de IHC para meninas do ensino fundamental
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Maciel, Cristiano; Bim, Silvia Amélia; Boscarioli, Clodis
+Keywords: HCI design; computer science unplugged; women in IT
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: A IHC nos cursos de computação das universidades estaduais no estado do paraná
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Bim, Sílvia Amélia; Boscarioli, Clodis
+Keywords: HCI education; curriculum
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Apoio à geração de protótipo de interface web baseada na metodologia the bridge
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: de Queiroz, Marcio Alexandre; Peixoto, Cecília Sosa Arias
+Keywords: UsiXML; human-computer interaction; interface modeling; interface prototypes generation; project guidelines; the bridge
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Interação entre time de design de interfaces e time de desenvolvimento: tentativas, fracassos e sucessos
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Delvequio, Viviane; Rosa, Alessandra
+Keywords: case; conceito de house ; desenvolvimento; design; experiência do usuário; interação; interface do usuário; métodos ágeis; processos
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Projetando sistemas web com o uso de técnicas de interação humano-computador
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: de Souza, Patricia Cristiane; Maciel, Cristiano; de Moraes, Luciana A. O.
+Keywords: human-computer interaction; web application; web engineering
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Sobre aspectos da interação humano-computador para a web social
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Vivacqua, Adriana S.; Viterbo, José; da Silva, Sergio Roberto
+Keywords: human-computer interaction; web application; web engineering
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Sobre aspectos da interação humano-computador para a web social
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: General Chair-Maciel, Cristiano; General Chair-de Souza, Patrícia Cristiane
+Keywords: human-computer interaction; web application; web engineering
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: O mercado de trabalho em IHC no Brasil
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: da Silva, Bruno Santana; Winckler, Marco
+Keywords: interação humano-computador; mercado; profissão; trabalho
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: GranDIHC-BR: prospecção de grandes desafios de pesquisa em interação humano-computador no Brasil
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Baranauskas, M. Cecília C.; de Souza, Clarisse Sieckenius; Pereira, Roberto
+Keywords: BR-CHI; Brazilian Computing Society; HCI in Brazil; community
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Design da experiência para processos ágeis
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Vieira, Erton W.; Gomes, Alex Sandro
+Keywords: BR-CHI; Brazilian Computing Society; HCI in Brazil; community
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Investigando a percepção dos usuários sobre os mecanismos de gamificação da rede social foursquare
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Alves, Fábio Pereira; Maciel, Cristiano; Anacleto, Junia Coutinho
+Keywords: foursquare; gamification; geolocation; users' behavior
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: WEIHC 2012 - III workshop sobre o ensino de IHC
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Bim, Sílvia Amélia; Boscarioli, Clodis
+Keywords: HCI curriculum; education in HCI; pedagogic approaches for teaching HCI
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Avaliando aspectos de privacidade no Facebook pelas lentes de usabilidade, acessibilidade e fatores emocionais
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Rodrigues, Kamila R. H.; Canal, Maíra C.; Xavier, Rogério A. C.; Alencar, Tatiana S.; Neris, Vânia P. A.
+Keywords: Facebook; accessibility; assessment methods; emotional factors; privacy; usability
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Inspeção semiótica e avaliação de comunicabilidade: identificando falhas de comunicabilidade sobre as configurações de privacidade do Facebook
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: de Carvalho, Juliano; Lammel, Felipe; da Silva, Janaína; Chipeaux, Lucélia; Silveira, Milene
+Keywords: Facebook; communicability evaluation; privacy settings; semiotic inspection; social networks
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Avaliação e design de interação de jogos voltados ao aprendizado de crianças surdas
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Boscarioli, Clodis; de Salles, Charles Giovane; Baqueta, Jeferson José; Colling, João Paulo
+Keywords: Facebook; communicability evaluation; privacy settings; semiotic inspection; social networks
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Qualidade no uso de objetos de aprendizagem: apoio a inspeção de interface de usuário
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: de Freitas Saldanha, Jader; Melo, Amanda Meincke
+Keywords: inspection tool; learning objects; quality in use
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: An information visualization tool for data journalism
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: de Oliveira Barros, Ricardo Kramer; Bertoti, Giuliano Araujo
+Keywords: big data; data journalism; data visualization
+
+####################################
+
+Publisher: Brazilian Computer Society
+Conference: Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems
+Title: Challenges for users and designers in the design process of a satellite images handling system
+Date: 11/05/2012
+ISBN: 978-85-7669-262-1
+Authors: Romani, Luciana A. S.; Gonçalves, Renata R. V.; Chino, Daniel Y. T.; Traina, Agma J. M.
+Keywords: participatory design; remote sensing applications; user centered design; user experiences
+
+####################################
+

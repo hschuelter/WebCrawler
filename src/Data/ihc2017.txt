@@ -1,0 +1,750 @@
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Tangible Interfaces: An Analysis of User Experience Using the AR Sandbox Project
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Darley, Natalia Toralles; Tavares, Tatiana Aires; Costa, Vinicius; Collares, Gilberto; Terra, Viviane
+Keywords: AR Sandbox; Interface Evaluation; Tangible Interface; Virtual Reality
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Municipal Virtual Communities (MuViC): Expanding Cities to the Virtual World
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: de Oliveira Bueno, Andre; Anacleto, Junia Coutinho
+Keywords: Community; Facebook Groups; Online Community; Online Social Network; Social Network Analysis; Social Rules for Virtual Communities; Virtual Community
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Usability, Accessibility and Affectibility in CPqD
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: de Souza, Fabiani; Martins, Claudinei; Silva, Suelen
+Keywords: Accessibility; affectibility; digital inclusion; social inclusion; usability
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: How Much Effort is Necessary for Blind Users to Read Web-based Mathematical Formulae?: A comparison using task models with different screen readers
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: da Paixão Silva, Luiz Felipe; de Faria Oliveira, Otavio; Freire, Evelise Roman Corbalan Góis; Mendes, Rosana Maria; Freire, André Pimenta
+Keywords: GOMS; Web-based mathematical content; accessiblity; keystroke-level model; screen reader
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Bottlenecks Identification in Software Development Process: A Quali-Quantitative Approach
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Ribeiro, Sildenir A.; Schmitz, Eber A.; de Alencar, Antônio Juarez S. M.; da Silva, Mônica F.
+Keywords: Bottlenecks identification; Quali-Quantitative Analysis; Software development process; Theory of constraints
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Evaluation of Sentiment and Affectivity Analysis in a Blog Recommendation System
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Ferreira, João Pedro B.; Junior, Franciscone L. A.; Rosa, Renata L.; Rodríguez, Demóstenes Z.
+Keywords: Blogs; Recommendation system; quality of experience; sentiment analysis; social networks; usability assessment
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Design Ethnography for Screenless Interaction Style: hands-on and no-hands in early morning routines
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Pink, Sarah; Caminha, Camille Santiago; de Souza, Angelica Porto C.; Zilse, Renata; Gomes, Alex Sandro
+Keywords: Early morning routines; Ethnographic Design; Everyday life studies; Smart homes
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: The Acceptability of Digital Immortality: Today's Human is Tomorrow's Avatar
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Galvão, Vinícius Ferreira; Maciel, Cristiano
+Keywords: Post-mortem digital legacy; acceptance; artificial intelligence; digital immortality; immortality
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Interaction Design in Free/Libre/Open Source Software Development: a systematic mapping
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Alves, Daniel Domingos; de Souza Matos, Ecivaldo
+Keywords: FLOSS development; Free Software; HCI; Human-Computer Interaction; Interaction Design; Open Source Software
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Persuasion strategies in mobile systems: a case study of Facebook application
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: de Oliveira, Andressa P. C.; da Silveira, Pedro H. B. Ruas; Zárate, Luis E.; Nobre, Cristiane N.
+Keywords: Facebook; Online Social Networks; Persuasion
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Landmark-based Facial Expression Parametrization for Sign Languages Avatar Animation
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Gonçalves, Diego Addan; Todt, Eduardo; Cláudio, Débora Pereira
+Keywords: accessibility; avatar animation; deaf community; facial expression; sign languages; virtual interpreter
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Searching for Preferences of Autistic Children to Support the Design of User Interfaces
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Melo, Aurea; Santos, Jonathas; Rivero, Luis; Barreto, Raimundo
+Keywords: Autism; Autistic Children; Guidelines; Interface Design
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: The Use of Educational Applications by Children with Autistic Spectrum Disorder: A Case of Study
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Magaton, Heloise Cristini; Bim, Silvia Amélia
+Keywords: Autism; accessibility; case study; educational applications
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: An Interaction Design Method for Creative Conceptual Models' Design
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Martinez, Maria Laura
+Keywords: Design thinking; Human-centered design; Interaction design; Methods; Theory
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Best practices for Graphical User Interfaces design with interaction based on head movements
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: da Costa, Vinicius Kruger; Rodrigues, Andreia Sias; Xavier Jr., Krishna Ferreira; Peglow, Juliana; Cardoso, Rafael Cunha; Tavares, Tatiana Aires
+Keywords: Graphical User Interface; Head Based Interaction; Human Computer Interaction; Natural User Interface
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Designing for Pragmatists and Fundamentalists: Privacy Concerns and Attitudes on the Internet of Things
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Ponciano, Lesandro; Barbosa, Pedro; Brasileiro, Francisco; Brito, Andrey; Andrade, Nazareno
+Keywords: Concerns about privacy; Face Keeping; Information Boundary; Internet of Things; Privacy perceptions
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Digital Memorials: A proposal for data management beyond life
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: de Campos, Ketelem Lemos; Justi, Thais; Maciel, Cristiano; Pereira, Vinicius Carvalho
+Keywords: Digital Legacy; Digital Memorial; Facebook; Social Web
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: A Scenario-Based Approach for Checking Consistency in User Interface Design Artifacts
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Silva, Thiago Rocha; Winckler, Marco
+Keywords: Automated Assessment; Business Modeling; Prototyping; Scenario-Based Design; Task Modeling; User Interface Design Artifacts; User Stories
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Re-evaluating the First Five Years of the GrandIHC-Br-Challenge 3: Ubiquity, Multiple Devices and Tangibility
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Furtado, Elizabeth Sucupira; Nova, Gilberto Villa; Gasparini, Isabela; de Miranda, Leonardo Cunha; Barbosa, Marcelo; de Alencar, Tatiana Silva; de Almeida Neris, Vânia Paula
+Keywords: Challenge 3; GrandIHC-Br; Multiple Devices; Tangible; Ubiquitous
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Modeling Task Deviations as Eccentricity Distribution Peaks
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: de Santana, Vagner Figueredo; de Paula, Rogério Abreu; Pinhanez, Claudio Santos
+Keywords: Interaction log analysis; accessibility; client-side events; task deviation; task modeling; usability; usage logging; usage modeling
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Accessibility Guidelines for the Use of Tablets by Elderly: Evaluation of Proposed Changes to WCAG
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Casare, Andréia R.; Moraes, Regina L. O.; Silva, Celmar G.
+Keywords: Accessibility; WCAG; elderly people; tablets
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Characterizing Quality Aspects in Airbnb
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: dos Santos, Geanderson E.; Holanda, Pedro H. F.; Almeida, Jussara M.; Prates, Raquel O.
+Keywords: Airbnb; Sharing Economy; Trust
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Beyond traditional evaluations: user's view in app stores
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: da Silva, Thiago Hellen O.; Freitas, Lavínia Matoso; Mendes, Marília Soares
+Keywords: App Store; Google Maps; Textual evaluation; Usability; User eXperience; Waze
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Automatic SignWriting Generation of Libras Signs from CORE-SL
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Iatskiu, Carlos Eduardo A.; García, Laura Sánchez; Antunes, Diego Roberto
+Keywords: Architecture-HCI-SL; CORE-SL; Libras; SignWriting
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Including Older Adults into the Design Process: Challenges and Lessons Learned
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Muriana, Luã Marcelo; Hornung, Heiko Horst
+Keywords: Cognitive Impairment; Older Adults; Participatory Design
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: A Study on Knowledge Transfer Between Programming Languages by Programs Meanings Facets
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Barata, Pablo Eduardo Cabral; Corrêa, João Victor P.; Mota, Marcelle Pereira
+Keywords: Blockly; Facets; JavaScript; Programming novices; Semiotic Engineering; Textual programming language; Visual programming language; knowledge Transfer
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Human Values in HCI: a challenge for the GrandIHC-BR
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Leitão, Carla; Maciel, Cristiano; Piccolo, Lara Schibelsky Godoy; Salgado, Luciana; de Souza, Patricia C.; Prates, Raquel; Pereira, Roberto; Pereira, Vinicius Carvalho
+Keywords: Ethics; Grand Research Challenges; Human Values; Interdisciplinary; Post-mortem Digital Legacy
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: A Comparative Study of Technology-Mediated Learning Strategies for Teaching People with Intellectual Disability
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Guimarães, Rodrigo Laiola; Mattos, Andrea Britto; Cardonha, Carlos Henrique
+Keywords: Educational technology; Face-to-face learning; Instructor-led training; Intellectual disability; Self-paced instruction
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Recommendations for the Design of Urban Mobility Applications Based on the Study of the User Experience
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Pinheiro, Mateus; Carneiro, Nayana; Darin, Ticianne
+Keywords: User experience; design; evaluation; mobile applications; recommendations
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Analyzing Design Strategies for Narrative Visualization
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Ghidini, Eduardo; Santos, Caroline Q.; Manssour, Isabel; Silveira, Milene S.
+Keywords: Design Space; Information Visualization; Narrative Visualization
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Natural and multimodal interactions: an empirical study
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Kronbauer, Artur Henrique
+Keywords: Assessment of Interactions; Gestures; Multimodal; Natural Interaction; Touches; Ubiquitous Computing; Voice
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Gesture and Voice-Based Natural User Interface for Electronic Whiteboard System in a Medical Emergency Department
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: de Sousa Freitas, Alan Lopes; de Camargo, Vinícius Paes; Teixeira, Heloise Manica Paris; Balancieri, Renato; Colanzi, Thelma Elita
+Keywords: Kinect; Medical Emergency; Natural User Interface
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Crossing the borders of IHC: where else have our researchers been publishing?
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Gasparini, Isabela; de Mendonça, Felipe Ciaciá; Silveira, Milene Selbach; Diniz, Simone; Barbosa, Junqueira; Schroeder, Rebeca
+Keywords: Brazilian Research; Brazilian Symposium on Human Factors in Computing Systems; HCI community; Visual Exploration
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Blending theories towards understanding and designing socio-technical scenarios
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Prado, Alysson Bolognesi; Baranauskas, Maria Cecília Calani
+Keywords: Actor-Network Theory; Socially Aware Computing; social software design; sociotechnical networks
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Native or Web-Hybrid Apps?: An Analysis of the Adequacy for Accessibility of Android Interface Components Used with Screen Readers
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Carvalho, Lucas Pedroso; Freire, André Pimenta
+Keywords: Accessibility; Mobile Applications; Screen Readers
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Writing Towards Promoting the Empowerment of Persons With Disabilities in Digital Inclusion Texts
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Lima, Bernardo Alves Villarinho; da Silva Leite, Patricia; Almeida, Leonelo Dell Anhol
+Keywords: Accessibility; Digital Inclusion; Empowerment; Narrative; Technical Communication; User-Centered Design
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Here's What I Can Do: Chatbots' Strategies to Convey Their Features to Users
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Valério, Francisco A. M.; Guimarães, Tatiane G.; Prates, Raquel O.; Candello, Heloisa
+Keywords: Chatbot; Conversational Interfaces; Evaluation; Semiotic Engineering; Semiotic Inspection Method
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: A Visualization-based Approach for the TaxonomyBrowser Interface
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Rey, Marina Fortes; Freitas, Carla Maria Dal Sasso
+Keywords: Biodiversity information systems; information visualization; taxonomy
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Device that assists the visually impaired people to identify people through face recognition
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Sozim, Muriel Buzo; Valerio, Daniel Costa; Ramos, Felipe Veiga; Sabo, Paulo Henrique
+Keywords: Accessibility; Blind Person; Espeak; Raspberry Pi; Recognition Facial
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: On-the-fly Prototyping: Designing, Testing, and Evolving an Interactive Public Installation in Loco
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Ferreira, Vinicius; Anacleto, Junia
+Keywords: evolutionary design; in-the-wild; on-the-fly prototyping; prototyping methods; public displays; ubiquitous computing; urban computing; urban intervention; urban probes
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Adapting the SPIDe to Include Visually Impaired Users in Interaction Design
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Pita, Gabriel L.; Zabot, Diego; Rosa, Jean; Matos, Ecivaldo
+Keywords: Accessibility; Design for All; Disabled People; Human-Computer Interaction; Participatory Design; Visual Impairment
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Evaluation of web applications to control intelligent homes with guidelines for elderly users
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Tsuchiya, Letícia Diniz; de Bettio, Raphael Winckler; Freire, André Pimenta
+Keywords: Accessibility; Elderly users; Intelligent homes
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Investigating accessibility issues of UI mobile design patterns in online communities: a virtual ethnographic study
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Casadei, Vitor; Granollers, Toni; Zaina, Luciana
+Keywords: Mobile Accessibility; Mobile UI Design Patterns; Virtual Ethnography
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Designing oppressive and libertarian interactions with the conscious body
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Gonzatto, Rodrigo Freese; van Amstel, Frederick M. C.
+Keywords: Bodystorming; Computer as a Theater; Interaction Design; Theater of the Oppressed
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Analyzing the Use Case Communicability
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Lopes, Adriana; Conte, Tayana; de Souza, Clarisse Sieckenius
+Keywords: Communicability; SigniFYI; UML models; Use Cases; artifacts; semiotic engineering
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: A Systematic Mapping Study on Research Contributions on UX Evaluation Technologies
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Rivero, Luis; Conte, Tayana
+Keywords: Evaluation Technologies; Software Quality; Systematic Mapping Study; User eXperience
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Exploring the Communication of Cultural Perspectives in Death-Related Interactive Systems
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Leitão, Carla Faria; Pereira, Vinícius Carvalho; Maciel, Cristiano
+Keywords: Culture; Death; Digital Memorials; Guide Systems; Multicultural Systems; Semiotic Engineering
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Implementation of sound perception elements for visually impaired people in collaborative and synchronous Web systems
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Machado, Rodrigo Prestes; Conforto, Débora; Santarosa, Lucila
+Keywords: Accessibility; Auditory representations; Awareness; CSCW; Web 2.0
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: UIFlex: a meta-design solution for the web
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: de Queiroz Proença, Mailson; de Almeida Neris, Vânia Paula
+Keywords: Adaptable; Adaptive; Flexible; Interface; System; Tool; UI; Web
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Accessibility and affect in technologies for museums: a path towards socio-enactive systems
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Hayashi, Elaine C. S.; Baranauskas, M. Cecília C.
+Keywords: Affectibility; HCI; accessibility; enactive systems; information visualization; socio-enactive systems; tactile floor; tactile map; universal design
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: A Conceptual Framework to design Users Digital Legacy Management Systems
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Pereira, Fabrício Horácio Sales; Prates, Raquel Oliveira
+Keywords: Death; Digital Legacy; Digital Legacy Management Systems; Posthumous Messaging Services; Semiotic Inspection Method
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Using Information Visualization to comprehend user interface layer: an application to web-based systems
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Martins, Livia C. Gabos; Garcia, Rogério Eduardo; Marçal, Ingrid
+Keywords: Information Visualization; Understanding User Interfaces; User interface models
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Developing StoryCarnival: exploring computer-mediated activities for 3 to 4 year-old children
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Pantoja, Luiza Superti; Hourcade, Juan Pablo; Diederich, Kyle; Crawford, Liam; Utter, Victoria
+Keywords: Preschool children; child-computer interaction; make-believe play; mobile devices; self-regulation
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: An Overview of Researches on Digital Accessibility before and after the Great Challenges of SBC 2006-2016: A Systematic Literature Review
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Coelho, Thais; Barbosa, Glívia A. R.; Silva, Ismael S.; Coutinho, Flávio R. dos S.; da Silva, Fábio R.
+Keywords: Digital accessibility; Systematic Literature Review
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Evaluating the Performance of Wearable Tecassist Device using Aural and Tactile Feedbacks
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Brezolin, Fábio Lopes; Santos, Guilherme; de Lima, João Cândido; Zanella, Maurício; Rieder, Rafael; De Marchi, Ana Carolina B.
+Keywords: Devices; Sensors; Visually impaired; evaluation
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Affective Human-Computer Interaction in Educational Software: a Hybrid Model for Emotion Inference
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Gottardo, Ernani; Pimentel, Andrey Ricardo
+Keywords: Adaptive Systems; Affect Detection; Affective Computing in Education; Affective HCI
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Matching Brazilian UX Business and HCI Education
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Filgueiras, Lucia Vilela Leite
+Keywords: HCI education; User experience; workforce
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: A hybrid affective lexicon for Brazilian Portuguese
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Rodrigues, Rafael Guimarães; Guedes, Gustavo Paiva
+Keywords: affect; affective computing; emotion; human-computer interaction; text analysis
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Help Resources in Games: Gamers' Opinions and Preliminary Design Remarks
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: de Oliveira, Luisa F.; Espindola, Luciana S.; Santos, Caroline Q.; Ziesemer, Angelina C. A.; Müller, Luana; Silveira, Milene S.
+Keywords: Help; gamers' preferences; games
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Personalisation on children's e-book: an analysis of book apps
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Menegazzi, Douglas; Padovani, Stephania
+Keywords: Digital interfaces; children's literature; design; electronic book; multimedia; multimodality
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: ReTUXE: A framework for user's emotional evaluation based on psychophysiological measures
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Maia, Camila Loiola Brito; Furtado, Elizabeth S.
+Keywords: Psychophysiological measures; emotional evaluation; user experience evaluation
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Investigating the interaction of children through NUI in e-learning applications
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: de Castro, Elisa Marques; Zaina, Luciana Martinez
+Keywords: NUI; e-learning; touch interaction
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Accessibility and Digital Inclusion: Utopia or a Great Challenge?
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Ferreira, Simone Bacellar Leal; Sacramento, Carolina; da Silva Alves, Aline; Leitão, Carla Faria; Maciel, Denise do R.; Matos, Simone N.; Britto, Talita C. Pagani
+Keywords: Accessibility; digital inclusion; diversity of users
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Bottester: Testing Conversational Systems with Simulated Users
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Vasconcelos, Marisa; Candello, Heloisa; Pinhanez, Claudio; dos Santos, Thiago
+Keywords: chatbot; conversational agents; testing
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Activity of Brazilian HCI Community from 2012 to 2017 in the Context of the Challenge 'Future, Smart Cities, and Sustainability'
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: de Santana, Vagner F.; Neris, Vânia P. A.; Rodrigues, Kamila R. H.; Oliveira, Renata; Galindo Jr., Newton
+Keywords: GranDIHC; GranDIHC-BR; Grand Challenges
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Supporting people on fighting lesbian, gay, bisexual, and transgender (LGBT) prejudice: a critical codesign process
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Pereira, Guilherme C.; Baranauskas, M. Cecilia C.
+Keywords: Codesign; LGBT; critical theory; systematic review
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Ludic Game Approach as Assistive Technology for Activities of Daily Living Training
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: da Silva, Isabel Cristina Siqueira; Nesi, Luan Carlos; de Andrade Werly, Josias; Murillo, Leonardo Rosado
+Keywords: Activities of Daily Living; Assistive Technology; Games; Interaction Design; Special Education
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Evaluating the usability expressiveness of a USability-oriented INteraction and Navigation model
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Marques, Anna Beatriz; Barbosa, Simone Diniz Junqueira; Conte, Tayana
+Keywords: interaction model; interactive systems usability; navigation model; usability-oriented design
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: TangiSAM: Tangible Artifacts for Evaluation of Affective States
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Moreira, Eliana Alves; dos Reis, Julio Cesar; Baranauskas, M. Cecília C.
+Keywords: Affective states; Evaluation; Tangible interfaces
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: TangiSAM: Tangible Artifacts for Evaluation of Affective States
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Conference Chair-Gasparini, Isabela; Conference Chair-Piccolo, Lara S. G.; Program Chair-Zaina, Luciana A. M.; Program Chair-Pereira, Roberto
+Keywords: Affective states; Evaluation; Tangible interfaces
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Biomechanical Analysis of the User's Movements during Tactile Interaction: Postures of Older Aged Users' Wrists
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Ader, Lilian Genaro Motti; Vigouroux, Nadine; Gorce, Philippe
+Keywords: Movement analysis; older aged adults; tactile interaction; touchscreen; wrist articulation
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: A Proposal of a Universal Remote Control System Based on Head Movements
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Batista, Cassio T.; Campos, Erick M.; Neto, Nelson C. Sampaio
+Keywords: Assistive Technology; Head pose estimation; mean opinion score; universal remote control
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Analyzing the benefits of the combined interaction of head and eye tracking in 3D visualization information
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Freitas, Alexandre A.; Araújo, Tiago D. O.; Junior, Paulo R. S. C.; Miranda, Brunelli P.; Murakami, Bruno A. F.; Santos, Carlos G. R.; Mota, Marcelle P.; Meiguins, Bianchi S.
+Keywords: 3D Visualization Information; Eye Tracking; Head Tracking; Interaction
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Privacy Evaluation of Online Social Network Stories Feature: An Empirical Study with PDM
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: Rodrigues, Andrey Antonio; Valentim, Natasha M. Costa; Conte, Tayana
+Keywords: Information Sharing; Privacy; Social Network; Users' perception
+
+####################################
+
+Publisher: ACM
+Conference: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems
+Title: Multimodality for Diversity of Users: Revisiting Literature under the gaze of Ubiquitous Computing
+Date: 10/23/2017
+ISBN: 978-1-4503-6377-8
+Authors: de Alencar, Tatiana Silva; de Almeida Neris, Vânia Paula
+Keywords: Accessibility; Multimodal; Ubiquitous environments
+
+####################################
+
