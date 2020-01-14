@@ -1,0 +1,497 @@
+Authors: ['Lucas Pedroso Carvalho', 'Raquel Oliveira Prates', 'André Pimenta Freire']
+Title: "A proposal to adapt the semiotic inspection method to analyze screen reader mediated interaction"
+Abstract: "An interactive system with high accessibility and communicability provides many benefits to users' experience. These benefits are mainly related to visually impaired users so that they can achieve their goals in a given context of use. This study presents an analysis of the communication process of the Semiotic Engineering theory applied in the context of visually impaired people who use screen readers. The screen reader mediates the user interaction with the designer's metamessage, acting as a translator. However, the translation can often introduce problems that are not experienced by users who do not use screen readers to interact with the systems. Thus, this paper presents a proposal to adapt the Semiotic Inspection Method (SIM) to analyze the screen reader mediated interaction (SIM-SR). The method includes new steps in the segmented SIM analysis to examine the screen reader translation and the its contrast with the designer's intended metamessage. Hence, SIM-SR allows the evaluator to identify potential accessibility and communicability issues that may impact the personal experience of users interacting through screen reader mediation."
+Conference: "IHC '19: Proceedings of the 18th Brazilian Symposium on Human Factors in Computing Systems"
+Date: "October 2019"
+IDS: "Article No.: 4"
+Page range: "Pages   1–11"
+DOI: "10.1145/3357155"
+ISBN: "9781450369718"
+Total Citations: "0"
+Total Downloads: "12"
+References: 
+Fernando Alonso, José Luis Fuertes, Ángel Lucas González, and Loïc Martínez. 2010. On the Testability of WCAG 2.0 for Beginners. In Proceedings of the 2010 International Cross Disciplinary Conference on Web Accessibility (W4A) (W4A '10). ACM, New York, NY, USA, Article 9, 9 pages. Google Scholar
+Glívia A. R. Barbosa, Raquel O. Prates, and Luiz P. D. Corrêa. 2011. AnÃLise Da Sociabilidade De Comunidades Online Para Os UsuÁRios Surdos: Um Estudo De Caso Do Orkut. In Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction (IHC+CLIHC '11). Brazilian Computer Society, Porto Alegre, Brazil, Brazil, 237--246. http://dl.acm.org/citation.cfm?id=2254436.2254478
+Simone Barbosa and Bruno Silva. 2010. Interação humano-computador. Elsevier Brasil, Brazil.
+Giorgio Brajnik. 2006. Web Accessibility Testing: When the Method is the Culprit. In Proceedings of the 10th International Conference on Computers Helping People with Special Needs (ICCHP'06). Springer-Verlag, Berlin, Heidelberg, 156--163. Google Scholar
+Giorgio Brajnik. 2008. A Comparative Test of Web Accessibility Evaluation Methods. In Proceedings of the 10th International ACM SIGACCESS Conference on Computers and Accessibility (Assets '08). ACM, New York, NY, USA, 113--120. Google Scholar
+Lucas Pedroso Carvalho, Caíque Bruno Fortunato, Raquel Oliveira Prates, and André Pimenta Freire. 2018. Análise de Acessibilidade no Ambiente Virtual de Aprendizagem Moodle: Um Estudo de Caso do Uso do MIS com Leitores de Tela. In Conferência Internacional sobre Informática na Educação, Vol. 14. University of Chile, Chile, 174--185.
+Lucas Pedroso Carvalho, Bruno Piovesan Melchiori Peruzza, Flávia Santos, Lucas Pereira Ferreira, and André Pimenta Freire. 2016. Accessible Smart Cities?: Inspecting the Accessibility of Brazilian Municipalities' Mobile Applications. In Proceedings of the 15th Brazilian Symposium on Human Factors in Computer Systems (IHC '16). ACM, New York, NY, USA, Article 17, 10 pages. Google Scholar
+Luiz Paulo Damilton Corrêa, Flávio R. S. Coutinho, Raquel Oliveira Prates, and Luiz Chaimowicz. 2012. Uso Do MIS Para Avaliar Signos Sonoros: Quando Um Problema de Comunicabilidade se Torna Um Problema de Acessibilidade. In Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems (IHC '12). Brazilian Computer Society, Porto Alegre, Brazil, Brazil, 47--56. http://dl.acm.org/citation.cfm?id=2393536.2393543
+Flávio Coutinho, Raquel O Prates, and Luiz Chaimowicz. 2012. Evaluating and Investigating Game Accessibility for Deaf Players with the Semiotic Inspection Method.
+Presidência da República. 2004. Decreto n°5.296/2004. Brasil. Casa Civil - Subchefia para Assuntos Jurídicos, Brasília.
+Presidência da República. 2015. Lei Brasileira de Inclusão da Pessoa com Deficiência. Brasil. Casa Civil - Subchefia para Assuntos Jurídicos, Brasília.
+Clarisse Sieckenius de Souza. 2005. The Semiotic Engineering of Human-Computer Interaction (Acting with Technology). The MIT Press, London, England.
+Clarisse Sieckenius de Souza, Carla Faria Leitão, Raquel Oliveira Prates, and Elton José da Silva. 2006. The Semiotic Inspection Method. In Proceedings of VII Brazilian Symposium on Human Factors in Computing Systems (IHC '06). ACM, New York, NY, USA, 148--157. Google Scholar
+Clarisse Sieckenius De Souza and Carla Faria Leitão. 2009. Semiotic engineering methods for scientific research in HCI. Synthesis Lectures on Human-Centered Informatics 2, 1 (2009), 1--122.Google Scholar
+Andres Gonzalez and Loretta Guarino Reid. 2005. Platform-independent Accessibility API: Accessible Document Object Model. In Proceedings of the 2005 International Cross-Disciplinary Workshop on Web Accessibility (W4A) (W4A '05). ACM, New York, NY, USA, 63--71. Google Scholar
+ISO. 2008. ISO 9241-171: Ergonomics of Human-System Interaction - Part 171: Guidance on Software Accessibility.
+Andrew Kirkpatrick, Joshue O Connor, Alastair Campbell, and Michael Cooper. 2018. Web Content Accessibility Guidelines (WCAG) 2.1. Disponível em https://www.w3.org/TR/WCAG21/. Último acesso em 7 junho de 2019. World Wide Web Consortium (W3C).
+Aron Daniel Lopes, Vinicius Carvalho Pereira, and Cristiano Maciel. 2017. An analysis of deictic signs in computer interfaces: contributions to the Semiotic Inspection Method. Journal of Visual Languages & Computing 40 (2017), 51--64. Semiotics, Human-Computer Interaction and End-User Development. Google Scholar
+Charles Sanders Peirce. 1992, 1998. The essential Peirce: selected philosophical writings. Vol. 1, 2. Indiana University Press, Bloomington, IN, USA.
+Christopher Power, André Freire, Helen Petrie, and David Swallow. 2012. Guidelines Are Only Half of the Story: Accessibility Problems Encountered by Blind Users on the Web. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '12). ACM, New York, NY, USA, 433--442. Google Scholar
+Raquel O. Prates, Clarisse S. de Souza, and Simone D. J. Barbosa. 2000. Methods and Tools: A Method for Evaluating the Communicability of User Interfaces. interactions 7, 1 (Jan. 2000), 31--38. Google Scholar
+Soraia Reis and Raquel O. Prates. 2011. Applicability of the Semiotic Inspection Method: A Systematic Literature Review. In Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction (IHC+CLIHC '11). Brazilian Computer Society, Porto Alegre, Brazil, Brazil, 177--186. http://dl.acm.org/citation.cfm?id=2254436.2254468
+Eduardo Hideki Tanaka. 2009. Método baseado em heurísticas para avaliação de acessibilidade em sistemas de informação. Ph.D. Dissertation. Universidade Estadual de Campinas, Campinas.
+Francisco A. M. Valério, Tatiane G. Guimarães, Raquel O. Prates, and Heloisa Candello. 2017. Here's What I Can Do: Chatbots' Strategies to Convey Their Features to Users. In Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems (IHC 2017). ACM, New York, NY, USA, Article 28, 10 pages. Google Scholar
+WebAIM. 2017. Screen Reader User Survey #7 Results. Disponível em https://webaim.org/projects/screenreadersurvey7/.
+Yeliz Yesilada, Giorgio Brajnik, and Simon Harper. 2009. How Much Does Expertise Matter?: A Barrier Walkthrough Study with Experts and Non-experts. In Proceedings of the 11th International ACM SIGACCESS Conference on Computers and Accessibility (Assets '09). ACM, New York, NY, USA, 203--210. Google Scholar
+#----------------------#
+Authors: ['Renata Cascaes', 'Kalill Lameira', 'Ricardo Sarmanho', 'Kelly Pinheiro', 'Marcelle Pereira Mota', 'Antônio Pereira', 'Nelson Cruz Sampaio Neto']
+Title: "Adaptation and Automation of a Cancellation Test for Evaluation of Exploratory Visual Behavior"
+Abstract: "Tests that evaluate the individual strategies of visual exploration may be useful for characterizing deviations from typical development, such as autism spectrum disorder and dyslexia. One subgroup of visual exploration tests, called cancellation tests, require the identification of specific targets surrounded by distractors. However, the lack of automated versions of these tests limit their availability to a larger audience. In the present paper, we present an automated version of a cancellation test: the car test. The test is designed to be used by specialists and to be user-friendly optimizing its application and the analysis of collected data. We evaluated the car test in a group of 6-9 y.o. infants enrolled in a private school. The results suggest the car test is effective in providing information about visual exploration strategies of infants and is in agreement with the results of similar tests found in the literature."
+Conference: "IHC 2018: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems"
+Date: "October 2018"
+IDS: "Article No.: 5"
+Page range: "Pages   1–9"
+DOI: "10.1145/3274192"
+ISBN: "9781450366014"
+Total Citations: "1"
+Total Downloads: "82"
+References: 
+V Barray, N Biard, D Gadolet, C Guillot, D Templier, and M Lounis. 2002. Voitures: analyse quantitative et qualitative des résultats d'un test d'exploration visuelle. Expériences en ergothérapie (2002).
+Sonia Maria Dozzi Brucki and Ricardo Nitrini. 2008. Cancellation task in very low educated people. Archives of Clinical Neuropsychology 23, 2 (2008), 139--147.
+Desiree A Byrd, Pegah Touradji, Ming-xin Tang, and Jennifer J Manly. 2004. Cancellation test performance in African American, Hispanic, and White elderly. Journal of the International Neuropsychological Society 10, 3 (2004), 401--411.Google Scholar
+Anabela Lajas Cancela. 2014. As implicações da dislexia no processo de aprendizagem na perspectiva dos professores do 1° ciclo do Ensino Básico. Ph.D. Dissertation. Universidade Fernando Pessoa, http://hdl.handle.net/10284/4262.
+Caroline de Oliveira Cardoso, Rochele Ferronato Correa da Silva, and Rochel Paz Fonseca. 2011. Teste de Cancelamento dos Sinos: comparação entre duas versões. Gerais: Revista Interinstitucional de Psicologia 4, 1 (2011), 73--80.
+Gabriel Coutinho, Paulo Mattos, Catia Araújo, and Monica Duchesne. 2007. Transtorno do déficit de atenção e hiperatividade: contribuição diagnóstica de avaliação computadorizada de atenção visual. Revista de Psiquiatria Clínica 34, 5 (2007), 215--222.
+Edwin S Dalmaijer, Stefan Van der Stigchel, Tanja CW Nijboer, Tim HW Cornelissen, and Masud Husain. 2015. CancellationTools: All-in-one software for administration and analysis of cancellation tasks. Behavior research methods 47, 4 (2015), 1065--1075.
+Nick Donnelly, Richard Guest, Mike Fairhurst, Jonathan Potter, Anthony Deighton, and Mahool Patel. 1999. Developing algorithms to enhance the sensitivity of cancellation tests of visuospatial neglect. Behavior Research Methods, Instruments, & Computers 31, 4 (1999), 668--673.Google Scholar
+Jarrod R Dowdall, Artur Luczak, and Matthew S Tata. 2012. Temporal variability of the N2pc during efficient and inefficient visual search. Neuropsychologia 50, 10 (2012), 2442--2453.Google Scholar
+Pavel Gurevich, Hannes Stuke, Andreas Kastrup, Heiner Stuke, and Helmut Hildebrandt. 2017. Neuropsychological Testing and Machine Learning Distinguish Alzheimer's Disease from Other Causes for Cognitive Impairment. Frontiers in aging neuroscience 9 (2017), 114.
+Robert M Joseph, Brandon Keehn, Christine Connolly, Jeremy M Wolfe, and Todd S Horowitz. 2009. Why is visual search superior in autism spectrum disorder? Developmental science 12, 6 (2009), 1083--1096.
+Eyal Kalanthroff, Liat Goldfarb, and Avishai Henik. 2013. Evidence for interaction between the stop signal and the Stroop task conflict. Journal of Experimental Psychology: Human Perception and Performance 39, 2 (2013), 579.Google Scholar
+Kami Koldewyn, Patricia Hanus, and Benjamin Balas. 2014. Visual adaptation of the perception of "life": Animacy is a basic perceptual dimension of faces. Psychonomic bulletin & review 21, 4 (2014), 969--975.
+Thomas Lachmann, Andreas Schmitt, Wouter Braet, and Cees van Leeuwen. 2014. Letters in the forest: global precedence effect disappears for letters but not for non-letters under reading-like conditions. Frontiers in psychology 5 (2014), 705.
+Ricardo Franco de Lima, Cíntia Alves Salgado Azoni, and Sylvia Maria Ciasca. 2013. Atenção e funções executivas em crianças com dislexia do desenvolvimento. Psicologia em Pesquisa 7, 2 (2013), 208--219.
+Natasha Lowery, Daniel Ragland, Ruben C Gur, Raquel E Gur, and Paul J Moberg. 2004. Normative data for the symbol cancellation test in young healthy adults. Applied Neuropsychology 11, 4 (2004), 216--219.Google Scholar
+Kritika Nayar, John Franchak, Karen Adolph, and Lynne Kiorpes. 2015. From local to global processing: The development of illusory contour perception. Journal of experimental child psychology 131 (2015), 38--55.Google Scholar
+Michelle A O'riordan, Kate C Plaisted, Jon Driver, and Simon Baron-Cohen. 2001. Superior visual search in autism. Journal of Experimental Psychology: Human Perception and Performance 27, 3 (2001), 719.Google Scholar
+Lewis N Reich and Michele Ekabutr. 2002. The effects of optical defocus on the legibility of the Tumbling-E and Landolt-C. Optometry and Vision Science 79, 6 (2002), 389--393.Google Scholar
+Denise Reid, Harsha Babani, and Eugenia Jon. 2009. Development of a computerized visual search test. International Journal of Rehabilitation Research 32, 3 (2009), 205--212.Google Scholar
+Jerusa Fumagalli de Salles, Rochele Paz Fonseca, Camila Cruz Rodrigues, Claudia Berlim de Mello, Thais Barbosa, and Mônica Carolina Miranda. 2011. Desenvolvimento do instrumento de avaliação neuropsicológica breve infantil NEUPSILININF. PsicoUSF. Bragança Paulista, SP. Vol. 16, n. 3 (set./dez. 2011), p. 297--305. (2011).
+Rochele Ferronato Correa da Silva. 2010. Teste de Cancelamento dos Sinos: estudo comparativo quanto à variável escolaridade. Master's thesis. Pontifícia Universidade Católica do Rio Grande do Sul, http://tede2.pucrs.br/tede2/handle/tede/712.
+María Felipa Soriano, Antonio J Ibáñez-Molina, Natalia Paredes, and Pedro Macizo. 2017. Autism: Hard to Switch from Details to the Whole. Journal of abnormal child psychology (2017), 1--13.
+Tsui-Ying Wang, Ho-Chuan Huang, and Hsiu-Shuang Huang. 2006. Design and implementation of cancellation tasks for visual search strategies and visual attention in school children. Computers & Education 47, 1 (2006), 1--16. Google Scholar
+Ian H Witten, Eibe Frank, Mark A Hall, and Christopher J Pal. 2016. Data Mining: Practical machine learning tools and techniques. Morgan Kaufmann. Google Scholar
+Ya-Huei Wu, Jocelyne de Rotrou, Jean-Sébastien Vidal, Claude Jeandel, Anne-Sophie Rigaud, Emmanuelle Kesse-Guyot, and Olivier Hanon. 2013. The KT cancellation test in the older adults: Normative data and construct validity. Aging, Neuropsychology, and Cognition 20, 4 (2013), 429--442.Google Scholar
+Ya-Huei Wu, Jean-Sébastien Vidal, Jocelyne de Rotrou, Sietske AM Sikkes, Anne-Sophie Rigaud, and Matthieu Plichart. 2017. Can a tablet-based cancellation test identify cognitive impairment in older adults? PloS one 12, 7 (2017), e0181809.
+#----------------------#
+Authors: ['Caio Pinheiro de Carvalho', 'Suzane Santos dos Santos', 'Gabriel de Magalhães Escudeiro', 'Kelly Vale Pinheiro', 'Nelson Cruz Sampaio Neto', 'Marcelle Pereira Mota']
+Title: "A study on customizing interaction in adaptable games"
+Abstract: "The use of digital games allows the enjoyment of playful moments during the learning process, especially when they are aimed at specific audiences, such as people with disabilities. However, these tools often do not have functionalities that allow the customization of the interaction for each user, according to the needs evaluated by healthcare professionals. The purpose of this work is to investigate personalization characteristics of the interaction and also the interface for games in the assistive technology field. This allows the specialized professional to tailor the game to a specific patient during their session. For this, we conducted a study of the literature on adaptable games and an empirical study where we investigated three games that were developed and tested with healthcare professionals specialized in the care of children with disabilities. The results point to customization features for adaptable games."
+Conference: "IHC '19: Proceedings of the 18th Brazilian Symposium on Human Factors in Computing Systems"
+Date: "October 2019"
+IDS: "Article No.: 6"
+Page range: "Pages   1–11"
+DOI: "10.1145/3357155"
+ISBN: "9781450369718"
+Total Citations: "0"
+Total Downloads: "12"
+References: 
+2019. ACM Digital Library. https://dl.acm.org/dl.cfm [Online; accessed 20. May 2019].
+2019. Blockly | Google Developers. https://developers.google.com/blockly [Online; accessed 3. Jun. 2019].
+2019. IEEE - The world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. https://www.ieee.org [Online; accessed 20. May 2019].
+2019. ScienceDirect.com | Science, health and medical journals, full text articles and books. https://www.sciencedirect.com [Online; accessed 20. May 2019].
+Gazihan Alankus, Amanda Lazar, Matt May, and Caitlin Kelleher. 2010. Towards Customizable Games for Stroke Rehabilitation. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '10). ACM, New York, NY, USA, 2113--2122. Google Scholar
+Dominique Archambault, Thomas Gaudy, Klaus Miesenberger, Stéphane Natkin, and Rolland Ossmann. 2008. Towards Generalised Accessibility of Computer Games. In Technologies for E-Learning and Digital Entertainment, Zhigeng Pan, Xiaopeng Zhang, Abdennour El Rhalibi, Woontack Woo, and Yi Li (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 518--527.
+International Game Developers Association. 2004. Accessibility in Games: Motivations and Approaches. g3ict.org/download/p/fileId_776/productId_50.
+Danilo Avola, Luigi Cinque, Gian Luca Foresti, and Marco Raoul Marini. 2019. An interactive and low-cost full body rehabilitation framework based on 3D immersive serious games. Journal of Biomedical Informatics 89 (2019), 81 -- 100. Google Scholar
+Pablo Eduardo Cabral Barata and Marcelle Pereira Mota. 2018. A Proposal for an Adaptive Game to Support the Skills Development in Children with Disabilities. In Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems (IHC 2018). ACM, New York, NY, USA, Article 43, 5 pages. Google Scholar
+Priscilla Braz, Alberto Raposo, and Clarisse Sieckenius de Souza. 2014. Design de Tecnologias Adaptáveis para uso de Profissionais da Área de Autismo. In Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems (IHC '14). Sociedade Brasileira de Computação, Porto Alegre, Brazil, Brazil, 17--20. http://dl.acm.org/citation.cfm?id=2738165.2738172Google Scholar
+Maria Claudia Buzzi, Marina Buzzi, Erico Perrone, Beatrice Rapisarda, and Caterina Senette. 2016. Learning Games for the Cognitively Impaired People. In Proceedings of the 13th Web for All Conference (W4A '16). ACM, New York, NY, USA, Article 30, 4 pages. Google Scholar
+Caio Carvalho, Gabriel Escudeiro, Jefferson Junior, Kelly Pinheiro, and Marcelle Mota. 2017. Um Jogo da Memória para Crianças com Deficiência. In XVI Simpósio Brasileiro sobre Fatores Humanos em Sistemas Computacionais (Proceedings). Joinville, SC.
+Jean Felipe Patikowski Cheiran. 2013. Jogos Inclusivos: diretrizes de acessibilidade para jogos digitais. Master's thesis. Universidade Federal do Rio Grande do Sul, Porto Alegre, RS.
+Jean Felipe Patikowski Cheiran and Marcelo Soares Pimenta. 2011. "Eu Também Quero Jogar!": Reavaliando As Práticas e Diretrizes De Acessibilidade Em Jogos. In Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction (IHC+CLIHC '11). Brazilian Computer Society, Porto Alegre, Brazil, Brazil, 289--297. http://dl.acm.org/citation.cfm?id=2254436.2254485
+Clarisse de Souza and Simone Diniz Junqueira Barbosa. 2006. A Semiotic Framing for End-User Development. 401--426. Google Scholar
+Clarisse Sieckenius de Souza. 2005. The Semiotic Engineering of Human-Computer Interaction (Acting with Technology). The MIT Press.
+Tatiana Vieira Dorneles. 2015. A Contribuição do Sistema de Comunicação Alternativa para Letramento de Pessoas com Autismo - Scala na Construção da Linguagem de Alunos com Espectro Autista na Educação Infantil.
+Dimitris Grammenos, Anthony Savidis, and Constantine Stephanidis. 2009. Designing Universally Accessible Games. Comput. Entertain. 7, 1, Article 8 (Feb. 2009), 29 pages. Google Scholar
+Klaus Miesenberger, Roland Ossmann, Dominique Archambault, Gig Searle, and Andreas Holzinger. 2008. More Than Just a Game: Accessibility in Computer Games, Vol. 5298. 247--260. Google Scholar
+Diogo Nishikawa, Leandro Novak, Marcos Azevedo, Paulo Branco, Rafael Olivi, Roberta Brandão, Franco Garcia, and Vânia Neris. 2016. Secuidar, cuidar de algo, se divertir e aprender fazem bem! Demonstração de um jogo para apoiar o tratamento da depressão. In XV Simpósio Brasileiro sobre Fatores Humanos em Sistemas Computacionais (Proceedings). São Paulo, SP.
+Denise Notini Nogueira, Raquel Oliveira Prates, and Luiz Chaimowicz. 2013. Utilizando Meta-design para Customização de Conteúdo em um Portal de Jogos Educativos. In Proceedings of the 12th Brazilian Symposium on Human Factors in Computing Systems (IHC '13). Brazilian Computer Society, Porto Alegre, Brazil, Brazil, 292--295. http://dl.acm.org/citation.cfm?id=2577101.2577171Google Scholar
+Lubos Omelina, Bart Jansen, Bruno Bonnechère, Serge Van Sint Jan, and Jan Cornelis. 2012. Serious games for physical rehabilitation: Designing highly configurable and adaptable games.
+Reinhard Oppermann (Ed.). 1994. Adaptive User Support: Ergonomic Design of Manually and Automatically Adaptable Software. L. Erlbaum Associates Inc., Hillsdale, NJ, USA.
+Jailan Salah, Yomna Abdelrahman, Ahmed Dakrouni, and Slim Abdennadher. 2018. Judged by the Cover: Investigating the Effect of Adaptive Game Interface on the Learning Experience. 215--225. Google Scholar
+Howard Shane and Patti Albert. 2008. Electronic Screen Media for Persons with Autism Spectrum Disorders: Results of a Survey. Journal of Autism and Developmental Disorders 38, 8 (2008), 1499--1508. Google Scholar
+Jaichandar Kulandaidaasan Sheba, Adnan Ahmed Salman, Sampath Kumar, Le Tan Phuc, Mohan Rajesh Elara, and Edgar Martínez-García. 2018. Behavioral Responses of Nursing Home Residents to a Robotic Pet Dog with a Customizable Interactive Kit. Procedia Computer Science 133 (2018), 409 -- 416. International Conference on Robotics and Smart Manufacturing (RoSMa2018). Google Scholar
+Mads Soegaard and Rikke Dam. 2013. Encyclopedia of Human-Computer Interaction. Interaction Design Foundation. https://books.google.com.br/books?id=ureBngEACAAJ
+Maarten Someren, Yvonne Barnard, and Jacobijn Sandberg. 1994. The Think Aloud Method - A Practical Guide to Modelling Cognitive Processes. Academic Press, London, UK.
+Nath Tumlin. 2017. Teacher Configurable Coding Challenges for Block Languages. In Proceedings of the 2017 ACM SIGCSE Technical Symposium on Computer Science Education (SIGCSE '17). ACM, New York, NY, USA, 783--784. Google Scholar
+#----------------------#
+Authors: ['Daniel Domingos Alves', 'Ecivaldo Matos']
+Title: "A survey on interaction design in distributed software development"
+Abstract: "The challenges of design and development of software with geographically distributed stakeholders have not been widely addressed in the literature by the human-computer interaction (HCI) community. Although there are reports of experiences about interaction design in distributed software development (DSD), it is unclear how interaction design has been conducted in DSD projects. This paper presents the results of a survey conducted with the objective of identifying the perception of professionals involved in DSD on interaction design and to verify how interaction design has been conducted in DSD. The results indicated that good practices of interaction design have been adopted in a considerable part of the DSD projects. However, communicability and accessibility have not been considered in most DSD projects. In addition, participatory methods, techniques, and practices have been little used in DSD. The results of this survey provide an overview of how interaction design has been conducted in DSD projects and present the difficulties, challenges, and gaps of interaction design in DSD. We concluded that there is a need for future research to understand interaction design in detail and develop new solutions (or adaptations of existing solutions) of interaction design for the DSD context."
+Conference: "IHC '19: Proceedings of the 18th Brazilian Symposium on Human Factors in Computing Systems"
+Date: "October 2019"
+IDS: "Article No.: 7"
+Page range: "Pages   1–12"
+DOI: "10.1145/3357155"
+ISBN: "9781450369718"
+Total Citations: "0"
+Total Downloads: "12"
+References: 
+K. Alho and R. Sulonen. 1998. Supporting virtual software projects on the Web. In Enabling Technologies: Infrastructure for Collaborative Enterprises, 1998. (WET ICE '98) Proceedings., Seventh IEEE International Workshops on. 10--14. Google Scholar
+O. Almughram and S. Alyahya. 2017. Coordination support for integrating user centered design in distributed agile projects. In 2017 IEEE 15th International Conference on Software Engineering Research, Management and Applications (SERA). 229--238. Google Scholar
+D. D. Alves, M. I. Cagnin, and D. M. B. Paiva. 2014. Accessibility in development of free software projects. In 2014 XL Latin American Computing Conference (CLEI). 1--12. Google Scholar
+Daniel Domingos Alves and Ecivaldo de Souza Matos. 2017. Interaction Design in Free/Libre/Open Source Software Development: A Systematic Mapping. In Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems (IHC 2017). ACM, New York, NY, USA, Article 31, 10 pages. Google Scholar
+Daniel Domingos Alves and Ecivaldo de Souza Matos. 2019. Interaction design in distributed software development: A systematic mapping study. Behaviour & Information Technology (BIT) (Under Review) (2019).
+Hayward P Andres. 2002. A comparison of face-to-face and virtual software development teams. Team Performance Management: An International Journal 8, 1/2 (2002), 39--48. Google Scholar
+Catherine Ashcraft, Brad McLain, and Elizabeth Eger. 2016. Women in tech: The facts. National Center for Women & Technology (NCWIT).
+J. L. N. Audy and R. Prikladnicki. 2008. Desenvolvimento distribuído de software (Distributed software development). Elsevier.
+P. M. Bach and J. M. Carroll. 2010. Characterizing the dynamics of open user experience design: The cases of Firefox and OpenOffice. org. Journal of the Association for Information Systems 11, 12 (2010), 902.Google Scholar
+P. M. Bach and M. Twidale. 2010. Involving Reflective Users in Design. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '10). ACM, New York, NY, USA, 2037--2040. Google Scholar
+Theresa Beaubouef and Wendy Zhang. 2011. Where are the women computer science students? Journal of Computing Sciences in Colleges 26, 4 (2011), 14--20.Google Scholar
+J. K. Blomkvist, J. Persson, and J. . 2015. Communication Through Boundary Objects in Distributed Agile Teams. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). ACM, New York, NY, USA, 1875--1884. Google Scholar
+G. Çetin and M. Göktürk. 2008. A measurement based framework for assessment of usability-centricness of open source software projects. In Signal Image Technology and Internet Based Systems, 2008. SITIS'08. IEEE International Conference on. IEEE, 585--592.
+C. Costa, C. Cunha, R. Rocha, A. C. C. França, F. Q. B. da Silva, and R. Prikladnicki. 2010. Models and Tools for Managing Distributed Software Development: A Systematic Literature Review. In Proceedings of the 14th International Conference on Evaluation and Assessment in Software Engineering (EASE'10). BCS Learning & Development Ltd., Swindon, UK, 73--76. http://dl.acm.org/citation.cfm?id=2227057.2227066
+K. Crowston, K. Wei, J. Howison, and A. Wiggins. 2008. Free/Libre Open-source Software Development: What We Know and What We Do Not Know. ACM Comput. Surv. 44, 2, Article 7 (March 2008), 35 pages. Google Scholar
+F. Q. B. da Silva, C. Costa, A. C. C. Franca, and R. Prikladinicki. 2010. Challenges and Solutions in Distributed Software Development Project Management: A Systematic Literature Review. In Proceedings of the 2010 5th IEEE International Conference on Global Software Engineering (ICGSE '10). IEEE Computer Society, Washington, DC, USA, 87--96. Google Scholar
+José Valderlei da Silva, Roberto Pereira, Samuel Bastos Buchdid, Emanuel Felipe Duarte, and Maria Cecília Calani Baranauskas. 2016. SAwD - Socially Aware Design: An Organizational Semiotics-Based CASE Tool to Support Early Design Activities. In Socially Aware Organisations and Technologies. Impact and Challenges, Maria Cecilia Calani Baranauskas, Kecheng Liu, Lily Sun, Vânia Paula de Almeida Neris, Rodrigo Bonacin, and Keiichi Nakata (Eds.). Springer International Publishing, Cham, 59--69. Google Scholar
+José Valderlei da Silva, Roberto Pereira, Elaine C. S. Hayashi, and M. Cecília C. Baranauskas. 2018. Design Practices and the SAwD Tool: Towards the Open-design Concept. In Digitalisation, Innovation, and Transformation, Kecheng Liu, Keiichi Nakata, Weizi Li, and Cecilia Baranauskas (Eds.). Springer International Publishing, Cham, 208--217.
+A. Dix. 2009. Human-computer interaction. In Encyclopedia of database systems. Springer, 1327--1331.
+N. Ebenreuter. 2009. Working Towards an Open Source Design Approach for the Development of Collaborative Design Projects. In Proceedings of the 21st Annual Conference of the Australian Computer-Human Interaction Special Interest Group: Design: Open 24/7 (OZCHI '09). ACM, New York, NY, USA, 285--288. Google Scholar
+T. Ebling, J. L. N. Audy, and R. Prikladnicki. 2009. A Systematic Literature Review of Requirements Engineering in Distributed Software Development Environments.. In ICEIS (3). 363--366. Google Scholar
+Instituto Faber-Ludens. 2012. Design Livre., 156 p. pages. [online]. Available: http://designlivre.org/download/ [Accessed: May, 28 2019].
+Alicia García-Holgado, Juanjo Mena, Francisco J García-Peñalvo, and Carina González. 2018. Inclusion of gender perspective in Computer Engineering careers: Elaboration of a questionnaire to assess the gender gap in tertiary education. In 2018 IEEE Global Engineering Education Conference (EDUCON). IEEE, 1547--1554.Google Scholar
+GitHub. 2018. The State of the Octoverse 2018. [online]. Available: https://octoverse.github.com/. [Accessed: April, 17 2018].
+Rodrigo Freese Gonzatto, Frederick MC van Amstel, Luiz Ernesto Merkle, and Timo Hartmann. 2013. The ideology of the future in design fictions. Digital creativity 24, 1 (2013), 36--45. Google Scholar
+D. C. Gumm, M. Janneck, and M. Finck. 2006. Distributed participatory design-a case study. In Proceedings of the DPD Workshop at NordiCHI, Vol. 2.
+HackerRank. 2018. Women in Tech 2018. [online]. Available: https://research.hackerrank.com/women-in-tech/2018. [Accessed: April, 08 2019].
+J. D. Herbsleb. 2007. Global Software Engineering: The Future of Socio-technical Coordination. In 2007 Future of Software Engineering (FOSE '07). IEEE Computer Society, Washington, DC, USA, 188--198. Google Scholar
+N. Iivari. 2011. Participatory Design in OSS Development: Interpretive Case Studies in Company and Community OSS Development Contexts. Behav. Inf. Technol. 30, 3 (May 2011), 309--323. Google Scholar
+N. Iivari, H. Hedberg, and T. Kirves. 2008. Usability in Company Open Source Software Context - Initial Findings from an Empirical Case Study. In Open Source Development, Communities and Quality, B. Russo, E. Damiani, S. Hissam, B. Lundell, and G. Succi (Eds.). Springer US, Boston, MA, 359--365.
+M. Jiménez and M. Piattini. 2008. Problems and solutions in distributed software development: a systematic review. In International Conference on Software Engineering Approaches for Offshore and Outsourced Development. Springer, 107--125.
+M. Jiménez, M. Piattini, and A. Vizcaíno. 2009. Challenges and improvements in distributed software development: A systematic review. Advances in Software Engineering 2009 (2009).
+Mark Kasunic. 2005. Designing an effective survey. Technical Report. CARNEGIE-MELLON UNIV PITTSBURGH PA SOFTWARE ENGINEERING INST.
+F. Lanubile, C. Ebert, R. Prikladnicki, and A. Vizcaino. 2010. Collaboration tools for global software engineering. IEEE software 27, 2 (2010).
+C. A. J. Lazarin and L. D. A. Almeida. 2016. Distributed Participatory Design Web-based Groupware: Gathering Requirements Through BrainDraw. In Proceedings of the 15th Brazilian Symposium on Human Factors in Computer Systems (IHC '16). ACM, New York, NY, USA, Article 3, 10 pages. Google Scholar
+V. Lichtner, A. P. Kounkou, A. Dotan, J. P. Kooken, and N. A.M. Maiden. 2009. An Online Forum As a User Diary for Remote Workplace Evaluation of a Work-integrated Learning System. In CHI '09 Extended Abstracts on Human Factors in Computing Systems (CHI EA '09). ACM, New York, NY, USA, 2955--2970. Google Scholar
+A. Lisowska Masson, T. Amstutz, and D. Lalanne. 2017. A Usability Refactoring Process for Large-Scale Open Source Projects: The ILIAS Case Study. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '17). ACM, New York, NY, USA, 1135--1143. Google Scholar
+L. Llerena, N. Rodríguez, G. Sacca, J. W. Castro, and S. T. Acuña. 2016. Adoption of the Personas Technique in the Open Source Software Development Process. In Proceedings of the XVII International Conference on Human Computer Interaction (Interaccin '16). ACM, New York, NY, USA, Article 39, 4 pages. Google Scholar
+J. Lowgren. 2013. Interaction Design - brief intro In The Encyclopedia of Human-Computer Interaction. The Interaction Design Foundation.
+S. Luz and M. Masoodian. 2014. Involving Geographically Distributed Users in the Design of an Interactive System. In Proceedings of the Fifteenth Australasian User Interface Conference - Volume 150 (AUIC '14). Australian Computer Society, Inc., Darlinghurst, Australia, Australia, 77--84. http://dl.acm.org/citation.cfm?id=2667657.2667666
+Softex - Associação para Promoção da Excelência do Software Brasileiro. 2019. Mulheres na TI: atuação da mulher no mercado de trabalho formal brasileiro em tecnologia da informação. [online]. Available: https://www.ftp.softex.br/Inteligencia/mulheres_na_ti/mulheres_na_ti.pdf [Accessed: May, 30 2019].
+Javier Portillo-Rodríguez, Aurora Vizcaíno, Mario Piattini, and Sarah Beecham. 2012. Tools used in Global Software Engineering: A systematic mapping review. Information and Software Technology 54, 7 (2012), 663--685.Google Scholar
+J. Preece, H. Sharp, and Y. Rogers. 2015. Interaction design: beyond human-computer interaction (4 ed.). Wiley.
+R. Prikladnicki and J. L. N. Audy. 2010. Process models in the practice of distributed software development: A systematic review of the literature. Information and Software Technology 52, 8 (2010), 779--791.Google Scholar
+N. P. Radtke, M. A. Janssen, and J. S. Collofello. 2009. What makes Free/Libre Open Source Software (FLOSS) projects successful? An agent-based model of FLOSS projects. International Journal of Open Source Software and Processes (IJOSSP) 1, 2 (2009), 1--13. Google Scholar
+Darja Šmite, Claes Wohlin, Tony Gorschek, and Robert Feldt. 2010. Empirical evidence in global software engineering: a systematic review. Empirical software engineering 15, 1 (2010), 91--118. Google Scholar
+SourceForge. 2018. Make Your Projects Come To Life. [Online]. Available: https://sourceforge.net/. [Accessed: April, 4 2018].
+R. Subramanyam and M. Xia. 2008. Free/Libre Open Source Software development in developing and developed countries: A conceptual framework with an exploratory study. Decision support systems 46, 1 (2008), 173--186.
+J. Treviranus. 2009. You say tomato, I say tomato, let's not call the whole thing off: the challenge of user experience design in distributed learning environments. On the Horizon 17, 3 (2009), 208--217.Google Scholar
+June M Verner, O Pearl Brereton, Barbara A Kitchenham, Mahmood Turner, and Mahmood Niazi. 2014. Risks and risk mitigation in global software development: A tertiary study. Information and Software Technology 56, 1 (2014), 54--78.Google Scholar
+G. Walsh and E. Foss. 2015. A Case for Intergenerational Distributed Co-design: The Online Kidsteam Example. In Proceedings of the 14th International Conference on Interaction Design and Children (IDC '15). ACM, New York, NY, USA, 99--108. Google Scholar
+L. Zhao and F. P. Deek. 2005. Improving open source software usability. AMCIS 2005 Proceedings (2005), 430.
+#----------------------#
+Authors: ['Thiago Rocha Silva', 'Marco Winckler']
+Title: "A Scenario-Based Approach for Checking Consistency in User Interface Design Artifacts"
+Abstract: "Keeping the consistency of requirements in different artifacts along the development process is a cumbersome activity, especially if it is done manually. Previous studies have investigated the use of User Stories to write testable requirements in order to automate the assessment of a given set of development artifacts. This paper expands the research in this field describing a scenario-based approach for checking consistency in User Interface (UI) design artifacts, modeling business and user requirements. A case study is presented as a proof of concept showing how our approach could be used to ensure the consistency of both business and task models, besides UI prototypes and scenarios. Preliminary testing results have shown that our approach is able to identify even fine-grained inconsistencies in the mentioned artifacts, allowing establishing a reliable compatibility among different UI design artifacts."
+Conference: "IHC 2017: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems"
+Date: "October 2017"
+IDS: "Article No.: 3"
+Page range: "Pages   1–10"
+DOI: "10.1145/3160504"
+ISBN: "9781450363778"
+Total Citations: "3"
+Total Downloads: "61"
+References: 
+Michel Beaudouin-Lafon and Wendy Mackay. 2002. Prototyping tools and techniques. In The human-computer interaction handbook, L. Erlbaum Associates Inc., Hillsdale, NJ, USA, 1006--1031. Google Scholar
+Robert A. Buchmann and Dimitris Karagiannis. 2015. Modelling Mobile App Requirements for Semantic Traceability. Requirements Engineering 22, 1: 1--35. Google Scholar
+José C. Campos, Camille Fayollas, Célia Martinie, David Navarre, Philippe Palanque and Miguel Pinto. 2016. Systematic automation of scenario-based testing of user interfaces. In Proceedings of the 8th ACM SIGCHI Symposium on Engineering Interactive Computing Systems, 138--148. Google Scholar
+Mike Cohn. 2004. User Stories Applied: For Agile Software Development. Addison-Wesley Professional. Google Scholar
+Adrien Coyette, Suzanne Kieffer and Jean Vanderdonckt. 2007. Multi-fidelity Prototyping of User Interfaces. In Proc. of the IFIP TC.13 International Conference on Human-Computer Interaction, 150--164. Google Scholar
+Anurag Dwarakanath and Shubhashis Sengupta. 2012. Litmus: Generation of Test Cases from Functional Requirements in Natural Language. In Int. Conference on Application of Natural Language to Information Systems, 58--69. Google Scholar
+Racim Fahssi, Célia Martinie and Philippe Palanque. 2015. Enhanced Task Modelling for Systematic Identification and Explicit Representation of Human Errors. In Proc. of the IFIP TC.13 International Conference on Human-Computer Interaction, 192--212.Google Scholar
+Object Management Group. 2011. Business Process Model And Notation™ (BPMN™). Retrieved August, 2017 from http://www.omg.org/spec/BPMN/2.0/
+Michael Havey. 2005. Essential Business Process Modeling. O'Reilly Media, Inc. Google Scholar
+Julio C. S. P. Leite and Antonio P. A. Oliveira. 1995. A Client Oriented Requirements Baseline. In Proc. of the 2nd IEEE International Symposium on Requirements Engineering (RE'95), 108--115. Google Scholar
+Quentin Limbourg, Jean Vanderdonckt, Benjamin Michotte, Laurent Bouillon and Víctor López-Jaquero. 2004. USIXML: a Language Supporting Multi-Path Development of User Interfaces. In Proc. of the EHCI-DSVIS, 200--220. Google Scholar
+Esteban R. Luna, Irene Garrigós, Julián Grigera and Marco Winckler. 2010. Capture and Evolution of Web Requirements Using WebSpec. In Proc. of the Int. Conference on Web Engineering, 173--188. Google Scholar
+Célia Martinie, Philippe Palanque and Marco Winckler. 2011. Structuring and Composition Mechanisms to Address Scalability Issues in Task Models. In Proc. of the IFIP TC.13 International Conference on Human-Computer Interaction, 589--609. Google Scholar
+Rudolf van Megen and Dirk B. Meyerhoff. 1995. Costs and benefits of early defect detection: experiences from developing client server and host applications. Software Quality Journal 4, 4: 247--256.Google Scholar
+Dan North. 2017. What's in a Story?. Retrieved August, 2017 from http://dannorth.net/whats-in-a-story/
+Fabio Paternò, Carmen Santoro, Lucio D. Spano and Dave Raggett. 2017. W3C, MBUI - Task Models. Retrieved August, 2017 from http://www.w3.org/TR/task-models/
+Florence Pontico, Christelle Farenc and Marco Winckler. 2006. Model-Based Support for Specifying eService eGovernment Applications. In Proc. of the International Workshop on Task Models and Diagrams for User Interface Design, 54--67. Google Scholar
+Jaroslav Pullmann. 2017. W3C, MBUI - Glossary. Retrieved August, 2017 from http://www.w3.org/TR/mbui-glossary/
+Mary B. Rosson and John M. Carroll. 2002. Usability Engineering: Scenario-Based Development of Human-Computer Interaction. Morgan Kaufmann. Google Scholar
+Ken Schwaber. 2004. Agile Project Management with Scrum. Microsoft Press. Google Scholar
+Thiago R. Silva, Jean-Luc Hak and Marco Winckler. 2017. A Behavior-Based Ontology for Supporting Automated Assessment of Interactive Systems. In Proc. of the 11th IEEE International Conference on Semantic Computing, 250--257.Google Scholar
+Harry M. Sneed. 2007. Testing against Natural Language Requirements. In Proc. of the Seventh IEEE International Conference on Quality Software (QSIC 2007), 380--387. Google Scholar
+Eero J. Uusitalo, Marko Komssi, Marjo Kauppinen and Alan M. Davis. 2008. Linking Requirements and Testing in Practice. In Proc. of the IEEE Int. Requirements Engineering Conference, 265--270. Google Scholar
+Pedro Valente, Thiago Silva, Marco Winckler, and Nuno Nunes. 2016. Bridging Enterprise and Software Engineering Through an User-Centered Design Perspective. In Proc. of the International Conference on Web Information Systems Engineering, 349--357. Google Scholar
+Marco Winckler and Philippe Palanque. 2012. Models as Representations for Supporting the Development of e-Procedures. In Usability in Government Systems --User Experience Design for Citizens and Public Servants, Morgan Kaufmann Publishers, 301--315.
+Andreas Wolff, Peter Forbrig, Anke Dittmar and Daniel Reichart. 2005. Linking GUI Elements to Tasks: Supporting an Evolutionary Design Process. In Proc. of the 4th International Workshop on Task Models and Diagrams, 27--34. Google Scholar
+#----------------------#
+Authors: ['Polianna Paim', 'Soraia Prietch', 'Anderson Duarte']
+Title: "CoDesign in the Exploratory Phase of an Assistive Technology product Design to support the Teaching-Learning Process of Brazilian-Portuguese Language for Visual Persons"
+Abstract: "Libras is a communication and expression language of many Visual Person (VP) in Brazil. In National High School Examination (ENEM), for candidates to a vacancy in higher education institutions, the essay must be written in Portuguese, not taking into account the first language of the candidate. This paper presents an adapted framework that groups concepts of CoDesign, technology adoption, HCI life cycle and Semantic Numbers, and also shows the results of first phase of research. This phase consists of a contextual analysis of an Assistive Technology project for Portuguese teaching as a second language for VP. The adapted framework aims to reach objectives, working with interested parts, to be accessible and potentially adopted by them. As results we have defined Interested Parts Diagram, discussed responses applied surveys and elaborated Personas. Also, it was possible to observe the relation of the PV with the Portuguese, their wishes and difficulties with ENEM."
+Conference: "IHC 2018: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems"
+Date: "October 2018"
+IDS: "Article No.: 12"
+Page range: "Pages   1–9"
+DOI: "10.1145/3274192"
+ISBN: "9781450366014"
+Total Citations: "1"
+Total Downloads: "50"
+References: 
+Maria C. C. Baranauskas, Maria C. Martins, and José A. Valente. 2013. Codesign de Redes Digitais: Tecnologia e Educação a Serviço da Inclusão Social. Penso, Porto Alegre RS.
+Simone D. J. Barbosa and Bruno S. Silva. 2010. Interação Humano-Computador. Elsevier.
+Claudio A. Benassi and Anderson S. Duarte. 2014. Além dos sentidos: ensaios sobre Libras. RevDia. Retrieved May 04, 2018 from https://goo.gl/e8FKKu
+Rita Bersch. 2017. Introdução à Tecnologia Assistiva. Retrieved May 04, 2018 from https://goo.gl/VMnKup
+Clodis Boscarioli, Charles Giovane de Salles, Jeferson José Baqueta, and João Paulo Colling. 2012. Avaliação e design de interação de jogos voltados ao aprendizado de crianças surdas. In Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems (IHC '12). Brazilian Computer Society, Porto Alegre, RS, Brazil, 25--26. Retrieved May 04, 2018 from https://goo.gl/he7vsf Google Scholar
+Brasil. 2002. Lei n° 10.436: Dispõe sobre a Língua Brasileira de Sinais - Libras e dá outras providências. Retrieved May 04, 2018 from https://goo.gl/X4BHZo
+Brasil. 2005. Decreto n° 5.626: Regulamenta a Lei no 10.436, de 24 de abril de 2002, que dispõe sobre a Língua Brasileira de Sinais - Libras, e o art. 18 da Lei no 10.098, de 19 de dezembro de 2000. Retrieved May 04, 2018 from https://goo.gl/KcrHuU
+Brasil. 2015. Lei n° 13.146: Institui a Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência). Retrieved May 04, 2018 from https://goo.gl/R2h9tk
+Diléia A. M. Briega. 2017. O ENEM como via de acesso do Surdo ao Ensino Superior brasileiro. Ph.D. Dissertation. Universidade Federal de São Carlos, São Carlos, SP, BR. Advisor(s) Lacerda, Cristina B. F. de. Retrieved May 04, 2018 from https://goo.gl/r5HJRa
+Albert M. Cook and Jan M. Polgar. 2008. Cook and Husseys's Assistive Technologies: Principles and Practice (3rd ed.). Elsevier.
+Ana Correia, Rita Couto, and Cristina Portugal. 2002. Multi-trilhas virtual: avaliação do jogo de entretenimento para a aquisição da linguagem por crianças surdas. In Anais do 10° Congresso Brasileiro de Pesquisa e Desenvolvimento em Design. São Luís, MA, Brazil, 3398--3409. Retrieved May 04, 2018 from https://goo.gl/HtM6bt
+Fundação Síndrome de Down. 2013. Atendimento Educacional Especializado/AEE e Apoio Pedagógico: como identificá-los na escola? Retrieved May 04, 2018 from https://goo.gl/isvpci
+Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP). 2017. Conheça o perfil dos participantes do Enem 2017 no Brasil e em cada Unidade da Federação. Retrieved May 04, 2018 from https://goo.gl/Dnxk8E
+Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP). 2017. Participantes do Enem 2017 surdos ou deficientes auditivos ganham orientações em Libras. Retrieved May 04, 2018 from https://goo.gl/e6dTgY
+Amy G. Dell, Deborah A. Newton, and Jerry G. Petroff. 2008. Assistive Technology in the classroom: enhancing the school experiences of students with disabilities. Pearson.
+Anderson S. Duarte. 2011. Ensino de Libras para ouvintes numa abordagem dialógica: contribuições da teoria bakhtiniana para a elaboração de material didático. Master's thesis. Universidade Federal de Mato Grosso, Cuiabá, MT. Retrieved May 04, 2018 from https://goo.gl/J2Qrk6
+Anderson S. Duarte. 2016. Metáforas Criativas: processo de aprendizagem de ciências e escrita da Língua Portuguesa como Segunda Língua pelo estudante visual (surdo). Ph.D. Dissertation. Universidade Federal de Mato Grosso, Cuiabá, MT, BR. Advisor(s) Hardoim, Edna L. Retrieved May 04, 2018 from https://goo.gl/r8f31s
+Anderson S. Duarte and Simone J. Padilha. 2012. Revista Virtual de Estudos da Linguagem - ReVEL 10, 19. ReVEL, Chapter Relações entre Língua de Sinais e Língua Portuguesa em materials didáticos: a notação pelos Números Semânticos, 309--326. Retrieved May 04, 2018 from https://goo.gl/1V61PA
+Daniel Fallman. 2003. ACM CHI Letters 5, 1. ACM, Chapter Design-oriented human-computer interaction, 225--232. Google Scholar
+Linda Flower and John R. Hayes. 1981. A Cognitive Process Theory of Writing. Retrieved May 04, 2018 from https://goo.gl/yMsEsS
+Rogério D. Junqueira, Diléia A. Martins, and Cristina B. F. Lacerda. 2017. Educação E Sociedade 38, 139. Redalyc, Chapter Política de Acessibilidade e Exame Nacional do Ensino Médio (ENEM), 453--471. Retrieved May 04, 2018 from https://goo.gl/tWYFKs
+Anja Kintsch and Rogerio DePaula. 2002. A Framework for the Adoption of Assistive Technology. In Proceedings SWAAAC 2002: Supporting Learning Through Assistive Technology. Winter Park, CO, USA, 1--10. Retrieved May 04, 2018 from https://goo.gl/6Q7goX
+Claudio Kleina. 2012. Tecnologia assistiva em educação especial e educação inclusiva. InterSaberes.
+Lucinda A. Leria, Lucia V. L. Filgueiras, Francisco J. F. Silva, and Leonardo A. Ferreira. 2018. Revista Brasileira de Educação Especial 24, 1. Revista Brasileira de Educação Especial, Bauru, SP, BR, Chapter Enem Acessível: Autonomia para a Pessoa com Deficiência Visual Total no Exame Nacional do Ensino Médio, 103--120. Retrieved May 04, 2018 from https://goo.gl/X9zdqd
+Mariana S. Marinho. 2015. Linguagem: teoria, análise e aplicações (8). Linguagem: Teoria, Análise e Aplicações, Rio de Janeiro, RJ, BR, Chapter Recursos para a elaboração de material didático no ensino de Língua Portuguesa para alunos surdos: uma proposta curricular, 139--152. Retrieved May 04, 2018 from https://goo.gl/t8tkEi
+Pâmela S. S. Matos. 2016. Gestos de surdos e ouvintes: O contar história sem uso da voz. Master's thesis. Universidade do Estado do Pará, Belém, PA. Retrieved May 04, 2018 from https://goo.gl/LUJHMP
+NIED. 2003. HagáQuê. Retrieved May 04, 2018 from https://goo.gl/HBkfHB
+Jorge L. F. Nogueira. 2009. O software HagáQuê: uma proposta para a prática da Língua Portuguesa escrita da Pessoa com Surdez. Master's thesis. Universidade Federal de Alagoas, Maceió, AL. Retrieved May 04, 2018 from https://goo.gl/wgouMQ
+Pexels. 2018. PEXELS: Best free stock photos in one place. Retrieved May 04, 2018 from https://goo.gl/Kfqhky
+Soraia S. Prietch. 2014. Aceitação de tecnologia por estudantes surdos na perspectiva da educação inclusiva. Ph.D. Dissertation. Escola Politécnica da Universidade de São Paulo, São Paulo, SP, BR. Advisor(s) Filgueiras, Lucia V L. Retrieved May 04, 2018 from https://goo.gl/E663f8
+Luiz R. M. Rocha and Cristina B. F. Lacerda. 2016. Revista Educação Especial 29, 56. Revista Educação Especial, Chapter Vestibulares vídeo-gravados em libras: um novo modo de acesso ao ensino superior federal?, 709--722. Retrieved May 04, 2018 from https://goo.gl/Qpg6tm
+Yvonne Rogers, Helen Sharp, and Jennifer Preece. 2013. Design de Interação: Além da Interação Humano-Computador. Bookman.
+Ronald K. Stamper. 1992. Linguistic instruments in knowledge engineering. Chapter Language and computer in organised behaviour, 143--163.
+#----------------------#
+Authors: ['Luis Rivero', 'Tayana Conte']
+Title: "A Systematic Mapping Study on Research Contributions on UX Evaluation Technologies"
+Abstract: "User eXperience (UX) refers to quality attributes related to the feelings and emotions of the users. In order to evaluate UX, several technologies (tools, methods, techniques, others) have been proposed that range from using questionnaires to employing biometrics. However, it is essential to characterize UX evaluation technologies to obtain evidence on the contexts in which using a specific technology can provide better evaluation results. In this paper, we present the state of the art on how to evaluate the UX of software applications. We performed a systematic mapping study with an initial sample of 2101 papers from which 227 relevant papers describing UX evaluation technologies have been identified. The results suggest that there is a need for specific UX evaluation technologies that are easy and comfortable to use from the point of view of users, while supporting practitioners in the correction of the aspects that cause poor experiences."
+Conference: "IHC 2017: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems"
+Date: "October 2017"
+IDS: "Article No.: 5"
+Page range: "Pages   1–10"
+DOI: "10.1145/3160504"
+ISBN: "9781450363778"
+Total Citations: "7"
+Total Downloads: "138"
+References: 
+Stephanie Balters, and Steinert Martin. 2015. Capturing emotion reactivity through physiology measurement as a foundation for affective engineering in engineering design science and engineering practices. Journal of Intelligent Manufacturing 28, 1: 1--23. Google Scholar
+Simone Barbosa, and Bruno Silva. 2010. Human Computer Interaction. Elsevier Brasil. (In Portuguese)
+Javier A. Bargas-Avila, and Kasper Hornbæk. 2011. Old wine in new bottles or novel challenges: a critical analysis of empirical studies of user experience. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 2689--2698. Google Scholar
+Javier A. Bargas-Avila, and Kasper Hornbæk. 2012. Foci and blind spots in user experience research. Interactions 19, 6: 24--27. Google Scholar
+Pieter Desmet. 2003. Measuring emotion: Development and application of an instrument to measure emotional responses to products. In Funology, 111--123. Google Scholar
+Adrian Fernandez, Emilio Insfran, and Silvia Abrahão. 2011. Usability evaluation methods for the web: A systematic mapping study. Information and Software Technology 53, 8: 789--817. Google Scholar
+Jérémy Frey, Christian Mühl, Fabien Lotte, and Martin Hachet. 2013. Review of the use of electroencephalography as an evaluation method for human-computer interaction. In arXiv preprint arXiv, 1311.2222.
+Bill Gaver, and Heather Martin. 2000. Alternatives: exploring information appliances through conceptual design proposals. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems, 209--216. Google Scholar
+Marc Hassenzahl. 2003. The thing and I: understanding the relationship between user and product. In Funology. 31--42. Google Scholar
+Marc Hassenzahl, Sarah Diefenbach, and Anja Göritz. 2010. Needs, affect, and interactive products--Facets of user experience. Interacting with computers 22, 5: 353--362. Google Scholar
+International Organization for Standardization, ISO DIS 9241-210. 2010. Ergonomics of human system interaction - Part 210. International Standardization Organization (ISO).
+Minna Isomursu, Marika Tähti, Soili Väinämä, and Kari Kuutti. 2007. Experimental evaluation of five methods for collecting emotions in field settings with mobile applications. International Journal of Human-Computer Studies 65, 4: 404--418. Google Scholar
+Patrick W. Jordan. 2002. Designing pleasurable products: An introduction to the new human factors. CRC press.
+Barbara Kitchenham, and Stuart Chartes. 2007. Guidelines for performing systematic literature reviews in software engineering. In Technical report, Ver. 2.3 EBSE Technical Report. EBSE.
+Barbara Kitchenham, Rialette Pretorius, David Budgen, O. Pearl Brereton, Mark Turner, Mahmood Niazi, and Stephen Linkman. 2010. Systematic literature reviews in software engineering--a tertiary study. Information and Software Technology 52, 8: 792--805. Google Scholar
+Sari Kujala, Virpi Roto, Kaisa Väänänen-Vainio-Mattila, Evangelos Karapanos, and Arto Sinnelä. 2011. UX Curve: A method for evaluating long-term user experience. Interacting with Computers 23, 5: 473--483. Google Scholar
+Effie Lai-Chong Law. 2011. The measurability and predictability of user experience. In Proceedings of the 3rd ACM SIGCHI symposium on Engineering interactive computing systems, 1--10. Google Scholar
+Elizabete Munzlinger, Fabricio Batista Narcizo, and José Eustáquio Rangel De Queiroz. 2012. Systematization of literature reviews in the HCI area. In Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems, 51--54. (In Portuguese) Google Scholar
+S. Rajeshkumar, Omar Ridha, and Murni Mahmud. 2013. Taxonomies of User Experience (UX) evaluation methods. In International Conference on Research and Innovation in Information Systems (ICRIIS), 533--538.Google Scholar
+Luis Rivero, and Tayana Conte. 2016. TR-USES-2016-002 Systematic Mapping on UX Technologies: Extraction of User eXperience Evaluation Methods. USES Research Group Technical Report. Available at: http://uses.icomp.ufam.edu.br/relatorios-tecnicos/
+Patricia Tavares, Luiz Agner, and Simone Bacellar Leal Ferreira. 2010. Usability Evaluation of mobile devices for the collection of neighborhood data through interviews based on scenarios and tasks. In Proceedings of the IX Symposium on Human Factors in Computing Systems, 11--20. (In Portuguese) Google Scholar
+Arnold P. O. S. Vermeeren, Effie Lai-Chong Law, Virpi Roto, Marianna Obrist, Jettie Hoonhout, and Kaisa Väänänen-Vainio-Mattila. 2010. User experience evaluation methods: current state and development needs. In Proceedings of the 6th Nordic Conference on Human-Computer Interaction: Extending Boundaries, 521--530. Google Scholar
+Le An, Songfan Yang, and Bir Bhanu. 2015. Efficient smile detection by extreme learning machine. Neurocomputing 149, 1: 354--363. Google Scholar
+Carol M. Barnum, and Laura A. Palmer. 2010. More than a feeling: understanding the desirability factor in user experience. In CHI'10 Extended Abstracts on Human Factors in Computing Systems, 4703--4716. Google Scholar
+Marios Belk, Panagiotis Germanakos, Panagiotis Zaharias, and George Samaras. 2012. Adaptivity Considerations for Enhancing User-Centric Web Experience. In The Fifth International Conference on Advances in Computer-Human Interactions (ACHI 2012), 348--353.
+Luca Colombo, and Monica Landoni. 2014. A diary study of children's user experience with EBooks using flow theory as framework. In Proceedings of the 2014 conference on Interaction design and children, 135--144. Google Scholar
+Reeva Lederman, Greg Wadley, John Gleeson, Sarah Bendall, and Mario Álvarez-Jiménez. 2014. Moderated online social therapy: Designing and evaluating technology for mental health. ACM Transactions on Computer-Human Interaction 21, 1: 5. Google Scholar
+Philip Lew, Luis Olsina, and Li Zhang. 2010. Integrating quality, quality in use, actual usability and user experience. In 6th Central and Eastern European Software Engineering Conference (CEE-SECR), 117--123.Google Scholar
+Llúcia Masip, Marta Oliva, and Toni Granollers. 2012. The open repository of heuristics. In Proceedings of the 13th International Conference on Interacción Persona-Ordenador, 4. Google Scholar
+Pejman Mirza-Babaei, and Lennart Nacke. 2014. Introducing the biometric storyboards tool for games user research. In Games Media Entertainment (GEM), 1--7.
+Georg Regal, Marc Busch, Christina Hochleitner, Peter Wokerstorfer, and Manfred Tscheligi. 2014. TACTUX: a tactile user experience assessment board. In Proceedings of the 8th Nordic Conference on Human-Computer Interaction: Fun, Fast, Foundational, 983--986. Google Scholar
+Jacopo Staiano, María Menéndez, Alberto Battocchi, Antonella De Angeli, and Nicu Sebe. 2012. UX_Mate: from facial expressions to UX evaluation. In Proceedings of the Designing Interactive Systems Conference, 741--750. Google Scholar
+Jeroen Vanattenhoven, and Dries De Roeck. 2009. Investigating the Use of the Experience Clip Method. In International Conference on User Centric Media, 79--86.
+#----------------------#
+Authors: ['João Batista da Silva Júnior', 'Artur Henrique Kronbauer', 'Jorge Campos']
+Title: "A platform for UX assessment based on self-reporting techniques"
+Abstract: "Self-report techniques for capturing User eXperience (UX) are increasingly being used in a variety of contexts. The number of appropriate tools to assist UX evaluators in performing their activities, however, is still quite small. Typically, existing tools provide only one technique, making it difficult to compare and choose the most appropriate technique for a given scenario and the sentiments to be captured. This paper presents the UXSense platform. UXSense aims to help evaluators with the task of selecting the appropriate UX technique, create the forms to execute the evaluation and offer the computational infrastructure to capture, analyze and present the data. To identify the limitations and potentialities of the platform, a pilot test was carried out with university students who were being submitted to active educational methodologies in the discipline of Human-Computer Interaction. Based on the evaluation of the results, it was collected some evidence indicating that the use of the platform can help the UX evaluators to carry out their activities in different contexts, using different techniques of UX capture and according to the types of feelings to be measured."
+Conference: "IHC '19: Proceedings of the 18th Brazilian Symposium on Human Factors in Computing Systems"
+Date: "October 2019"
+IDS: "Article No.: 3"
+Page range: "Pages   1–10"
+DOI: "10.1145/3357155"
+ISBN: "9781450369718"
+Total Citations: "0"
+Total Downloads: "15"
+References: 
+Margaret M. Bradley and Peter J. Lang. 1994. Measuring emotion: The self-assessment manikin and the semantic differential. Journal of Behavior Therapy and Experimental Psychiatry 25, 1 (1994), 49--59. arXiv:0005-7916(93)E0016-Z Google Scholar
+João Batista da Silva and Artur Henrique Kronbauer. 2018. A new approach to identifying the potentialities of User Experience techniques. In Proceedings of the 24th Brazilian Symposium on Multimedia and the Web - WebMedia '18. ACM Press, New York, New York, USA, 291--294. Google Scholar
+Jelle R Dalenberg, Swetlana Gutjar, Gert J ter Horst, Kees de Graaf, Remco J Renken, and Gerry Jager. 2014. Evoked emotions predict food choice. PloS one 9, 12 (2014), e115388.Google Scholar
+Pieter Desmet. 2005. Measuring emotions: Development and application of an instrument to measure emotional responses to products. In Funology: from usability to enjoyment. 111--123. Google Scholar
+Pma Desmet, Paul Hekkert, and Jj Jacobs. 2000. When a car makes you smile: Development and application of an instrument to measure product emotions. Advances in consumer research 27, 1 (2000), 111--117. https://doi.org/citeulike-article-id:2771940
+Aline Diesel, Alda Leila Santos Baldez, Silvana Neumann Martins, and Silvana Neumann Martins. 2017. Os princ{\'\i}pios das metodologias ativas de ensino: uma abordagem teórica. Revista Thema 14, 1 (feb 2017), 268--288. Google Scholar
+International Organization for Standardization. 2010. Ergonomics of Human-system Interaction: Part 210: Human-centred Design for Interactive Systems. ISO.
+Marc Hassenzahl, Michael Burmester, and Franz Koller. 2003. AttrakDiff: Ein Fragebogen zur Messung wahrgenommener hedonischer und pragmatischer Qualität. 187--196. Google Scholar
+Elaine Hayashi, Julián E Gutiérrez Posada, Vanessa RML Maike, and M Cecília C Baranauskas. 2016. Exploring new formats of the Self-Assessment Manikin in the design with children. In Proceedings of the 15th Brazilian Symposium on Human Factors in Computing Systems. ACM, 27.Google Scholar
+Xun Huang and Ping Dong. 2018. Romantic Crushes Promote Variety-Seeking Behavior. Journal of Consumer Psychology (2018).
+Reed Larson and Mihaly Csikszentmihalyi. 2014. The experience sampling method. In Flow and the foundations of positive psychology. 21--34. Google Scholar
+Effie Lai-Chong Law, Virpi Roto, Marc Hassenzahl, Arnold POS Vermeeren, and Joke Kort. 2009. Understanding, scoping and defining user experience: a survey approach. In Proceedings of the SIGCHI conference on human factors in computing systems. ACM, 719--728.
+Xiao Liu and Kiju Lee. 2018. Optimized Facial Emotion Recognition Technique for Assessing User Experience. In 2018 IEEE Games, Entertainment, Media Conference (GEM). IEEE, 1--9.
+Camila Loiola Brito Maia and Elizabeth Sucupira Furtado. 2016. A systematic review about user experience evaluation. In International Conference of Design, User Experience, and Usability. Springer, 445--455.
+Mar\'\ilia S Mendes, Elizabeth Furtado, Vasco Furtado, and Miguel F de Castro. 2014. How do users express their emotions regarding the social system in use? A classification of their postings by using the emotional analysis of Norman. In International Conference on Social Computing and Social Media. Springer, 229--241.Google Scholar
+Marlene Gonçalves Oliveira and Letícia Pontes. 2011. Metodologia Ativa no Processo de Aprendizado do Conceito de Cuidar - Um Relato de Experiência. X Congresso Nacional de Educação - EDUCERE (2011). Google Scholar
+Alvaro Ortigosa, José M Martín, and Rosa M Carro. 2014. Sentiment analysis in Facebook and its application to e-learning. Computers in human behavior 31 (2014), 527--541.
+Jenny Preece, Yvonne Rogers, and Helen Sharp. 2005. Design de interação. bookman.
+Luis Rivero and Tayana Conte. 2017. A systematic mapping study on research contributions on UX evaluation technologies. In Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems. ACM, 5. Google Scholar
+James A. Russell. 1980. A circumplex model of affect. Journal of Personality and Social Psychology 39, 6 (1980), 1161--1178. Google Scholar
+James A. Russell, Anna Weiss, and Gerald A. Mendelsohn. 1989. Affect Grid: A single-item scale of pleasure and arousal. Journal of Personality and Social Psychology 57, 3 (1989), 493--502. Google Scholar
+Hassan Saif, Miriam Fernandez, Yulan He, and Harith Alani. 2013. Evaluation datasets for Twitter sentiment analysis: a survey and a new dataset, the STS-Gold. (2013).
+Kim Schouten and Flavius Frasincar. 2016. Survey on aspect-level sentiment analysis. IEEE Transactions on Knowledge and Data Engineering 28, 3 (2016), 813--830.Google Scholar
+Xu Sun, Andrew May, and Qingfeng Wang. 2016. The impact of user-and system-initiated personalization on the user experience at large sports events. Applied ergonomics 54 (2016), 1--9.
+Arnold POS Vermeeren, Effie Lai-Chong Law, Virpi Roto, Marianna Obrist, Jettie Hoonhout, and Kaisa Väänänen-Vainio-Mattila. 2010. User Experience Evaluation Methods: Current State and Development Needs. In Proceedings of the 6th Nordic Conference on Human-Computer Interaction: ExtendingBoundaries (NordiCHI '10). ACM, New York, NY, USA, 521--530. Google Scholar
+David Watson, Lee Anna Clark, and Auke Tellegen. 1988. Development and validation of brief measures of positive and negative affect: The PANAS scales. Journal of Personality and Social Psychology 54, 6 (1988), 1063--1070. arXiv:arXiv:1011.1669v3 Google Scholar
+Richard Welke, Rudy Hirschheim, and Andrew Schwarz. 2011. Service-oriented architecture maturity. Computer 44, 2 (2011), 61--67. Google Scholar
+Kui Xie, Benjamin C Heddy, and Barbara A Greene. 2019. Affordances of using mobile technology to support experience-sampling method in examining college students' engagement. Computers & Education 128 (2019), 183--198.Google Scholar
+#----------------------#
+Authors: ['Luana Müller', 'Milene Selbach Silveira', 'Clarisse Sieckenius de Souza']
+Title: "Do I Know What My Code is "Saying"?: A study on novice programmers' perceptions of what reused source code may mean"
+Abstract: "Software development practices rely extensively on reusing source code written by other programmers. One of the recurring questions about such practice is how much programmers, acting as users of somebody else's code, really understand about the source code that they inject it in their own programs. The question is even more important for novices, who are trying to learn what programming is and how it should be practiced in larger scale. In this paper we present the results of an ongoing research using a semiotic approach to investigate how programmers send and receive, through messages inscribed in the source code of the programs they write or reuse, implicit and explicit communication about what such source code "means" to them and others. We carried out two studies with novice programmers and results suggest that source code reuse may impact the comprehension that programmers have about their own source code. In addition, how it impacts their understanding about the messages that are being communicated through their programs."
+Conference: "IHC 2018: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems"
+Date: "October 2018"
+IDS: "Article No.: 17"
+Page range: "Pages   1–10"
+DOI: "10.1145/3274192"
+ISBN: "9781450366014"
+Total Citations: "0"
+Total Downloads: "48"
+References: 
+Eran Avidan and Dror G. Feitelson. 2017. Effects of Variable Names on Comprehension: An Empirical Study. In 2017 IEEE/ACM 25th International Conference on Program Comprehension (ICPC). 55--65. Google Scholar
+Liam Bannon. 2011. Reimagining HCI: Toward a More Human-centered Perspective, interactions 18, 4 (July 2011), 50--57. Google Scholar
+Jennie Carrol, Steve Howard, Jane Peck, and John Murphy. 2002. A field study of perceptions and use of mobile telephones by 16 to 22 years old. Journal of Information Technology Theory and Application 4, 2 (2002), 49--61.
+Sangil Choi. 2016. Understanding people with human activities and social interactions for human-centered computing. Human-centric Computing and Information Sciences 6, 1 (05 Jul 2016), 9. Google Scholar
+Clarisse Sieckenius de Souza. 2005. The Semiotic Engineering of Human-Computer Interaction (Acting with Technology). The MIT Press. Google Scholar
+Clarisse Sieckenius de Souza, Renato F. de G. Cerqueira, Luiz Marques Afonso, Rafael R. de M. Brandão, and Juliana S. J. Ferreira. 2016. Software Developers As Users: Semiotic Investigations in Human-Centered Software Development (1st ed.). Springer Publishing Company, Incorporated. Google Scholar
+Paul Dourish. 2003. The Appropriation of Interactive Technologies: Some Lessons from Placeless Documents. Computer Supported Cooperative Work (CSCW) 12, 4 (01 Dec 2003), 465--490. Google Scholar
+Umberto Eco. 1976. A Theory of Semiotics. Indiana University Press. https://books.google.com.br/books?id=BoXO4ItsuaMC
+Alessio Gaspar and Sarah Langevin. 2007. Restoring "Coding with Intention" in Introductory Programming Courses. In Proceedings of the 8th ACM SIGITE Conference on Information Technology Education (SIGITE '07). ACM, New York, NY, USA, 91--98. Google Scholar
+Alexandra Georgakopoulou. 2011. Pragmatics in Practice. John Benjamins Publishing, 326.
+Christopher M. Hoadley, Marcia C. Linn, Lydia M. Mann, and Michael J. Clancy. 1996. When and why do novice programmers reuse code? Ablex Publishing Company, 109--130.
+Alejandro Jaimes, Daniel Gatica-Perez, Thomas S. Huang, and Nicu Sebe. 2007. Guest Editors' Introduction: Human-Centered Computing--Toward a Human Revolution. Computer 40 (05 2007), 30--34. Google Scholar
+John Kammersgaard. 1988. Four Different Perspectives on Human-computer Interaction. Int. J. Man-Mach. Stud. 28, 4 (April 1988), 343--362. Google Scholar
+Caitlin Kelleher and Randy Pausch. 2005. Lowering the Barriers to Programming: A Taxonomy of Programming Environments and Languages for Novice Programmers. ACM Comput. Surv. 37, 2 (June 2005), 83--137. Google Scholar
+Walid Maalej, Rebecca Tiarks, Tobias Roehm, and Rainer Koschke. 2014. On the Comprehension of Program Comprehension. ACM Trans. Softw. Eng. Methodol. 23, 4, Article 31 (Sept. 2014), 37 pages. Google Scholar
+Katherine Malan and Ken Halland. 2004. Examples That Can Do Harm in Learning Programming. In Companion to the 19th Annual ACM SIGPLAN Conference on Object-oriented Programming Systems, Languages, and Applications (OOPSLA '04). ACM, New York, NY, USA, 83--87. Google Scholar
+Luana Müller, Milene Selbach Silveira, and Clarisse Sieckenius de Souza. 2015. Mine, Yours, Ours: Examples Reuse and the Self-expression of Programming Students. In Proceedings of the 14th Brazilian Symposium on Human Factors in Computing Systems (IHC '15). ACM, New York, NY, USA, Article 30, 10 pages. Google Scholar
+Brad A. Myers, Andrew J. Ko, Thomas D. LaToza, and YoungSeok Yoon. 2016. Programmers Are Users Too: Human-Centered Methods for Improving Programming Tools. Computer 49, 7 (July 2016), 44--52.
+Lisa R. Neal. 1989. A System for Example-based Programming. SIGCHI Bull. 20, SI (March 1989), 63--68. Google Scholar
+Charles S. Peirce, Charles Hartshorne, and Paul Weiss. 1932. Collected Papers of Charles Sanders Peirce. Belknap Press of Harvard University Press. https://books.google.com.br/books?id=u9fWAAAAMAAJ
+Donald A. Schön. 2017. The Reflective Practitioner: How Professionals Think in Action. Taylor & Francis. https://books.google.com.br/books?id=OT9BDgAAQBAJ
+Manuel Sojer. 2010. Reusing Open Source Code: Value Creation and Value Appropriation Perspectives on Knowledge Reuse. Gabler Verlag. https://books.google.com.br/books?id=-z60hspDTIAC
+Gunnar Stevens, Volkmar Pipek, and Volker Wulf. 2009. Appropriation Infrastructure: Supporting the Design of Usages. Springer Berlin Heidelberg, Berlin, Heidelberg, 50--69.
+James V. Wertsch. 1998. Mind as Action. Oxford University Press. https://books.google.com.br/books?id=73Vv7Y3vf14C
+Jeannette M. Wing. 2006. Computational Thinking. Commun. ACM 49, 3 (March 2006), 33--35. Google Scholar
+#----------------------#
+Authors: ['Rodrigo Freese Gonzatto', 'Frederick M. C. van Amstel']
+Title: "Designing oppressive and libertarian interactions with the conscious body"
+Abstract: "Human-Computer Interaction literature often includes the allegory of computers oppressing users through badly designed interfaces. Analyzing this oppression relation through the critical pedagogy of Paulo Freire, it is possible to say that computers are not oppressors, yet they can be considered oppressive if one social group is using it to oppress another. This article introduces an alternative proposal that appropriates the computer as a space of possibilities to overcome oppression relations, similarly to the Theater of the Oppressed of Augusto Boal. An experiment of critical pedagogy in Interaction Design confirmed the effectiveness human body as a fulcrum to the interaction design project and as a springboard to understanding and overcoming oppressions mediated by the computer."
+Conference: "IHC 2017: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems"
+Date: "October 2017"
+IDS: "Article No.: 22"
+Page range: "Pages   1–10"
+DOI: "10.1145/3160504"
+ISBN: "9781450363778"
+Total Citations: "0"
+Total Downloads: "37"
+References: 
+Augusto Boal. 2013. Teatro do oprimido. Cosac Naify, São Paulo.
+Clarisse Sieckenius de Souza. 2005. The Semiotic Engineering of Human-Computer Interaction. MIT Press, Cambridge, MA.
+Paul Dourish. 2004. Where the action is: the foundations of embodied interaction. MIT Press, Cambridge, MA.
+Anthony Dunne. 1999. Hertzian tales: Electronic products, aesthetic experience and critical design. CRD Research, London. Google Scholar
+Anthony Dunne and Fiona Raby. 2001. Design Noir: The Secret life of Eletronic Objects. August/Birkhäuser, London/Basel.
+Pelle Ehn. 1988. Work-oriented design of computer artifacts. Arbetslivscentrum, Stockholm. Google Scholar
+Pelle Ehn. 2008. Participation in design things. In Proceedings of the tenth anniversary conference on participatory design (PDC'08), 92--101. http://dl.acm.org/citation.cfm?id=1795234.1795248 Google Scholar
+Pelle Ehn, Elisabet M. Nilsson, and Richard Topgaard. 2014. Making futures: Marginal notes on innovation, design, and democracy. MIT Press, Cambridge, MA. Google Scholar
+Paulo Freire. 1977. Extensão ou comunicação? Paz e Terra, Rio de Janeiro.
+Paulo Freire. 1984. A máquina está a serviço de quem? Revista BITS. São Paulo 1, 6.
+Paulo Freire. 1987. Pedagogia do Oprimido. Paz e Terra, Rio de Janeiro.
+Paulo Freire. 1997. Professora sim, tia não: cartas a quem ousa ensinar. Olho d'Água, São Paulo.
+Paulo Freire. 2016. Conscientização. Cortez, São Paulo.
+James J. Gibson. 1986. The ecological approach to visual perception. Psychology Press, New York.
+Rodrigo Freese Gonzatto. 2014. Design de Interação e a amanualidade em Álvaro Vieira Pinto. Dissertação de mestrado. Programa de Pós-Graduação em Tecnologia (PPGTE) da Universidade Tecnológica Federal do Paraná (UTFPR), Curitiba.
+Rodrigo Freese Gonzatto and Luiz Ernesto Merkle. 2016. Amanualidade em Álvaro Vieira Pinto: desenvolvimento situado de técnicas, conhecimentos e pessoas. Educação Unisinos (Online), 20: 289--298.
+Rodrigo Freese Gonzatto, Frederick M. C. van Amstel, Luiz Ernesto Merkle, and Timo Hartmann. 2013. The ideology of the future in design fictions. Digital Creativity 24, 1: 36--45.Google Scholar
+Paul Green and Lisa Wei-Hass. 1985. The Rapid Development of User Interfaces: Experience with the Wizard of OZ Method. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting. 29, 5: 470--474.Google Scholar
+Victor Kaptelinin and Bonnie A. Nardi. 2005. Acting with Technology: Activity theory and Interaction Design. MIT Press, Cambridge, MA. Google Scholar
+Gustavo Kira. 2016. Trajetórias no design de interação de terceira onda: participações, seus rastros, suas viradas. Dissertação de mestrado. Programa de Pós-Graduação em Tecnologia (PPGTE) da Universidade Tecnológica Federal do Paraná (UTFPR), Curitiba.
+Brenda Laurel. 1993. Computers as Theatre. Addison-Wesley, Pennsylvania. Google Scholar
+Luiz Ernesto Merkle. 2000. O Interagir Humano Computacional: Mapeando relações heterodisciplinares. Datagramazero 1, 2: A02-0. http://basessibi.c3sl.ufpr.br/brapci/v/a/7833
+Peri Mesquida. 2010. O corpo negado: corpo, violência e educação à luz do pensamento libertário de Paulo Freire. Múltiplas Leituras 3, 1--2: 224--236.
+Anamaria de Moraes and Claudia Mont'Alvão. 1998. Ergonomia: conceitos e aplicações. 2AB, Rio de Janeiro.
+Herivelto Moreira and Luiz Gonzaga Caleffe. 2006. Metodologia da pesquisa para o professor pesquisador. DP&A, Rio de Janeiro.
+Jakob Nielsen. 2000. Projetando websites. Elsevier, Rio de Janeiro.
+Adriano Nogueira (ed.). 1996. Reencontrar o corpo: ciência, arte, educação e sociedade. GEIC, Taubaté, SP.
+Donald A. Norman. 2006. O Design do Dia-a-Dia. Rocco, Rio de Janeiro.
+Donald A. Norman and Stephen W. Draper. 1986. User Centered System Design: New Perspectives on Human-Computer Interaction. L. Erlbaum Associates, Hillsdale, NJ. Google Scholar
+Antti Oulasvirta, Esko Kurvinen, and Tomi Kankainen. 2003. Understanding Contexts by Being There: Case Studies in Bodystorming. Personal Ubiquitous Comput. 7, 2: 125--134. Google Scholar
+Yolanda Jacobs Reimer and Sarah A. Douglas. 2003. Teaching HCI Design With the Studio Approach. Computer Science Education 13, 3: 191--205.Google Scholar
+Dan Saffer. 2006. Designing for Interaction: Creating Smart Applications and Clever Devices. Peachpit Press, Berkeley, CA. Google Scholar
+Dennis Schleicher, Peter Jones, and Oksana Kachur. 2010. Bodystorming As Embodied Designing. Interactions 17, 6: 47--51. http://dl.acm.org/citation.cfm?id=1865256 Google Scholar
+Donald A. Schön. 2000. Educando o profissional reflexivo: um novo design para o ensino e a aprendizagem. Artmed, São Paulo.
+Clay Spinuzzi. 2003. Tracing genres through organizations: A sociocultural approach to information design. MIT Press, Cambridge, MA.
+Clay Spinuzzi. 2005. The methodology of participatory design. Technical communication. 52.2: 163--174. http://www.ingentaconnect.com/content/stc/tc/2005/00000052/00000002/art00005
+Frederick M. C. van Amstel. 2008. Design Participativo numa comunidade de Software Livre: o caso do website BrOffice.org. In Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems (IHC'08), 256--259. http://dl.acm.org/citation.cfm?id=1497470.1497501 Google Scholar
+Frederick M. C. van Amstel and Julia A. Garde. 2016. The Transformative Potential of Game Spatiality in Service Design. Simulation & Gaming 47.5: 628--650. Google Scholar
+Caio Adorno Vassão. 2006. Elementos iniciais para o antropomorfismo do projeto e do design. In Corpo e Subjetividade, Wilton Garcia (ed.). Factash Editora, São Paulo, 211--222.
+Caio Adorno Vassão. 2008. Arquitetura Livre: Complexidade, Metadesign e Ciência Nômade. Tese de doutorado. Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo (USP), São Paulo.
+Álvaro Vieira Pinto. 2005. O Conceito de Tecnologia. Editora Contraponto, Rio de Janeiro.
+Terry Winograd and Fernando Flores. 1987. Understanding Computers and Cognition. Ablex Publishing Corp., Norwood, NJ, USA. Google Scholar
+Richard Saul Wurman. 1991. Ansiedade de informação. Cultura Editores Associados, São Paulo.
+#----------------------#
+Authors: ['Vinicius Kruger da Costa', 'Andreia Sias Rodrigues', 'Krishna Ferreira Xavier', 'Juliana Peglow', 'Rafael Cunha Cardoso', 'Tatiana Aires Tavares']
+Title: "Best practices for Graphical User Interfaces design with interaction based on head movements"
+Abstract: "The availability of various interaction devices is a reality that expands the potential of user interface design. Traditional keyboard and mouse duet are replaced for new ways of input that use user's body as a means of interaction. However, Graphical User Interfaces (GUI) are still the major output when we analyze the form of display and feedback directed to the user. Therefore, it is necessary to rethink the design of the interaction when the devices used exploit other users' abilities in order to stimulate a better experience of using these devices when in conjunction with an IGU. In this context, the objective of this paper is to propose best practices for IGU projects that use interaction based on head movement tracking. We used the results of a Systematic Review of the Literature and a practical experiment trying to compare efficiency, effectiveness, user experience and interaction characteristics."
+Conference: "IHC 2017: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems"
+Date: "October 2017"
+IDS: "Article No.: 14"
+Page range: "Pages   1–10"
+DOI: "10.1145/3160504"
+ISBN: "9781450363778"
+Total Citations: "0"
+Total Downloads: "74"
+References: 
+Amer Al-Rahayfeh and Miad Faezipour. 2013. Eye tracking and head movement detection: A state-of-art survey. IEEE journal of translational engineering in health and medicine 1 (2013), 2100212.
+Rui Antunes, Luis Brito Palma, Fernando Coito, Hermínio Duarteramos, and Paulo Gil. 2016. Intelligent human-computer interface for improving pointing device usability and performance. In 12th International Conference on Control and Automation (ICCA), 2016. 714--719.Google Scholar
+Simone Diniz Junqueira Barbosa and Bruno Santana Silva. 2010. Interação Humano-Computador. Campus Elsevier, Rio de Janeiro.
+Margrit Betke, James Gips, and Peter Fleming. 2002. The camera mouse: visual tracking of body features to provide computer access for people with severe disabilities. IEEE Transactions on neural systems and Rehabilitation Engineering 10, 1 (2002), 1--10.Google Scholar
+Zhen-Peng Bian, Junhui Hou, Lap-Pui Chau, and Nadia Magnenat-Thalmann. 2016. Facial Position and Expression-Based Human--Computer Interface for Persons With Tetraplegia. IEEE journal of biomedical and health informatics 20, 3 (2016), 915--924.
+Pradipta Biswas and Pat Langdon. 2015. Multimodal intelligent eye-gaze tracking system. International Journal of Human-Computer Interaction 31, 4 (2015), 277--294.Google Scholar
+Rafael Cardoso, Vinícius Costa, Andreia Rodrigues, Tatiana Tavares, Krishna Xavier, Jamir Peroba, Juliana Peglow, and Cleber Quadros. 2016. Doce Labirinto: Experiência de jogo utilizando interação baseada em movimentos da cabeça e recursos tangíveis. In Anais XV Simpósio Brasileiro de Jogos e Entretenimento Digital (SBGames 2016). 563--572. http://www.sbgames.org/sbgames2016/downloads/anais/157589.pdf
+Alejandro Clemotte, Rafael Raya, Ramón Ceres, and Eduardo Rocon. 2013. Preliminary result from a multimodal interface for cerebral palsy users based on eye tracking and inertial technology. In Converging Clinical and Engineering Research on Neurorehabilitation. 443--448.
+Vinicius Costa, Andréia Rodrigues, Rafael Cardoso, and Tatiana Tavares. 2016. Investigação preliminar sobre Interfaces de Usuário em produtos de Tecnologia Assistiva. In Anais XVII Encontro de Pós Graduação da Universidade Federal de Pelotas. http://cti.ufpel.edu.br/siepe/arquivos/2016/CE_04411.pdf
+Adriano Cruz, Henrique Serdeira, João Assis, José Borges, José Araújo, Márcia Soeiro, Marcos Carvalho, and Mário Barbosa. 2015. New Solutions for Old Problems: Use of Interfaces Human/Computer to Assist People with Visual and/or Motor Impairment in the Use of DOSVOX and microFênix. In New Contributions in Information Systems and Technologies. 1073--1079.
+Alessandro Ferreira, Leonardo de Miranda, and Erica de Miranda. 2012. Interfaces cérebro-computador de sistemas interativos: estado da arte e desafios de IHC. In Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems (IHC '12). 239--248. http://dl.acm.org/citation.cfm?id=2393536.2393572 Google Scholar
+Maria Hakonen, Harri Piitulainen, and Arto Visala. 2015. Current state of digital signal processing in myoelectric interfaces and related applications. Biomedical Signal Processing and Control 18 (2015), 334--359.Google Scholar
+Peter Heumader, Klaus Miesenberger, and Gerhard Nussbaum. 2012. Gravity controls for windows. In Computers Helping People with Special Needs. 157--163. Google Scholar
+Xueliang Huo. 2011. Tongue drive: a wireless tongue-operated assistive technology for people with severe disabilities. Ph.D. Dissertation. Georgia Institute of Technology.
+IBGE. 2010. Instituto Brasileiro de Geografia e Estatística - Censo Demográfico. (2010). Retrieved February 02, 2017 from www.ibge.gov.br/home/estatistica/populacao/censo2010.
+Marcelo Archajo Jose and Roseli de Deus Lopes. 2015. Human-computer interface controlled by the lip. IEEE journal of biomedical and health informatics 19, 1 (2015), 302--308.
+Alexey Karpov and Andrey Ronzhin. 2014. A universal assistive technology with multimodal input and multimedia output interfaces. In Universal Access in Human-Computer Interaction. Design and Development Methods for Universal Access: 8th International Conference (UAHCI 2014), Vol. 8513. 369--378.Google Scholar
+Pamela C. Levy, Nirvana S. Antonio, Thales R. B. Souza, Rogério Caetano, and Priscila G. Souza. 2013. ActiveIris: Uma Solução Para Comunicação Alternativa e Autonomia De Pessoas Com Deficiência Motora Severa. In Proceedings of the 12th Brazilian Symposium on Human Factors in Computing Systems (IHC '13). 42--51. http://dl.acm.org/citation.cfm?id=2577101.2577113 Google Scholar
+Ian Scott Mackenzie. 2016. FittsTaskTwo (2D) - FittsLaw Software. (2016). Retrieved November 19, 2016 from www.yorku.ca/mack/FittsLawSoftware.
+Joanna Marnik. 2014. BlinkMouse-On-Screen Mouse Controlled by Eye Blinks. In Information Technologies in Biomedicine. Vol. 4. 237--248.
+João Martins, João Rodrigues, and Jaime Martins. 2015. Low-cost natural interface based on head movements. Procedia Computer Science 67 (2015), 312--321.Google Scholar
+Davide Mulfari, Antonio Celesti, Maria Fazio, and Massimo Villari. 2015. Human-Computer Interface Based on IoT Embedded Systems for Users with Disabilities. In Lecture Notes of the Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering, LNICST. Vol. 150. 376--383.
+Moyen Mohammad Mustaquim. 2013. Automatic speech recognition-an approach for designing inclusive games. Multimedia tools and applications 66, 1 (2013), 131--146. Google Scholar
+Adam Nowosielski. 2016. Minimal Interaction Touchless Text Input with Head Movements and Stereo Vision. In Computer Vision and Graphics: International Conference, Proceedings (ICCVG 2016). 233--243.
+Diogo Pedrosa and Maria da Graça C Pimentel. 2014. Text entry using a foot for severely motor-impaired individuals. In Proceedings of the 29th Annual ACM Symposium on Applied Computing. 957--963. Google Scholar
+César Augusto Martins Pereira. 2009. Desenvolvimento e avaliação de uma interface homem-computador, com as funções de um "mouse", controlada pelo movimento da cabeça para uso em pessoas com deficiências físicas. Ph.D. Dissertation. Universidade de São Paulo.
+Claudia Perez-Maldonado, Anthony Wexler, and Sanjay Joshi. 2010. Two-dimensional cursor-to-target control from single muscle site sEMG signals. IEEE Transactions on Neural Systems and Rehabilitation Engineering 18, 2 (2010), 203--209.Google Scholar
+Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson. 2008. Systematic Mapping Studies in Software Engineering.. In Proceedings of the 12th international conference on Evaluation and Assessment in Software Engineering (EASE'08), Vol. 8. 68--77. http://dl.acm.org/citation.cfm?id=2227115.2227123 Google Scholar
+Jenny Preece, Yvonne Rogers, and Helen Sharp. 2013. Design de Interação - 3ed. Bookman Editora.
+Yashar Abbasalizadeh Rezaei, Gernot Heisenberg, and Wolfgang Heiden. 2014. User Interface Design for Disabled People Under the Influence of Time, Efficiency and Costs. In International Conference on Human-Computer Interaction (IHC '14). 197--202.
+Andréia Rodrigues, Vinicius da Costa, Márcio Machado, Angélica Rocha, Joana de Oliveira, Marcelo Machado, Rafael Cardoso, Cleber Quadros, and Tatiana Tavares. 2016. Evaluation of the Use of Eye and Head Movements for Mouse-like Functions by Using IOM Device. In International Conference on Universal Access in Human-Computer Interaction (IHC '16). 81--91.Google Scholar
+Kristen Shinohara and Jacob O. Wobbrock. 2016. Self-Conscious or Self-Confident? A Diary Study Conceptualizing the Social Accessibility of Assistive Technology. ACM Transactions on Accessible Computing 8, 2 (2016), 1--31. Google Scholar
+#----------------------#
