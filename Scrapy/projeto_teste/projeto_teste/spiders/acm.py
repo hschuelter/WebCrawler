@@ -16,8 +16,6 @@ class ACM_Spider(scrapy.Spider):
         "https://dl.acm.org/doi/10.1145/3160504.3160542", # "Designing..."      (IHC 2017)
         "https://dl.acm.org/doi/10.1145/3160504.3160512"  # "A Systematic..."   (IHC 2017)
      ]
-    # "https://dl.acm.org/doi/10.1145/3357155.3358455" -> "A proposal to adapt..."  (IHC 2019)
-    # "https://dl.acm.org/doi/10.1145/3160504.3160512" -> "A Systematic Mapping..." (IHC 2017) 
 
 
     def get_authors(self, response):
@@ -110,14 +108,10 @@ class ACM_Spider(scrapy.Spider):
     def get_doi(self, response):
         # Não está pegando certo!
         doi = ""
-        for doi_raw in response.xpath("//div[@class='flex-container']"):
-            description = doi_raw.xpath("./span[@class='bold']/text()").extract_first()
-            content = doi_raw.xpath("./span[@class='space']/text()").extract_first()
 
-            if( description is None):
-                break
-            elif( "DOI" in description ):
-                doi = content.strip()
+        for doi_raw in response.xpath("//input[@name='doiVal']"):
+            content = doi_raw.xpath("./@value").extract_first()
+            doi = content.strip()
 
         return doi
     
@@ -138,7 +132,7 @@ class ACM_Spider(scrapy.Spider):
     ##############################################
     
     def export(self, article_authors, article_title, article_abstract, article_conference, article_date, article_ids, article_pagerange, article_doi, article_isbn, article_total_citations, article_total_downloads, article_references):
-        filename = "Data/teste.data"
+        filename = "Data/teste2.data"
         f = open(filename, "a")
 
         print("Authors: ", end="", file=f)
