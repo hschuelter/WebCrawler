@@ -1,0 +1,4 @@
+BBBBBBBBBBBBB
+=========================
+Title: ""Sequence Pattern Mining with Variables""
+=========================
