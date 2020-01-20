@@ -1,0 +1,12 @@
+=========================
+Authors: ['James S. Okolica', 'Gilbert L. Peterson', 'Robert F. Mills', 'Michael R. Grimaila']
+
+Title: "Sequence Pattern Mining with Variables"
+
+Abstract: "Sequence pattern mining (SPM) seeks to find multiple items that commonly occur together in a specific order. One common assumption is that the relevant differences between items are captured through creating distinct items. In some domains this leads to an exponential increase in the number of items. This paper presents a new SPM Sequence Mining of Temporal Clusters (SMTC) that allows item differentiation through attribute variables for domains with large numbers of items. It also provides a new technique for addressing interleaving a phenomena that occurs when two sequences occur simultaneously resulting in their items alternating. By first clustering items temporally and only focusing on sequences after the temporal clusters are established it sidesteps the traditional interleaving issues. SMTC is evaluated on a digital forensics dataset a domain with a large number of items and frequent interleaving. Its results are compared with Discontinuous Varied Order Sequence Mining (DVSM) with variables added (DVSM-V). By adding variables both algorithms reduce the data by 96 percent and identify 100 percent of the events while keeping the false positive rate below 0.03 percent. SMTC mines the data in 20 percent of the time it takes DVSM-V and provides a lower false positive rate even at higher similarity thresholds."
+Journal: "IEEE Transactions on Knowledge and Data Engineering"
+Date: "19 November 2018"
+Pages: "10"
+DOI: "10.1109/TKDE.2018.2881675"
+Keywords: ['data mining', 'digital forensics', 'printers', 'production', 'databases', 'printing', 'government', 'sequence pattern mining', 'variables', 'item attributes', 'interleaving', 'temporal event abstraction']
+=========================
