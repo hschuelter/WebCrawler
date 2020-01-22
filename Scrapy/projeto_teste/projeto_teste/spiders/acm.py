@@ -3,7 +3,8 @@ import scrapy
 
 class ACM_Spider(scrapy.Spider):
     name = "acm"
-    start_urls = [
+
+    test_urls_1 = [
         "https://dl.acm.org/doi/10.1145/3357155.3358455", # "A proposal to ..." (IHC 2019)
         "https://dl.acm.org/doi/10.1145/3357155.3358468", # "A study on ..."    (IHC 2019)
         "https://dl.acm.org/doi/10.1145/3357155.3358485", # "A survey on ..."   (IHC 2019)
@@ -16,6 +17,32 @@ class ACM_Spider(scrapy.Spider):
         "https://dl.acm.org/doi/10.1145/3160504.3160542", # "Designing..."      (IHC 2017)
         "https://dl.acm.org/doi/10.1145/3160504.3160512"  # "A Systematic..."   (IHC 2017)
      ]
+
+    test_urls_2 = [
+        # Data mining
+        "https://dl.acm.org/doi/abs/10.1145/502512.502517",
+        "https://dl.acm.org/doi/abs/10.1145/545151.545180",
+        "https://dl.acm.org/doi/abs/10.5555/1074100.1074308",
+        "https://dl.acm.org/doi/abs/10.1145/233269.280351",
+        "https://dl.acm.org/doi/abs/10.1145/1288552.1288559",
+        # Metaheuristics
+        "https://dl.acm.org/doi/abs/10.1145/937503.937505",
+        "https://dl.acm.org/doi/abs/10.1145/1276958.1277303",
+        "https://dl.acm.org/doi/abs/10.1145/3090354.3090462",
+        "https://dl.acm.org/doi/abs/10.1145/1143997.1144172",
+        "https://dl.acm.org/doi/abs/10.5555/2665008.2665011",
+        # Gamification
+        "https://dl.acm.org/doi/abs/10.1145/2583008.2583029",
+        "https://dl.acm.org/doi/abs/10.1145/3012430.3012600",
+        "https://dl.acm.org/doi/abs/10.5555/2685617.2685674",
+        "https://dl.acm.org/doi/abs/10.1145/2669711.2669895",
+        "https://dl.acm.org/doi/abs/10.1145/3121113.3121205"
+     ]
+    start_urls = test_urls_2
+
+    # start_urls = [
+    #     "https://dl.acm.org/doi/10.1145/3357155.3358455", # "A proposal to ..." (IHC 2019)
+    #  ]
 
 
     def get_authors(self, response):
@@ -41,6 +68,12 @@ class ACM_Spider(scrapy.Spider):
         for abstract_raw in response.xpath("//div[@class='article__section article__abstract hlFld-Abstract']/p"):
             abstract_scraped = abstract_raw.xpath("./text()").extract_first()
             abstract = abstract_scraped.strip()
+
+        if(abstract == ""):
+            for abstract_raw in response.xpath("//div[@class='abstractSection abstractInFull']/p"):
+                abstract_scraped = abstract_raw.xpath("./text()").extract_first()
+                abstract = abstract_scraped.strip()
+
 
         return abstract
 
@@ -132,25 +165,26 @@ class ACM_Spider(scrapy.Spider):
     ##############################################
     
     def export(self, article_authors, article_title, article_abstract, article_conference, article_date, article_ids, article_pagerange, article_doi, article_isbn, article_total_citations, article_total_downloads, article_references):
-        filename = "Data/teste2.data"
+        filename = "Data/acm.data"
         f = open(filename, "a")
 
-        print("Authors: ", end="", file=f)
+        print("\nAuthors: ", end="", file=f)
         print(article_authors, file=f)
-        print("Title: \"" + article_title + "\"", file=f)
-        print("Abstract: \"" + article_abstract + "\"", file=f)
-        print("Conference: \"" + article_conference + "\"", file=f)
-        print("Date: \"" + article_date + "\"", file=f)
-        print("IDS: \"" + article_ids + "\"", file=f)
-        print("Page range: \"" + article_pagerange + "\"", file=f)
-        print("DOI: \"" + article_doi + "\"", file=f)
-        print("ISBN: \"" + article_isbn + "\"", file=f)
-        print("Total Citations: \"" + article_total_citations + "\"", file=f)
-        print("Total Downloads: \"" + article_total_downloads + "\"", file=f)
-        print("References: ", file=f)
+        print("\nTitle: \"" + article_title + "\"", file=f)
+        print("\nAbstract: \"" + article_abstract + "\"", file=f)
+        print("\nConference: \"" + article_conference + "\"", file=f)
+        print("\nDate: \"" + article_date + "\"", file=f)
+        print("\nIDS: \"" + article_ids + "\"", file=f)
+        print("\nPage range: \"" + article_pagerange + "\"", file=f)
+        print("\nDOI: \"" + article_doi + "\"", file=f)
+        print("\nISBN: \"" + article_isbn + "\"", file=f)
+        print("\nTotal Citations: \"" + article_total_citations + "\"", file=f)
+        print("\nTotal Downloads: \"" + article_total_downloads + "\"", file=f)
+        print("\nReferences: ", file=f)
         for r in article_references:
-            print(r, file=f)
-        print("#----------------------#", file=f)
+            print(r,  file=f)
+            print("", file=f)
+        print("\n#----------------------#\n", file=f)
 
         f.close()
 

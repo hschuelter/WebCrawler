@@ -3,7 +3,10 @@ import scrapy
 
 class IEEEX_Spider(scrapy.Spider):
     name = "ieeex"
-    start_urls = [ "https://ieeexplore.ieee.org/document/8540039" ]
+    start_urls = [  "https://ieeexplore.ieee.org/document/8540039",
+                    "https://ieeexplore.ieee.org/document/6971171",
+                    "https://ieeexplore.ieee.org/document/746625",
+                    "https://ieeexplore.ieee.org/document/1425674" ]
 
     ##############################################
 
@@ -76,7 +79,7 @@ class IEEEX_Spider(scrapy.Spider):
         raw_date = raw_metadata.split(',')
         date = ""
         for rt in raw_date:
-            if( '"onlineDate"' in rt ):
+            if( '"journalDisplayDateOfPublication"' in rt ):
                 date = rt
                 break
 
@@ -142,12 +145,13 @@ class IEEEX_Spider(scrapy.Spider):
             if ( not aux in all_keywords ):
                 all_keywords.append( aux )
 
-        authors_keywords = authors_keywords.split('"kwd"')[1]
-        authors_keywords = (authors_keywords[2:-3])
-        for kwd in authors_keywords.split(", "):
-            aux = kwd.strip('"').lower()
-            if ( not aux in all_keywords ):
-                all_keywords.append( aux )
+        if( authors_keywords != ""):
+            authors_keywords = authors_keywords.split('"kwd"')[1]
+            authors_keywords = (authors_keywords[2:-3])
+            for kwd in authors_keywords.split(", "):
+                aux = kwd.strip('"').lower()
+                if ( not aux in all_keywords ):
+                    all_keywords.append( aux )
 
         return all_keywords
 
@@ -201,7 +205,7 @@ class IEEEX_Spider(scrapy.Spider):
         print(keywords)
 
         # print("ISBN: \"" + isbn + "\"")
-        print("=========================")
+        print("=========================\n")
         # # for r in article_references:
         # #     print(">> " + r)
         # print("Num referencias: " + str(len(article_references)))

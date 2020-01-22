@@ -1,497 +1,1293 @@
-Authors: ['Lucas Pedroso Carvalho', 'Raquel Oliveira Prates', 'André Pimenta Freire']
-Title: "A proposal to adapt the semiotic inspection method to analyze screen reader mediated interaction"
-Abstract: "An interactive system with high accessibility and communicability provides many benefits to users' experience. These benefits are mainly related to visually impaired users so that they can achieve their goals in a given context of use. This study presents an analysis of the communication process of the Semiotic Engineering theory applied in the context of visually impaired people who use screen readers. The screen reader mediates the user interaction with the designer's metamessage, acting as a translator. However, the translation can often introduce problems that are not experienced by users who do not use screen readers to interact with the systems. Thus, this paper presents a proposal to adapt the Semiotic Inspection Method (SIM) to analyze the screen reader mediated interaction (SIM-SR). The method includes new steps in the segmented SIM analysis to examine the screen reader translation and the its contrast with the designer's intended metamessage. Hence, SIM-SR allows the evaluator to identify potential accessibility and communicability issues that may impact the personal experience of users interacting through screen reader mediation."
-Conference: "IHC '19: Proceedings of the 18th Brazilian Symposium on Human Factors in Computing Systems"
-Date: "October 2019"
-IDS: "Article No.: 4"
-Page range: "Pages   1–11"
-DOI: "10.1145/3357155"
-ISBN: "9781450369718"
-Total Citations: "0"
-Total Downloads: "12"
-References: 
-Fernando Alonso, José Luis Fuertes, Ángel Lucas González, and Loïc Martínez. 2010. On the Testability of WCAG 2.0 for Beginners. In Proceedings of the 2010 International Cross Disciplinary Conference on Web Accessibility (W4A) (W4A '10). ACM, New York, NY, USA, Article 9, 9 pages. Google Scholar
-Glívia A. R. Barbosa, Raquel O. Prates, and Luiz P. D. Corrêa. 2011. AnÃLise Da Sociabilidade De Comunidades Online Para Os UsuÁRios Surdos: Um Estudo De Caso Do Orkut. In Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction (IHC+CLIHC '11). Brazilian Computer Society, Porto Alegre, Brazil, Brazil, 237--246. http://dl.acm.org/citation.cfm?id=2254436.2254478
-Simone Barbosa and Bruno Silva. 2010. Interação humano-computador. Elsevier Brasil, Brazil.
-Giorgio Brajnik. 2006. Web Accessibility Testing: When the Method is the Culprit. In Proceedings of the 10th International Conference on Computers Helping People with Special Needs (ICCHP'06). Springer-Verlag, Berlin, Heidelberg, 156--163. Google Scholar
-Giorgio Brajnik. 2008. A Comparative Test of Web Accessibility Evaluation Methods. In Proceedings of the 10th International ACM SIGACCESS Conference on Computers and Accessibility (Assets '08). ACM, New York, NY, USA, 113--120. Google Scholar
-Lucas Pedroso Carvalho, Caíque Bruno Fortunato, Raquel Oliveira Prates, and André Pimenta Freire. 2018. Análise de Acessibilidade no Ambiente Virtual de Aprendizagem Moodle: Um Estudo de Caso do Uso do MIS com Leitores de Tela. In Conferência Internacional sobre Informática na Educação, Vol. 14. University of Chile, Chile, 174--185.
-Lucas Pedroso Carvalho, Bruno Piovesan Melchiori Peruzza, Flávia Santos, Lucas Pereira Ferreira, and André Pimenta Freire. 2016. Accessible Smart Cities?: Inspecting the Accessibility of Brazilian Municipalities' Mobile Applications. In Proceedings of the 15th Brazilian Symposium on Human Factors in Computer Systems (IHC '16). ACM, New York, NY, USA, Article 17, 10 pages. Google Scholar
-Luiz Paulo Damilton Corrêa, Flávio R. S. Coutinho, Raquel Oliveira Prates, and Luiz Chaimowicz. 2012. Uso Do MIS Para Avaliar Signos Sonoros: Quando Um Problema de Comunicabilidade se Torna Um Problema de Acessibilidade. In Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems (IHC '12). Brazilian Computer Society, Porto Alegre, Brazil, Brazil, 47--56. http://dl.acm.org/citation.cfm?id=2393536.2393543
-Flávio Coutinho, Raquel O Prates, and Luiz Chaimowicz. 2012. Evaluating and Investigating Game Accessibility for Deaf Players with the Semiotic Inspection Method.
-Presidência da República. 2004. Decreto n°5.296/2004. Brasil. Casa Civil - Subchefia para Assuntos Jurídicos, Brasília.
-Presidência da República. 2015. Lei Brasileira de Inclusão da Pessoa com Deficiência. Brasil. Casa Civil - Subchefia para Assuntos Jurídicos, Brasília.
-Clarisse Sieckenius de Souza. 2005. The Semiotic Engineering of Human-Computer Interaction (Acting with Technology). The MIT Press, London, England.
-Clarisse Sieckenius de Souza, Carla Faria Leitão, Raquel Oliveira Prates, and Elton José da Silva. 2006. The Semiotic Inspection Method. In Proceedings of VII Brazilian Symposium on Human Factors in Computing Systems (IHC '06). ACM, New York, NY, USA, 148--157. Google Scholar
-Clarisse Sieckenius De Souza and Carla Faria Leitão. 2009. Semiotic engineering methods for scientific research in HCI. Synthesis Lectures on Human-Centered Informatics 2, 1 (2009), 1--122.Google Scholar
-Andres Gonzalez and Loretta Guarino Reid. 2005. Platform-independent Accessibility API: Accessible Document Object Model. In Proceedings of the 2005 International Cross-Disciplinary Workshop on Web Accessibility (W4A) (W4A '05). ACM, New York, NY, USA, 63--71. Google Scholar
-ISO. 2008. ISO 9241-171: Ergonomics of Human-System Interaction - Part 171: Guidance on Software Accessibility.
-Andrew Kirkpatrick, Joshue O Connor, Alastair Campbell, and Michael Cooper. 2018. Web Content Accessibility Guidelines (WCAG) 2.1. Disponível em https://www.w3.org/TR/WCAG21/. Último acesso em 7 junho de 2019. World Wide Web Consortium (W3C).
-Aron Daniel Lopes, Vinicius Carvalho Pereira, and Cristiano Maciel. 2017. An analysis of deictic signs in computer interfaces: contributions to the Semiotic Inspection Method. Journal of Visual Languages & Computing 40 (2017), 51--64. Semiotics, Human-Computer Interaction and End-User Development. Google Scholar
-Charles Sanders Peirce. 1992, 1998. The essential Peirce: selected philosophical writings. Vol. 1, 2. Indiana University Press, Bloomington, IN, USA.
-Christopher Power, André Freire, Helen Petrie, and David Swallow. 2012. Guidelines Are Only Half of the Story: Accessibility Problems Encountered by Blind Users on the Web. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '12). ACM, New York, NY, USA, 433--442. Google Scholar
-Raquel O. Prates, Clarisse S. de Souza, and Simone D. J. Barbosa. 2000. Methods and Tools: A Method for Evaluating the Communicability of User Interfaces. interactions 7, 1 (Jan. 2000), 31--38. Google Scholar
-Soraia Reis and Raquel O. Prates. 2011. Applicability of the Semiotic Inspection Method: A Systematic Literature Review. In Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction (IHC+CLIHC '11). Brazilian Computer Society, Porto Alegre, Brazil, Brazil, 177--186. http://dl.acm.org/citation.cfm?id=2254436.2254468
-Eduardo Hideki Tanaka. 2009. Método baseado em heurísticas para avaliação de acessibilidade em sistemas de informação. Ph.D. Dissertation. Universidade Estadual de Campinas, Campinas.
-Francisco A. M. Valério, Tatiane G. Guimarães, Raquel O. Prates, and Heloisa Candello. 2017. Here's What I Can Do: Chatbots' Strategies to Convey Their Features to Users. In Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems (IHC 2017). ACM, New York, NY, USA, Article 28, 10 pages. Google Scholar
-WebAIM. 2017. Screen Reader User Survey #7 Results. Disponível em https://webaim.org/projects/screenreadersurvey7/.
-Yeliz Yesilada, Giorgio Brajnik, and Simon Harper. 2009. How Much Does Expertise Matter?: A Barrier Walkthrough Study with Experts and Non-experts. In Proceedings of the 11th International ACM SIGACCESS Conference on Computers and Accessibility (Assets '09). ACM, New York, NY, USA, 203--210. Google Scholar
-#----------------------#
-Authors: ['Renata Cascaes', 'Kalill Lameira', 'Ricardo Sarmanho', 'Kelly Pinheiro', 'Marcelle Pereira Mota', 'Antônio Pereira', 'Nelson Cruz Sampaio Neto']
-Title: "Adaptation and Automation of a Cancellation Test for Evaluation of Exploratory Visual Behavior"
-Abstract: "Tests that evaluate the individual strategies of visual exploration may be useful for characterizing deviations from typical development, such as autism spectrum disorder and dyslexia. One subgroup of visual exploration tests, called cancellation tests, require the identification of specific targets surrounded by distractors. However, the lack of automated versions of these tests limit their availability to a larger audience. In the present paper, we present an automated version of a cancellation test: the car test. The test is designed to be used by specialists and to be user-friendly optimizing its application and the analysis of collected data. We evaluated the car test in a group of 6-9 y.o. infants enrolled in a private school. The results suggest the car test is effective in providing information about visual exploration strategies of infants and is in agreement with the results of similar tests found in the literature."
-Conference: "IHC 2018: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems"
-Date: "October 2018"
-IDS: "Article No.: 5"
-Page range: "Pages   1–9"
-DOI: "10.1145/3274192"
-ISBN: "9781450366014"
+
+Authors: ['Herb Edelstein']
+
+Title: "Data mining: are we there yet?"
+
+Abstract: "Data mining started its move out of the statistics and machine learning ghettos and into the mainstream almost 10 years ago. With great fanfare and a large influx of venture capital, data mining was going to change the very nature of business. Yet data mining products have had relatively modest success in the marketplace. The reasons include limitations and misplaced emphasis in the products' features and functions, unrealistic expectations set by messages from the data mining community, and a lack of readiness by many prospective users. This session will look at where vendors have succeeded and failed with their products, what expectations users should have, and suggestions for achieving the potential of this exciting and valuable technology."
+
+Conference: "KDD '01: Proceedings of the seventh ACM SIGKDD international conference on Knowledge discovery and data mining"
+
+Date: "August 2001"
+
+IDS: ""
+
+Page range: "Pages   7"
+
+DOI: "10.1145/502512.502517"
+
+ISBN: "158113391X"
+
 Total Citations: "1"
-Total Downloads: "82"
+
+Total Downloads: "432"
+
 References: 
-V Barray, N Biard, D Gadolet, C Guillot, D Templier, and M Lounis. 2002. Voitures: analyse quantitative et qualitative des résultats d'un test d'exploration visuelle. Expériences en ergothérapie (2002).
-Sonia Maria Dozzi Brucki and Ricardo Nitrini. 2008. Cancellation task in very low educated people. Archives of Clinical Neuropsychology 23, 2 (2008), 139--147.
-Desiree A Byrd, Pegah Touradji, Ming-xin Tang, and Jennifer J Manly. 2004. Cancellation test performance in African American, Hispanic, and White elderly. Journal of the International Neuropsychological Society 10, 3 (2004), 401--411.Google Scholar
-Anabela Lajas Cancela. 2014. As implicações da dislexia no processo de aprendizagem na perspectiva dos professores do 1° ciclo do Ensino Básico. Ph.D. Dissertation. Universidade Fernando Pessoa, http://hdl.handle.net/10284/4262.
-Caroline de Oliveira Cardoso, Rochele Ferronato Correa da Silva, and Rochel Paz Fonseca. 2011. Teste de Cancelamento dos Sinos: comparação entre duas versões. Gerais: Revista Interinstitucional de Psicologia 4, 1 (2011), 73--80.
-Gabriel Coutinho, Paulo Mattos, Catia Araújo, and Monica Duchesne. 2007. Transtorno do déficit de atenção e hiperatividade: contribuição diagnóstica de avaliação computadorizada de atenção visual. Revista de Psiquiatria Clínica 34, 5 (2007), 215--222.
-Edwin S Dalmaijer, Stefan Van der Stigchel, Tanja CW Nijboer, Tim HW Cornelissen, and Masud Husain. 2015. CancellationTools: All-in-one software for administration and analysis of cancellation tasks. Behavior research methods 47, 4 (2015), 1065--1075.
-Nick Donnelly, Richard Guest, Mike Fairhurst, Jonathan Potter, Anthony Deighton, and Mahool Patel. 1999. Developing algorithms to enhance the sensitivity of cancellation tests of visuospatial neglect. Behavior Research Methods, Instruments, & Computers 31, 4 (1999), 668--673.Google Scholar
-Jarrod R Dowdall, Artur Luczak, and Matthew S Tata. 2012. Temporal variability of the N2pc during efficient and inefficient visual search. Neuropsychologia 50, 10 (2012), 2442--2453.Google Scholar
-Pavel Gurevich, Hannes Stuke, Andreas Kastrup, Heiner Stuke, and Helmut Hildebrandt. 2017. Neuropsychological Testing and Machine Learning Distinguish Alzheimer's Disease from Other Causes for Cognitive Impairment. Frontiers in aging neuroscience 9 (2017), 114.
-Robert M Joseph, Brandon Keehn, Christine Connolly, Jeremy M Wolfe, and Todd S Horowitz. 2009. Why is visual search superior in autism spectrum disorder? Developmental science 12, 6 (2009), 1083--1096.
-Eyal Kalanthroff, Liat Goldfarb, and Avishai Henik. 2013. Evidence for interaction between the stop signal and the Stroop task conflict. Journal of Experimental Psychology: Human Perception and Performance 39, 2 (2013), 579.Google Scholar
-Kami Koldewyn, Patricia Hanus, and Benjamin Balas. 2014. Visual adaptation of the perception of "life": Animacy is a basic perceptual dimension of faces. Psychonomic bulletin & review 21, 4 (2014), 969--975.
-Thomas Lachmann, Andreas Schmitt, Wouter Braet, and Cees van Leeuwen. 2014. Letters in the forest: global precedence effect disappears for letters but not for non-letters under reading-like conditions. Frontiers in psychology 5 (2014), 705.
-Ricardo Franco de Lima, Cíntia Alves Salgado Azoni, and Sylvia Maria Ciasca. 2013. Atenção e funções executivas em crianças com dislexia do desenvolvimento. Psicologia em Pesquisa 7, 2 (2013), 208--219.
-Natasha Lowery, Daniel Ragland, Ruben C Gur, Raquel E Gur, and Paul J Moberg. 2004. Normative data for the symbol cancellation test in young healthy adults. Applied Neuropsychology 11, 4 (2004), 216--219.Google Scholar
-Kritika Nayar, John Franchak, Karen Adolph, and Lynne Kiorpes. 2015. From local to global processing: The development of illusory contour perception. Journal of experimental child psychology 131 (2015), 38--55.Google Scholar
-Michelle A O'riordan, Kate C Plaisted, Jon Driver, and Simon Baron-Cohen. 2001. Superior visual search in autism. Journal of Experimental Psychology: Human Perception and Performance 27, 3 (2001), 719.Google Scholar
-Lewis N Reich and Michele Ekabutr. 2002. The effects of optical defocus on the legibility of the Tumbling-E and Landolt-C. Optometry and Vision Science 79, 6 (2002), 389--393.Google Scholar
-Denise Reid, Harsha Babani, and Eugenia Jon. 2009. Development of a computerized visual search test. International Journal of Rehabilitation Research 32, 3 (2009), 205--212.Google Scholar
-Jerusa Fumagalli de Salles, Rochele Paz Fonseca, Camila Cruz Rodrigues, Claudia Berlim de Mello, Thais Barbosa, and Mônica Carolina Miranda. 2011. Desenvolvimento do instrumento de avaliação neuropsicológica breve infantil NEUPSILININF. PsicoUSF. Bragança Paulista, SP. Vol. 16, n. 3 (set./dez. 2011), p. 297--305. (2011).
-Rochele Ferronato Correa da Silva. 2010. Teste de Cancelamento dos Sinos: estudo comparativo quanto à variável escolaridade. Master's thesis. Pontifícia Universidade Católica do Rio Grande do Sul, http://tede2.pucrs.br/tede2/handle/tede/712.
-María Felipa Soriano, Antonio J Ibáñez-Molina, Natalia Paredes, and Pedro Macizo. 2017. Autism: Hard to Switch from Details to the Whole. Journal of abnormal child psychology (2017), 1--13.
-Tsui-Ying Wang, Ho-Chuan Huang, and Hsiu-Shuang Huang. 2006. Design and implementation of cancellation tasks for visual search strategies and visual attention in school children. Computers & Education 47, 1 (2006), 1--16. Google Scholar
-Ian H Witten, Eibe Frank, Mark A Hall, and Christopher J Pal. 2016. Data Mining: Practical machine learning tools and techniques. Morgan Kaufmann. Google Scholar
-Ya-Huei Wu, Jocelyne de Rotrou, Jean-Sébastien Vidal, Claude Jeandel, Anne-Sophie Rigaud, Emmanuelle Kesse-Guyot, and Olivier Hanon. 2013. The KT cancellation test in the older adults: Normative data and construct validity. Aging, Neuropsychology, and Cognition 20, 4 (2013), 429--442.Google Scholar
-Ya-Huei Wu, Jean-Sébastien Vidal, Jocelyne de Rotrou, Sietske AM Sikkes, Anne-Sophie Rigaud, and Matthieu Plichart. 2017. Can a tablet-based cancellation test identify cognitive impairment in older adults? PloS one 12, 7 (2017), e0181809.
+
 #----------------------#
-Authors: ['Caio Pinheiro de Carvalho', 'Suzane Santos dos Santos', 'Gabriel de Magalhães Escudeiro', 'Kelly Vale Pinheiro', 'Nelson Cruz Sampaio Neto', 'Marcelle Pereira Mota']
-Title: "A study on customizing interaction in adaptable games"
-Abstract: "The use of digital games allows the enjoyment of playful moments during the learning process, especially when they are aimed at specific audiences, such as people with disabilities. However, these tools often do not have functionalities that allow the customization of the interaction for each user, according to the needs evaluated by healthcare professionals. The purpose of this work is to investigate personalization characteristics of the interaction and also the interface for games in the assistive technology field. This allows the specialized professional to tailor the game to a specific patient during their session. For this, we conducted a study of the literature on adaptable games and an empirical study where we investigated three games that were developed and tested with healthcare professionals specialized in the care of children with disabilities. The results point to customization features for adaptable games."
-Conference: "IHC '19: Proceedings of the 18th Brazilian Symposium on Human Factors in Computing Systems"
-Date: "October 2019"
-IDS: "Article No.: 6"
-Page range: "Pages   1–11"
-DOI: "10.1145/3357155"
-ISBN: "9781450369718"
+
+
+Authors: ['R. E. Keller', 'R. Poli']
+
+Title: "Linear genetic programming of metaheuristics"
+
+Abstract: "We suggest a flavour of linear Genetic Programming indomain-specific languages that acts as a hyperheuristic (HH)."
+
+Conference: "GECCO '07: Proceedings of the 9th annual conference on Genetic and evolutionary computation"
+
+Date: "July 2007"
+
+IDS: ""
+
+Page range: "Pages   1753"
+
+DOI: "10.1145/1276958.1277303"
+
+ISBN: "9781595936974"
+
+Total Citations: "4"
+
+Total Downloads: "174"
+
+References: 
+G. Jayalakshmi, S. Sathiamoorthy, and R. Rajaram. An hybrid genetic algorithm. International Journal of Computational Engineering Science, 2(2):339--355, 2001.Google Scholar
+
+R. E. Keller and R. Poli. Linear Genetic Programming of Metaheuristics. Technical Report CSM-468, Department of Computer Science, University of Essex, 2007.Google Scholar
+
+
+#----------------------#
+
+
+Authors: ['Warwick Graco', 'Tatiana Semenova', 'Eugene Dubossarsky']
+
+Title: "Toward knowledge-driven data mining"
+
+Abstract: "This paper highlights the need to move from a method-driven approach to a knowledge-driven approach to data mining. A number of issues are covered including the need to develop 'smart' data-mining algorithms which include expert mining and modelling knowledge, the need to use 'intelligent data' or data that contains both metadata and metaknowledge, the need to marry business knowledge with technical knowledge with data mining and the need to use intelligence and other qualitative analyses to determine where data-mining efforts should be focused."
+
+Conference: "DDDM '07: Proceedings of the 2007 international workshop on Domain driven data mining"
+
+Date: "August 2007"
+
+IDS: ""
+
+Page range: "Pages   49–54"
+
+DOI: "10.1145/1288552.1288559"
+
+ISBN: "9781595938466"
+
+Total Citations: "13"
+
+Total Downloads: "1,352"
+
+References: 
+Mu-Chun Su, M-C; and Chou, C-H. A Modified Version of the K-Means Algorithm with a Distance Based on Cluster Symmetry. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2001, 23, 674--680. Google Scholar
+
+Breiman, L. Random Forests. Machine Learning Journal, 2001, 45, 5--32. Google Scholar
+
+Caruana, R; and Niculescu-Mizil, A. An Empirical Comparison of Supervised learning Algorithms. Proceedings of the 23rd International Conference on Machine Learning, Pittsburgh. PA. 2006, Google Scholar
+
+Breiman, L. Bagging Predictors. Machine Learning Journal, 1996, 26, 123--140. Google Scholar
+
+Duchesne, P; and REMillard, B. Statistical Modeling and Complex Data Problems. Berlin: Springer, 2005, 75--95.
+
+Engelbrecht, A. P. Fundamentals of Computational Swarm Intelligence. New York: Wiley, 2006 Google Scholar
+
+Zhongzhi, S; and Bin, W. A Clustering Algorithm Based on Swarm Intelligence. http://www/conferences/ sino-japan2001/ShiZHongZhi_ppt.pdf
+
+Ericsson, K. A; Charness, N; Feltovich, P; and Hoffman, R. R. (Eds.). Cambridge handbook of expertise and expert performance. Cambridge, UK: Cambridge University Press, 2006.
+
+Compton, P; Edwards, G; Kang, B; Lazarus, L; Malor, R; Menzies, T; Preston, P; Srinivasan, A; and Sammut, C. Ripple Down Rules: Possibilities and Limitations. 6th Banff AAAI Knowledge Acquisition for Knowledge Based Systems Workshop, 6.1--6.18.
+
+Rockwell, G. "What is Text Analysis, Really?", Literary and Linguistic Computing, 18, 2003, 209--219.Google Scholar
+
+Feldman, R; and Sanger, J. The Text Mining Handbook. Boston: Cambridge University Press, 2006
+
+Valencia-Garcia, R; Ruiz-Sanchez, J. M; Vivancos-Vicente, P. J; Fernandez-Breis, J. T; and Martinez-Bejar, R. An Incremental Approach for Discovering Medical Knowledge in Texts. Expert Systems with Applications, 26, 291--299.Google Scholar
+
+Gruber, T. R. A Translation Approach to Portable Ontologies. Knowledge Acquisition, 1993, 5, 199--220. Google Scholar
+
+Gomez-Perez, A; Moreno, A; Pazos, J; and Sierra-Alonso, A. Knowledge Maps: An Essential Technique for Conceptualization. Data and Knowledge Engineering, 33, 169--190. Google Scholar
+
+Basu, S; Banerjee, A; and Mooney, R. J. Semi-supervised clustering by seeding. In Proc. of 19th International Conference on Machine Learning (ICML-2002), 19--26. Google Scholar
+
+Tong, S. Active Learning: Theory and Applications. PhD thesis, Stanford University, Stanford, CA, 2001. Google Scholar
+
+Curry, G. GPs facing information overload. Sunday Canberra Times. 19 August 2001, p9.
+
+Information on different medical practitioner specialties for primary-care physicians is found in Viveros, M; Nearhos, J. P; and Rothman, M. J. Applying Data Mining Techniques to a Health Insurance Information System. Proceedings of the 22nd International Conference on Very Large Databases. Bombay, India. September 1996, 286--294. Google Scholar
+
+Semenova, T. Identification of Interesting Patterns in Large Data Health Data Bases. PhD Thesis. Australian National University, Canberra, ACT, 2006.
+
+Berners-Lee, T; Hendler, J; and Lassila, O. The Semantic Web. Scientific America, May, 2001.Google Scholar
+
+This is based on experience with conducting data-mining projects at the Australian Taxation Office. It has been found that simple projects can be completed in three months, routine ones in six months and complicated ones in 12 or more months.
+
+Leigh, A; and Wolfers, J. Wisdom of the Masses. The Australian Financial Review, 8 June 2007, Review 3--4.
+
+Steele, R. D. The New Craft of Intelligence: Personal, Public and Political. VA: OSS International Press, 2002.
+
+Reeve, G. Human Services Administration: A More Intelligent Approach to Reducing Benefit Fraud. Public Administration Today, 2006, January-March, 37--45.
+
+Roger, P. Intelligence Delivery and Its Impact. Intelligence and Decision Making, 2003, June, 1--46.
+
+
+#----------------------#
+
+
+Authors: ['Christian Blum', 'Andrea Roli']
+
+Title: "Metaheuristics in combinatorial optimization: Overview and conceptual comparison"
+
+Abstract: "The field of metaheuristics for the application to combinatorial optimization problems is a rapidly growing field of research. This is due to the importance of combinatorial optimization problems for the scientific as well as the industrial world. We give a survey of the nowadays most important metaheuristics from a conceptual point of view. We outline the different components and concepts that are used in the different metaheuristics in order to analyze their similarities and differences. Two very important concepts in metaheuristics are intensification and diversification. These are the two forces that largely determine the behavior of a metaheuristic. They are in some way contrary but also complementary to each other. We introduce a framework, that we call the"
+
+Conference: "ACM Computing Surveys (CSUR)"
+
+Date: "September 2003"
+
+IDS: ""
+
+Page range: ""
+
+DOI: "10.1145/937503.937505"
+
+ISBN: ""
+
+Total Citations: "1,547"
+
+Total Downloads: "14,682"
+
+References: 
+Aarts, E. H. L., Korst, J. H. M., and Laarhoven, P. J. M. v. 1997. Simulated annealing. In Local Search in Combinatorial Optimization, E. H. L. Aarts and J. K. Lenstra, Eds. Wiley-Interscience, Chichester, England, 91--120.]]
+
+Aarts, E. H. L. and Lenstra, J. K., Eds. 1997. Local Search in Combinatorial Optimization. Wiley, Chichester, UK.]] Google Scholar
+
+Aiex, R. M., Binato, S., and Resende, M. G. C. 2003. Parallel GRASP with path-relinking for job shop scheduling. Paral. Comput. To appear.]] Google Scholar
+
+Bachelet, V. and Talbi, E. 2000. Cosearch: A co-evolutionary metaheuritics. In Proceedings of Congress on Evolutionary Computation---CEC'2000. 1550--1557.]]
+
+Bäck, T. 1996. Evolutionary Algorithms in Theory and Practice. Oxford University Press, New York.]] Google Scholar
+
+Bäck, T., Fogel, D. B., and Machalewicz, Z., Eds. 1997. Handbook of Evolutionary Computation. Institute of Physics Publishing Ltd, Bristol, UK.]] Google Scholar
+
+Baluja, S. 1994. Population-based incremental learning: A method for integrating genetic search based function optimization and competitive learning. Tech. Rep. No. CMU-CS-94-163, Carnegie Mellon University, Pittsburgh, Pa.]] Google Scholar
+
+Baluja, S. and Caruana, R. 1995. Removing the genetics from the standard genetic algorithm. In The International Conference on Machine Learning 1995, A. Prieditis and S. Russel, Eds. Morgan-Kaufmann Publishers, San Mateo, Calif., 38--46.]]
+
+Bar-Yam, Y. 1997. Dynamics of Complex Systems. Studies in nonlinearity. Addison--Wesley, Reading, Mass.]] Google Scholar
+
+Battiti, R. 1996. Reactive search: Toward self-tuning heuristics. In Modern Heuristic Search Methods, V. J. Rayward-Smith, I. H. Osman, C. R. Reeves, and G. D. Smith, Eds. Wiley, Chichester, UK, 61--83.]]
+
+Battiti, R. and Protasi, M. 1997. Reactive Search, A history-base heuristic for MAX-SAT. ACM J. Exper. Algor. 2, Article 2.]] Google Scholar
+
+Battiti, R. and Tecchiolli, G. 1994. The reactive tabu search. ORSA J. Comput. 6, 2, 126--140.]]Google Scholar
+
+Binato, S., Hery, W. J., Loewenstern, D., and Resende, M. G. C. 2001. A greedy randomized adaptive search procedure for job shop scheduling. In Essays and Surveys on Metaheuristics, P. Hansen and C. C. Ribeiro, Eds. Kluwer Academic Publishers.]]
+
+Blum, C. 2002a. ACO applied to group shop scheduling: A case study on intensification and diversification. In Proceedings of ANTS 2002---Third International Workshop on Ant Algorithms, M. Dorigo, G. Di Caro, and M. Sampels, Eds. Lecture Notes in Computer Science, vol. 2463. Springer Verlag, Berlin, Germany, 14--27.]] Google Scholar
+
+Blum, C. 2002b. Ant colony optimization for the edge-weighted k-cardinality tree problem. In GECCO 2002: Proceedings of the Genetic and Evolutionary Computation Conference, W. B. Langdon, E. Cantú-Paz, K. Mathias, R. Roy, D. Davis, R. Poli, K. Balakrishnan, V. Honavar, G. Rudolph, J. Wegener, L. Bull, M. A. Potter, A. C. Schultz, J. F. Miller, E. Burke, and N. Jonoska, Eds. Morgan-Kaufmann, New York, 27--34.]]
+
+Blum, C., Roli, A., and Dorigo, M. 2001. HC--ACO: The hyper-cube framework for ant colony optimization. In Proceedings of MIC'2001---Meta--heuristics International Conference. Vol. 2. Porto, Portugal, 399--403.]]
+
+Calégary, P., Coray, G., Hertz, A., Kobler, D., and Kuonen, P. 1999. A taxonomy of evolutionary algorithms in combinatorial optimization. J. Heuristics 5, 145--158.]] Google Scholar
+
+Campos, V., Glover, F., Laguna, M., and Martí, R. 2001. An experimental evaluation of a scatter search for the linear ordering problem. J. Global Opt. 21, 397--414.]] Google Scholar
+
+Caseau, Y. and Laburthe, F. 1999. Effective forget-and-extend heuristics for scheduling problems. In Proceedings of CP-AI-OR'02---Fourth Int. Workshop on Integration of AI and OR techniques in Constraint Programming for Combinatorial Optimization Problems. Ferrara (Italy). Also available at: www.deis.unibo.it/Events/Deis/Workshops/Proceedings.html.]]
+
+Cerny, V. 1985. A thermodynamical approach to the travelling salesman problem: An efficient simulation algorithm. J. Optim. Theory Appl. 45, 41--51.]]Google Scholar
+
+Chardaire, P., Lutton, J. L., and Sutter, A. 1995. Thermostatistical persistency: A powerful improving concept for simulated annealing algorithms. Europ. J. Oper. Res. 86, 565--579.]]Google Scholar
+
+Coello Coello, C. A. 2000. An updated survey of GA-based multiobjective optimization techniques. ACM Comput. Surv. 32, 2, 109--143.]] Google Scholar
+
+Connolly, D. T. 1990. An improved annealing scheme for the QAP. Europ. J. Oper. Res. 46, 93--100.]]Google Scholar
+
+Crainic, T. G. and Toulouse, M. 2002a. Introduction to the special issue on parallel meta-heuristics. J. Heuristics 8, 3, 247--249.]] Google Scholar
+
+Crainic, T. G. and Toulouse, M. 2002b. Parallel strategies for meta-heuristics. In Handbook of Metaheuristics, F. Glover and G. Kochenberger, Eds. International Series in Operations Research & Management Science, vol. 57. Kluwer Academic Publishers, Norwell, MA.]]
+
+De Backer, B., Furnon, V., and Shaw, P. 2000. Solving Vehicle Routing Problems Using Constraint Programming and Metaheuristics. J. Heuristics 6, 501--523.]] Google Scholar
+
+de Bonet, J. S., Isbell Jr., C. L., and Viola, P. 1997. MIMIC: Finding optima by estimating probability densities. In Proceedings of the 1997 Conference on Advances in Neural Information Processing Systems (NIPS'97), M. C. Mozer, M. I. Jordan, and T. Petsche, Eds. MIT Press, Cambridge, MA, 424--431.]]
+
+DeJong, K. A. 1975. An analysis of the behavior of a class of genetic adaptive systems. Ph.D. thesis, University of Michigan, Ann Arbor, MI. Dissertation Abstracts International 36(10), 5140B, University Microfilms Number 76-9381.]] Google Scholar
+
+Della Croce, F. and T'kindt, V. 2003. A Recovering Beam Search algorithm for the one machine dynamic total completion time scheduling problem. J. Oper. Res. Soc. To appear.]]
+
+Dell'Amico, M. and Lodi, A. 2002. On the integration of metaheuristic strategies in constraint programming. In Adaptive Memory and Evolution: Tabu Search and Scatter Search, C. Rego and B. Alidaee, Eds. Kluwer Academic Publishers, Boston, MA.]]
+
+Dell'Amico, M., Lodi, A., and Maffioli, F. 1999. Solution of the cumulative assignment problem with a well-structured tabu search method. J. Heuristics 5, 123--143.]] Google Scholar
+
+den Besten, M. L., Stützle, T., and Dorigo, M. 2001. Design of iterated local search algorithms: An example application to the single machine total weighted tardiness problem. In Proceedings of EvoStim'01. Lecture Notes in Computer Science. Springer, 441--452.]] Google Scholar
+
+Deneubourg, J.-L., Aron, S., Goss, S., and Pasteels, J.-M. 1990. The self-organizing exploratory pattern of the argentine ant. J. Insect Behav. 3, 159--168.]]Google Scholar
+
+Denzinger, J. and Offerman, T. 1999. On cooperation between evolutionary algorithms and other search paradigms. In Proceedings of Congress on Evolutionary Computation---CEC'1999. 2317--2324.]]
+
+Devaney, R. L. 1989. An introduction to chaotic dynamical systems, second ed. Addison--Wesley, Reading, Mass.]]
+
+Di Caro, G. and Dorigo, M. 1998. AntNet: Distributed stigmergetic control for communication networks. J. Artif. Int. Res. 9, 317--365.]]Google Scholar
+
+Dorigo, M. 1992. Optimization, learning and natural algorithms (in italian). Ph.D. thesis, DEI, Politecnico di Milano, Italy. pp. 140.]]
+
+Dorigo, M. and Di Caro, G. 1999. The ant colony optimization meta-heuristic. In New Ideas in Optimization, D. Corne, M. Dorigo, and F. Glover, Eds. McGraw-Hill, 11--32.]] Google Scholar
+
+Dorigo, M., Di Caro, G., and Gambardella, L. M. 1999. Ant algorithms for discrete optimization. Art. Life 5, 2, 137--172.]] Google Scholar
+
+Dorigo, M. and Gambardella, L. M. 1997. Ant colony system: A cooperative learning approach to the travelling salesman problem. IEEE Trans. Evolution. Comput. 1, 1 (Apr.), 53--66.]]Google Scholar
+
+Dorigo, M., Maniezzo, V., and Colorni, A. 1996. Ant system: Optimization by a colony of cooperating agents. IEEE Trans. Syst. Man Cybernet.---Part B 26, 1, 29--41.]]Google Scholar
+
+Dorigo, M. and Stützle, T. 2002. The ant colony optimization metaheuristic: Algorithms, applications and advances. In Handbook of Metaheuristics, F. Glover and G. Kochenberger, Eds. International Series in Operations Research & Management Science, vol. 57. Kluwer Academic Publishers, Norwell, MA, 251--285.]]
+
+Dorigo, M. and Stützle, T. 2003. Ant Colony Optimization. MIT Press, Boston, MA. To appear.]] Google Scholar
+
+Dueck, G. 1993. New Optimization Heuristics. J. Comput. Phy. 104, 86--92.]] Google Scholar
+
+Dueck, G. and Scheuer, T. 1990. Threshold accepting: A general purpose optimization algorithm appearing superior to simulated annealing. J. Comput. Phy. 90, 161--175.]] Google Scholar
+
+Eiben, A. E., Raué, P.-E., and Ruttkay, Z. 1994. Genetic algorithms with multi-parent recombination. In Proceedings of the 3rd Conference on Parallel Problem Solving from Nature, Y. Davidor, H.-P. Schwefel, and R. Manner, Eds. Lecture Notes in Computer Science, vol. 866. Springer, Berlin, 78--87.]] Google Scholar
+
+Eiben, A. E. and Ruttkay, Z. 1997. Constraint satisfaction problems. In Handbook of Evolutionary Computation, T. Bäck, D. Fogel, and M. Michalewicz, Eds. Institute of Physics Publishing Ltd, Bristol, UK.]]
+
+Eiben, A. E. and Schippers, C. A. 1998. On evolutionary exploration and exploitation. Fund. Inf. 35, 1--16.]] Google Scholar
+
+Feller, W. 1968. An Introduction to Probability Theory and Its Applications. Wiley, New York.]]
+
+Feo, T. A. and Resende, M. G. C. 1995. Greedy randomized adaptive search procedures. J. Global Optim. 6, 109--133.]]Google Scholar
+
+Festa, P. and Resende, M. G. C. 2002. GRASP: An annotated bibliography. In Essays and Surveys on Metaheuristics, C. C. Ribeiro and P. Hansen, Eds. Kluwer Academic Publishers, 325--367.]]
+
+Fink, A. and Voβ, S. 1999. Generic metaheuristics application to industrial engineering problems. Comput. Indust. Eng. 37, 281--284.]] Google Scholar
+
+Fleischer, M. 1995. Simulated Annealing: past, present and future. In Proceedings of the 1995 Winter Simulation Conference, C. Alexopoulos, K. Kang, W. Lilegdon, and G. Goldsman, Eds. 155--161.]] Google Scholar
+
+Focacci, F., Laburthe, F., and Lodi, A. 2002. Local search and constraint programming. In Handbook of Metaheuristics, F. Glover and G. Kochenberger, Eds. International Series in Operations Research & Management Science, vol. 57. Kluwer Academic Publishers, Norwell, MA.]]
+
+Fogel, D. B. 1994. An introduction to simulated evolutionary optimization. IEEE Trans. Neural Netw. 5, 1 (Jan.), 3--14.]]Google Scholar
+
+Fogel, G. B., Porto, V. W., Weekes, D. G., Fogel, D. B., Griffey, R. H., McNeil, J. A., Lesnik, E., Ecker, D. J., and Sampath, R. 2002. Discovery of RNA structural elements using evolutionary computation. Nucleic Acids Res. 30, 23, 5310--5317.]]Google Scholar
+
+Fogel, L. J. 1962. Toward inductive inference automata. In Proceedings of the International Federation for Information Processing Congress. Munich, 395--399.]]
+
+Fogel, L. J., Owens, A. J., and Walsh, M. J. 1966. Artificial Intelligence through Simulated Evolution. Wiley, New York.]] Google Scholar
+
+Fonlupt, C., Robilliard, D., Preux, P., and Talbi, E. 1999. Fitness landscapes and performance of meta-heuristics. In Meta-heuristics: advances and trends in local search paradigms for optimization, S. Voβ, S. Martello, I. Osman, and C. Roucairol, Eds. Kluwer Academic.]]
+
+Freisleben, B. and Merz, P. 1996. A genetic local search algorithm for solving symmetric and asymmetric traveling salesman problems. In International Conference on Evolutionary Computation. 616--621.]]
+
+Freuder, E. C., Dechter, R., Ginsberg, M. L., Selman, B., and Tsang, E. P. K. 1995. Systematic versus stochastic constraint satisfaction. In Proceedings of the 14th International Joint Conference on Artificial Intelligence, IJCAI 1995. Vol. 2. Morgan-Kaufmann, 2027--2032.]] Google Scholar
+
+Gambardella, L. M. and Dorigo, M. 2000. Ant colony system hybridized with a new local search for the sequential ordering problem. INFORMS J. Comput. 12, 3, 237--255.]]Google Scholar
+
+Garey, M. R. and Johnson, D. S. 1979. Computers and Intractability; A Guide to the Theory of NP-Completeness. W.H. Freeman.]] Google Scholar
+
+Gendreau, M., Laporte, G., and Potvin, J.-Y. 2001. Metaheuristics for the vehicle routing problem. In The Vehicle Routing Problem, P. Toth and D. Vigo, Eds. SIAM Series on Discrete Mathematics and Applications, vol. 9. 129--154.]] Google Scholar
+
+Ginsberg, M. L. 1993. Dynamic backtracking. J. Artif. Int. Res. 1, 25--46.]]Google Scholar
+
+Glover, F. 1977. Heuristics for integer programming using surrogate constraints. Dec. Sci. 8, 156--166.]]
+
+Glover, F. 1986. Future paths for integer programming and links to artificial intelligence. Comput. Oper. Res. 13, 533--549.]] Google Scholar
+
+Glover, F. 1990. Tabu search Part II. ORSA J. Comput. 2, 1, 4--32.]]Google Scholar
+
+Glover, F. 1999. Scatter search and path relinking. In New Ideas in Optimization, D. Corne, M. Dorigo, and F. Glover, Eds. Advanced topics in computer science series. McGraw-Hill.]] Google Scholar
+
+Glover, F. and Laguna, M. 1997. Tabu Search. Kluwer Academic Publishers.]] Google Scholar
+
+Glover, F., Laguna, M., and Martí, R. 2000. Fundamentals of scatter search and path relinking. Control, 29, 3, 653--684.]]
+
+Glover, F., Laguna, M., and Martí, R. 2002. Scatter search and path relinking: Advances and applications. In Handbook of Metaheuristics, F. Glover and G. Kochenberger, Eds. International Series in Operations Research & Management Science, vol. 57. Kluwer Academic Publishers, Norwell, MA.]]
+
+Goldberg, D. E. 1989. Genetic Algorithms in Search, Optimization and Machine Learning. Addison Wesley, Reading, MA.]] Google Scholar
+
+Goldberg, D. E., Deb, K., and Korb, B. 1991. Don't worry, be messy. In Proceedings of the 4th International Conference on Genetic Algorithms. Morgan-Kaufmann, La Jolla, CA.]]
+
+Goldberg, D. E. and Richardson, J. 1987. Genetic algorithms with sharing for multimodal function optimization. In Genetic Algorithms and their Applications, J. J. Grefenstette, Ed. Lawrence Erlbaum Associates, Hillsdale, NJ, 41--49.]] Google Scholar
+
+Gomes, C. P., Selman, B., Crato, N., and Kautz, H. 2000. Heavy-Tayled phenomena in Satisfiability and Constraint Satisfaction Problems. J. Automat. Reason. 24, 67--100.]] Google Scholar
+
+Grefenstette, J. J. 1987. Incorporating problem specific knowledge into genetic algorithms. In Genetic Algorithms and Simulated Annealing, L. Davis, Ed. Morgan-Kaufmann, 42--60.]]
+
+Grefenstette, J. J. 1990. A user's guide to GENESIS 5.0. Tech. rep., Navy Centre for Applied Research in Artificial Intelligence, Washington, D.C.]]
+
+Hansen, P. 1986. The steepest ascent mildest descent heuristic for combinatorial programming. In Congress on Numerical Methods in Combinatorial Optimization. Capri, Italy.]]
+
+Hansen, P. and Mladenović, N. 1997. Variable neighborhood search for the p-median. Loc. Sci. 5, 207--226.]]Google Scholar
+
+Hansen, P. and Mladenović, N. 1999. An introduction to variable neighborhood search. In Meta-heuristics: Advances and trends in local search paradigms for optimization, S. Voβ, S. Martello, I. Osman, and C. Roucairol, Eds. Kluwer Academic Publishers, Chapter 30, 433--458.]]
+
+Hansen, P. and Mladenović, N. 2001. Variable neighborhood search: Principles and applications. Europ. J. Oper. Res. 130, 449--467.]]Google Scholar
+
+Harik, G. 1999. Linkage learning via probabilistic modeling in the ECGA. Tech. Rep. No. 99010, IlliGAL, University of Illinois.]]
+
+Harvey, W. D. 1995. Nonsystematic backtracking search. Ph.D. thesis, CIRL, University of Oregon.]] Google Scholar
+
+Harvey, W. D. and Ginsberg, M. L. 1995. Limited discrepancy search. In Proceedings of the 14th International Joint Conference on Artificial Intelligence, IJCAI 1995 (Montréal, Qué, Canada). C. S. Mellish, Ed. Vol. 1. Morgan-Kaufmann, 607--615.]]
+
+Hertz, A. and Kobler, D. 2000. A framework for the description of evolutionary algorithms. Europ. J. Oper. Res. 126, 1--12.]]Google Scholar
+
+Hogg, T. and Huberman, A. 1993. Better than the best: The power of cooperation. In SFI 1992 Lectures in Complex Systems. Addison-Wesley, 163--184.]]
+
+Hogg, T. and Williams, C. 1993. Solving the really hard problems with cooperative search. In Proceedings of AAAI93. AAAI Press, 213--235.]]
+
+Holland, J. H. 1975. Adaption in natural and artificial systems. The University of Michigan Press, Ann Harbor, MI.]] Google Scholar
+
+Hordijk, W. 1996. A measure of landscapes. Evolut. Comput. 4, 4, 335--360.]]Google Scholar
+
+Ingber, L. 1996. Adaptive simulated annealing (ASA): Lessons learned. Cont. Cybernet.---Special Issue on Simulated Annealing Applied to Combinatorial Optimization 25, 1, 33--54.]]
+
+Johnson, D. S. and McGeoch, L. A. 1997. The traveling salesman problem: a case study. In Local Search in Combinatorial Optimization, E. Aarts and J. Lenstra, Eds. Wiley, New York, 215--310.]]
+
+Jones, T. 1995a. Evolutionary algorithms, fitness landscapes and search. Ph.D. thesis, Univ. of New Mexico, Albuquerque, NM.]]
+
+Jones, T. 1995b. One operator, one landscape. Santa Fe Institute Tech. Rep. 95-02-025, Santa Fe Institute.]]
+
+Joslin, D. E. and Clements, D. P. 1999. "Squeaky Wheel" Optimization. J. Artif. Int. Res. 10, 353--373.]]Google Scholar
+
+Jussien, N. and Lhomme, O. 2002. Local search with constraint propagation and conflict-based heuristics. Artif. Int. 139, 21--45.]] Google Scholar
+
+Kauffman, S. A. 1993. The Origins of Order: Self-Organization and Selection in Evolution. Oxford University Press.]]
+
+Kilby, P., Prosser, P., and Shaw, P. 1999. Guided Local Search for the Vehicle Routing Problem with time windows. In Meta-heuristics: Advances and trends in local search paradigms for optimization, S. Voβ, S. Martello, I. Osman, and C. Roucairol, Eds. Kluwer Academic, 473--486.]]
+
+Kirkpatrick, S., Gelatt, C. D., and Vecchi, M. P. 1983. Optimization by simulated annealing. Science, 13 May 1983 220, 4598, 671--680.]]
+
+Laguna, M., Lourenço, H., and Martí, R. 2000. Assigning Proctors to Exams with Scatter Search. In Computing Tools for Modeling, Optimization and Simulation: Interfaces in Computer Science and Operations Research, M. Laguna and J. L. González-Velarde, Eds. Kluwer Academic Publishers, Boston, MA, 215--227.]]
+
+Laguna, M. and Martí, R. 1999. GRASP and path relinking for 2-layer straight line crossing minimization. INFORMS J. Comput. 11, 1, 44--52.]]Google Scholar
+
+Laguna, M., Martí, R., and Campos, V. 1999. Intensification and diversification with elite tabu search solutions for the linear ordering problem. Comput. Oper. Res. 26, 1217--1230.]] Google Scholar
+
+Larrañaga, P. and Lozano, J. A., Eds. 2002. Estimation of Distribution Algorithms: A New Tool for Evolutionary Computation. Kluwer Academic Publishers, Boston, MA.]]
+
+Lourenço, H. R., Martin, O., and Stützle, T. 2001. A beginner's introduction to Iterated Local Search. In Proceedings of MIC'2001---Meta--heuristics International Conference. Vol. 1. Porto---Portugal, 1--6.]]
+
+Lourenço, H. R., Martin, O., and Stützle, T. 2002. Iterated local search. In Handbook of Metaheuristics, F. Glover and G. Kochenberger, Eds. International Series in Operations Research & Management Science, vol. 57. Kluwer Academic Publishers, Norwell, MA, 321--353.]]
+
+Lundy, M. and Mees, A. 1986. Convergence of an annealing algorithm. Math. Prog. 34, 1, 111--124.]] Google Scholar
+
+Martin, O. and Otto, S. W. 1996. Combining simulated annealing with local search heuristics. Ann. Oper. Res. 63, 57--75.]]Google Scholar
+
+Martin, O., Otto, S. W., and Felten, E. W. 1991. Large-step Markov chains for the traveling salesman problem. Complex Syst. 5, 3, 299--326.]]
+
+Merkle, D., Middendorf, M., and Schmeck, H. 2002. Ant colony optimization for resource-constrained project scheduling. IEEE Trans. Evolut. Comput. 6, 4, 333--346.]]Google Scholar
+
+Metaheuristics Network Website 2000. http://www.metaheuristics.net/. Visited in January 2003.]]
+
+Meuleau, N. and Dorigo, M. 2002. Ant colony optimization and stochastic gradient descent. Artif. Life 8, 2, 103--121.]] Google Scholar
+
+Michalewicz, Z. and Michalewicz, M. 1997. Evolutionary computation techniques and their applications. In Proceedings of the IEEE International Conference on Intelligent Processing Systems, (Beijing, China). Institute of Electrical & Electronics Engineers, Incorporated, 14--24.]]
+
+Milano, M. and Roli, A. 2002. On the relation between complete and incomplete search: An informal discussion. In Proceedings of CP-AI-OR'02---Fourth Int. Workshop on Integration of AI and OR techniques in Constraint Programming for Combinatorial Optimization Problems (Le Croisic, France). 237--250.]]
+
+Mills, P. and Tsang, E. 2000. Guided local search for solving SAT and weighted MAX-SAT Problems. In SAT2000, I. Gent, H. van Maaren, and T. Walsh, Eds. IOS Press, 89--106.]]
+
+Mitchell, M. 1998. An Introduction to Genetic Algorithms. MIT press, Cambridge, MA.]] Google Scholar
+
+Mladenović, N. and Urošević, D. 2001. Variable neighborhood search for the k-cardinality tree. In Proceedings of MIC'2001---Meta--heuristics International Conference. Vol. 2. Porto, Portugal, 743--747.]]
+
+Moscato, P. 1989. On evolution, search, optimization, genetic algorithms and martial arts: Toward memetic algorithms. Tech. Rep. Caltech Concurrent Computation Program 826, California Institute of Technology,Pasadena, Calif.]]
+
+Moscato, P. 1999. Memetic algorithms: A short introduction. In New Ideas in Optimization, F. G. D. Corne and M. Dorigo, Eds. McGraw-Hill.]] Google Scholar
+
+Mühlenbein, H. 1991. Evolution in time and space---The parallel genetic algorithm. In Foundations of Genetic Algorithms, G. J. E. Rawlins, Ed. Morgan-Kaufmann, San Mateo, Calif.]]
+
+Mühlenbein, H. and Paaβ, G. 1996. From recombination of genes to the estimation of distributions. In Proceedings of the 4th Conference on Parallel Problem Solving from Nature---PPSN IV, H.-M. Voigt, W. Ebeling, I. Rechenberg, and H.-P. Schwefel, Eds. Lecture Notes in Computer Science, vol. 1411. Springer, Berlin, 178--187.]] Google Scholar
+
+Mühlenbein, H. and Voigt, H.-M. 1995. Gene pool recombination in genetic algorithms. In Proc. of the Metaheuristics Conference, I. H. Osman and J. P. Kelly, Eds. Kluwer Academic Publishers, Norwell, USA.]]
+
+Nemhauser, G. L. and Wolsey, A. L. 1988. Integer and Combinatorial Optimization. Wiley, New York.]] Google Scholar
+
+Nowicki, E. and Smutnicki, C. 1996. A fast taboo search algorithm for the job-shop problem. Manage. Sci. 42, 2, 797--813.]]Google Scholar
+
+Osman, I. H. 1993. Metastrategy simulated annealing and tabu search algorithms for the vehicle routing problem. Ann. Oper. Res. 41, 421--451.]] Google Scholar
+
+Osman, I. H. and Laporte, G. 1996. Metaheuristics: A bibliography. Ann. Oper. Res. 63, 513--623.]]Google Scholar
+
+Papadimitriou, C. H. and Steiglitz, K. 1982. Combinatorial Optimization---Algorithms and Complexity. Dover Publications, Inc., New York.]] Google Scholar
+
+Pelikan, M., Goldberg, D. E., and Cantú-Paz, E. 1999a. BOA: The Bayesian optimization algorithm. In Proceedings of the Genetic and Evolutionary Computation Conference GECCO-99 (Orlando, Fla.). W. Banzhaf, J. Daida, A. E. Eiben, M. H. Garzon, V. Honavar, M. Jakiela, and R. E. Smith, Eds. Vol. I. Morgan-Kaufmann Publishers, San Fransisco, CA, 525--532.]]
+
+Pelikan, M., Goldberg, D. E., and Lobo, F. 1999b. A survey of optimization by building and using probabilistic models. Tech. Rep. No. 99018, IlliGAL, University of Illinois.]]
+
+Pesant, G. and Gendreau, M. 1996. A view of local search in Constraint Programming. In Principles and Practice of Constraint Programming---CP'96. Lecture Notes in Computer Science, vol. 1118. Springer-Verlag, 353--366.]]
+
+Pesant, G. and Gendreau, M. 1999. A constraint programming framework for local search methods. J. Heuristics 5, 255--279.]] Google Scholar
+
+Pitsoulis, L. S. and Resende, M. G. C. 2002. Greedy randomized adaptive search procedure. In Handbook of Applied Optimization, P. Pardalos and M. Resende, Eds. Oxford University Press, 168--183.]]
+
+Prais, M. and Ribeiro, C. C. 2000. Reactive GRASP: An application to a matrix decomposition problem in TDMA traffic assignment. INFORMS J. Comput. 12, 164--176.]]Google Scholar
+
+Prestwich, S. 2002. Combining the scalability of local search with the pruning techniques of systematic search. Ann. Oper. Res. 115, 51--72.]]Google Scholar
+
+Radcliffe, N. J. 1991. Forma Analysis and Random Respectful Recombination. In Proceedings of the Fourth International Conference on Genetic Algorithms, ICGA 1991. Morgan-Kaufmann, San Mateo, Calif., 222--229.]]
+
+Rayward-Smith, V. J. 1994. A unified approach to tabu search, simulated annealing and genetic algorithms. In Applications of Modern Heuristics, V. J. Rayward-Smith, Ed. Alfred Waller Limited, Publishers.]]
+
+Rechenberg, I. 1973. Evolutionsstrategie: Optimierung technischer Systeme nach Prinzipien der biologischen Evolution. Frommann-Holzboog.]]
+
+Reeves, C. R., Ed. 1993. Modern Heuristic Techniques for Combinatorial Problems. Blackwell Scientific Publishing, Oxford, England.]] Google Scholar
+
+Reeves, C. R. 1999. Landscapes, operators and heuristic search. Ann. Oper. Res. 86, 473--490.]]Google Scholar
+
+Reeves, C. R. and Rowe, J. E. 2002. Genetic Algorithms: Principles and Perspectives. A Guide to GA Theory. Kluwer Academic Publishers, Boston (USA).]] Google Scholar
+
+Rego, C. 1998. Relaxed Tours and Path Ejections for the Traveling Salesman Problem. Europ. J. Oper. Res. 106, 522--538.]]Google Scholar
+
+Rego, C. 2001. Node-ejection chains for the vehicle routing problem: Sequential and parallel algorithms. Paral. Comput. 27, 3, 201--222.]] Google Scholar
+
+Resende, M. G. C. and Ribeiro, C. C. 1997. A GRASP for graph planarization. Networks 29, 173--189.]]Google Scholar
+
+Ribeiro, C. C. and Souza, M. C. 2002. Variable neighborhood search for the degree constrained minimum spanning tree problem. Disc. Appl. Math. 118, 43--54.]] Google Scholar
+
+Schaerf, A. 1997. Combining local search and look-ahead for scheduling and constraint satisfaction problems. In Proceedings of the 15th International Joint Conference on Artificial Intelligence, IJCAI 1997. Morgan-Kaufmann Publishers, San Mateo, CA, 1254--1259.]]
+
+Schaerf, A., Cadoli, M., and Lenzerini, M. 2000. LOCAL++: a C++ framework for local search algorithms. Softw. Pract. Exp. 30, 3, 233--256.]] Google Scholar
+
+Shaw, P. 1998. Using constraint programming and local search methods to solve vehicle routing problems. In Principle and Practice of Constraint Programming---CP98, M. Maher and J.-F. Puget, Eds. Lecture Notes in Computer Science, vol. 1520. Springer.]] Google Scholar
+
+Sipper, M., Sanchez, E., Mange, D., Tomassini, M., Pérez-Uribe, A., and Stauffer, A. 1997. A phylogenetic, ontogenetic, and epigenetic view of bio-inspired hardware systems. IEEE Trans. Evolut. Comput. 1, 1, 83--97.]]Google Scholar
+
+Sondergeld, L. and Voβ, S. 1999. Cooperative intelligent search using adaptive memory techniques. In Meta-Heuristics: Advances and Trends in Local Search Paradigms for Optimization, S. Voss, S. Martello, I. Osman, and C. Roucairol, Eds. Kluwer Academic Publishers, Chapter 21, 297--312.]]
+
+Spears, W. M., Jong, K. A. D., Bäck, T., Fogel, D. B., and de Garis, H. 1993. An overview of evolutionary computation. In Proceedings of the European Conference on Machine Learning (ECML-93), P. B. Brazdil, Ed. Vol. 667. Springer Verlag, Vienna, Austria, 442--459.]] Google Scholar
+
+Stadler, P. F. 1995. Towards a theory of landscapes. In Complex Systems and Binary Networks, R. Lopéz-Peña, R. Capovilla, R. García-Pelayo, H. Waelbroeck, and F. Zertuche, Eds. Lecture Notes in Physics, vol. 461. Springer-Verlag, Berlin, New York, 77--163. Also available as SFI preprint 95-03-030.]]
+
+Stadler, P. F. 1996. Landscapes and their correlation functions. J. Math. Chem. 20, 1--45. Also available as SFI preprint 95-07-067.]]Google Scholar
+
+Stützle, T. 1999a. Iterated local search for the quadratic assignment problem. Tech. rep. aida-99-03, FG Intellektik, TU Darmstadt.]]
+
+Stützle, T. 1999b. Local Search Algorithms for Combinatorial Problems---Analysis, Algorithms and New Applications. DISKI---Dissertationen zur Künstliken Intelligenz. infix, Sankt Augustin, Germany.]]
+
+Stützle, T. and Hoos, H. H. 2000. MAX-MIN Ant System. Fut. Gen. Comput. Syst. 16, 8, 889--914.]] Google Scholar
+
+Syswerda, G. 1993. Simulated Crossover in Genetic Algorithms. In Proceedings of the 2nd Workshop on Foundations of Genetic Algorithms, L. Whitley, Ed. Morgan-Kaufmann Publishers, San Mateo, Calif., 239--255.]]Google Scholar
+
+Tabu Search Website. 2003. http://www.tabusearch.net. Visited in January 2003.]]
+
+Taillard, E. 1991. Robust Taboo Search for the Quadratic Assignment Problem. Paral. Comput. 17, 443--455.]]Google Scholar
+
+Talbi, E.-G. 2002. A Taxonomy of Hybrid Metaheuristics. Journal of Heuristics 8, 5, 541--564.]] Google Scholar
+
+Toulouse, M., Crainic, T., and Sansò, B. 1999a. An experimental study of the systemic behavior of cooperative search algorithms. In Meta-Heuristics: Advances and Trends in Local Search Paradigms for Optimization, S. Voβ, S. Martello, I. Osman, and C. Roucairol, Eds. Kluwer Academic Publishers, Chapter 26, 373--392.]]
+
+Toulouse, M., Thulasiraman, K., and Glover, F. 1999b. Multi-level cooperative search: A new paradigm for combinatorial optimization and application to graph partitioning. In Proceedings of the 5th International Euro-Par Conference on Parallel Processing. Lecture Notes in Computer Science. Springer-Verlag, New York, 533--542.]] Google Scholar
+
+van Kemenade, C. H. M. 1996. Explicit filtering of building blocks for genetic algorithms. In Proceedings of the 4th Conference on Parallel Problem Solving from Nature---PPSN IV, H.-M. Voigt, W. Ebeling, I. Rechenberg, and H.-P. Schwefel, Eds. Lecture Notes in Computer Science, vol. 1141. Springer, Berlin, 494--503.]] Google Scholar
+
+Van Laarhoven, P. J. M., Aarts, E. H. L., and Lenstra, J. K. 1992. Job Shop Scheduling by Simulated Annealing. Oper. Res. 40, 113--125.]]Google Scholar
+
+Vose, M. 1999. The Simple Genetic Algorithm: Foundations and Theory. Complex Adaptive Systems. MIT Press.]] Google Scholar
+
+Voβ, S., Martello, S., Osman, I. H., and Roucairol, C., Eds. 1999. Meta-Heuristics---Advances and Trends in Local Search Paradigms for Optimization. Kluwer Academic Publishers, Dordrecht, The Netherlands.]]
+
+Voβ, S. and Woodruff, D., Eds. 2002. Optimization Software Class Libraries. Kluwer Academic Publishers, Dordrecht, The Netherlands.]]
+
+Voudouris, C. 1997. Guided local search for combinatorial optimization problems. Ph.D. dissertation, Department of Computer Science, University of Essex. pp. 166.]]
+
+Voudouris, C. and Tsang, E. 1999. Guided local search. Europ. J. Oper. Res. 113, 2, 469--499.]]Google Scholar
+
+Wade, A. S. and Rayward-Smith, V. J. 1997. Effective local search for the steiner tree problem. Studies in Locational Analysis 11, 219--241. Also in Advances in Steiner Trees, ed. by Ding-Zhu Du, J. M.Smith and J.H. Rubinstein, Kluwer, 2000.]]
+
+Watson, R. A., Hornby, G. S., and Pollack, J. B. 1998. Modeling building-block interdependency. In Late Breaking Papers at the Genetic Programming 1998 Conference, J. R. Koza, Ed. Stanford University Bookstore, University of Wisconsin, Madison, Wisconsin, USA.]]
+
+Whitley, D. 1989. The GENITOR algorithm and selective pressure: Why rank-based allocation of reproductive trials is best. In Proceedings of the 3rd International Conference on Genetic Algorithms, ICGA 1989. Morgan-Kaufmann Publishers, 116--121.]] Google Scholar
+
+Yagiura, M. and Ibaraki, T. 2001. On metaheuristic algorithms for combinatorial optimization problems. Syst. Comput. Japan 32, 3, 33--55.]]Google Scholar
+
+Zlochin, M., Birattari, M., Meuleau, N., and Dorigo, M. 2004. Model-based search for combinatorial optimization: A critical survey. Ann. Oper. Res. To appear.]]
+
+
+#----------------------#
+
+
+Authors: ['Usama Fayyad']
+
+Title: "Data mining"
+
+Abstract: "is the process of finding patterns in information contained in large databases. It is a research area at the intersection of several disciplines, including statistics, databases, pattern recognition and AI, visualization, optimization, and high-performance and parallel computing. With the success of database systems, and their widespread use, the role of the database expanded from being a reliable data store to being a decision support system (DSS). This has been manifested in the growth of"
+
+Conference: "Encyclopedia of Computer Science"
+
+Date: "January 2003"
+
+IDS: ""
+
+Page range: "Pages   496–499"
+
+DOI: "10.5555/1074100.1074308"
+
+ISBN: "0470864125"
+
 Total Citations: "0"
-Total Downloads: "12"
+
+Total Downloads: "262"
+
 References: 
-2019. ACM Digital Library. https://dl.acm.org/dl.cfm [Online; accessed 20. May 2019].
-2019. Blockly | Google Developers. https://developers.google.com/blockly [Online; accessed 3. Jun. 2019].
-2019. IEEE - The world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. https://www.ieee.org [Online; accessed 20. May 2019].
-2019. ScienceDirect.com | Science, health and medical journals, full text articles and books. https://www.sciencedirect.com [Online; accessed 20. May 2019].
-Gazihan Alankus, Amanda Lazar, Matt May, and Caitlin Kelleher. 2010. Towards Customizable Games for Stroke Rehabilitation. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '10). ACM, New York, NY, USA, 2113--2122. Google Scholar
-Dominique Archambault, Thomas Gaudy, Klaus Miesenberger, Stéphane Natkin, and Rolland Ossmann. 2008. Towards Generalised Accessibility of Computer Games. In Technologies for E-Learning and Digital Entertainment, Zhigeng Pan, Xiaopeng Zhang, Abdennour El Rhalibi, Woontack Woo, and Yi Li (Eds.). Springer Berlin Heidelberg, Berlin, Heidelberg, 518--527.
-International Game Developers Association. 2004. Accessibility in Games: Motivations and Approaches. g3ict.org/download/p/fileId_776/productId_50.
-Danilo Avola, Luigi Cinque, Gian Luca Foresti, and Marco Raoul Marini. 2019. An interactive and low-cost full body rehabilitation framework based on 3D immersive serious games. Journal of Biomedical Informatics 89 (2019), 81 -- 100. Google Scholar
-Pablo Eduardo Cabral Barata and Marcelle Pereira Mota. 2018. A Proposal for an Adaptive Game to Support the Skills Development in Children with Disabilities. In Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems (IHC 2018). ACM, New York, NY, USA, Article 43, 5 pages. Google Scholar
-Priscilla Braz, Alberto Raposo, and Clarisse Sieckenius de Souza. 2014. Design de Tecnologias Adaptáveis para uso de Profissionais da Área de Autismo. In Companion Proceedings of the 13th Brazilian Symposium on Human Factors in Computing Systems (IHC '14). Sociedade Brasileira de Computação, Porto Alegre, Brazil, Brazil, 17--20. http://dl.acm.org/citation.cfm?id=2738165.2738172Google Scholar
-Maria Claudia Buzzi, Marina Buzzi, Erico Perrone, Beatrice Rapisarda, and Caterina Senette. 2016. Learning Games for the Cognitively Impaired People. In Proceedings of the 13th Web for All Conference (W4A '16). ACM, New York, NY, USA, Article 30, 4 pages. Google Scholar
-Caio Carvalho, Gabriel Escudeiro, Jefferson Junior, Kelly Pinheiro, and Marcelle Mota. 2017. Um Jogo da Memória para Crianças com Deficiência. In XVI Simpósio Brasileiro sobre Fatores Humanos em Sistemas Computacionais (Proceedings). Joinville, SC.
-Jean Felipe Patikowski Cheiran. 2013. Jogos Inclusivos: diretrizes de acessibilidade para jogos digitais. Master's thesis. Universidade Federal do Rio Grande do Sul, Porto Alegre, RS.
-Jean Felipe Patikowski Cheiran and Marcelo Soares Pimenta. 2011. "Eu Também Quero Jogar!": Reavaliando As Práticas e Diretrizes De Acessibilidade Em Jogos. In Proceedings of the 10th Brazilian Symposium on Human Factors in Computing Systems and the 5th Latin American Conference on Human-Computer Interaction (IHC+CLIHC '11). Brazilian Computer Society, Porto Alegre, Brazil, Brazil, 289--297. http://dl.acm.org/citation.cfm?id=2254436.2254485
-Clarisse de Souza and Simone Diniz Junqueira Barbosa. 2006. A Semiotic Framing for End-User Development. 401--426. Google Scholar
-Clarisse Sieckenius de Souza. 2005. The Semiotic Engineering of Human-Computer Interaction (Acting with Technology). The MIT Press.
-Tatiana Vieira Dorneles. 2015. A Contribuição do Sistema de Comunicação Alternativa para Letramento de Pessoas com Autismo - Scala na Construção da Linguagem de Alunos com Espectro Autista na Educação Infantil.
-Dimitris Grammenos, Anthony Savidis, and Constantine Stephanidis. 2009. Designing Universally Accessible Games. Comput. Entertain. 7, 1, Article 8 (Feb. 2009), 29 pages. Google Scholar
-Klaus Miesenberger, Roland Ossmann, Dominique Archambault, Gig Searle, and Andreas Holzinger. 2008. More Than Just a Game: Accessibility in Computer Games, Vol. 5298. 247--260. Google Scholar
-Diogo Nishikawa, Leandro Novak, Marcos Azevedo, Paulo Branco, Rafael Olivi, Roberta Brandão, Franco Garcia, and Vânia Neris. 2016. Secuidar, cuidar de algo, se divertir e aprender fazem bem! Demonstração de um jogo para apoiar o tratamento da depressão. In XV Simpósio Brasileiro sobre Fatores Humanos em Sistemas Computacionais (Proceedings). São Paulo, SP.
-Denise Notini Nogueira, Raquel Oliveira Prates, and Luiz Chaimowicz. 2013. Utilizando Meta-design para Customização de Conteúdo em um Portal de Jogos Educativos. In Proceedings of the 12th Brazilian Symposium on Human Factors in Computing Systems (IHC '13). Brazilian Computer Society, Porto Alegre, Brazil, Brazil, 292--295. http://dl.acm.org/citation.cfm?id=2577101.2577171Google Scholar
-Lubos Omelina, Bart Jansen, Bruno Bonnechère, Serge Van Sint Jan, and Jan Cornelis. 2012. Serious games for physical rehabilitation: Designing highly configurable and adaptable games.
-Reinhard Oppermann (Ed.). 1994. Adaptive User Support: Ergonomic Design of Manually and Automatically Adaptable Software. L. Erlbaum Associates Inc., Hillsdale, NJ, USA.
-Jailan Salah, Yomna Abdelrahman, Ahmed Dakrouni, and Slim Abdennadher. 2018. Judged by the Cover: Investigating the Effect of Adaptive Game Interface on the Learning Experience. 215--225. Google Scholar
-Howard Shane and Patti Albert. 2008. Electronic Screen Media for Persons with Autism Spectrum Disorders: Results of a Survey. Journal of Autism and Developmental Disorders 38, 8 (2008), 1499--1508. Google Scholar
-Jaichandar Kulandaidaasan Sheba, Adnan Ahmed Salman, Sampath Kumar, Le Tan Phuc, Mohan Rajesh Elara, and Edgar Martínez-García. 2018. Behavioral Responses of Nursing Home Residents to a Robotic Pet Dog with a Customizable Interactive Kit. Procedia Computer Science 133 (2018), 409 -- 416. International Conference on Robotics and Smart Manufacturing (RoSMa2018). Google Scholar
-Mads Soegaard and Rikke Dam. 2013. Encyclopedia of Human-Computer Interaction. Interaction Design Foundation. https://books.google.com.br/books?id=ureBngEACAAJ
-Maarten Someren, Yvonne Barnard, and Jacobijn Sandberg. 1994. The Think Aloud Method - A Practical Guide to Modelling Cognitive Processes. Academic Press, London, UK.
-Nath Tumlin. 2017. Teacher Configurable Coding Challenges for Block Languages. In Proceedings of the 2017 ACM SIGCSE Technical Symposium on Computer Science Education (SIGCSE '17). ACM, New York, NY, USA, 783--784. Google Scholar
+1975. Tukey, J. Exploratory Data Analysis. Reading, MA: Addison-Wesley.
+
+1996. Brachman, R., Khabaza, T., Kloesgen, W., Piatetsky-Shapiro, G., and Simoudis, E. "Industrial Applications of Data Mining and Knowledge Discovery," Comm. of the ACM, 39, 11 (Nov), 42-48. Google Scholar
+
+1996a. Fayyad, U., Haussler, D., and Stolorz, P. "Mining Science Data," Comm. of the ACM, 39, 11 (Nov), 51-57. Google Scholar
+
+1996b. Fayyad, U., Piatetsky-Shapiro, G., Smyth, P., and Uthurusamy, R. (eds.) Advances in Knowledge Discovery and Data Mining. Cambridge, MA: MIT Press. Google Scholar
+
+1996. Kettenring, J., and Pregibon, D. (eds.) Statistics and Massive Data Sets. Report to the Committee on Applied and Theoretical Statistics, National Research Council, Washington, DC.
+
+1997. Mannila, H., Toivonen, H., and Verkamo, A. I. "Discovery of Frequent Episodes in Event Sequence," Data Mining and Knowledge Discovery, 1, 3, 259-289. Google Scholar
+
+1998. Fayyad, U. "Editorial," Data Mining and Knowledge Discovery, 2, 2.Google Scholar
+
+1999. IEEE Computer. Special issue on Data Mining, 32, 8 (August).
+
+Data Mining and Knowledge Discovery Journal. http:// research.microsoft.com/datamine/.
+
+Special issue of the Comm. of the ACM, November 96. http://research.microsoft.com/datamine/acm-contents.htm/.
+
+Knowledge Discovery Mine: moderated discussion list, archival of other resources, tools, and news items, http://www. kdnuggets.com.
+
+International conferences on Knowledge Discovery and Data Mining (1995-1999). http://research.microsoft. com/datamine/kdd99/.
+
+
 #----------------------#
-Authors: ['Daniel Domingos Alves', 'Ecivaldo Matos']
-Title: "A survey on interaction design in distributed software development"
-Abstract: "The challenges of design and development of software with geographically distributed stakeholders have not been widely addressed in the literature by the human-computer interaction (HCI) community. Although there are reports of experiences about interaction design in distributed software development (DSD), it is unclear how interaction design has been conducted in DSD projects. This paper presents the results of a survey conducted with the objective of identifying the perception of professionals involved in DSD on interaction design and to verify how interaction design has been conducted in DSD. The results indicated that good practices of interaction design have been adopted in a considerable part of the DSD projects. However, communicability and accessibility have not been considered in most DSD projects. In addition, participatory methods, techniques, and practices have been little used in DSD. The results of this survey provide an overview of how interaction design has been conducted in DSD projects and present the difficulties, challenges, and gaps of interaction design in DSD. We concluded that there is a need for future research to understand interaction design in detail and develop new solutions (or adaptations of existing solutions) of interaction design for the DSD context."
-Conference: "IHC '19: Proceedings of the 18th Brazilian Symposium on Human Factors in Computing Systems"
-Date: "October 2019"
-IDS: "Article No.: 7"
-Page range: "Pages   1–12"
-DOI: "10.1145/3357155"
-ISBN: "9781450369718"
+
+
+Authors: ['Jiawei Han']
+
+Title: "Data mining techniques"
+
+Abstract: "Data mining, or knowledge discovery in databases, has been popularly recognized as an important research issue with broad applications. We provide a comprehensive survey, in database perspective, on the data mining techniques developed recently. Several major kinds of data mining methods, including generalization, characterization, classification, clustering, association, evolution, pattern matching, data visualization, and meta-rule guided mining, will be reviewed. Techniques for mining knowledge in different kinds of databases, including relational, transaction, object-oriented, spatial, and active databases, as well as global information systems, will be examined. Potential data mining applications and some research issues will also be discussed."
+
+Conference: "SIGMOD '96: Proceedings of the 1996 ACM SIGMOD international conference on Management of data"
+
+Date: "June 1996"
+
+IDS: ""
+
+Page range: ""
+
+DOI: "10.1145/233269.280351"
+
+ISBN: "0897917944"
+
+Total Citations: "25"
+
+Total Downloads: "3,808"
+
+References: 
+The tutorial notes and related papers are accessible with the Internet address" http://db.cs.sfu.ca/DBMiner.
+
+
+#----------------------#
+
+
+Authors: ['Hanane Rachih', 'Fatima Zahra Mhada', 'Raddouane Chiheb']
+
+Title: "Metaheuristics Applied in Remanufacturing and Reverse logistics: A review"
+
+Abstract: "Due to growing environmental concerns, a large number of companies and organizations in the world give importance to reverse logistics and remanufacturing. Remanufacturing which aims is to take care of used or damaged product in the purpose of returning it like new product, lead many researchers to study the integration of this reverse flow in the process of the forward supply chain. The resulting models are difficult and complex to solve and optimize, hence the need to integrate a strong and efficient method such as Metaheuristics to solve those complex optimization problems. The purpose of this study is to review the published literature on the issues of reverse logistics and remanufacturing, and classified these papers by the type of metaheuristic used. Also, it aims to outline some future opportunities for research based on research gap analysis."
+
+Conference: "BDCA'17: Proceedings of the 2nd international Conference on Big Data, Cloud and Applications"
+
+Date: "March 2017"
+
+IDS: "Article No.: 105"
+
+Page range: "Pages   1–7"
+
+DOI: "10.1145/3090354.3090462"
+
+ISBN: "9781450348522"
+
 Total Citations: "0"
-Total Downloads: "12"
+
+Total Downloads: "62"
+
 References: 
-K. Alho and R. Sulonen. 1998. Supporting virtual software projects on the Web. In Enabling Technologies: Infrastructure for Collaborative Enterprises, 1998. (WET ICE '98) Proceedings., Seventh IEEE International Workshops on. 10--14. Google Scholar
-O. Almughram and S. Alyahya. 2017. Coordination support for integrating user centered design in distributed agile projects. In 2017 IEEE 15th International Conference on Software Engineering Research, Management and Applications (SERA). 229--238. Google Scholar
-D. D. Alves, M. I. Cagnin, and D. M. B. Paiva. 2014. Accessibility in development of free software projects. In 2014 XL Latin American Computing Conference (CLEI). 1--12. Google Scholar
-Daniel Domingos Alves and Ecivaldo de Souza Matos. 2017. Interaction Design in Free/Libre/Open Source Software Development: A Systematic Mapping. In Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems (IHC 2017). ACM, New York, NY, USA, Article 31, 10 pages. Google Scholar
-Daniel Domingos Alves and Ecivaldo de Souza Matos. 2019. Interaction design in distributed software development: A systematic mapping study. Behaviour & Information Technology (BIT) (Under Review) (2019).
-Hayward P Andres. 2002. A comparison of face-to-face and virtual software development teams. Team Performance Management: An International Journal 8, 1/2 (2002), 39--48. Google Scholar
-Catherine Ashcraft, Brad McLain, and Elizabeth Eger. 2016. Women in tech: The facts. National Center for Women & Technology (NCWIT).
-J. L. N. Audy and R. Prikladnicki. 2008. Desenvolvimento distribuído de software (Distributed software development). Elsevier.
-P. M. Bach and J. M. Carroll. 2010. Characterizing the dynamics of open user experience design: The cases of Firefox and OpenOffice. org. Journal of the Association for Information Systems 11, 12 (2010), 902.Google Scholar
-P. M. Bach and M. Twidale. 2010. Involving Reflective Users in Design. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '10). ACM, New York, NY, USA, 2037--2040. Google Scholar
-Theresa Beaubouef and Wendy Zhang. 2011. Where are the women computer science students? Journal of Computing Sciences in Colleges 26, 4 (2011), 14--20.Google Scholar
-J. K. Blomkvist, J. Persson, and J. . 2015. Communication Through Boundary Objects in Distributed Agile Teams. In Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems (CHI '15). ACM, New York, NY, USA, 1875--1884. Google Scholar
-G. Çetin and M. Göktürk. 2008. A measurement based framework for assessment of usability-centricness of open source software projects. In Signal Image Technology and Internet Based Systems, 2008. SITIS'08. IEEE International Conference on. IEEE, 585--592.
-C. Costa, C. Cunha, R. Rocha, A. C. C. França, F. Q. B. da Silva, and R. Prikladnicki. 2010. Models and Tools for Managing Distributed Software Development: A Systematic Literature Review. In Proceedings of the 14th International Conference on Evaluation and Assessment in Software Engineering (EASE'10). BCS Learning & Development Ltd., Swindon, UK, 73--76. http://dl.acm.org/citation.cfm?id=2227057.2227066
-K. Crowston, K. Wei, J. Howison, and A. Wiggins. 2008. Free/Libre Open-source Software Development: What We Know and What We Do Not Know. ACM Comput. Surv. 44, 2, Article 7 (March 2008), 35 pages. Google Scholar
-F. Q. B. da Silva, C. Costa, A. C. C. Franca, and R. Prikladinicki. 2010. Challenges and Solutions in Distributed Software Development Project Management: A Systematic Literature Review. In Proceedings of the 2010 5th IEEE International Conference on Global Software Engineering (ICGSE '10). IEEE Computer Society, Washington, DC, USA, 87--96. Google Scholar
-José Valderlei da Silva, Roberto Pereira, Samuel Bastos Buchdid, Emanuel Felipe Duarte, and Maria Cecília Calani Baranauskas. 2016. SAwD - Socially Aware Design: An Organizational Semiotics-Based CASE Tool to Support Early Design Activities. In Socially Aware Organisations and Technologies. Impact and Challenges, Maria Cecilia Calani Baranauskas, Kecheng Liu, Lily Sun, Vânia Paula de Almeida Neris, Rodrigo Bonacin, and Keiichi Nakata (Eds.). Springer International Publishing, Cham, 59--69. Google Scholar
-José Valderlei da Silva, Roberto Pereira, Elaine C. S. Hayashi, and M. Cecília C. Baranauskas. 2018. Design Practices and the SAwD Tool: Towards the Open-design Concept. In Digitalisation, Innovation, and Transformation, Kecheng Liu, Keiichi Nakata, Weizi Li, and Cecilia Baranauskas (Eds.). Springer International Publishing, Cham, 208--217.
-A. Dix. 2009. Human-computer interaction. In Encyclopedia of database systems. Springer, 1327--1331.
-N. Ebenreuter. 2009. Working Towards an Open Source Design Approach for the Development of Collaborative Design Projects. In Proceedings of the 21st Annual Conference of the Australian Computer-Human Interaction Special Interest Group: Design: Open 24/7 (OZCHI '09). ACM, New York, NY, USA, 285--288. Google Scholar
-T. Ebling, J. L. N. Audy, and R. Prikladnicki. 2009. A Systematic Literature Review of Requirements Engineering in Distributed Software Development Environments.. In ICEIS (3). 363--366. Google Scholar
-Instituto Faber-Ludens. 2012. Design Livre., 156 p. pages. [online]. Available: http://designlivre.org/download/ [Accessed: May, 28 2019].
-Alicia García-Holgado, Juanjo Mena, Francisco J García-Peñalvo, and Carina González. 2018. Inclusion of gender perspective in Computer Engineering careers: Elaboration of a questionnaire to assess the gender gap in tertiary education. In 2018 IEEE Global Engineering Education Conference (EDUCON). IEEE, 1547--1554.Google Scholar
-GitHub. 2018. The State of the Octoverse 2018. [online]. Available: https://octoverse.github.com/. [Accessed: April, 17 2018].
-Rodrigo Freese Gonzatto, Frederick MC van Amstel, Luiz Ernesto Merkle, and Timo Hartmann. 2013. The ideology of the future in design fictions. Digital creativity 24, 1 (2013), 36--45. Google Scholar
-D. C. Gumm, M. Janneck, and M. Finck. 2006. Distributed participatory design-a case study. In Proceedings of the DPD Workshop at NordiCHI, Vol. 2.
-HackerRank. 2018. Women in Tech 2018. [online]. Available: https://research.hackerrank.com/women-in-tech/2018. [Accessed: April, 08 2019].
-J. D. Herbsleb. 2007. Global Software Engineering: The Future of Socio-technical Coordination. In 2007 Future of Software Engineering (FOSE '07). IEEE Computer Society, Washington, DC, USA, 188--198. Google Scholar
-N. Iivari. 2011. Participatory Design in OSS Development: Interpretive Case Studies in Company and Community OSS Development Contexts. Behav. Inf. Technol. 30, 3 (May 2011), 309--323. Google Scholar
-N. Iivari, H. Hedberg, and T. Kirves. 2008. Usability in Company Open Source Software Context - Initial Findings from an Empirical Case Study. In Open Source Development, Communities and Quality, B. Russo, E. Damiani, S. Hissam, B. Lundell, and G. Succi (Eds.). Springer US, Boston, MA, 359--365.
-M. Jiménez and M. Piattini. 2008. Problems and solutions in distributed software development: a systematic review. In International Conference on Software Engineering Approaches for Offshore and Outsourced Development. Springer, 107--125.
-M. Jiménez, M. Piattini, and A. Vizcaíno. 2009. Challenges and improvements in distributed software development: A systematic review. Advances in Software Engineering 2009 (2009).
-Mark Kasunic. 2005. Designing an effective survey. Technical Report. CARNEGIE-MELLON UNIV PITTSBURGH PA SOFTWARE ENGINEERING INST.
-F. Lanubile, C. Ebert, R. Prikladnicki, and A. Vizcaino. 2010. Collaboration tools for global software engineering. IEEE software 27, 2 (2010).
-C. A. J. Lazarin and L. D. A. Almeida. 2016. Distributed Participatory Design Web-based Groupware: Gathering Requirements Through BrainDraw. In Proceedings of the 15th Brazilian Symposium on Human Factors in Computer Systems (IHC '16). ACM, New York, NY, USA, Article 3, 10 pages. Google Scholar
-V. Lichtner, A. P. Kounkou, A. Dotan, J. P. Kooken, and N. A.M. Maiden. 2009. An Online Forum As a User Diary for Remote Workplace Evaluation of a Work-integrated Learning System. In CHI '09 Extended Abstracts on Human Factors in Computing Systems (CHI EA '09). ACM, New York, NY, USA, 2955--2970. Google Scholar
-A. Lisowska Masson, T. Amstutz, and D. Lalanne. 2017. A Usability Refactoring Process for Large-Scale Open Source Projects: The ILIAS Case Study. In Proceedings of the 2017 CHI Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA '17). ACM, New York, NY, USA, 1135--1143. Google Scholar
-L. Llerena, N. Rodríguez, G. Sacca, J. W. Castro, and S. T. Acuña. 2016. Adoption of the Personas Technique in the Open Source Software Development Process. In Proceedings of the XVII International Conference on Human Computer Interaction (Interaccin '16). ACM, New York, NY, USA, Article 39, 4 pages. Google Scholar
-J. Lowgren. 2013. Interaction Design - brief intro In The Encyclopedia of Human-Computer Interaction. The Interaction Design Foundation.
-S. Luz and M. Masoodian. 2014. Involving Geographically Distributed Users in the Design of an Interactive System. In Proceedings of the Fifteenth Australasian User Interface Conference - Volume 150 (AUIC '14). Australian Computer Society, Inc., Darlinghurst, Australia, Australia, 77--84. http://dl.acm.org/citation.cfm?id=2667657.2667666
-Softex - Associação para Promoção da Excelência do Software Brasileiro. 2019. Mulheres na TI: atuação da mulher no mercado de trabalho formal brasileiro em tecnologia da informação. [online]. Available: https://www.ftp.softex.br/Inteligencia/mulheres_na_ti/mulheres_na_ti.pdf [Accessed: May, 30 2019].
-Javier Portillo-Rodríguez, Aurora Vizcaíno, Mario Piattini, and Sarah Beecham. 2012. Tools used in Global Software Engineering: A systematic mapping review. Information and Software Technology 54, 7 (2012), 663--685.Google Scholar
-J. Preece, H. Sharp, and Y. Rogers. 2015. Interaction design: beyond human-computer interaction (4 ed.). Wiley.
-R. Prikladnicki and J. L. N. Audy. 2010. Process models in the practice of distributed software development: A systematic review of the literature. Information and Software Technology 52, 8 (2010), 779--791.Google Scholar
-N. P. Radtke, M. A. Janssen, and J. S. Collofello. 2009. What makes Free/Libre Open Source Software (FLOSS) projects successful? An agent-based model of FLOSS projects. International Journal of Open Source Software and Processes (IJOSSP) 1, 2 (2009), 1--13. Google Scholar
-Darja Šmite, Claes Wohlin, Tony Gorschek, and Robert Feldt. 2010. Empirical evidence in global software engineering: a systematic review. Empirical software engineering 15, 1 (2010), 91--118. Google Scholar
-SourceForge. 2018. Make Your Projects Come To Life. [Online]. Available: https://sourceforge.net/. [Accessed: April, 4 2018].
-R. Subramanyam and M. Xia. 2008. Free/Libre Open Source Software development in developing and developed countries: A conceptual framework with an exploratory study. Decision support systems 46, 1 (2008), 173--186.
-J. Treviranus. 2009. You say tomato, I say tomato, let's not call the whole thing off: the challenge of user experience design in distributed learning environments. On the Horizon 17, 3 (2009), 208--217.Google Scholar
-June M Verner, O Pearl Brereton, Barbara A Kitchenham, Mahmood Turner, and Mahmood Niazi. 2014. Risks and risk mitigation in global software development: A tertiary study. Information and Software Technology 56, 1 (2014), 54--78.Google Scholar
-G. Walsh and E. Foss. 2015. A Case for Intergenerational Distributed Co-design: The Online Kidsteam Example. In Proceedings of the 14th International Conference on Interaction Design and Children (IDC '15). ACM, New York, NY, USA, 99--108. Google Scholar
-L. Zhao and F. P. Deek. 2005. Improving open source software usability. AMCIS 2005 Proceedings (2005), 430.
+Agrawal, S. et al. 2015. A literature review and perspectives in reverse logistics. Resources, Conservation and Recycling. 97, (2015), 76--92. Google Scholar
+
+Aras, N. and Aksen, D. 2008. Locating collection centers for distance- and incentive-dependent returns. International Journal of Production Economics. 111, 2 (2008), 316--333. Google Scholar
+
+Bazan, E. et al. 2016. A review of mathematical inventory models for reverse logistics and the future of its modeling: An environmental perspective. Applied Mathematical Modelling. 40, 5--6 (2016), 4151--4178.Google Scholar
+
+Beltrán, J.L. and Krass, D. 2002. Dynamic lot sizing with returning items and disposals. IIE Transactions (Institute of Industrial Engineers). 34, 5 (2002), 437--448. Google Scholar
+
+Boussaïd, I. et al. 2013. A survey on optimization metaheuristics. Information Sciences. 237, February (2013), 82--117. Google Scholar
+
+Brito, M.P. De and Dekker, R. 2002. Reverse Logistics - a framework. Econometric Institute Report EI 2002. 38, (2002), 1--19.
+
+Buschkühl, L. et al. 2010. Dynamic capacitated lot-sizing problems: A classification and review of solution approaches. OR Spectrum. 32, 2 (2010), 231--261. Google Scholar
+
+Carrasco-Gallego, R. and Ponce-Cueto, E. 2009. Forecasting the returns in reusable containers' closed-loop supply chains. A case in the LPG industry. 3rd International Conference on Industrial Engineering and Industrial Management. (2009), 311--320.
+
+Chanintrakul, P. et al. 2009. Reverse logistics network design: a state-of-the-art literature review. Int. J. Business Performance and Supply Chain Modelling. 1, 1 (2009), 61--81. Google Scholar
+
+Chen, H. and He, H. 2010. Reverse Logistics Demand Forecasting under Demand Uncertainty. ICLEM 2010: Logistics for Sustained Economic Development. 387, (2010), 343--348.Google Scholar
+
+Chiou, C.Y. et al. 2012. Consideration Factors of Reverse Logistics Implementation -A Case Study of Taiwan's Electronics Industry. Procedia - Social and Behavioral Sciences. 40, 0 (2012), 375--381. Google Scholar
+
+Clottey, T. 2012. for Remanufacturing Operations. Decision Sciences Journal of Innovative Education. 43, 4 (2012), 589--614.Google Scholar
+
+Dehghanian, F. and Mansour, S. 2009. Designing sustainable recovery network of end-of-life products using genetic algorithm. Resources, Conservation and Recycling. 53, 10 (2009), 559--570. Google Scholar
+
+Easwaran, G. and Uster, H. 2009. Tabu Search and Benders Decomposition Approaches for a Capacitated Closed-Loop Supply Chain Network Design Problem. Transportation Science. 43, 3 (2009), 301--320. Google Scholar
+
+Eskandarpour, M. et al. 2014. A reverse logistics network for recovery systems and a robust metaheuristic solution approach. International Journal of Advanced Manufacturing Technology. 74, 9--12 (2014), 1393--1406.Google Scholar
+
+Flapper, S.D. et al. 2014. On the optimal control of manufacturing and remanufacturing activities with a single shared server. European Journal of Operational Research. 234, 1 (2014), 86--98. Google Scholar
+
+Galantucci, L.M. et al. 2004. Assembly and Disassembly Planning by using Fuzzy Logic & Genetic Algorithms. International Journal of Advanced Robotic Systems. 1, 2 (2004), 67--74. Google Scholar
+
+Gharbi, A. et al. 2008. Production rate control for stochastic remanufacturing systems. International Journal of Production Economics. 112, 1 (2008), 37--47. Google Scholar
+
+Glover, F. 1989. Tabu Search - Part I. ORSA journal on Computing. 2 1, 3 (1989), 4--32.
+
+Govindan, K. et al. 2014. Reverse logistics and closed-loop supply chain: A comprehensive review to explore the future. European Journal of Operational Research. 240, 3 (2014), 603--626.Google Scholar
+
+Govindan, K. et al. 2015. Reverse logistics and closed-loop supply chain: A comprehensive review to explore the future. European Journal of Operational Research. 240, 3 (2015), 603--626. Google Scholar
+
+Gu, Q. and Tagaras, G. 2014. Optimal collection and remanufacturing decisions in reverse supply chains with collector's imperfect sorting. International Journal of Production Research. 52, 17 (2014), 5155--5170. Google Scholar
+
+Guo, J. et al. 2010. A Manufacturing / Remanufacturing System with the Consideration of Required Quality of End-of-used Products. IEMS. 9, 3 (2010), 204--214. Google Scholar
+
+Guo, J. and Ya, G. 2015. Optimal strategies for manufacturing/remanufacturing system with the consideration of recycled products. Computers and Industrial Engineering. 89, (2015), 226--234. Google Scholar
+
+Hatcher, G.D. et al. 2011. Design for remanufacture: A literature review and future research needs. Journal of Cleaner Production. 19, 17--18 (2011), 2004--2014.Google Scholar
+
+Ijomah, W. 2009. Addressing decision making for remanufacturing operations and design-for-remanufacture. International Journal of Sustainable Engineering. 2, December (2009), 91--202. Google Scholar
+
+Ilgin, M.A. and Gupta, S.M. 2010. Environmentally conscious manufacturing and product recovery (ECMPRO): A review of the state of the art. Journal of Environmental Management. 91, 3 (2010), 563--591. Google Scholar
+
+Inderfurth, K. and Van Der Laan, E. 2001. Leadtime effects and policy improvement for stochastic inventory control with remanufacturing. International Journal of Production Economics. 71, 1--3 (2001), 381--390.Google Scholar
+
+R. Jans and Z. Degraeve, "Meta-heuristics for dynamic lot sizing: A review and comparison of solution approaches," Eur. J. Oper. Res., vol. 177, no. 3, pp. 1855--1875, 2007. Google Scholar
+
+Jayaraman, V. and Yadong, L. 2007. Creating Competitive Advantages Through New Value Creation: A Reverse Logistics Perspective. Academy of Management Perspectives. 21, 2 (2007), 56--73. Google Scholar
+
+Kalayci, C.B. and Gupta, S.M. 2012. a Particle Swarm Optimization Algorithm for the. 135 (2012), 6--8.
+
+Kalayci, C.B. and Gupta, S.M. 2013. Simulated Annealing Algorithm for Solving Sequence-Dependent Disassembly Line Balancing Problem. IFAC Proceedings Volumes. 46, 9 (2013), 93--98.
+
+Kannan, G. et al. 2009. Analysis of closed loop supply chain using genetic algorithm and particle swarm optimisation. International Journal of Production Research. 47, 5 (2009), 1175--1200. Google Scholar
+
+Kenné, J.P. et al. 2012. Production planning of a hybrid manufacturing remanufacturing system under uncertainty within a closed-loop supply chain. International Journal of Production Economics. 135, 1 (2012), 81--93. Google Scholar
+
+Kiesmüller, G.P. 2003. A new approach for controlling a hybrid stochastic manufacturing/remanufacturing system with inventories and different leadtimes. European Journal of Operational Research. 147, 1 (2003), 62--71. Google Scholar
+
+King, A.M. et al. 2006. Remanufacture or Recycle? Sustainable Development. 267, December 2005 (2006), 257--267.
+
+Ko, H.J. and Evans, G.W. 2007. A genetic algorithm-based heuristic for the dynamic integrated forward/reverse logistics network for 3PLs. Computers and Operations Research. 34, 2 (2007), 346--366. Google Scholar
+
+Kongar, E. and Gupta, S.M. 2009. A multiple objective tabu search approach for end-of-life product disassembly. International Journal of Advanced Operations Management. 1, 2--3 (2009), 177--202.Google Scholar
+
+Lau, K.H. and Wang, Y. 2009. Reverse logistics in the electronic industry of China: a case study. Supply Chain Management: An International Journal. 14, 6 (2009), 447--465. Google Scholar
+
+Lee, Y.H. et al. 2006. Vehicle routing scheduling for cross-docking in the supply chain. Computers & Industrial Engineering. 51, 2 (2006), 247--256. Google Scholar
+
+Li, L. et al. 2014. A Color Petri Net based Scheduling Model for Remanufacturing System with Stochastic Process Routing. IEEE International Conference on Automation Science and Engineering. (2014).
+
+Li, L. et al. 2015. An optimization method for the remanufacturing dynamic facility layout problem with uncertainties. Discrete Dynamics in Nature and Society. 2015, (2015). Google Scholar
+
+Li, N. 2011. Research on location of remanufacturing factory based on particle swarm optimization. 2011 International Conference on Management Science and Industrial Engineering, MSIE 2011. 1 (2011), 1016--1019.
+
+Li, X. et al. 2014. A robust block-chain based tabu search algorithm for the dynamic lot sizing problem with product returns and remanufacturing. Omega (United Kingdom). 42, 1 (2014), 75--87. Google Scholar
+
+Li, Y. et al. 2007. Heuristic genetic algorithm for capacitated production planning problems with batch processing and remanufacturing. International Journal of Production Economics. 105, 2 (2007), 301--317. Google Scholar
+
+Li, Y. et al. 2006. Uncapacitated production planning with multiple product types, returned product remanufacturing, and demand substitution. OR Spectrum. 28, 1 (2006), 101--125. Google Scholar
+
+Li, Y.H. et al. 2013. A Hybrid Genetic-Simulated Annealing Algorithm for the Location-Inventory-Routing Problem Considering Returns under E-Supply Chain Environment. Scientific World Journal. 2013, (2013). Google Scholar
+
+Ma, H. 2014. An Optimal Solution to the Remanufacturing Facility Layout Problem *. 51105395 (2014), 1729--1734.
+
+McGovern, S.M. and Gupta, S.M. 2007. A balancing method and genetic algorithm for disassembly line balancing. European Journal of Operational Research. 179, 3 (2007), 692--708. Google Scholar
+
+Meade, L. et al. 2007. The theory and practice of Reverse Logistics. International Journal of Logistics Systems and Management. 3, 1 (2007), 56--84. Google Scholar
+
+Mehdizadeh, E. and Fatehi, A. 2014. Three Metaheuristic Algorithms for Solving the Multi-item Capacitated Lotsizing Problem with Product Returns and Remanufacturing. 16, (2014), 41--53.
+
+Min, H. et al. 2006. A genetic algorithm approach to developing the multi-echelon reverse logistics network for product returns. Omega. 34, 1 (2006), 56--69. Google Scholar
+
+Morgan, S.D. and Gagnon, R.J. 2013. A systematic literature review of remanufacturing scheduling. International Journal of Production Research. 51, 16 (2013), 4853--4879. Google Scholar
+
+Moustaki, E. et al. 2013. A first study of particle swarm optimization on the dynamic Lot Sizing. XI Balkan Conference on operation Research. (2013).
+
+K. E. Parsopoulos, I. Konstantaras, and K. Skouri, "Metaheuristic optimization for the Single-Item Dynamic Lot Sizing problem with returns and remanufacturing," Comput. Ind. Eng., vol. 83, pp. 307--315, 2015. Google Scholar
+
+Piñeyro, P. and Viera, O. 2015. The economic lot-sizing problem with remanufacturing: analysis and an improved algorithm. Journal of Remanufacturing. 5, 1 (2015), 12. Google Scholar
+
+Pishvaee, M.S. et al. 2010. Reverse logistics network design using simulated annealing. International Journal of Advanced Manufacturing Technology. 47, 1--4 (2010), 269--281.Google Scholar
+
+Pokharel, S. and Mutha, A. 2009. Perspectives in reverse logistics: A review. Resources, Conservation and Recycling. 53, 4 (2009), 175--182. Google Scholar
+
+Rambod, M. and Rezaeian, J. 2014. Robust meta-heuristics implementation for unrelated parallel machines scheduling problem with rework processes and machine eligibility restrictions. Computers and Industrial Engineering. 77, (2014), 15--28. Google Scholar
+
+Riopel, D. and Lambert, S. 2003. Logistique inverse: revue de littérature. Escbrestfr. 33, 0 (2003), 2--48.
+
+Roger, D. and TIbben-Lembke, R. 1998. Going Backwards: Reverse Logistics Trends and Practices Going Backwards: Reverse Logistics Trends and Practices. (1998), 2.
+
+Roshani, A. et al. 2016. A simulated annealing approach for the capacitated dynamic lot sizing problem in a closed remanufacturing system. IFAC-PapersOnLine. 49, 12 (2016), 1496--1501. Google Scholar
+
+Rubio, S. et al. 2008. Characteristics of the research on reverse logistics (1995-2005). International Journal of Production Research. 46, 4 (2008), 1099--1120. Google Scholar
+
+Sadrnia, a et al. 2014. A Review of Nature-Based Algorithms Applications in Green Supply Chain Problems. IACSIT International Journal of Engineering and Technology. 6, 3 (2014).
+
+Sasikumar, P. and Kannan, G. 2008. Issues in reverse supply chain, part II: reverse distribution issues -- an overview. International Journal of Sustainable Engineering. 1, 4 (2008), 234--249. Google Scholar
+
+Soleimani, H. and Kannan, G. 2014. A hybrid particle swarm optimization and genetic algorithm for closed-loop supply chain network design in large-scale networks. Applied Mathematical Modelling. 39, 14 (2014), 3990--4012. Google Scholar
+
+Srivastava, S.K. 2007. Green supply-chain management: A state-of-the-art literature review. International Journal of Management Reviews. 9, 1 (2007), 53--80. Google Scholar
+
+Subramanian, N. et al. 2014. Factors for implementing end-of-life product reverse logistics in the Chinese manufacturing sector. International Journal of Sustainable Development & World Ecology. 21, March 2015 (2014), 235--245.Google Scholar
+
+Subramanian, P. et al. 2013. PRISM: PRIority based SiMulated annealing for a closed loop supply chain network design problem. Applied Soft Computing Journal. 13, 2 (2013), 1121--1135. Google Scholar
+
+Vercraene, S. et al. 2014. Coordination of manufacturing, remanufacturing and returns acceptance in hybrid manufacturing/remanufacturing systems. International Journal of Production Economics. 148, (2014), 62--70. Google Scholar
+
+Wang, H.F. and Hsu, H.W. 2010. A closed-loop logistic model with a spanning-tree based genetic algorithm. Computers and Operations Research. 37, 2 (2010), 376--389. Google Scholar
+
+Yadegari, E. et al. 2015. A hybrid spanning tree-based genetic/simulated annealing algorithm for a closed-loop logistics network design problem. International Journal of Applied Decision Sciences. 8, 4 (2015), 400--426. Google Scholar
+
+Yi, P. et al. 2015. A retailer oriented closed-loop supply chain network design for end of life construction machinery remanufacturing. Journal of Cleaner Production. (2015).
+
+Zhang, R. et al. 2015. A simulation-based genetic algorithm approach for remanufacturing process planning and scheduling. Applied Soft Computing Journal. 37, (2015), 521--532. Google Scholar
+
+Zhou, G. and Min, H. 2011. Designing a closed-loop supply chain with stochastic product returns: A Genetic Algorithm approach. International Journal of Logistics Systems and Management. 9, 4 (2011), 397--418. Google Scholar
+
+Zhou, X. et al. 2012. Remanufacturing closed-loop supply chain network design based on genetic particle swarm optimization algorithm. J. Cent. South Univ. 5, 19 (2012), 482--487. Google Scholar
+
+
 #----------------------#
-Authors: ['Thiago Rocha Silva', 'Marco Winckler']
-Title: "A Scenario-Based Approach for Checking Consistency in User Interface Design Artifacts"
-Abstract: "Keeping the consistency of requirements in different artifacts along the development process is a cumbersome activity, especially if it is done manually. Previous studies have investigated the use of User Stories to write testable requirements in order to automate the assessment of a given set of development artifacts. This paper expands the research in this field describing a scenario-based approach for checking consistency in User Interface (UI) design artifacts, modeling business and user requirements. A case study is presented as a proof of concept showing how our approach could be used to ensure the consistency of both business and task models, besides UI prototypes and scenarios. Preliminary testing results have shown that our approach is able to identify even fine-grained inconsistencies in the mentioned artifacts, allowing establishing a reliable compatibility among different UI design artifacts."
-Conference: "IHC 2017: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems"
-Date: "October 2017"
+
+
+Authors: ['Dennis L. Kappen', 'Lennart E. Nacke']
+
+Title: "The kaleidoscope of effective gamification: deconstructing gamification in business applications"
+
+Abstract: "Developers of gamified business applications face the challenge of creating motivating gameplay strategies and creative design techniques to deliver subject matter not typically associated with games in a"
+
+Conference: "Gamification '13: Proceedings of the First International Conference on Gameful Design, Research, and Applications"
+
+Date: "October 2013"
+
+IDS: ""
+
+Page range: "Pages   119–122"
+
+DOI: "10.1145/2583008.2583029"
+
+ISBN: "9781450328159"
+
+Total Citations: "28"
+
+Total Downloads: "1,189"
+
+References: 
+Aparicio, A. F., Vela, F. L. G., Sánchez, J. L. G., and Montes, J. L. I. Analysis and application of gamification. Proc. of INTERACCION '12, (2012), 1--2. Google Scholar
+
+Deci, E. L., Eghrari, H., Patrick, B. C., and Leone, D. R. Facilitating Internalization: The Self Determination Theory Perspective. J Pers 62, 2 (1994), 119--42.
+
+Deci, E. L., Koestner, R., and Ryan, R. M. A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation. Psychological Bulletin, 1999, 627--668.
+
+Deterding, S., Sicart, M., Nacke, L., O'Hara, K., and Dixon, D. Gamification. using game-design elements in non-gaming contexts. Proc. of CHI EA '11, (2011), 2425--2428. Google Scholar
+
+Deterding, S. Situated motivational affordances of game elements: A conceptual model. CHI Gamification Workshop 2011, (2011), 3--6.
+
+Flatla, D. R., Gutwin, C., Nacke, L. E., Bateman, S., and Mandryk, R. L. Calibration games: making calibration tasks enjoyable by adding motivating game elements. Proc. of UIST'11, ACM (2011), 403--412. Google Scholar
+
+Hamari, J. and Eranti, V. Framework for Designing and Evaluating Game Achievements. DiGRA 2011: Think Design Play, (2011), 1--20.
+
+Heintz, S. Evaluating Design Elements for Digital Educational Games on Programming: A Pilot Study. Proc. of BCS-HCI '12, (2012), 245--250. Google Scholar
+
+Hunicke, R., Leblanc, M., and Zubek, R. MDA: A Formal Approach to Game Design and Game Research. Proc. of Challenges in Games AI Workshop,(2004),1--5.
+
+Nicholson, S. A User-Centered Theoretical Framework for Meaningful Gamification A Brief Introduction to Gamification Organismic Integration Theory Situational Relevance and Situated Motivational Affordance. Games+Learning+Society 8.0, (2012).
+
+Przybylski, A. K., Rigby, C. S., and Ryan, R. M. A motivational model of video game engagement. Rev Gen Psychol 14, 2 (2010), 154--166.Google Scholar
+
+Ryan, R. M. and Deci, E. L. Intrinsic and Extrinsic Motivations: Classic Definitions & New Directions. Contemp educ psychol 25, 1 (2000), 54--67.
+
+Ryan, R. M., Rigby, C. S., and Przybylski, A. The Motivational Pull of Video Games: A Self-Determination Theory Approach. Motivation and Emotion 30, 4 (2006), 344--360.Google Scholar
+
+Schell, J. The Art of Game Design: A Book of Lenses. Morgan Kaufman, Amsterdam, 2009. Google Scholar
+
+Sprenc, A., Spreng, R. A., and Lansing, E. An Empirical Examination of a Model of Perceived Service Quality and Satisfaction. Journal of Retailing, 72, 2 (1996), 201--214.
+
+Yee, N. Motivations for play in online games. Cyberpsychology & behavior 9, 6 (2006), 772--5.
+
+
+#----------------------#
+
+
+Authors: ['Miroslav Minović', 'Miloš Milovanović', 'Francisco Gallego']
+
+Title: "Gamification ecosystems"
+
+Abstract: "In this paper, we provide basic motivation for establishing Gamification ecosystems track. Second part of the paper presents general overview of each of the participating paper in Gamification ecosystems track of TEEM 2016 conference."
+
+Conference: "TEEM '16: Proceedings of the Fourth International Conference on Technological Ecosystems for Enhancing Multiculturality"
+
+Date: "November 2016"
+
+IDS: ""
+
+Page range: "Pages   737–738"
+
+DOI: "10.1145/3012430.3012600"
+
+ISBN: "9781450347471"
+
+Total Citations: "0"
+
+Total Downloads: "68"
+
+References: 
+Minovic, M. and Milovanovic, M. 2014. Gamification ecosystems. Proceedings of Technological Ecosystems for Enhancing Multiculturality. TEEM 2014, Salamanca, Spain. 165--169. Google Scholar
+
+
+#----------------------#
+
+
+Authors: ['Bastien Poggi', 'Jean-François Santucci', 'Thierry Antoine-Santoni']
+
+Title: "Optimization based on dynamic and hybrid metaheuristics via DEVS simulation"
+
+Abstract: "In this paper we present an efficient decision-making framework allowing optimization via simulation combining metaheuristics algorithms and DEVS formalism. A proposed object-oriented approach provides an universal interface between any existing DEVS models and some existing metaheuristics. To do this we explode the optimization algorithms into several actions involved in an optimization loop. Concerning the evaluation step which one can find in each metaheuristic we propose to externalize it into decision models using DEVS messages. This interconnection of components generates the following new concepts: (i) event-driven metaheuristic parametrization that allows an automatic execution of the associated algorithm; (ii) creation of dynamic and hydrid metaheuristics used for hard-optimization problems; (iii) decision support variables temporization that allows optimization on a specific time interval. We validated the effectiveness of the previous concepts through the implementation of the popular genetic algorithms and the more recent harmonic search algorithm. Furthermore the validation is completed on a real case example concerning medical treatment through a simple glycemic DEVS model. Simulation results show that the resulting treatement reduces the risk of over-tratement or under-treatement."
+
+Conference: "DEVS '14: Proceedings of the Symposium on Theory of Modeling & Simulation - DEVS Integrative"
+
+Date: "April 2014"
+
 IDS: "Article No.: 3"
-Page range: "Pages   1–10"
-DOI: "10.1145/3160504"
-ISBN: "9781450363778"
-Total Citations: "3"
-Total Downloads: "61"
-References: 
-Michel Beaudouin-Lafon and Wendy Mackay. 2002. Prototyping tools and techniques. In The human-computer interaction handbook, L. Erlbaum Associates Inc., Hillsdale, NJ, USA, 1006--1031. Google Scholar
-Robert A. Buchmann and Dimitris Karagiannis. 2015. Modelling Mobile App Requirements for Semantic Traceability. Requirements Engineering 22, 1: 1--35. Google Scholar
-José C. Campos, Camille Fayollas, Célia Martinie, David Navarre, Philippe Palanque and Miguel Pinto. 2016. Systematic automation of scenario-based testing of user interfaces. In Proceedings of the 8th ACM SIGCHI Symposium on Engineering Interactive Computing Systems, 138--148. Google Scholar
-Mike Cohn. 2004. User Stories Applied: For Agile Software Development. Addison-Wesley Professional. Google Scholar
-Adrien Coyette, Suzanne Kieffer and Jean Vanderdonckt. 2007. Multi-fidelity Prototyping of User Interfaces. In Proc. of the IFIP TC.13 International Conference on Human-Computer Interaction, 150--164. Google Scholar
-Anurag Dwarakanath and Shubhashis Sengupta. 2012. Litmus: Generation of Test Cases from Functional Requirements in Natural Language. In Int. Conference on Application of Natural Language to Information Systems, 58--69. Google Scholar
-Racim Fahssi, Célia Martinie and Philippe Palanque. 2015. Enhanced Task Modelling for Systematic Identification and Explicit Representation of Human Errors. In Proc. of the IFIP TC.13 International Conference on Human-Computer Interaction, 192--212.Google Scholar
-Object Management Group. 2011. Business Process Model And Notation™ (BPMN™). Retrieved August, 2017 from http://www.omg.org/spec/BPMN/2.0/
-Michael Havey. 2005. Essential Business Process Modeling. O'Reilly Media, Inc. Google Scholar
-Julio C. S. P. Leite and Antonio P. A. Oliveira. 1995. A Client Oriented Requirements Baseline. In Proc. of the 2nd IEEE International Symposium on Requirements Engineering (RE'95), 108--115. Google Scholar
-Quentin Limbourg, Jean Vanderdonckt, Benjamin Michotte, Laurent Bouillon and Víctor López-Jaquero. 2004. USIXML: a Language Supporting Multi-Path Development of User Interfaces. In Proc. of the EHCI-DSVIS, 200--220. Google Scholar
-Esteban R. Luna, Irene Garrigós, Julián Grigera and Marco Winckler. 2010. Capture and Evolution of Web Requirements Using WebSpec. In Proc. of the Int. Conference on Web Engineering, 173--188. Google Scholar
-Célia Martinie, Philippe Palanque and Marco Winckler. 2011. Structuring and Composition Mechanisms to Address Scalability Issues in Task Models. In Proc. of the IFIP TC.13 International Conference on Human-Computer Interaction, 589--609. Google Scholar
-Rudolf van Megen and Dirk B. Meyerhoff. 1995. Costs and benefits of early defect detection: experiences from developing client server and host applications. Software Quality Journal 4, 4: 247--256.Google Scholar
-Dan North. 2017. What's in a Story?. Retrieved August, 2017 from http://dannorth.net/whats-in-a-story/
-Fabio Paternò, Carmen Santoro, Lucio D. Spano and Dave Raggett. 2017. W3C, MBUI - Task Models. Retrieved August, 2017 from http://www.w3.org/TR/task-models/
-Florence Pontico, Christelle Farenc and Marco Winckler. 2006. Model-Based Support for Specifying eService eGovernment Applications. In Proc. of the International Workshop on Task Models and Diagrams for User Interface Design, 54--67. Google Scholar
-Jaroslav Pullmann. 2017. W3C, MBUI - Glossary. Retrieved August, 2017 from http://www.w3.org/TR/mbui-glossary/
-Mary B. Rosson and John M. Carroll. 2002. Usability Engineering: Scenario-Based Development of Human-Computer Interaction. Morgan Kaufmann. Google Scholar
-Ken Schwaber. 2004. Agile Project Management with Scrum. Microsoft Press. Google Scholar
-Thiago R. Silva, Jean-Luc Hak and Marco Winckler. 2017. A Behavior-Based Ontology for Supporting Automated Assessment of Interactive Systems. In Proc. of the 11th IEEE International Conference on Semantic Computing, 250--257.Google Scholar
-Harry M. Sneed. 2007. Testing against Natural Language Requirements. In Proc. of the Seventh IEEE International Conference on Quality Software (QSIC 2007), 380--387. Google Scholar
-Eero J. Uusitalo, Marko Komssi, Marjo Kauppinen and Alan M. Davis. 2008. Linking Requirements and Testing in Practice. In Proc. of the IEEE Int. Requirements Engineering Conference, 265--270. Google Scholar
-Pedro Valente, Thiago Silva, Marco Winckler, and Nuno Nunes. 2016. Bridging Enterprise and Software Engineering Through an User-Centered Design Perspective. In Proc. of the International Conference on Web Information Systems Engineering, 349--357. Google Scholar
-Marco Winckler and Philippe Palanque. 2012. Models as Representations for Supporting the Development of e-Procedures. In Usability in Government Systems --User Experience Design for Citizens and Public Servants, Morgan Kaufmann Publishers, 301--315.
-Andreas Wolff, Peter Forbrig, Anke Dittmar and Daniel Reichart. 2005. Linking GUI Elements to Tasks: Supporting an Evolutionary Design Process. In Proc. of the 4th International Workshop on Task Models and Diagrams, 27--34. Google Scholar
-#----------------------#
-Authors: ['Polianna Paim', 'Soraia Prietch', 'Anderson Duarte']
-Title: "CoDesign in the Exploratory Phase of an Assistive Technology product Design to support the Teaching-Learning Process of Brazilian-Portuguese Language for Visual Persons"
-Abstract: "Libras is a communication and expression language of many Visual Person (VP) in Brazil. In National High School Examination (ENEM), for candidates to a vacancy in higher education institutions, the essay must be written in Portuguese, not taking into account the first language of the candidate. This paper presents an adapted framework that groups concepts of CoDesign, technology adoption, HCI life cycle and Semantic Numbers, and also shows the results of first phase of research. This phase consists of a contextual analysis of an Assistive Technology project for Portuguese teaching as a second language for VP. The adapted framework aims to reach objectives, working with interested parts, to be accessible and potentially adopted by them. As results we have defined Interested Parts Diagram, discussed responses applied surveys and elaborated Personas. Also, it was possible to observe the relation of the PV with the Portuguese, their wishes and difficulties with ENEM."
-Conference: "IHC 2018: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems"
-Date: "October 2018"
-IDS: "Article No.: 12"
+
 Page range: "Pages   1–9"
-DOI: "10.1145/3274192"
-ISBN: "9781450366014"
-Total Citations: "1"
-Total Downloads: "50"
-References: 
-Maria C. C. Baranauskas, Maria C. Martins, and José A. Valente. 2013. Codesign de Redes Digitais: Tecnologia e Educação a Serviço da Inclusão Social. Penso, Porto Alegre RS.
-Simone D. J. Barbosa and Bruno S. Silva. 2010. Interação Humano-Computador. Elsevier.
-Claudio A. Benassi and Anderson S. Duarte. 2014. Além dos sentidos: ensaios sobre Libras. RevDia. Retrieved May 04, 2018 from https://goo.gl/e8FKKu
-Rita Bersch. 2017. Introdução à Tecnologia Assistiva. Retrieved May 04, 2018 from https://goo.gl/VMnKup
-Clodis Boscarioli, Charles Giovane de Salles, Jeferson José Baqueta, and João Paulo Colling. 2012. Avaliação e design de interação de jogos voltados ao aprendizado de crianças surdas. In Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems (IHC '12). Brazilian Computer Society, Porto Alegre, RS, Brazil, 25--26. Retrieved May 04, 2018 from https://goo.gl/he7vsf Google Scholar
-Brasil. 2002. Lei n° 10.436: Dispõe sobre a Língua Brasileira de Sinais - Libras e dá outras providências. Retrieved May 04, 2018 from https://goo.gl/X4BHZo
-Brasil. 2005. Decreto n° 5.626: Regulamenta a Lei no 10.436, de 24 de abril de 2002, que dispõe sobre a Língua Brasileira de Sinais - Libras, e o art. 18 da Lei no 10.098, de 19 de dezembro de 2000. Retrieved May 04, 2018 from https://goo.gl/KcrHuU
-Brasil. 2015. Lei n° 13.146: Institui a Lei Brasileira de Inclusão da Pessoa com Deficiência (Estatuto da Pessoa com Deficiência). Retrieved May 04, 2018 from https://goo.gl/R2h9tk
-Diléia A. M. Briega. 2017. O ENEM como via de acesso do Surdo ao Ensino Superior brasileiro. Ph.D. Dissertation. Universidade Federal de São Carlos, São Carlos, SP, BR. Advisor(s) Lacerda, Cristina B. F. de. Retrieved May 04, 2018 from https://goo.gl/r5HJRa
-Albert M. Cook and Jan M. Polgar. 2008. Cook and Husseys's Assistive Technologies: Principles and Practice (3rd ed.). Elsevier.
-Ana Correia, Rita Couto, and Cristina Portugal. 2002. Multi-trilhas virtual: avaliação do jogo de entretenimento para a aquisição da linguagem por crianças surdas. In Anais do 10° Congresso Brasileiro de Pesquisa e Desenvolvimento em Design. São Luís, MA, Brazil, 3398--3409. Retrieved May 04, 2018 from https://goo.gl/HtM6bt
-Fundação Síndrome de Down. 2013. Atendimento Educacional Especializado/AEE e Apoio Pedagógico: como identificá-los na escola? Retrieved May 04, 2018 from https://goo.gl/isvpci
-Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP). 2017. Conheça o perfil dos participantes do Enem 2017 no Brasil e em cada Unidade da Federação. Retrieved May 04, 2018 from https://goo.gl/Dnxk8E
-Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP). 2017. Participantes do Enem 2017 surdos ou deficientes auditivos ganham orientações em Libras. Retrieved May 04, 2018 from https://goo.gl/e6dTgY
-Amy G. Dell, Deborah A. Newton, and Jerry G. Petroff. 2008. Assistive Technology in the classroom: enhancing the school experiences of students with disabilities. Pearson.
-Anderson S. Duarte. 2011. Ensino de Libras para ouvintes numa abordagem dialógica: contribuições da teoria bakhtiniana para a elaboração de material didático. Master's thesis. Universidade Federal de Mato Grosso, Cuiabá, MT. Retrieved May 04, 2018 from https://goo.gl/J2Qrk6
-Anderson S. Duarte. 2016. Metáforas Criativas: processo de aprendizagem de ciências e escrita da Língua Portuguesa como Segunda Língua pelo estudante visual (surdo). Ph.D. Dissertation. Universidade Federal de Mato Grosso, Cuiabá, MT, BR. Advisor(s) Hardoim, Edna L. Retrieved May 04, 2018 from https://goo.gl/r8f31s
-Anderson S. Duarte and Simone J. Padilha. 2012. Revista Virtual de Estudos da Linguagem - ReVEL 10, 19. ReVEL, Chapter Relações entre Língua de Sinais e Língua Portuguesa em materials didáticos: a notação pelos Números Semânticos, 309--326. Retrieved May 04, 2018 from https://goo.gl/1V61PA
-Daniel Fallman. 2003. ACM CHI Letters 5, 1. ACM, Chapter Design-oriented human-computer interaction, 225--232. Google Scholar
-Linda Flower and John R. Hayes. 1981. A Cognitive Process Theory of Writing. Retrieved May 04, 2018 from https://goo.gl/yMsEsS
-Rogério D. Junqueira, Diléia A. Martins, and Cristina B. F. Lacerda. 2017. Educação E Sociedade 38, 139. Redalyc, Chapter Política de Acessibilidade e Exame Nacional do Ensino Médio (ENEM), 453--471. Retrieved May 04, 2018 from https://goo.gl/tWYFKs
-Anja Kintsch and Rogerio DePaula. 2002. A Framework for the Adoption of Assistive Technology. In Proceedings SWAAAC 2002: Supporting Learning Through Assistive Technology. Winter Park, CO, USA, 1--10. Retrieved May 04, 2018 from https://goo.gl/6Q7goX
-Claudio Kleina. 2012. Tecnologia assistiva em educação especial e educação inclusiva. InterSaberes.
-Lucinda A. Leria, Lucia V. L. Filgueiras, Francisco J. F. Silva, and Leonardo A. Ferreira. 2018. Revista Brasileira de Educação Especial 24, 1. Revista Brasileira de Educação Especial, Bauru, SP, BR, Chapter Enem Acessível: Autonomia para a Pessoa com Deficiência Visual Total no Exame Nacional do Ensino Médio, 103--120. Retrieved May 04, 2018 from https://goo.gl/X9zdqd
-Mariana S. Marinho. 2015. Linguagem: teoria, análise e aplicações (8). Linguagem: Teoria, Análise e Aplicações, Rio de Janeiro, RJ, BR, Chapter Recursos para a elaboração de material didático no ensino de Língua Portuguesa para alunos surdos: uma proposta curricular, 139--152. Retrieved May 04, 2018 from https://goo.gl/t8tkEi
-Pâmela S. S. Matos. 2016. Gestos de surdos e ouvintes: O contar história sem uso da voz. Master's thesis. Universidade do Estado do Pará, Belém, PA. Retrieved May 04, 2018 from https://goo.gl/LUJHMP
-NIED. 2003. HagáQuê. Retrieved May 04, 2018 from https://goo.gl/HBkfHB
-Jorge L. F. Nogueira. 2009. O software HagáQuê: uma proposta para a prática da Língua Portuguesa escrita da Pessoa com Surdez. Master's thesis. Universidade Federal de Alagoas, Maceió, AL. Retrieved May 04, 2018 from https://goo.gl/wgouMQ
-Pexels. 2018. PEXELS: Best free stock photos in one place. Retrieved May 04, 2018 from https://goo.gl/Kfqhky
-Soraia S. Prietch. 2014. Aceitação de tecnologia por estudantes surdos na perspectiva da educação inclusiva. Ph.D. Dissertation. Escola Politécnica da Universidade de São Paulo, São Paulo, SP, BR. Advisor(s) Filgueiras, Lucia V L. Retrieved May 04, 2018 from https://goo.gl/E663f8
-Luiz R. M. Rocha and Cristina B. F. Lacerda. 2016. Revista Educação Especial 29, 56. Revista Educação Especial, Chapter Vestibulares vídeo-gravados em libras: um novo modo de acesso ao ensino superior federal?, 709--722. Retrieved May 04, 2018 from https://goo.gl/Qpg6tm
-Yvonne Rogers, Helen Sharp, and Jennifer Preece. 2013. Design de Interação: Além da Interação Humano-Computador. Bookman.
-Ronald K. Stamper. 1992. Linguistic instruments in knowledge engineering. Chapter Language and computer in organised behaviour, 143--163.
-#----------------------#
-Authors: ['Luis Rivero', 'Tayana Conte']
-Title: "A Systematic Mapping Study on Research Contributions on UX Evaluation Technologies"
-Abstract: "User eXperience (UX) refers to quality attributes related to the feelings and emotions of the users. In order to evaluate UX, several technologies (tools, methods, techniques, others) have been proposed that range from using questionnaires to employing biometrics. However, it is essential to characterize UX evaluation technologies to obtain evidence on the contexts in which using a specific technology can provide better evaluation results. In this paper, we present the state of the art on how to evaluate the UX of software applications. We performed a systematic mapping study with an initial sample of 2101 papers from which 227 relevant papers describing UX evaluation technologies have been identified. The results suggest that there is a need for specific UX evaluation technologies that are easy and comfortable to use from the point of view of users, while supporting practitioners in the correction of the aspects that cause poor experiences."
-Conference: "IHC 2017: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems"
-Date: "October 2017"
-IDS: "Article No.: 5"
-Page range: "Pages   1–10"
-DOI: "10.1145/3160504"
-ISBN: "9781450363778"
-Total Citations: "7"
-Total Downloads: "138"
-References: 
-Stephanie Balters, and Steinert Martin. 2015. Capturing emotion reactivity through physiology measurement as a foundation for affective engineering in engineering design science and engineering practices. Journal of Intelligent Manufacturing 28, 1: 1--23. Google Scholar
-Simone Barbosa, and Bruno Silva. 2010. Human Computer Interaction. Elsevier Brasil. (In Portuguese)
-Javier A. Bargas-Avila, and Kasper Hornbæk. 2011. Old wine in new bottles or novel challenges: a critical analysis of empirical studies of user experience. In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 2689--2698. Google Scholar
-Javier A. Bargas-Avila, and Kasper Hornbæk. 2012. Foci and blind spots in user experience research. Interactions 19, 6: 24--27. Google Scholar
-Pieter Desmet. 2003. Measuring emotion: Development and application of an instrument to measure emotional responses to products. In Funology, 111--123. Google Scholar
-Adrian Fernandez, Emilio Insfran, and Silvia Abrahão. 2011. Usability evaluation methods for the web: A systematic mapping study. Information and Software Technology 53, 8: 789--817. Google Scholar
-Jérémy Frey, Christian Mühl, Fabien Lotte, and Martin Hachet. 2013. Review of the use of electroencephalography as an evaluation method for human-computer interaction. In arXiv preprint arXiv, 1311.2222.
-Bill Gaver, and Heather Martin. 2000. Alternatives: exploring information appliances through conceptual design proposals. In Proceedings of the SIGCHI conference on Human Factors in Computing Systems, 209--216. Google Scholar
-Marc Hassenzahl. 2003. The thing and I: understanding the relationship between user and product. In Funology. 31--42. Google Scholar
-Marc Hassenzahl, Sarah Diefenbach, and Anja Göritz. 2010. Needs, affect, and interactive products--Facets of user experience. Interacting with computers 22, 5: 353--362. Google Scholar
-International Organization for Standardization, ISO DIS 9241-210. 2010. Ergonomics of human system interaction - Part 210. International Standardization Organization (ISO).
-Minna Isomursu, Marika Tähti, Soili Väinämä, and Kari Kuutti. 2007. Experimental evaluation of five methods for collecting emotions in field settings with mobile applications. International Journal of Human-Computer Studies 65, 4: 404--418. Google Scholar
-Patrick W. Jordan. 2002. Designing pleasurable products: An introduction to the new human factors. CRC press.
-Barbara Kitchenham, and Stuart Chartes. 2007. Guidelines for performing systematic literature reviews in software engineering. In Technical report, Ver. 2.3 EBSE Technical Report. EBSE.
-Barbara Kitchenham, Rialette Pretorius, David Budgen, O. Pearl Brereton, Mark Turner, Mahmood Niazi, and Stephen Linkman. 2010. Systematic literature reviews in software engineering--a tertiary study. Information and Software Technology 52, 8: 792--805. Google Scholar
-Sari Kujala, Virpi Roto, Kaisa Väänänen-Vainio-Mattila, Evangelos Karapanos, and Arto Sinnelä. 2011. UX Curve: A method for evaluating long-term user experience. Interacting with Computers 23, 5: 473--483. Google Scholar
-Effie Lai-Chong Law. 2011. The measurability and predictability of user experience. In Proceedings of the 3rd ACM SIGCHI symposium on Engineering interactive computing systems, 1--10. Google Scholar
-Elizabete Munzlinger, Fabricio Batista Narcizo, and José Eustáquio Rangel De Queiroz. 2012. Systematization of literature reviews in the HCI area. In Companion Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems, 51--54. (In Portuguese) Google Scholar
-S. Rajeshkumar, Omar Ridha, and Murni Mahmud. 2013. Taxonomies of User Experience (UX) evaluation methods. In International Conference on Research and Innovation in Information Systems (ICRIIS), 533--538.Google Scholar
-Luis Rivero, and Tayana Conte. 2016. TR-USES-2016-002 Systematic Mapping on UX Technologies: Extraction of User eXperience Evaluation Methods. USES Research Group Technical Report. Available at: http://uses.icomp.ufam.edu.br/relatorios-tecnicos/
-Patricia Tavares, Luiz Agner, and Simone Bacellar Leal Ferreira. 2010. Usability Evaluation of mobile devices for the collection of neighborhood data through interviews based on scenarios and tasks. In Proceedings of the IX Symposium on Human Factors in Computing Systems, 11--20. (In Portuguese) Google Scholar
-Arnold P. O. S. Vermeeren, Effie Lai-Chong Law, Virpi Roto, Marianna Obrist, Jettie Hoonhout, and Kaisa Väänänen-Vainio-Mattila. 2010. User experience evaluation methods: current state and development needs. In Proceedings of the 6th Nordic Conference on Human-Computer Interaction: Extending Boundaries, 521--530. Google Scholar
-Le An, Songfan Yang, and Bir Bhanu. 2015. Efficient smile detection by extreme learning machine. Neurocomputing 149, 1: 354--363. Google Scholar
-Carol M. Barnum, and Laura A. Palmer. 2010. More than a feeling: understanding the desirability factor in user experience. In CHI'10 Extended Abstracts on Human Factors in Computing Systems, 4703--4716. Google Scholar
-Marios Belk, Panagiotis Germanakos, Panagiotis Zaharias, and George Samaras. 2012. Adaptivity Considerations for Enhancing User-Centric Web Experience. In The Fifth International Conference on Advances in Computer-Human Interactions (ACHI 2012), 348--353.
-Luca Colombo, and Monica Landoni. 2014. A diary study of children's user experience with EBooks using flow theory as framework. In Proceedings of the 2014 conference on Interaction design and children, 135--144. Google Scholar
-Reeva Lederman, Greg Wadley, John Gleeson, Sarah Bendall, and Mario Álvarez-Jiménez. 2014. Moderated online social therapy: Designing and evaluating technology for mental health. ACM Transactions on Computer-Human Interaction 21, 1: 5. Google Scholar
-Philip Lew, Luis Olsina, and Li Zhang. 2010. Integrating quality, quality in use, actual usability and user experience. In 6th Central and Eastern European Software Engineering Conference (CEE-SECR), 117--123.Google Scholar
-Llúcia Masip, Marta Oliva, and Toni Granollers. 2012. The open repository of heuristics. In Proceedings of the 13th International Conference on Interacción Persona-Ordenador, 4. Google Scholar
-Pejman Mirza-Babaei, and Lennart Nacke. 2014. Introducing the biometric storyboards tool for games user research. In Games Media Entertainment (GEM), 1--7.
-Georg Regal, Marc Busch, Christina Hochleitner, Peter Wokerstorfer, and Manfred Tscheligi. 2014. TACTUX: a tactile user experience assessment board. In Proceedings of the 8th Nordic Conference on Human-Computer Interaction: Fun, Fast, Foundational, 983--986. Google Scholar
-Jacopo Staiano, María Menéndez, Alberto Battocchi, Antonella De Angeli, and Nicu Sebe. 2012. UX_Mate: from facial expressions to UX evaluation. In Proceedings of the Designing Interactive Systems Conference, 741--750. Google Scholar
-Jeroen Vanattenhoven, and Dries De Roeck. 2009. Investigating the Use of the Experience Clip Method. In International Conference on User Centric Media, 79--86.
-#----------------------#
-Authors: ['João Batista da Silva Júnior', 'Artur Henrique Kronbauer', 'Jorge Campos']
-Title: "A platform for UX assessment based on self-reporting techniques"
-Abstract: "Self-report techniques for capturing User eXperience (UX) are increasingly being used in a variety of contexts. The number of appropriate tools to assist UX evaluators in performing their activities, however, is still quite small. Typically, existing tools provide only one technique, making it difficult to compare and choose the most appropriate technique for a given scenario and the sentiments to be captured. This paper presents the UXSense platform. UXSense aims to help evaluators with the task of selecting the appropriate UX technique, create the forms to execute the evaluation and offer the computational infrastructure to capture, analyze and present the data. To identify the limitations and potentialities of the platform, a pilot test was carried out with university students who were being submitted to active educational methodologies in the discipline of Human-Computer Interaction. Based on the evaluation of the results, it was collected some evidence indicating that the use of the platform can help the UX evaluators to carry out their activities in different contexts, using different techniques of UX capture and according to the types of feelings to be measured."
-Conference: "IHC '19: Proceedings of the 18th Brazilian Symposium on Human Factors in Computing Systems"
-Date: "October 2019"
-IDS: "Article No.: 3"
-Page range: "Pages   1–10"
-DOI: "10.1145/3357155"
-ISBN: "9781450369718"
+
+DOI: "10.5555/2665008.2665011"
+
+ISBN: ""
+
 Total Citations: "0"
-Total Downloads: "15"
+
+Total Downloads: "58"
+
 References: 
-Margaret M. Bradley and Peter J. Lang. 1994. Measuring emotion: The self-assessment manikin and the semantic differential. Journal of Behavior Therapy and Experimental Psychiatry 25, 1 (1994), 49--59. arXiv:0005-7916(93)E0016-Z Google Scholar
-João Batista da Silva and Artur Henrique Kronbauer. 2018. A new approach to identifying the potentialities of User Experience techniques. In Proceedings of the 24th Brazilian Symposium on Multimedia and the Web - WebMedia '18. ACM Press, New York, New York, USA, 291--294. Google Scholar
-Jelle R Dalenberg, Swetlana Gutjar, Gert J ter Horst, Kees de Graaf, Remco J Renken, and Gerry Jager. 2014. Evoked emotions predict food choice. PloS one 9, 12 (2014), e115388.Google Scholar
-Pieter Desmet. 2005. Measuring emotions: Development and application of an instrument to measure emotional responses to products. In Funology: from usability to enjoyment. 111--123. Google Scholar
-Pma Desmet, Paul Hekkert, and Jj Jacobs. 2000. When a car makes you smile: Development and application of an instrument to measure product emotions. Advances in consumer research 27, 1 (2000), 111--117. https://doi.org/citeulike-article-id:2771940
-Aline Diesel, Alda Leila Santos Baldez, Silvana Neumann Martins, and Silvana Neumann Martins. 2017. Os princ{\'\i}pios das metodologias ativas de ensino: uma abordagem teórica. Revista Thema 14, 1 (feb 2017), 268--288. Google Scholar
-International Organization for Standardization. 2010. Ergonomics of Human-system Interaction: Part 210: Human-centred Design for Interactive Systems. ISO.
-Marc Hassenzahl, Michael Burmester, and Franz Koller. 2003. AttrakDiff: Ein Fragebogen zur Messung wahrgenommener hedonischer und pragmatischer Qualität. 187--196. Google Scholar
-Elaine Hayashi, Julián E Gutiérrez Posada, Vanessa RML Maike, and M Cecília C Baranauskas. 2016. Exploring new formats of the Self-Assessment Manikin in the design with children. In Proceedings of the 15th Brazilian Symposium on Human Factors in Computing Systems. ACM, 27.Google Scholar
-Xun Huang and Ping Dong. 2018. Romantic Crushes Promote Variety-Seeking Behavior. Journal of Consumer Psychology (2018).
-Reed Larson and Mihaly Csikszentmihalyi. 2014. The experience sampling method. In Flow and the foundations of positive psychology. 21--34. Google Scholar
-Effie Lai-Chong Law, Virpi Roto, Marc Hassenzahl, Arnold POS Vermeeren, and Joke Kort. 2009. Understanding, scoping and defining user experience: a survey approach. In Proceedings of the SIGCHI conference on human factors in computing systems. ACM, 719--728.
-Xiao Liu and Kiju Lee. 2018. Optimized Facial Emotion Recognition Technique for Assessing User Experience. In 2018 IEEE Games, Entertainment, Media Conference (GEM). IEEE, 1--9.
-Camila Loiola Brito Maia and Elizabeth Sucupira Furtado. 2016. A systematic review about user experience evaluation. In International Conference of Design, User Experience, and Usability. Springer, 445--455.
-Mar\'\ilia S Mendes, Elizabeth Furtado, Vasco Furtado, and Miguel F de Castro. 2014. How do users express their emotions regarding the social system in use? A classification of their postings by using the emotional analysis of Norman. In International Conference on Social Computing and Social Media. Springer, 229--241.Google Scholar
-Marlene Gonçalves Oliveira and Letícia Pontes. 2011. Metodologia Ativa no Processo de Aprendizado do Conceito de Cuidar - Um Relato de Experiência. X Congresso Nacional de Educação - EDUCERE (2011). Google Scholar
-Alvaro Ortigosa, José M Martín, and Rosa M Carro. 2014. Sentiment analysis in Facebook and its application to e-learning. Computers in human behavior 31 (2014), 527--541.
-Jenny Preece, Yvonne Rogers, and Helen Sharp. 2005. Design de interação. bookman.
-Luis Rivero and Tayana Conte. 2017. A systematic mapping study on research contributions on UX evaluation technologies. In Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems. ACM, 5. Google Scholar
-James A. Russell. 1980. A circumplex model of affect. Journal of Personality and Social Psychology 39, 6 (1980), 1161--1178. Google Scholar
-James A. Russell, Anna Weiss, and Gerald A. Mendelsohn. 1989. Affect Grid: A single-item scale of pleasure and arousal. Journal of Personality and Social Psychology 57, 3 (1989), 493--502. Google Scholar
-Hassan Saif, Miriam Fernandez, Yulan He, and Harith Alani. 2013. Evaluation datasets for Twitter sentiment analysis: a survey and a new dataset, the STS-Gold. (2013).
-Kim Schouten and Flavius Frasincar. 2016. Survey on aspect-level sentiment analysis. IEEE Transactions on Knowledge and Data Engineering 28, 3 (2016), 813--830.Google Scholar
-Xu Sun, Andrew May, and Qingfeng Wang. 2016. The impact of user-and system-initiated personalization on the user experience at large sports events. Applied ergonomics 54 (2016), 1--9.
-Arnold POS Vermeeren, Effie Lai-Chong Law, Virpi Roto, Marianna Obrist, Jettie Hoonhout, and Kaisa Väänänen-Vainio-Mattila. 2010. User Experience Evaluation Methods: Current State and Development Needs. In Proceedings of the 6th Nordic Conference on Human-Computer Interaction: ExtendingBoundaries (NordiCHI '10). ACM, New York, NY, USA, 521--530. Google Scholar
-David Watson, Lee Anna Clark, and Auke Tellegen. 1988. Development and validation of brief measures of positive and negative affect: The PANAS scales. Journal of Personality and Social Psychology 54, 6 (1988), 1063--1070. arXiv:arXiv:1011.1669v3 Google Scholar
-Richard Welke, Rudy Hirschheim, and Andrew Schwarz. 2011. Service-oriented architecture maturity. Computer 44, 2 (2011), 61--67. Google Scholar
-Kui Xie, Benjamin C Heddy, and Barbara A Greene. 2019. Affordances of using mobile technology to support experience-sampling method in examining college students' engagement. Computers & Education 128 (2019), 183--198.Google Scholar
+J. R. Swisher, S. H. Jacobson, and E. Yücesan, "Discrete-event simulation optimization using ranking, selection, and multiple comparison procedures: A survey," ACM Trans. Model. Comput. Simul., vol. 13, no. 2, pp. 134--154, Apr. 2003. Google Scholar
+
+B. P. Zeigler, T. G. Kim, and H. Praehofer, Theory of Modeling and Simulation, 2nd ed. Orlando, FL, USA: Academic Press, Inc., 2000. Google Scholar
+
+J. de Lara and H. Vangheluwe, "AToM3: A Tool for Multi-formalism and Meta-modelling," in Fundamental Approaches to Software Engineering, R.-D. Kutsche and H. Weber, Eds. Springer Berlin Heidelberg, 2002, pp. 174--188. Google Scholar
+
+G. Quesnel, R. Duboz, É. Ramat, and M. K. Traoré, "VLE: a multimodeling and simulation environment," in Proceedings of the 2007 Summer Computer Simulation Conference, San Diego, CA, USA, 2007, pp. 367--374. Google Scholar
+
+Chungman Seo, Bernard Zeigler, Robert Coop and Doohwan Kim, 2013, "DEVS Modeling and Simulation Methodology with MS4Me Software", Theory of Modeling & Simulation Symposium, SpringSim Multi-Conference, San Diego, CA. Google Scholar
+
+F. Bergero and E. Kofman, "PowerDEVS. A Tool for Hybrid System Modeling and Real Time Simulation," Simulation: Transactions of the Society for Modeling and Simulation International, vol. 87, 2011 Google Scholar
+
+L. Capocchi, J.-F. Santucci, B. Poggi, and C. Nicolai, "DEVSimPy: A Collaborative Python Software for Modeling and Simulation of DEVS Systems," in 2011 20th IEEE International Workshops on Enabling Technologies: Infrastructure for Collaborative Enterprises (WETICE), 2011, pp. 170--175. Google Scholar
+
+S. Martello and P. Toth, Knapsack problems: algorithms and computer implementations. New York, NY, USA: John Wiley & Sons, Inc., 1990. Google Scholar
+
+D. B. Shmoys, J. K. Lenstra, A. H. G. R. Kan, and E. L. Lawler, The Traveling Salesman Problem. John Wiley & Sons, 1985.
+
+X.-S. Yang, A. H. Gandomi, S. Talatahari, and A. H. Alavi, Metaheuristics in Water, Geotechnical and Transport Engineering. Newnes, 2012.
+
+S. Hutterer, F. Auinger, M. Affenzeller, and G. Steinmaurer, "Overview: A Simulation Based Metaheuristic Optimization Approach to Optimal Power Dispatch Related to a Smart Electric Grid," in Life System Modeling and Intelligent Computing, K. Li, M. Fei, L. Jia, and G. W. Irwin, Eds. Springer Berlin Heidelberg, 2010, pp. 368--378. Google Scholar
+
+F. Xhafa and A. Abraham, Metaheuristics for Scheduling in Industrial and Manufacturing Applications. Springer, 2008. Google Scholar
+
+A. H. Gandomi, X.-S. Yang, S. Talatahari, and A. H. Alavi, Metaheuristic Applications in Structures and Infrastructures. Newnes, 2013. Google Scholar
+
+J. H. Holland, Adaptation in natural and artificial systems: An introductory analysis with applications to biology, control, and artificial intelligence, vol. viii. Oxford, England: U Michigan Press, 1975. Google Scholar
+
+D. Dasgupta, "An Overview of Artificial Immune Systems and Their Applications," in Artificial Immune Systems and Their Applications, D. Dasgupta, Ed. Springer Berlin Heidelberg, 1999, pp. 3--21.
+
+X.-S. Yang and S. Deb, "Cuckoo search: recent advances and applications," Neural Comput & Applic, pp. 1--6.
+
+X.-S. Yang, "A New Metaheuristic Bat-Inspired Algorithm," arXiv e-print 1004.4170, Apr. 2010.
+
+Z. W. Geem, J. H. Kim, and G. V. Loganathan, "A New Heuristic Optimization Algorithm: Harmony Search," SIMULATION, vol. 76, no. 2, pp. 60--68, Feb. 2001.Google Scholar
+
+S. Kirkpatrick, C. D. Gelatt, Jr, and M. P. Vecchi, "Optimization by Simulated Annealing," Science, vol. 220, pp. 671--680, 1983.Google Scholar
+
+J. Kim and B. P. Zeigler, "Hierarchical Distributed Genetic Algorithms: A Fuzzy Logic Controller Design Application," IEEE Expert: Intelligent Systems and Their Applications, vol. 11, no. 3, pp. 76--84, Jun. 1996. Google Scholar
+
+B. P. Zeigler, Y. Moon, V. L. Lopes, and J. Kim, "DEVS approximation of infiltration using genetic algorithm optimization of a fuzzy system," Mathematical and Computer Modelling, vol. 23, no. 11--12, pp. 215--228, Jun. 1996. Google Scholar
+
+S. Iassinovski, A. Artiba, V. Bachelet, and F. Riane, "Integration of simulation and optimization for solving complex decision making problems," International Journal of Production Economics, vol. 85, no. 1, pp. 3--10, Jul. 2003.Google Scholar
+
+H. Lee, B. P. Zeigler, and D. Kim, "A DEVS-based framework for simulation optimization: Case study of Link-11 gateway parameter tuning," in IEEE Military Communications Conference, 2008. MILCOM 2008, 2008, pp. 1--7.
+
+O. Hagendorf and T. Pawletta, "An approach for simulation based structure optimisation of discrete event systems," in Proceedings of the 2008 Spring simulation multiconference, San Diego, CA, USA, 2008, pp. 431--438. Google Scholar
+
+R. A. Halim and M. D. Seck, "The simulation-based multi-objective evolutionary optimization (SIMEON) framework," in Proceedings of the Winter Simulation Conference, Phoenix, Arizona, 2011, pp. 2839--2851. Google Scholar
+
+J. F. Santucci & L. Capocchi, "Catchment basin optimized management using a simulation approach within DEVSimPy framework", SCS 44th Summer Computer Simulation Conference, 2012, pp. 28--35.
+
+L. Capocchi & J. F. Santucci, "Discrete optimization via simulation of catchment basin management within the DEVSimPy framework", IEEE Winter Simulation Conference, 2013, pp.205--2015.Google Scholar
+
+F. Momen and J. W. Rozenblit, "Dynamic decision support in the advanced tactical architecture for combat knowledge system," The J. of Defense Modeling and Simulation: Applications, Methodology, Technology, Vol. 3, No. 1, Jan. 2006, pp. 11--26.Google Scholar
+
+J. L. Risco-Martín, S. Mittal, D. Atienza, J. I. Hidalgo, and J. Lanchares, "Optimization of dynamic data types in embedded systems using DEVS/SOA-based modeling and simulation," in Proceedings of the 3rd international conference on Scalable information systems, ICST, Brussels, Belgium, Belgium, 2008, pp. 17:1--17:11. Google Scholar
+
+A. E. Eiben, R. Hinterding, and Z. Michalewicz, "Parameter control in evolutionary algorithms," IEEE Transactions on Evolutionary Computation, vol. 3, no. 2, pp. 124--141, 1999. Google Scholar
+
+D. C. Blum and D. A. Roli, "Hybrid Metaheuristics: An Introduction," in Hybrid Metaheuristics, D. C. Blum, D. M. J. B. Aguilera, D. A. Roli, and D. M. Sampels, Eds. Springer Berlin Heidelberg, 2008, pp. 1--30.
+
+
 #----------------------#
-Authors: ['Luana Müller', 'Milene Selbach Silveira', 'Clarisse Sieckenius de Souza']
-Title: "Do I Know What My Code is "Saying"?: A study on novice programmers' perceptions of what reused source code may mean"
-Abstract: "Software development practices rely extensively on reusing source code written by other programmers. One of the recurring questions about such practice is how much programmers, acting as users of somebody else's code, really understand about the source code that they inject it in their own programs. The question is even more important for novices, who are trying to learn what programming is and how it should be practiced in larger scale. In this paper we present the results of an ongoing research using a semiotic approach to investigate how programmers send and receive, through messages inscribed in the source code of the programs they write or reuse, implicit and explicit communication about what such source code "means" to them and others. We carried out two studies with novice programmers and results suggest that source code reuse may impact the comprehension that programmers have about their own source code. In addition, how it impacts their understanding about the messages that are being communicated through their programs."
-Conference: "IHC 2018: Proceedings of the 17th Brazilian Symposium on Human Factors in Computing Systems"
-Date: "October 2018"
-IDS: "Article No.: 17"
-Page range: "Pages   1–10"
-DOI: "10.1145/3274192"
-ISBN: "9781450366014"
+
+
+Authors: ['Robert L. Grossman', 'Mark F. Hornick', 'Gregor Meyer']
+
+Title: "Data mining standards initiatives"
+
+Abstract: "Lacking standards for statistical and data mining models, applications cannot leverage the benefits of data mining."
+
+Conference: "Communications of the ACM"
+
+Date: "August 2002"
+
+IDS: ""
+
+Page range: ""
+
+DOI: "10.1145/545151.545180"
+
+ISBN: ""
+
+Total Citations: "45"
+
+Total Downloads: "3,390"
+
+References: 
+Common Warehouse Metamodel: Data Mining. Object Management Group; see cgi.omg.org/cgi-bin/doclist.pl.
+
+Cross Industry Standard Process for Data Mining (CRISP-DM); see www.crisp-dm.org.
+
+Data Space Transfer Protocol. National Center for Data Mining; see www.ncdm.uic.edu.
+
+Grossman, R. and Mazzucco, M. DataSpace: A data Web for the exploratory analysis and mining of data. IEEE Comput. Sci. Eng. (2002). Google Scholar
+
+Java Specification Request 73; see jcp.org/jsr/detail/073.jsp.
+
+OLE DB for Data Mining Specification 1.0. Microsoft; see www.microsoft.com/data/oledb/default.htm.
+
+Predictive Model Markup Language (PMML). Data Mining Group, see www.dmg.org.
+
+Semantic Web. World Wide Web Consortium; see www.w3c.org/ 2001/sw.
+
+SQL Server 2000 Analysis Services. Microsoft; see www.microsoft.com/ SQL/techinfo/bi/analysis.asp.
+
+Unified Modeling Language. Object Management Group; see www.uml.org.
+
+Web Services Activity. World Wide Web Consortium; see www. w3c.org/2002/ws.
+
+XML for Analysis (XMLA); see www.xmla.org.
+
+
+#----------------------#
+
+
+Authors: ['Miroslav Minović', 'Miloš Milovanović']
+
+Title: "Gamification ecosystems"
+
+Abstract: "In this paper, we provide a general overview of the motivations behind the proposal track Gamification ecosystems. Its clear now that there is lot of different approaches available for application of games in non-leisure context. Rather than to talk about one kind of game or game system, we decided to use term ecosystem in order to be clearer and more consistent with our approach. That is to integrate different approaches and orchestrate different tools in order to make them work together. First part of the paper presents brief state of the art in the field of gamification. Second part of the paper is devoted to short presentation of each of the participating paper."
+
+Conference: "TEEM '14: Proceedings of the Second International Conference on Technological Ecosystems for Enhancing Multiculturality"
+
+Date: "October 2014"
+
+IDS: ""
+
+Page range: "Pages   165–169"
+
+DOI: "10.1145/2669711.2669895"
+
+ISBN: "9781450328968"
+
+Total Citations: "2"
+
+Total Downloads: "319"
+
+References: 
+Minović, M., Milovanović, M. and Starčević, D. 2011. Modelling Knowledge and Game Based Learning: Model Driven Approach. Journal of Universal Computer Science. 17, 9, 1241--1260. DOI= 10.3217/jucs-017-09-1241
+
+Zichermann, G. and Cunningham, C. 2011. Gamification by Design. O'Reilly Media, Inc.
+
+Marczewski, A. 2013. Gamification: A Simple Introduction. Andrzej Marczewski.
+
+De Aguilera, M., and Mendiz, A. 2003. Video games and Education. Computers in entertainment. 1, 1. Google Scholar
+
+Clark, R., and Mayer, R. 2008. E-learning and the science of instruction. John Wiley & Sons, Inc. Google Scholar
+
+Rouse, R. 2001. Game design: theory and practice. Plano, Texas: Wordware Publishing. Google Scholar
+
+Cantoni, L., and Di Blas, N. 2006. Comunicazione. Teoria e pratiche. Apogeo.
+
+Miller, C. T. 2008. Games: Purpose and Potential in Education. Springer Science.
+
+Deterding, S., Khaled, R., Nacke, L. and Dixon, D. 2011. Gamification: Toward a Definition. In CHI 2011 Gamification Workshop Proceedings(Vancouver, BC, Canada, May 7, 2011). CHI '11. ACM, New York, NY, 6--9.
+
+Van Eck, R. 2006. Digital Game-Based Learning: It's Not Just the Digital Natives Who Are Restless. EDUCAUSE, March/April, 17--30.
+
+Prensky, M. 2001. Digital Game-Based Learning. McGraw-Hill, New York. Google Scholar
+
+Koster, R. 2005. A theory of fun for game design. Scottsdale: Paraglyph Press. Google Scholar
+
+Malone, T. W. 1981. Towards a theory of intrinsically motivating instruction. Cognitive Science 4, 333--369.Google Scholar
+
+Malone, T. W. and Lepper, M. R. 1987. Making Learning Fun: A Taxonomy of Intrinsic Motivations for Learning. In (R. Snow, & M. J. Farr, editors), Aptitute, Learning and Instruction: III. Conative and affective process analyses, Hillsdale, N.J.: Erlbaum, 1987. 223--253.
+
+Lazzaro, N. 2004. Why We Play Games: Four Keys to More Emotion Without Story. XEODesign,® Inc.
+
+Canadian Teacher's Federation. 2003. Kids take on media: Summary of finding. Web source: www.ctfee.ca/en/projects/MERP/summaryfindingd.pdf
+
+Sanford, K. and Madill, L. 2006. Resistance through video games: It's a boy thing. Canadian Journal of Education 29, 1, 287--306.Google Scholar
+
+Blatchford P., Baines E. and Pellegrini A. 2003. The social context of school playground games: Sex and ethnic differences, and changes over time after entry to junior school. British Journal of Developmental Psychology 21, 4, 481--505.Google Scholar
+
+Gurian, M., Henley, P. and Trueman, T. 2001. Boys and Girls Learn Differently!. San Francisco: CA: Jossey-Bass.
+
+Honigsfeld, A. and Dunn, R. 2003. High school male and female learning-style similarities and differences in diverse nations. The Journal of Educational Research 96, 4, 195--206.Google Scholar
+
+Thorne, B. 1993. Gender play: girls and boys in school. New Brunswick: Rutgers University.
+
+
+#----------------------#
+
+
+Authors: ['Yossi Borenstein', 'Riccardo Poli']
+
+Title: "Structure and metaheuristics"
+
+Abstract: "Metaheuristics have often been shown to be effective for difficult combinatorial optimization problems. The reason for that, however, remains unclear. A framework for a theory of metaheuristics crucially depends on a formal"
+
+Conference: "GECCO '06: Proceedings of the 8th annual conference on Genetic and evolutionary computation"
+
+Date: "July 2006"
+
+IDS: ""
+
+Page range: "Pages   1087–1094"
+
+DOI: "10.1145/1143997.1144172"
+
+ISBN: "1595931864"
+
+Total Citations: "6"
+
+Total Downloads: "1"
+
+References: 
+T. Blickle and L. Thiele. A comparison of selection schemes used in evolutionary algorithms. Evolutionary Computation, 4(4):361--394, 1996. 
+
+C. Blum and A. Roli. Metaheuristics in combinatorial optimization: Overview and conceptual comparison. ACM Comput. Surv., 35(3):268--308, 2003. 
+
+Y. Borenstein and R. Poli. Structure and metaheuristics. GECCO 2006. 
+
+Y. Borenstein and R. Poli. Information landscapes. In GECCO '05: Proceedings of the 2005 conference on Genetic and evolutionary computation, pages 1515--1522, New York, NY, USA, 2005. ACM Press. 
+
+J. C. Culberson. On the futility of blind search: An algorithmic view of "no free lunch". Evolutionary Computation, 6(2):109--127, 1998. 
+
+S. Droste, T. Jansen, and I. Wegener. Optimization with randomized search heuristics - the (a)nfl theorem, realistic scenarios, and difficult functions. Theor. Comput. Sci., 287(1):131--144, 2002. 
+
+S. Droste, T. Jansen, and I. Wegener. Upper and lower bounds for randomized search heuristics in black-box optimization. Electronic Colloquium on Computational Complexity (ECCC), (048), 2003.
+
+T. M. English. Evaluation of evolutionary and genetic optimizers: No free lunch. In Evolutionary Programming, pages 163--169, 1996.
+
+T. M. English. On the structure of sequential search: Beyond "no free lunch". In J. Gottlieb and G. R. Raidl, editors, EvoCOP 2004, Coimbra, Portugal, April 5-7, 2004, Proceedings, volume 3004 of Lecture Notes in Computer Science, pages 95--103. Springer, 2004.
+
+P. Grunwald and P. Vitanyi. Shannon information and kolmogorov complexity. IEEE Transactions on Information Theory, 2004. In Review.
+
+C. Igel and M. Toussaint. A no-free-lunch theorem for non-uniform distributions of target functions. Journal of Mathematical Modelling and Algorithms, 3(4):313--322, 2004.
+
+T. Jones and S. Forrest. Fitness distance correlation as a measure of problem difficulty for genetic algorithms. In Proceedings of the 6th International Conference on Genetic Algorithms, pages 184--192, San Francisco, CA, USA, 1995. Morgan Kaufmann Publishers Inc. 
+
+A. Moraglio and R. Poli. Topological interpretation of crossover. In K. Deb et al. editors, Genetic and Evolutionary Computation - GECCO 2004, Genetic and Evolutionary Computation Conference, Seattle, WA, USA, June 26-30, 2004, Proceedings, Part I, volume 3102 of Lecture Notes in Computer Science, pages 1377--1388. Springer, 2004.
+
+A. Moraglio and R. Poli. Abstract geometric crossover for the permutation representation. IEEE Trans. Evolutionary Computation, page submitted, 2005.
+
+A. Moraglio and R. Poli. Geometric landscape of homologous crossover for syntactic trees. In CEC (1), pages 427--434, 2005.
+
+P.F.Stadler and C.R.Stephens. Landscapes and effective fitness. Comments Theori. Biol., 8:389--431, 2002.
+
+C. M. Reidys and P. F. Stadler. Combinatorial landscapes. SIAM Rev., 44(1):3--54, 2002. 
+
+J. Rowe, D. Whitley, L. Barbulescu, and J.-P. Watson. Properties of gray and binary representations. Evol. Comput., 12(1):47--76, 2004. 
+
+J. E. Rowe, M. D. Vose, and A. H. Wright. Group properties of crossover and mutation. Evol. Comput., 10(2):151--184, 2002. 
+
+J. E. Rowe, M. D. Vose, and A. H. Wright. Structural search spaces and genetic operators. Evol. Comput., 12(4):461--493, 2004. 
+
+C. Schumacher, M. D. Vose, and L. D. Whitley. The no free lunch and problem description length. In L. Spector et al. editors, Proceedings of the Genetic and Evolutionary Computation Conference (GECCO-2001), pages 565--570, San Francisco, California, USA, 7-11 July 2001. Morgan Kaufmann.
+
+M. D. Vose. The Simple Genetic Algorithm: Foundations and Theory. MIT Press, Cambridge, MA, USA, 1998. 
+
+I. Wegener. Towards a theory of randomized search heuristics. In B. Rovan and P. Vojtás, editors, MFCS, volume 2747 of Lecture Notes in Computer Science, pages 125--141. Springer, 2003.
+
+I. Wegener. Randomized search heuristics as an alternative to exact optimization. In W. Lenski, editor, Logic versus Approximation, Essays Dedicated to Michael M. Richter on the Occasion of his 65th Birthday, volume 3075 of Lecture Notes in Computer Science, pages 138--149. Springer, 2004.
+
+D. Wolpert and W. G. Macready. No free lunch theorems for optimization. IEEE Trans. Evolutionary Computation, 1(1):67--82, 1997. 
+
+
+#----------------------#
+
+
+Authors: ['Oliver Vicente', 'Sandra Vicente', 'Daniel Martin', 'Miguel Angel Rodriguez-Florido', 'Manuel Maynar']
+
+Title: "Health gamification"
+
+Abstract: "Gamification to educate and manage health, applied to all ages and with socio-economic integration from the goverment."
+
+Conference: "SummerSim '14: Proceedings of the 2014 Summer Simulation Multiconference"
+
+Date: "July 2014"
+
+IDS: "Article No.: 57"
+
+Page range: "Pages   1–7"
+
+DOI: "10.5555/2685617.2685674"
+
+ISBN: ""
+
 Total Citations: "0"
-Total Downloads: "48"
+
+Total Downloads: "638"
+
 References: 
-Eran Avidan and Dror G. Feitelson. 2017. Effects of Variable Names on Comprehension: An Empirical Study. In 2017 IEEE/ACM 25th International Conference on Program Comprehension (ICPC). 55--65. Google Scholar
-Liam Bannon. 2011. Reimagining HCI: Toward a More Human-centered Perspective, interactions 18, 4 (July 2011), 50--57. Google Scholar
-Jennie Carrol, Steve Howard, Jane Peck, and John Murphy. 2002. A field study of perceptions and use of mobile telephones by 16 to 22 years old. Journal of Information Technology Theory and Application 4, 2 (2002), 49--61.
-Sangil Choi. 2016. Understanding people with human activities and social interactions for human-centered computing. Human-centric Computing and Information Sciences 6, 1 (05 Jul 2016), 9. Google Scholar
-Clarisse Sieckenius de Souza. 2005. The Semiotic Engineering of Human-Computer Interaction (Acting with Technology). The MIT Press. Google Scholar
-Clarisse Sieckenius de Souza, Renato F. de G. Cerqueira, Luiz Marques Afonso, Rafael R. de M. Brandão, and Juliana S. J. Ferreira. 2016. Software Developers As Users: Semiotic Investigations in Human-Centered Software Development (1st ed.). Springer Publishing Company, Incorporated. Google Scholar
-Paul Dourish. 2003. The Appropriation of Interactive Technologies: Some Lessons from Placeless Documents. Computer Supported Cooperative Work (CSCW) 12, 4 (01 Dec 2003), 465--490. Google Scholar
-Umberto Eco. 1976. A Theory of Semiotics. Indiana University Press. https://books.google.com.br/books?id=BoXO4ItsuaMC
-Alessio Gaspar and Sarah Langevin. 2007. Restoring "Coding with Intention" in Introductory Programming Courses. In Proceedings of the 8th ACM SIGITE Conference on Information Technology Education (SIGITE '07). ACM, New York, NY, USA, 91--98. Google Scholar
-Alexandra Georgakopoulou. 2011. Pragmatics in Practice. John Benjamins Publishing, 326.
-Christopher M. Hoadley, Marcia C. Linn, Lydia M. Mann, and Michael J. Clancy. 1996. When and why do novice programmers reuse code? Ablex Publishing Company, 109--130.
-Alejandro Jaimes, Daniel Gatica-Perez, Thomas S. Huang, and Nicu Sebe. 2007. Guest Editors' Introduction: Human-Centered Computing--Toward a Human Revolution. Computer 40 (05 2007), 30--34. Google Scholar
-John Kammersgaard. 1988. Four Different Perspectives on Human-computer Interaction. Int. J. Man-Mach. Stud. 28, 4 (April 1988), 343--362. Google Scholar
-Caitlin Kelleher and Randy Pausch. 2005. Lowering the Barriers to Programming: A Taxonomy of Programming Environments and Languages for Novice Programmers. ACM Comput. Surv. 37, 2 (June 2005), 83--137. Google Scholar
-Walid Maalej, Rebecca Tiarks, Tobias Roehm, and Rainer Koschke. 2014. On the Comprehension of Program Comprehension. ACM Trans. Softw. Eng. Methodol. 23, 4, Article 31 (Sept. 2014), 37 pages. Google Scholar
-Katherine Malan and Ken Halland. 2004. Examples That Can Do Harm in Learning Programming. In Companion to the 19th Annual ACM SIGPLAN Conference on Object-oriented Programming Systems, Languages, and Applications (OOPSLA '04). ACM, New York, NY, USA, 83--87. Google Scholar
-Luana Müller, Milene Selbach Silveira, and Clarisse Sieckenius de Souza. 2015. Mine, Yours, Ours: Examples Reuse and the Self-expression of Programming Students. In Proceedings of the 14th Brazilian Symposium on Human Factors in Computing Systems (IHC '15). ACM, New York, NY, USA, Article 30, 10 pages. Google Scholar
-Brad A. Myers, Andrew J. Ko, Thomas D. LaToza, and YoungSeok Yoon. 2016. Programmers Are Users Too: Human-Centered Methods for Improving Programming Tools. Computer 49, 7 (July 2016), 44--52.
-Lisa R. Neal. 1989. A System for Example-based Programming. SIGCHI Bull. 20, SI (March 1989), 63--68. Google Scholar
-Charles S. Peirce, Charles Hartshorne, and Paul Weiss. 1932. Collected Papers of Charles Sanders Peirce. Belknap Press of Harvard University Press. https://books.google.com.br/books?id=u9fWAAAAMAAJ
-Donald A. Schön. 2017. The Reflective Practitioner: How Professionals Think in Action. Taylor & Francis. https://books.google.com.br/books?id=OT9BDgAAQBAJ
-Manuel Sojer. 2010. Reusing Open Source Code: Value Creation and Value Appropriation Perspectives on Knowledge Reuse. Gabler Verlag. https://books.google.com.br/books?id=-z60hspDTIAC
-Gunnar Stevens, Volkmar Pipek, and Volker Wulf. 2009. Appropriation Infrastructure: Supporting the Design of Usages. Springer Berlin Heidelberg, Berlin, Heidelberg, 50--69.
-James V. Wertsch. 1998. Mind as Action. Oxford University Press. https://books.google.com.br/books?id=73Vv7Y3vf14C
-Jeannette M. Wing. 2006. Computational Thinking. Commun. ACM 49, 3 (March 2006), 33--35. Google Scholar
+Adherencia a los tratamientos a largo plazo. Pruebas para la acción. Ginebra: OMS; 2004.
+
+OMS. La OMS alerta del bajo seguimiento de los tratamientos por parte de pacientes con enfermedades crónicas. Madrid: Ediciones Doyma; -2003.
+
+Rev. Esp. Car. 2012. Pag 65. Sup 2:10.
+
+Martín Alfonso L, Sairo M, Bayarre Vea H. Frecuencia de cumplimiento del tratamiento médico en pacientes hipertensos. Rev Cubana Med Gen Integ. 2003; 19(2).
+
+OMS. La OMS alerta sobre riesgos de incumplimiento del tratamiento médico {serie en Internet}. {citado 7 Jun 2003}.
+
+Bertalan Mesko, MD, PhD. Rx Disruption: Technology Trends in Medicine and Health Care. Rev. The Futurist, 2014 Issues of the Futurist. May-June 2014 (Vol. 48, No. 3)
+
+
 #----------------------#
-Authors: ['Rodrigo Freese Gonzatto', 'Frederick M. C. van Amstel']
-Title: "Designing oppressive and libertarian interactions with the conscious body"
-Abstract: "Human-Computer Interaction literature often includes the allegory of computers oppressing users through badly designed interfaces. Analyzing this oppression relation through the critical pedagogy of Paulo Freire, it is possible to say that computers are not oppressors, yet they can be considered oppressive if one social group is using it to oppress another. This article introduces an alternative proposal that appropriates the computer as a space of possibilities to overcome oppression relations, similarly to the Theater of the Oppressed of Augusto Boal. An experiment of critical pedagogy in Interaction Design confirmed the effectiveness human body as a fulcrum to the interaction design project and as a springboard to understanding and overcoming oppressions mediated by the computer."
-Conference: "IHC 2017: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems"
-Date: "October 2017"
-IDS: "Article No.: 22"
-Page range: "Pages   1–10"
-DOI: "10.1145/3160504"
-ISBN: "9781450363778"
-Total Citations: "0"
-Total Downloads: "37"
+
+
+Authors: ['Carlos J. Costa', 'Manuela Aparicio', 'Sofia Aparicio', 'Joao Tiago Aparicio']
+
+Title: "Gamification usage ecology"
+
+Abstract: "Gamification is applied in academia and industry and is being studied in the last years. Gamification is nowadays applied to several areas, such as learning, computer science, business, marketing, tourism, among others. However, we need to understand to what extent it is studied in academic context. We present a bibliographic study on gamification research, by identifying publications trends. This paper presents the gamification related areas, result from a publication keyword analysis of the scientific publications on gamification. In this paper, we also identify the game elements, game mechanics, and game dynamics, used as part of any gamification implementation. In this study are also present the most used gamification theoretical models."
+
+Conference: "SIGDOC '17: Proceedings of the 35th ACM International Conference on the Design of Communication"
+
+Date: "August 2017"
+
+IDS: "Article No.: 2"
+
+Page range: "Pages   1–9"
+
+DOI: "10.1145/3121113.3121205"
+
+ISBN: "9781450351607"
+
+Total Citations: "2"
+
+Total Downloads: "233"
+
 References: 
-Augusto Boal. 2013. Teatro do oprimido. Cosac Naify, São Paulo.
-Clarisse Sieckenius de Souza. 2005. The Semiotic Engineering of Human-Computer Interaction. MIT Press, Cambridge, MA.
-Paul Dourish. 2004. Where the action is: the foundations of embodied interaction. MIT Press, Cambridge, MA.
-Anthony Dunne. 1999. Hertzian tales: Electronic products, aesthetic experience and critical design. CRD Research, London. Google Scholar
-Anthony Dunne and Fiona Raby. 2001. Design Noir: The Secret life of Eletronic Objects. August/Birkhäuser, London/Basel.
-Pelle Ehn. 1988. Work-oriented design of computer artifacts. Arbetslivscentrum, Stockholm. Google Scholar
-Pelle Ehn. 2008. Participation in design things. In Proceedings of the tenth anniversary conference on participatory design (PDC'08), 92--101. http://dl.acm.org/citation.cfm?id=1795234.1795248 Google Scholar
-Pelle Ehn, Elisabet M. Nilsson, and Richard Topgaard. 2014. Making futures: Marginal notes on innovation, design, and democracy. MIT Press, Cambridge, MA. Google Scholar
-Paulo Freire. 1977. Extensão ou comunicação? Paz e Terra, Rio de Janeiro.
-Paulo Freire. 1984. A máquina está a serviço de quem? Revista BITS. São Paulo 1, 6.
-Paulo Freire. 1987. Pedagogia do Oprimido. Paz e Terra, Rio de Janeiro.
-Paulo Freire. 1997. Professora sim, tia não: cartas a quem ousa ensinar. Olho d'Água, São Paulo.
-Paulo Freire. 2016. Conscientização. Cortez, São Paulo.
-James J. Gibson. 1986. The ecological approach to visual perception. Psychology Press, New York.
-Rodrigo Freese Gonzatto. 2014. Design de Interação e a amanualidade em Álvaro Vieira Pinto. Dissertação de mestrado. Programa de Pós-Graduação em Tecnologia (PPGTE) da Universidade Tecnológica Federal do Paraná (UTFPR), Curitiba.
-Rodrigo Freese Gonzatto and Luiz Ernesto Merkle. 2016. Amanualidade em Álvaro Vieira Pinto: desenvolvimento situado de técnicas, conhecimentos e pessoas. Educação Unisinos (Online), 20: 289--298.
-Rodrigo Freese Gonzatto, Frederick M. C. van Amstel, Luiz Ernesto Merkle, and Timo Hartmann. 2013. The ideology of the future in design fictions. Digital Creativity 24, 1: 36--45.Google Scholar
-Paul Green and Lisa Wei-Hass. 1985. The Rapid Development of User Interfaces: Experience with the Wizard of OZ Method. In Proceedings of the Human Factors and Ergonomics Society Annual Meeting. 29, 5: 470--474.Google Scholar
-Victor Kaptelinin and Bonnie A. Nardi. 2005. Acting with Technology: Activity theory and Interaction Design. MIT Press, Cambridge, MA. Google Scholar
-Gustavo Kira. 2016. Trajetórias no design de interação de terceira onda: participações, seus rastros, suas viradas. Dissertação de mestrado. Programa de Pós-Graduação em Tecnologia (PPGTE) da Universidade Tecnológica Federal do Paraná (UTFPR), Curitiba.
-Brenda Laurel. 1993. Computers as Theatre. Addison-Wesley, Pennsylvania. Google Scholar
-Luiz Ernesto Merkle. 2000. O Interagir Humano Computacional: Mapeando relações heterodisciplinares. Datagramazero 1, 2: A02-0. http://basessibi.c3sl.ufpr.br/brapci/v/a/7833
-Peri Mesquida. 2010. O corpo negado: corpo, violência e educação à luz do pensamento libertário de Paulo Freire. Múltiplas Leituras 3, 1--2: 224--236.
-Anamaria de Moraes and Claudia Mont'Alvão. 1998. Ergonomia: conceitos e aplicações. 2AB, Rio de Janeiro.
-Herivelto Moreira and Luiz Gonzaga Caleffe. 2006. Metodologia da pesquisa para o professor pesquisador. DP&A, Rio de Janeiro.
-Jakob Nielsen. 2000. Projetando websites. Elsevier, Rio de Janeiro.
-Adriano Nogueira (ed.). 1996. Reencontrar o corpo: ciência, arte, educação e sociedade. GEIC, Taubaté, SP.
-Donald A. Norman. 2006. O Design do Dia-a-Dia. Rocco, Rio de Janeiro.
-Donald A. Norman and Stephen W. Draper. 1986. User Centered System Design: New Perspectives on Human-Computer Interaction. L. Erlbaum Associates, Hillsdale, NJ. Google Scholar
-Antti Oulasvirta, Esko Kurvinen, and Tomi Kankainen. 2003. Understanding Contexts by Being There: Case Studies in Bodystorming. Personal Ubiquitous Comput. 7, 2: 125--134. Google Scholar
-Yolanda Jacobs Reimer and Sarah A. Douglas. 2003. Teaching HCI Design With the Studio Approach. Computer Science Education 13, 3: 191--205.Google Scholar
-Dan Saffer. 2006. Designing for Interaction: Creating Smart Applications and Clever Devices. Peachpit Press, Berkeley, CA. Google Scholar
-Dennis Schleicher, Peter Jones, and Oksana Kachur. 2010. Bodystorming As Embodied Designing. Interactions 17, 6: 47--51. http://dl.acm.org/citation.cfm?id=1865256 Google Scholar
-Donald A. Schön. 2000. Educando o profissional reflexivo: um novo design para o ensino e a aprendizagem. Artmed, São Paulo.
-Clay Spinuzzi. 2003. Tracing genres through organizations: A sociocultural approach to information design. MIT Press, Cambridge, MA.
-Clay Spinuzzi. 2005. The methodology of participatory design. Technical communication. 52.2: 163--174. http://www.ingentaconnect.com/content/stc/tc/2005/00000052/00000002/art00005
-Frederick M. C. van Amstel. 2008. Design Participativo numa comunidade de Software Livre: o caso do website BrOffice.org. In Proceedings of the VIII Brazilian Symposium on Human Factors in Computing Systems (IHC'08), 256--259. http://dl.acm.org/citation.cfm?id=1497470.1497501 Google Scholar
-Frederick M. C. van Amstel and Julia A. Garde. 2016. The Transformative Potential of Game Spatiality in Service Design. Simulation & Gaming 47.5: 628--650. Google Scholar
-Caio Adorno Vassão. 2006. Elementos iniciais para o antropomorfismo do projeto e do design. In Corpo e Subjetividade, Wilton Garcia (ed.). Factash Editora, São Paulo, 211--222.
-Caio Adorno Vassão. 2008. Arquitetura Livre: Complexidade, Metadesign e Ciência Nômade. Tese de doutorado. Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo (USP), São Paulo.
-Álvaro Vieira Pinto. 2005. O Conceito de Tecnologia. Editora Contraponto, Rio de Janeiro.
-Terry Winograd and Fernando Flores. 1987. Understanding Computers and Cognition. Ablex Publishing Corp., Norwood, NJ, USA. Google Scholar
-Richard Saul Wurman. 1991. Ansiedade de informação. Cultura Editores Associados, São Paulo.
+"Google Trends," Google Trends. [Online]. Available: https://g.co/trends/Z9QE. [Accessed: 14-Jan-2017].
+
+C. Costa,., & M. Aparicio, 1999. "Utilização do Jogo de Simulação de Gestão Sim7 como Instrumento Pedagógico: Um Estudo Exploratório". 7, pp. 75--86. Revista Portuguesa de Marketing.
+
+C. Sousa and C. J. Costa. 2011. Market Game: simulation game for business classes. In Proceedings of the 2011 Workshop on Open Source and Design of Communication (OSDOC '11). ACM, New York, NY, USA, 83-84. Google Scholar
+
+L. F. Rodrigues, C. J. Costa, & A. Oliveira. 2013. The adoption of gamification in e-banking. In Proceedings of the 2013 International Conference on Information Systems and Design of Communication (ISDOC '13). ACM, New York, NY, USA, 47-55. Google Scholar
+
+S. Deterding, M. Sicart, L. Nacke, K. O'Hara, and D. Dixon, "Gamification. using game-design elements in non-gaming contexts," in CHI'11 Extended Abstracts on Human Factors in Computing Systems, 2011, pp. 2425--2428.
+
+K. Slegers, S. Ruelens, J. Vissers, and P. Duysburgh, 2015 "Using Game Principles in UX Research: A Board Game for Eliciting Future User Needs," in Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems, New York, NY, USA,, pp. 1225--1228. Google Scholar
+
+I. Bunchball, 2010 "Gamification 101: An introduction to the use of game dynamics to influence behavior," White Pap.,
+
+S. Deterding, D. Dixon, R. Khaled, and L. Nacke, 2011 "From Game Design Elements to Gamefulness: Defining 'Gamification,'" in Proceedings of the 15th International Academic MindTrek Conference: Envisioning Future Media Environments, New York, NY, USA,, pp. 9--15. 
+
+ACM, "ACM Digital Library," 2017. [Online]. Available: http://dl.acm.org
+
+WoS, 2017 "Web of Science - Please Sign In to Access Web of Science,". [Online]. Available: https://login.webofknowledge.com
+
+J. Kuutti, 2013 "Designing gamification," University of Oulu, Oulu Business School.
+
+K. Werbach and D. Hunter, 2012. For the Win: How Game Thinking Can Revolutionize Your Business. Wharton Digital Press,.
+
+R. Gatautis, E. Vitkauskaite, A. Gadeikiene, and Z. Piligrimiene, 2016 "Gamification as a Mean of Driving Online Consumer Behaviour: SOR Model Perspective," Engineering Economics, vol. 27, no. 1, pp. 90--97,. Google Scholar
+
+K. Werbach and D. Hunter, 2015 The Gamification Toolkit: Dynamics, Mechanics, and Components for the Win. Wharton Digital Press,.
+
+C. Crumlish and E. Malone, 2009 Designing Social Interfaces: Principles, Patterns, and Practices for Improving the User Experience. O'Reilly Media, Inc.,.
+
+R. Hunicke, M. LeBlanc, and R. Zubek, 2004 "MDA: A formal approach to game design and game research," presented at the Proceedings of the AAAI Workshop on Challenges in Game AI,, vol. 4.
+
+C. Li, 2014 "Evaluation of a Theoretical Model for Gamification in Workplace IS context," 06-Oct-. [Online]. Available: https://open.library.ubc.ca/cIRcle/collections/42591/items/1.0075830.
+
+Y. Chou, 2015 Actionable gamification: Beyond points, badges, and leaderboards. Octalysis Media Fremont, CA, USA,.
+
+S. Jiménez, 2017 "Gamification model canvas," Gamasutra2013 Retrieved July, Retrieved March 14,, from http://www.gamasutra.com/blogs/SergioJimenez/20131106/204134/Gamification_Model_Canvas.php.
+
+A. Mora, D. Riera, C. Gonzalez, and J. Arnedo-Moreno, 2015 "A literature review of gamification design frameworks," presented at the Games and Virtual Worlds for Serious Applications (VS-Games), 2015 7th International Conference on,, pp. 1--8. Google Scholar
+
+"Octalysis: 2015 Complete Gamification Framework - Yu-kai Chou," Yu-kai Chou: Gamification & Behavioral Design, 01-Mar-. [Online] Available: http://yukaichou.com/gamification-examples/octalysis-complete-gamification-framework/
+
+K. Werback, 2017 "Gamification - University of Pennsylvania," Coursera. [Online]. Available: https://www.coursera.org/learn/gamification.
+
+.A. Osterwalder and Y. Pigneur, 2003, "Modeling Value Propositions in e-Business," in Proceedings of the 5th International Conference on Electronic Commerce, New York, NY, USA,, pp. 429--436. Google Scholar
+
+A. Osterwalder, 2004 "The Business Model Ontology: A Proposition in a Design Science," Ph. D. Thesis, Université de Lausanne, Lausanne,.
+
+A. Bujari, M. Ciman, O. Gaggi, and C. E. Palazzi, 2017 "Using Gamification to Discover Cultural Heritage Locations from Geo-tagged Photos," Personal Ubiquitous Comput., vol. 21, no. 2, pp. 235--252, Apr.. Google Scholar
+
+B. Morschheuser, A. Maedche, and D. Walter, 2017 "Designing Cooperative Gamification: Conceptualization and Prototypical Implementation," in Proceedings of the 2017 ACM Conference on Computer Supported Cooperative Work and Social Computing, New York, NY, USA, 2017, pp. 2410--2421. Google Scholar
+
+S. Khandelwal, S. K. Sripada, and Y. R. Reddy, 2017 "Impact of Gamification on Code review process: An Experimental Study,", pp. 122--126. Google Scholar
+
+D. Bianchini, D. Fogli, and D. Ragazzi, 2016 "Promoting Citizen Participation through Gamification,", pp. 1--4 Google Scholar
+
+J. L. Jurado, A. Fernandez, and C. A. Collazos 2015, "Applying Gamification in the Context of Knowledge Management," in Proceedings of the 15th International Conference on Knowledge Technologies and Data-driven Business, New York, NY, USA,, p. 43:1--43:4. Google Scholar
+
+C. Helf, P. Zwickl, H. Hlavacs, and P. Reichl, 2015 "mHealth Stakeholder Integration: A Gamification-based Framework-approach Towards Behavioural Change," in Proceedings of the 13th International Conference on Advances in Mobile Computing and Multimedia, New York, NY, USA,, pp. 268--274. 
+
+E. G. R. Flores, M. S. R. Montoya, and J. Mena, 2016 "Challenge-based gamification and its impact in teaching mathematical modeling,", pp. 771--776. Google Scholar
+
+J. Schell, 2008 The Art of Game Design: A Book of Lenses. San Francisco, CA, USA: Morgan Kaufmann Publishers Inc.,.
+
+O. G. Pañella, 2012 "Game Design and e-Health: Serious Games put to the test," Advancing Cancer Education and Healthy Living in Our Communities: Putting Visions and Innovations Into Action. Selected Papers from the St. Jude Cure4Kids® Global Summit 2011, vol. 172, p. 71,.
+
+A. Marczewski, 2013 "What's the difference between Gamification and Serious Games," Andrzej's Blog,.
+
+F. Laamarti, M. Eid, and A. E. Saddik, 2014 "An overview of serious games," International Journal of Computer Games Technology, vol. 2014, p. 11,. Google Scholar
+
+Google, "Google Scholar," 2017. [Online]. Available: http://scholar.google.com.
+
+C. Maican, R. Lixandroiu, and C. Constantin, 2016 "Interactivia.ro - A study of a gamification framework using zero-cost tools," Computers in Human Behavior, vol. 61, pp. 186--197, Aug.. Google Scholar
+
+E. L. Deci, R. Koestner, and R. M. Ryan, 1999 "A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation.,".
+
+M. Aparicio,., and C. J. Costa, 2015. Data visualization. Communication design quarterly review, 3(1), 7--11. Google Scholar
+
+L. F Rodrigues,. C. J Costa,. and A Oliveira,. 2017. How does the web game design influence the behavior of e-banking users?. Computers in Human Behavior, 74, 163--174. Google Scholar
+
+L. F. Rodrigues, A. Oliveira, and C. J. Costa. 2016. Playing seriously - How gamification and social cues influence bank customers to use gamified e-business applications. Computers in Human Behavior 63 (October 2016), 392--407. Google Scholar
+
+L. F. Rodrigues, C. J. Costa, and A. Oliveira. 2016. Gamification: A framework for designing software in e-banking. Computers in Human Behavior 62 (September 2016), 620--634. Google Scholar
+
+L. F. Rodrigues, C. J. Costa, and A. Oliveira. 2014. Gamification: The Using of User Discussion Groups in the Software Development in e-Banking. In Proceedings of the International Conference on Information Systems and Design of Communication. ISDOC '14. New York, NY, USA: ACM, 27--34. Google Scholar
+
+C. J. Costa, and M. Aparicio 2006. Computer Game-Discussing Development Process. In Proceedings of IRIS (Vol. 29).
+
+
 #----------------------#
-Authors: ['Vinicius Kruger da Costa', 'Andreia Sias Rodrigues', 'Krishna Ferreira Xavier', 'Juliana Peglow', 'Rafael Cunha Cardoso', 'Tatiana Aires Tavares']
-Title: "Best practices for Graphical User Interfaces design with interaction based on head movements"
-Abstract: "The availability of various interaction devices is a reality that expands the potential of user interface design. Traditional keyboard and mouse duet are replaced for new ways of input that use user's body as a means of interaction. However, Graphical User Interfaces (GUI) are still the major output when we analyze the form of display and feedback directed to the user. Therefore, it is necessary to rethink the design of the interaction when the devices used exploit other users' abilities in order to stimulate a better experience of using these devices when in conjunction with an IGU. In this context, the objective of this paper is to propose best practices for IGU projects that use interaction based on head movement tracking. We used the results of a Systematic Review of the Literature and a practical experiment trying to compare efficiency, effectiveness, user experience and interaction characteristics."
-Conference: "IHC 2017: Proceedings of the XVI Brazilian Symposium on Human Factors in Computing Systems"
-Date: "October 2017"
-IDS: "Article No.: 14"
-Page range: "Pages   1–10"
-DOI: "10.1145/3160504"
-ISBN: "9781450363778"
-Total Citations: "0"
-Total Downloads: "74"
-References: 
-Amer Al-Rahayfeh and Miad Faezipour. 2013. Eye tracking and head movement detection: A state-of-art survey. IEEE journal of translational engineering in health and medicine 1 (2013), 2100212.
-Rui Antunes, Luis Brito Palma, Fernando Coito, Hermínio Duarteramos, and Paulo Gil. 2016. Intelligent human-computer interface for improving pointing device usability and performance. In 12th International Conference on Control and Automation (ICCA), 2016. 714--719.Google Scholar
-Simone Diniz Junqueira Barbosa and Bruno Santana Silva. 2010. Interação Humano-Computador. Campus Elsevier, Rio de Janeiro.
-Margrit Betke, James Gips, and Peter Fleming. 2002. The camera mouse: visual tracking of body features to provide computer access for people with severe disabilities. IEEE Transactions on neural systems and Rehabilitation Engineering 10, 1 (2002), 1--10.Google Scholar
-Zhen-Peng Bian, Junhui Hou, Lap-Pui Chau, and Nadia Magnenat-Thalmann. 2016. Facial Position and Expression-Based Human--Computer Interface for Persons With Tetraplegia. IEEE journal of biomedical and health informatics 20, 3 (2016), 915--924.
-Pradipta Biswas and Pat Langdon. 2015. Multimodal intelligent eye-gaze tracking system. International Journal of Human-Computer Interaction 31, 4 (2015), 277--294.Google Scholar
-Rafael Cardoso, Vinícius Costa, Andreia Rodrigues, Tatiana Tavares, Krishna Xavier, Jamir Peroba, Juliana Peglow, and Cleber Quadros. 2016. Doce Labirinto: Experiência de jogo utilizando interação baseada em movimentos da cabeça e recursos tangíveis. In Anais XV Simpósio Brasileiro de Jogos e Entretenimento Digital (SBGames 2016). 563--572. http://www.sbgames.org/sbgames2016/downloads/anais/157589.pdf
-Alejandro Clemotte, Rafael Raya, Ramón Ceres, and Eduardo Rocon. 2013. Preliminary result from a multimodal interface for cerebral palsy users based on eye tracking and inertial technology. In Converging Clinical and Engineering Research on Neurorehabilitation. 443--448.
-Vinicius Costa, Andréia Rodrigues, Rafael Cardoso, and Tatiana Tavares. 2016. Investigação preliminar sobre Interfaces de Usuário em produtos de Tecnologia Assistiva. In Anais XVII Encontro de Pós Graduação da Universidade Federal de Pelotas. http://cti.ufpel.edu.br/siepe/arquivos/2016/CE_04411.pdf
-Adriano Cruz, Henrique Serdeira, João Assis, José Borges, José Araújo, Márcia Soeiro, Marcos Carvalho, and Mário Barbosa. 2015. New Solutions for Old Problems: Use of Interfaces Human/Computer to Assist People with Visual and/or Motor Impairment in the Use of DOSVOX and microFênix. In New Contributions in Information Systems and Technologies. 1073--1079.
-Alessandro Ferreira, Leonardo de Miranda, and Erica de Miranda. 2012. Interfaces cérebro-computador de sistemas interativos: estado da arte e desafios de IHC. In Proceedings of the 11th Brazilian Symposium on Human Factors in Computing Systems (IHC '12). 239--248. http://dl.acm.org/citation.cfm?id=2393536.2393572 Google Scholar
-Maria Hakonen, Harri Piitulainen, and Arto Visala. 2015. Current state of digital signal processing in myoelectric interfaces and related applications. Biomedical Signal Processing and Control 18 (2015), 334--359.Google Scholar
-Peter Heumader, Klaus Miesenberger, and Gerhard Nussbaum. 2012. Gravity controls for windows. In Computers Helping People with Special Needs. 157--163. Google Scholar
-Xueliang Huo. 2011. Tongue drive: a wireless tongue-operated assistive technology for people with severe disabilities. Ph.D. Dissertation. Georgia Institute of Technology.
-IBGE. 2010. Instituto Brasileiro de Geografia e Estatística - Censo Demográfico. (2010). Retrieved February 02, 2017 from www.ibge.gov.br/home/estatistica/populacao/censo2010.
-Marcelo Archajo Jose and Roseli de Deus Lopes. 2015. Human-computer interface controlled by the lip. IEEE journal of biomedical and health informatics 19, 1 (2015), 302--308.
-Alexey Karpov and Andrey Ronzhin. 2014. A universal assistive technology with multimodal input and multimedia output interfaces. In Universal Access in Human-Computer Interaction. Design and Development Methods for Universal Access: 8th International Conference (UAHCI 2014), Vol. 8513. 369--378.Google Scholar
-Pamela C. Levy, Nirvana S. Antonio, Thales R. B. Souza, Rogério Caetano, and Priscila G. Souza. 2013. ActiveIris: Uma Solução Para Comunicação Alternativa e Autonomia De Pessoas Com Deficiência Motora Severa. In Proceedings of the 12th Brazilian Symposium on Human Factors in Computing Systems (IHC '13). 42--51. http://dl.acm.org/citation.cfm?id=2577101.2577113 Google Scholar
-Ian Scott Mackenzie. 2016. FittsTaskTwo (2D) - FittsLaw Software. (2016). Retrieved November 19, 2016 from www.yorku.ca/mack/FittsLawSoftware.
-Joanna Marnik. 2014. BlinkMouse-On-Screen Mouse Controlled by Eye Blinks. In Information Technologies in Biomedicine. Vol. 4. 237--248.
-João Martins, João Rodrigues, and Jaime Martins. 2015. Low-cost natural interface based on head movements. Procedia Computer Science 67 (2015), 312--321.Google Scholar
-Davide Mulfari, Antonio Celesti, Maria Fazio, and Massimo Villari. 2015. Human-Computer Interface Based on IoT Embedded Systems for Users with Disabilities. In Lecture Notes of the Institute for Computer Sciences, Social-Informatics and Telecommunications Engineering, LNICST. Vol. 150. 376--383.
-Moyen Mohammad Mustaquim. 2013. Automatic speech recognition-an approach for designing inclusive games. Multimedia tools and applications 66, 1 (2013), 131--146. Google Scholar
-Adam Nowosielski. 2016. Minimal Interaction Touchless Text Input with Head Movements and Stereo Vision. In Computer Vision and Graphics: International Conference, Proceedings (ICCVG 2016). 233--243.
-Diogo Pedrosa and Maria da Graça C Pimentel. 2014. Text entry using a foot for severely motor-impaired individuals. In Proceedings of the 29th Annual ACM Symposium on Applied Computing. 957--963. Google Scholar
-César Augusto Martins Pereira. 2009. Desenvolvimento e avaliação de uma interface homem-computador, com as funções de um "mouse", controlada pelo movimento da cabeça para uso em pessoas com deficiências físicas. Ph.D. Dissertation. Universidade de São Paulo.
-Claudia Perez-Maldonado, Anthony Wexler, and Sanjay Joshi. 2010. Two-dimensional cursor-to-target control from single muscle site sEMG signals. IEEE Transactions on Neural Systems and Rehabilitation Engineering 18, 2 (2010), 203--209.Google Scholar
-Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson. 2008. Systematic Mapping Studies in Software Engineering.. In Proceedings of the 12th international conference on Evaluation and Assessment in Software Engineering (EASE'08), Vol. 8. 68--77. http://dl.acm.org/citation.cfm?id=2227115.2227123 Google Scholar
-Jenny Preece, Yvonne Rogers, and Helen Sharp. 2013. Design de Interação - 3ed. Bookman Editora.
-Yashar Abbasalizadeh Rezaei, Gernot Heisenberg, and Wolfgang Heiden. 2014. User Interface Design for Disabled People Under the Influence of Time, Efficiency and Costs. In International Conference on Human-Computer Interaction (IHC '14). 197--202.
-Andréia Rodrigues, Vinicius da Costa, Márcio Machado, Angélica Rocha, Joana de Oliveira, Marcelo Machado, Rafael Cardoso, Cleber Quadros, and Tatiana Tavares. 2016. Evaluation of the Use of Eye and Head Movements for Mouse-like Functions by Using IOM Device. In International Conference on Universal Access in Human-Computer Interaction (IHC '16). 81--91.Google Scholar
-Kristen Shinohara and Jacob O. Wobbrock. 2016. Self-Conscious or Self-Confident? A Diary Study Conceptualizing the Social Accessibility of Assistive Technology. ACM Transactions on Accessible Computing 8, 2 (2016), 1--31. Google Scholar
-#----------------------#
+
