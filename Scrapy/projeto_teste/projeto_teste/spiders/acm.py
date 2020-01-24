@@ -1,5 +1,6 @@
 # scrapy crawl acm -o Data/teste.json
 import scrapy
+from .data.article import Article
 
 class ACM_Spider(scrapy.Spider):
     name = "acm"
@@ -20,13 +21,13 @@ class ACM_Spider(scrapy.Spider):
 
     test_urls_2 = [
         # Data mining
-        "https://dl.acm.org/doi/abs/10.1145/502512.502517",
-        "https://dl.acm.org/doi/abs/10.1145/545151.545180",
+        "https://dl.acm.org/doi/abs/10.1145/502512.502517"  ,
+        "https://dl.acm.org/doi/abs/10.1145/545151.545180"  ,
         "https://dl.acm.org/doi/abs/10.5555/1074100.1074308",
-        "https://dl.acm.org/doi/abs/10.1145/233269.280351",
+        "https://dl.acm.org/doi/abs/10.1145/233269.280351"  ,
         "https://dl.acm.org/doi/abs/10.1145/1288552.1288559",
         # Metaheuristics
-        "https://dl.acm.org/doi/abs/10.1145/937503.937505",
+        "https://dl.acm.org/doi/abs/10.1145/937503.937505"  ,
         "https://dl.acm.org/doi/abs/10.1145/1276958.1277303",
         "https://dl.acm.org/doi/abs/10.1145/3090354.3090462",
         "https://dl.acm.org/doi/abs/10.1145/1143997.1144172",
@@ -45,7 +46,7 @@ class ACM_Spider(scrapy.Spider):
     #  ]
 
 
-    def get_authors(self, response):
+    def extract_authors(self, response): #***********************
         authors = []
         for author_names_raw in response.xpath("//a[@class='author-name']"):
             author_name = author_names_raw.xpath("./@title").extract_first()
@@ -55,77 +56,65 @@ class ACM_Spider(scrapy.Spider):
         
         return authors
 
-    def get_title(self, response):
-        title = ""
-        for titles_raw in response.xpath("//h1[@class='citation__title']"):
-            title_scraped = titles_raw.xpath("./text()").extract_first()
-            title = title_scraped.strip()
+    def extract_title(self, response):
+        xpath_string = "//h1[@class='citation__title']/text()"
+        title = response.xpath(xpath_string).getall()
+        title = ''.join(title)
+
+        return str(title)
+
+    def extract_abstract(self, response):
+        xpath_string = "//div[@class='article__section article__abstract hlFld-Abstract']/p/descendant::text()"
+        abstract = response.xpath(xpath_string).getall()
+
+        if( len(abstract) == 0):
+            xpath_string = "//div[@class='abstractSection abstractInFull']/p/descendant::text()"
+            abstract = response.xpath(xpath_string).getall()
+
+        if( len(abstract) > 0 ):
+            abstract = ''.join(abstract)
+            return str(abstract)
         
-        return title
+        return ""
 
-    def get_abstract(self, response):
-        abstract = ""
-        for abstract_raw in response.xpath("//div[@class='article__section article__abstract hlFld-Abstract']/p"):
-            abstract_scraped = abstract_raw.xpath("./text()").extract_first()
-            abstract = abstract_scraped.strip()
+    # # Posso utilizar no futuro
+    # def extract_conference(self, response): #***********************
+    #     conference = ""
+    #     for conference_raw in response.xpath("//span[@class='epub-section__title']"):
+    #         conference_scraped = conference_raw.xpath("./text()").extract_first()
+    #         conference = conference_scraped.strip()
 
-        if(abstract == ""):
-            for abstract_raw in response.xpath("//div[@class='abstractSection abstractInFull']/p"):
-                abstract_scraped = abstract_raw.xpath("./text()").extract_first()
-                abstract = abstract_scraped.strip()
+    #     return str(conference)
 
-
-        return abstract
-
-    def get_conference(self, response):
-        conference = ""
-        for conference_raw in response.xpath("//span[@class='epub-section__title']"):
-            conference_scraped = conference_raw.xpath("./text()").extract_first()
-            conference = conference_scraped.strip()
-
-        return conference
-
-    def get_date(self, response):
+    def extract_date(self, response): #***********************
         date = ""
         for dates_raw in response.xpath("//span[@class='epub-section__date']"):
             date_scraped = dates_raw.xpath("./text()").extract_first()
             date = date_scraped.strip()
 
-        return date
+        return str(date)
 
-    def get_ids(self, response):
-        ids = ""
-        for ids_raw in response.xpath("//span[@class='epub-section__ids']"):
-            ids_scraped = ids_raw.xpath("./text()").extract_first()
-            ids = ids_scraped.strip()
-        
-        return ids
+    def extract_pages(self, response): #***********************
+        pages = ""
+        for pages_raw in response.xpath("//span[@class='epub-section__pagerange']"):
+            pages_scraped = pages_raw.xpath("./text()").extract_first()
+            pages = pages_scraped.strip()
 
-    def get_pagerange(self, response):
-        pagerange = ""
-        for pagerange_raw in response.xpath("//span[@class='epub-section__pagerange']"):
-            pagerange_scraped = pagerange_raw.xpath("./text()").extract_first()
-            pagerange = pagerange_scraped.strip()
+        if( pages != ""):
+            pages = pages.replace('Pages', '')
+            pages = pages.replace(' ', '')
+            dash = ""
+            for ch in pages:
+                if(not ch.isdigit()):
+                    dash = ch
 
-        return pagerange
+            if(dash != ""):
+                pages = pages.split(dash)
+                pages = int(pages[1]) - int(pages[0]) + 1
 
-    def get_total_citations(self, response):
-        total_citations = ""
-        for total_citations_raw in response.xpath("//div[@class='tooltip__body']/div[@class='citation']/span"):
-            total_citations_scraped = total_citations_raw.xpath("./text()").extract_first()
-            total_citations = total_citations_scraped.strip()
+        return str(pages)
 
-        return total_citations
-
-    def get_total_downloads(self, response):
-        total_downloads = ""
-        for total_downloads_raw in response.xpath("//div[@class='tooltip__body']/div[@class='metric']/span"):
-            total_downloads_scraped = total_downloads_raw.xpath("./text()").extract_first()
-            total_downloads = total_downloads_scraped.strip()
-
-        return total_downloads
-
-    def get_references(self, response):
+    def extract_references(self, response): #***********************
         references = []
         for references_raw in response.xpath("//span[@class='references__note']"):
             current_reference = ""
@@ -138,53 +127,30 @@ class ACM_Spider(scrapy.Spider):
 
         return references
 
-    def get_doi(self, response):
-        # Não está pegando certo!
-        doi = ""
+    def extract_doi(self, response):
+        xpath_string = "//input[@name='doiVal']/@value"
+        doi = response.xpath(xpath_string).get()
 
-        for doi_raw in response.xpath("//input[@name='doiVal']"):
-            content = doi_raw.xpath("./@value").extract_first()
-            doi = content.strip()
-
-        return doi
-    
-    def get_isbn(self, response):
-        # Pode dar problema!
-        isbn = ""
-        for isbn_raw in response.xpath("//div[@class='flex-container']"):
-            description = isbn_raw.xpath("./span[@class='bold']/text()").extract_first()
-            content = isbn_raw.xpath("./span[@class='space']/text()").extract_first()
-
-            if( description is None):
-                break
-            elif( "ISBN" in description ):
-                isbn = content.strip()
-
-        return isbn
+        return str(doi)
 
     ##############################################
     
-    def export(self, article_authors, article_title, article_abstract, article_conference, article_date, article_ids, article_pagerange, article_doi, article_isbn, article_total_citations, article_total_downloads, article_references):
+    def export(self, article):
         filename = "Data/acm.data"
         f = open(filename, "a")
-
         print("\nAuthors: ", end="", file=f)
-        print(article_authors, file=f)
-        print("\nTitle: \"" + article_title + "\"", file=f)
-        print("\nAbstract: \"" + article_abstract + "\"", file=f)
-        print("\nConference: \"" + article_conference + "\"", file=f)
-        print("\nDate: \"" + article_date + "\"", file=f)
-        print("\nIDS: \"" + article_ids + "\"", file=f)
-        print("\nPage range: \"" + article_pagerange + "\"", file=f)
-        print("\nDOI: \"" + article_doi + "\"", file=f)
-        print("\nISBN: \"" + article_isbn + "\"", file=f)
-        print("\nTotal Citations: \"" + article_total_citations + "\"", file=f)
-        print("\nTotal Downloads: \"" + article_total_downloads + "\"", file=f)
+        print(article.authors, file=f)
+        print("\nTitle: \"" + article.title + "\"", file=f)
+        print("\nAbstract: \"", file=f, end="")
+        print(article.abstract, file=f, end="\"\n")
+        print("\nDate: \"" + article.date + "\"", file=f)
+        print("\nPages: \"" + article.pages + "\"", file=f)
+        print("\nDOI: \"" + article.doi + "\"", file=f)
         print("\nReferences: ", file=f)
-        for r in article_references:
-            print(r,  file=f)
+        for i in range(0, len(article.references) ):
+            print(str(i) + ". " + article.references[i],  file=f)
             print("", file=f)
-        print("\n#----------------------#\n", file=f)
+        print("=========================", file=f)
 
         f.close()
 
@@ -193,41 +159,15 @@ class ACM_Spider(scrapy.Spider):
 
     def parse(self, response):
 
-        article_authors = self.get_authors(response)
-        article_title = self.get_title(response)
-        article_abstract = self.get_abstract(response)
-        article_conference = self.get_conference(response)
-        article_date = self.get_date(response)
-        article_ids = self.get_ids(response)
-        article_pagerange = self.get_pagerange(response)
+        article = Article()
+        article.authors = self.extract_authors(response)
+        article.title = self.extract_title(response)
+        article.abstract = self.extract_abstract(response)
+        article.date = self.extract_date(response)
+        article.pages = self.extract_pages(response)
+        article.doi = self.extract_doi(response)
+        # article.keywords = article_keywords
+        article.references = self.extract_references(response)
 
-        # Pode dar problema!
-        article_doi = self.get_doi(response)
-        article_isbn = self.get_isbn(response)
-
-        ##############
-
-        article_total_citations = self.get_total_citations(response)
-        article_total_downloads = self.get_total_downloads(response)
-        article_references = self.get_references(response)
-
-        ##############
-        print("=========================")
-        print("Authors: ", end="")
-        print(article_authors)
-        print("Title: \"" + article_title + "\"")
-        print("Abstract: \"" + article_abstract + "\"")
-        print("Conference: \"" + article_conference + "\"")
-        print("Date: \"" + article_date + "\"")
-        print("IDS: \"" + article_ids + "\"")
-        print("Page range: \"" + article_pagerange + "\"")
-        print("DOI: \"" + article_doi + "\"")
-        print("ISBN: \"" + article_isbn + "\"")
-        print("Total Citations: \"" + article_total_citations + "\"")
-        print("Total Downloads: \"" + article_total_downloads + "\"")
-        print("=========================")
-        # for r in article_references:
-        #     print(">> " + r)
-        print("Num referencias: " + str(len(article_references)))
-        self.export(article_authors, article_title, article_abstract, article_conference, article_date, article_ids, article_pagerange, article_doi, article_isbn, article_total_citations, article_total_downloads, article_references)
+        self.export(article)
 
