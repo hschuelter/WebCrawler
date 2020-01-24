@@ -1,6 +1,7 @@
 # scrapy crawl acm -o Data/teste.json
 import scrapy
 from .data.article import Article
+from .data.author  import Author
 
 class ACM_Spider(scrapy.Spider):
     name = "acm"
@@ -48,11 +49,21 @@ class ACM_Spider(scrapy.Spider):
 
     def extract_authors(self, response): #***********************
         authors = []
+        authors_names = []
         for author_names_raw in response.xpath("//a[@class='author-name']"):
-            author_name = author_names_raw.xpath("./@title").extract_first()
+            name = author_names_raw.xpath("./@title").extract_first()
 
-            if (author_name not in authors):
-                authors.append(author_name)
+            institute = author_names_raw.xpath("./span/span[@class='loa_author_inst']/p/text()").extract_first()
+            if( institute is None):
+                institute = ""
+
+            print(institute)
+
+            if ( name not in authors_names):
+                new_author = Author(name, institute)
+                authors.append(new_author)
+
+                authors_names.append(name)
         
         return authors
 
@@ -135,11 +146,13 @@ class ACM_Spider(scrapy.Spider):
 
     ##############################################
     
-    def export(self, article):
+    def export(self, article, authors):
         filename = "Data/acm.data"
         f = open(filename, "a")
-        print("\nAuthors: ", end="", file=f)
-        print(article.authors, file=f)
+        print("\nAuthors: ", file=f)
+        for a in authors:
+            print('\t' + str(a), file=f)
+        # print(article.authors, file=f)
         print("\nTitle: \"" + article.title + "\"", file=f)
         print("\nAbstract: \"", file=f, end="")
         print(article.abstract, file=f, end="\"\n")
@@ -159,8 +172,15 @@ class ACM_Spider(scrapy.Spider):
 
     def parse(self, response):
 
+        authors = []
         article = Article()
-        article.authors = self.extract_authors(response)
+
+        authors = self.extract_authors(response)
+
+        ################
+        for a in authors:
+            article.authors.append( a.name )
+
         article.title = self.extract_title(response)
         article.abstract = self.extract_abstract(response)
         article.date = self.extract_date(response)
@@ -169,5 +189,7 @@ class ACM_Spider(scrapy.Spider):
         # article.keywords = article_keywords
         article.references = self.extract_references(response)
 
-        self.export(article)
+
+
+        self.export(article, authors)
 
