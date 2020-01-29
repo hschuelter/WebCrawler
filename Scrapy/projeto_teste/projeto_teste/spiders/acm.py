@@ -1,6 +1,8 @@
-# scrapy crawl acm -o Data/teste.json
+# scrapy crawl acm -o Data/teste.json > a.txt
 import scrapy
-from .data.article import Article
+import requests
+
+# from .data.article import Article
 from .data.author  import Author
 
 class ACM_Spider(scrapy.Spider):
@@ -57,7 +59,7 @@ class ACM_Spider(scrapy.Spider):
             if( institute is None):
                 institute = ""
 
-            print(institute)
+            # print(institute)
 
             if ( name not in authors_names):
                 new_author = Author(name, institute)
@@ -144,7 +146,77 @@ class ACM_Spider(scrapy.Spider):
 
         return str(doi)
 
+    def extract_publication(self, response):
+        xpath_string = "//div[@class='issue-item__detail']/a/@href"
+        url = response.xpath(xpath_string).get()
+        url = response.urljoin(url)
+
+        publication = dict()
+        new_response = requests.get(url)
+        code = new_response.text.split('\n')
+
+        title = ""
+        publisher = ""
+        conference = ""
+        code = list( filter(lambda a: a != '', code) )
+        
+        for i in range(0, len(code)-1):
+            if( "Publisher:" in code[i]):
+                publisher = code[i].split('<ul class="rlist--inline comma">')[1]
+                publisher = publisher.split('</ul>')[0]
+                publisher = self.remove_tags(publisher)
+                publisher = publisher.replace("Publisher:", "")
+
+
+                conference = ""
+                conference = self.remove_tags( code[i] )
+                conference = conference.replace("Publisher:", "")
+                aux = conference.split("Conference:")
+
+                if(len(aux) == 1):
+                    conference = ""
+
+                if(len(aux) > 1):
+                    conference = self.remove_tags( aux[1] )
+                    conference = conference.strip(' ')
+
+                # print( "Publisher  - " + publisher )
+                # print( "Conference - " + conference )
+
+
+            if( "<title>" in code[i] ):
+                title = self.remove_tags( code[i] )
+                title = title.split( ' | ' )[0]
+
+        publication['title'] = title
+        publication['publisher'] = publisher
+        publication['conference'] = conference
+        publication['url'] = url
+        print( "**************************************************" )
+        print( publication )
+        print( "**************************************************" )
+
+        return publication
+
     ##############################################
+
+    def remove_tags(self, string):
+        stack = []
+        aux = ""
+        for i in range(0, len(string)):
+            if( string[i] == '<' ):
+                for j in range(i, len(string)):
+                    aux = aux + string[j]
+                    if( string[j] == '>'):
+                        break
+                
+                stack.append( str(aux) )
+                aux = ""
+
+        for el in stack:
+            string = string.replace(el,' ')
+
+        return " ".join( string.split())
     
     def export(self, article, authors):
         filename = "Data/acm.data"
@@ -152,16 +224,15 @@ class ACM_Spider(scrapy.Spider):
         print("\nAuthors: ", file=f)
         for a in authors:
             print('\t' + str(a), file=f)
-        # print(article.authors, file=f)
-        print("\nTitle: \"" + article.title + "\"", file=f)
+        print("\nTitle: \"" + article['title'] + "\"", file=f)
         print("\nAbstract: \"", file=f, end="")
-        print(article.abstract, file=f, end="\"\n")
-        print("\nDate: \"" + article.date + "\"", file=f)
-        print("\nPages: \"" + article.pages + "\"", file=f)
-        print("\nDOI: \"" + article.doi + "\"", file=f)
+        print(article['abstract'], file=f, end="\"\n")
+        print("\nDate: \"" + article['date'] + "\"", file=f)
+        print("\nPages: \"" + article['pages'] + "\"", file=f)
+        print("\nDOI: \"" + article['doi'] + "\"", file=f)
         print("\nReferences: ", file=f)
-        for i in range(0, len(article.references) ):
-            print(str(i) + ". " + article.references[i],  file=f)
+        for i in range(0, len(article['references']) ):
+            print(str(i) + ". " + article['references'][i],  file=f)
             print("", file=f)
         print("=========================", file=f)
 
@@ -173,23 +244,25 @@ class ACM_Spider(scrapy.Spider):
     def parse(self, response):
 
         authors = []
-        article = Article()
+        article = dict()
+        publication = dict()
 
         authors = self.extract_authors(response)
 
         ################
+        article['authors'] = []
         for a in authors:
-            article.authors.append( a.name )
+            article['authors'].append(a.name)
 
-        article.title = self.extract_title(response)
-        article.abstract = self.extract_abstract(response)
-        article.date = self.extract_date(response)
-        article.pages = self.extract_pages(response)
-        article.doi = self.extract_doi(response)
-        # article.keywords = article_keywords
-        article.references = self.extract_references(response)
+        article['title'] = self.extract_title(response)
+        article['abstract'] = self.extract_abstract(response)
+        article['date'] = self.extract_date(response)
+        article['pages'] = self.extract_pages(response)
+        article['doi'] = self.extract_doi(response)
+        # article['keywords'] = article_keywords
+        article['references'] = self.extract_references(response)
 
-
+        publication = self.extract_publication(response)
 
         self.export(article, authors)
 
