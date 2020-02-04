@@ -1,5 +1,9 @@
 =========================
-Authors: ['James S. Okolica', 'Gilbert L. Peterson', 'Robert F. Mills', 'Michael R. Grimaila']
+Authors: 
+	James S. Okolica ( Department of Electrical and Computer Engineering, Air Force Institute of Technology, WPAFB, OH, USA )
+	Gilbert L. Peterson ( Department of Electrical and Computer Engineering, Air Force Institute of Technology, WPAFB, OH, USA )
+	Robert F. Mills ( Department of Electrical and Computer Engineering, Air Force Institute of Technology, WPAFB, OH, USA )
+	Michael R. Grimaila ( Department of Electrical and Computer Engineering, Air Force Institute of Technology, WPAFB, OH, USA )
 
 Title: "Sequence Pattern Mining with Variables"
 
@@ -8,11 +12,53 @@ Journal: "IEEE Transactions on Knowledge and Data Engineering"
 Date: "19 November 2018"
 Pages: "10"
 DOI: "10.1109/TKDE.2018.2881675"
+>>>>>>>>>>>>>>>>>>>>> ARRUMAR ISSO <<<<<<<<<<<<<<<<<<<<<
 Keywords: ['data mining', 'digital forensics', 'printers', 'production', 'databases', 'printing', 'government', 'sequence pattern mining', 'variables', 'item attributes', 'interleaving', 'temporal event abstraction']
 =========================
 
 =========================
-Authors: ['R.A. Brown', 'Hongmei Zhu', 'J.R. Mitchell', 'Bioengineering"}']
+Authors: 
+	Jian Shen ( Lucent Technols. Inc., Whippany, NJ, USA )
+	E.S. Ebbini
+
+Title: "Filter-based coded-excitation system for high-speed ultrasonic imaging"
+
+Abstract: "The authors have recently presented a new algorithm for high-speed parallel processing of ultrasound pulse-echo data for real-time three-dimensional (3-D) imaging. The approach utilizes a discretized linear model of the echo data received from the region of interest (ROI) using a conventional beam former. The transmitter array elements are fed with binary codes designed to produce distinct impulse responses from different directions in ROI. Image reconstruction in ROI is achieved with a regularized pseudoinverse operator derived from the linear receive signal model. The reconstruction operator can be implemented using a transversal filter bank with every filter in the bank designed to extract echoes from a specific direction in the ROI. The number of filters in the bank determines the number of image lines acquired simultaneously. In this paper the authors present images of a cyst phantom reconstructed based on their formulation. A number of issues of practical significance in image reconstruction are addressed. Specifically an augmented model is introduced to account for imperfect blocking of echoes from outside the ROI. The authors have also introduced a column-weighting algorithm for minimizing the number of filter coefficients. In addition a detailed illustration of a full image reconstruction using subimage acquisition and compounding is given. Experimental results have shown that the new approach is valid for phased-array pulse-echo imaging of speckle-generating phantoms typically used in characterizing medical imaging systems. Such coded-excitation-based image reconstruction from speckle-generating phantoms to the best of the authors' knowledge have not been reported previously."
+Journal: "IEEE Transactions on Medical Imaging"
+Date: "Dec. 1998"
+Pages: "11"
+DOI: "10.1109/42.746625"
+>>>>>>>>>>>>>>>>>>>>> ARRUMAR ISSO <<<<<<<<<<<<<<<<<<<<<
+Keywords: ['ultrasonic imaging', 'image reconstruction', 'biomedical imaging', 'acoustic imaging', 'real time systems', 'transversal filters', 'imaging phantoms', 'parallel processing', 'acoustic beams', 'structural beams']
+=========================
+
+=========================
+Authors: 
+	Mohammad Javad Shafiee ( Vision and Image Processing (VIP) Research Group, Department of Systems Design Engineering, University of Waterloo, Waterloo, Canada )
+	Shahid A. Haider ( Vision and Image Processing (VIP) Research Group, Department of Systems Design Engineering, University of Waterloo, Waterloo, Canada )
+	Alexander Wong ( Vision and Image Processing (VIP) Research Group, Department of Systems Design Engineering, University of Waterloo, Waterloo, Canada )
+	Dorothy Lui ( Vision and Image Processing (VIP) Research Group, Department of Systems Design Engineering, University of Waterloo, Waterloo, Canada )
+	Andrew Cameron ( Vision and Image Processing (VIP) Research Group, Department of Systems Design Engineering, University of Waterloo, Waterloo, Canada )
+	Ameen Modhafar ( Department of Medical Imaging, Sunnybrook Health Sciences Centre, Toronto, Canada )
+	Paul Fieguth ( Vision and Image Processing (VIP) Research Group, Department of Systems Design Engineering, University of Waterloo, Waterloo, Canada )
+	Masoom A. Haider ( Department of Medical Imaging, Sunnybrook Health Sciences Centre, Toronto, Canada )
+
+Title: "Apparent Ultra-High $b$ -Value Diffusion-Weighted Image Reconstruction via Hidden Conditional Random Fields"
+
+Abstract: "A promising recently explored alternative to ultra-high b-value diffusion weighted imaging (UHB-DWI) is apparent ultra-high b-value diffusion-weighted image reconstruction (AUHB-DWR) where a computational model is used to assist in the reconstruction of apparent DW images at ultra-high b-values. Firstly we present a novel approach to AUHB-DWR that aims to improve image quality. We formulate the reconstruction of an apparent DW image as a hidden conditional random field (HCRF) in which tissue model diffusion parameters act as hidden states in this random field. The second contribution of this paper is a new generation of fully connected conditional random fields called the hidden stochastically fully connected conditional random fields (HSFCRF) that allows for efficient inference with significantly reduced computational complexity via stochastic clique structures. The proposed AUHB-DWR algorithms HCRF and HSFCRF are evaluated quantitatively in nine different patient cases using Fisher's criteria probability of error and coefficient of variation metrics to validate its effectiveness for the purpose of improving intensity delineation between expert identified suspected cancerous and healthy tissue within the prostate gland. The proposed methods are also examined using a prostate phantom where the apparent ultra-high b-value DW images reconstructed using the tested AUHB-DWR methods are compared with real captured UHB-DWI. The results illustrate that the proposed AUHB-DWR methods has improved reconstruction quality and improved intensity delineation compared with existing AUHB-DWR approaches."
+Journal: "IEEE Transactions on Medical Imaging"
+Date: "02 December 2014"
+Pages: "13"
+DOI: "10.1109/TMI.2014.2376781"
+>>>>>>>>>>>>>>>>>>>>> ARRUMAR ISSO <<<<<<<<<<<<<<<<<<<<<
+Keywords: ['computational modeling', 'image reconstruction', 'computational complexity', 'estimation', 'imaging', 'noise', 'hidden markov models', 'apparent diffusion weighted imaging', 'conditional random field', 'diffusion weighted imaging', 'hidden state', 'magnetic resonance imaging (mri)', 'prostate cancer imaging', 'stochastically fully connected random field', 'ultra high $b$-value"]}', '{"type":"mesh terms']
+=========================
+
+=========================
+Authors: 
+	R.A. Brown ( Seaman Family MR Res. Centre, Calgary, Canada )
+	Hongmei Zhu ( Seaman Family MR Res. Centre, Calgary, Canada )
+	J.R. Mitchell
 
 Title: "Distributed vector Processing of a new local MultiScale Fourier transform for medical imaging applications"
 
@@ -21,32 +67,7 @@ Journal: "IEEE Transactions on Medical Imaging"
 Date: "02 May 2005"
 Pages: "2"
 DOI: "10.1109/TMI.2005.845320"
+>>>>>>>>>>>>>>>>>>>>> ARRUMAR ISSO <<<<<<<<<<<<<<<<<<<<<
 Keywords: ['fourier transforms', 'biomedical imaging', 'biomedical image processing', 'concurrent computing', 'wavelet transforms', 'frequency', 'image analysis', 'image texture analysis', 'filtering', 'medical services', 'discrete fourier transforms', 'distributed computing', 'vector processing"]}', '{"type":"mesh terms']
-=========================
-
-=========================
-Authors: ['Mohammad Javad Shafiee', 'Shahid A. Haider', 'Alexander Wong', 'Dorothy Lui', 'Andrew Cameron', 'Ameen Modhafar', 'Paul Fieguth', 'Masoom A. Haider', 'Bioengineering"}']
-
-Title: "Apparent Ultra-High <formula formulatype=\"inline\"><tex Notation=\"TeX\">$b$</tex></formula>-Value Diffusion-Weighted Image Reconstruction via Hidden Conditional Random Fields"
-
-Abstract: "A promising recently explored alternative to ultra-high b-value diffusion weighted imaging (UHB-DWI) is apparent ultra-high b-value diffusion-weighted image reconstruction (AUHB-DWR) where a computational model is used to assist in the reconstruction of apparent DW images at ultra-high b-values. Firstly we present a novel approach to AUHB-DWR that aims to improve image quality. We formulate the reconstruction of an apparent DW image as a hidden conditional random field (HCRF) in which tissue model diffusion parameters act as hidden states in this random field. The second contribution of this paper is a new generation of fully connected conditional random fields called the hidden stochastically fully connected conditional random fields (HSFCRF) that allows for efficient inference with significantly reduced computational complexity via stochastic clique structures. The proposed AUHB-DWR algorithms HCRF and HSFCRF are evaluated quantitatively in nine different patient cases using Fisher's criteria probability of error and coefficient of variation metrics to validate its effectiveness for the purpose of improving intensity delineation between expert identified suspected cancerous and healthy tissue within the prostate gland. The proposed methods are also examined using a prostate phantom where the apparent ultra-high b-value DW images reconstructed using the tested AUHB-DWR methods are compared with real captured UHB-DWI. The results illustrate that the proposed AUHB-DWR methods has improved reconstruction quality and improved intensity delineation compared with existing AUHB-DWR approaches."
-Journal: "IEEE Transactions on Medical Imaging"
-Date: "02 December 2014"
-Pages: "13"
-DOI: "10.1109/TMI.2014.2376781"
-Keywords: ['computational modeling', 'image reconstruction', 'computational complexity', 'estimation', 'imaging', 'noise', 'hidden markov models', 'apparent diffusion weighted imaging', 'conditional random field', 'diffusion weighted imaging', 'hidden state', 'magnetic resonance imaging (mri)', 'prostate cancer imaging', 'stochastically fully connected random field', 'ultra high $b$-value"]}', '{"type":"mesh terms']
-=========================
-
-=========================
-Authors: ['Jian Shen', 'E.S. Ebbini', 'Bioengineering"}']
-
-Title: "Filter-based coded-excitation system for high-speed ultrasonic imaging"
-
-Abstract: "The authors have recently presented a new algorithm for high-speed parallel processing of ultrasound pulse-echo data for real-time three-dimensional (3-D) imaging. The approach utilizes a discretized linear model of the echo data received from the region of interest (ROI) using a conventional beam former. The transmitter array elements are fed with binary codes designed to produce distinct impulse responses from different directions in ROI. Image reconstruction in ROI is achieved with a regularized pseudoinverse operator derived from the linear receive signal model. The reconstruction operator can be implemented using a transversal filter bank with every filter in the bank designed to extract echoes from a specific direction in the ROI. The number of filters in the bank determines the number of image lines acquired simultaneously. In this paper the authors present images of a cyst phantom reconstructed based on their formulation. A number of issues of practical significance in image reconstruction are addressed. Specifically an augmented model is introduced to account for imperfect blocking of echoes from outside the ROI. The authors have also introduced a column-weighting algorithm for minimizing the number of filter coefficients. In addition a detailed illustration of a full image reconstruction using subimage acquisition and compounding is given. Experimental results have shown that the new approach is valid for phased-array pulse-echo imaging of speckle-generating phantoms typically used in characterizing medical imaging systems. Such coded-excitation-based image reconstruction from speckle-generating phantoms to the best of the authors' knowledge have not been reported previously."
-Journal: "IEEE Transactions on Medical Imaging"
-Date: "Dec.  1998"
-Pages: "11"
-DOI: "10.1109/42.746625"
-Keywords: ['ultrasonic imaging', 'image reconstruction', 'biomedical imaging', 'acoustic imaging', 'real time systems', 'transversal filters', 'imaging phantoms', 'parallel processing', 'acoustic beams', 'structural beams']
 =========================
 

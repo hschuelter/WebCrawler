@@ -25,15 +25,58 @@ class IEEEX_Spider(scrapy.Spider):
         return ''
 
     def extract_authors(self, raw_metadata):
-        authors = []
-        index_start = raw_metadata.find('"authors":[')
 
-        raw_metadata = raw_metadata[index_start:]
-        raw_metadata = raw_metadata.split('{"name":')
+        authors = []
+        start_index = raw_metadata.find('"authors":[')
         
-        for raw_authors in raw_metadata[1:-1]:
-            helper = raw_authors.split(',')[0]
-            authors.append( helper.strip('"') )
+        stack = 0
+        end_index = start_index        
+        for ch in raw_metadata[start_index:]:
+            if( ch == ']' and stack == 1):
+                end_index += 1
+                break
+            
+            if( ch == '[' ):
+                stack += 1
+
+            if( ch == ']' ):
+                stack -= 1
+
+            end_index += 1
+            
+        teste = raw_metadata[start_index : end_index]
+        teste = teste.split( '{"name":"' )
+
+        for i in range( 1, len(teste) ):
+            info = teste[i].split( '","affiliation":"' )
+            author = info[0]
+            institution = info[1]
+            
+            index = 0
+            for j in institution:
+                if( j == '"'):
+                    break
+                index += 1
+
+            institution = institution[:index]
+
+            author_info = dict()
+            author_info[ 'author' ] = author
+            author_info[ 'institution' ] = institution
+
+            author_string = author
+            if ( institution != "" ):
+                author_string += " ( " + str(institution) + " )"
+
+            # authors.append( author_info )
+            authors.append( author_string )
+        
+        # raw_metadata = raw_metadata[start_index:]
+        # raw_metadata = raw_metadata.split('{"name":')
+        
+        # for raw_authors in raw_metadata[1:-1]:
+        #     helper = raw_authors.split(',')[0]
+        #     authors.append( helper.strip('"') )
 
         return authors
 
@@ -45,8 +88,10 @@ class IEEEX_Spider(scrapy.Spider):
                 title = rt
                 break
 
-        helper = title.split(":")[1]
-        return helper.strip('"')
+        title = title.split(":")[1]
+        title = title.strip('"')
+        title = self.remove_tags(title)
+        return title
 
     def extract_abstract(self, raw_metadata):
         raw_abstract = raw_metadata.split(',')
@@ -61,8 +106,10 @@ class IEEEX_Spider(scrapy.Spider):
 
                 break
                     
-        helper = abstract.split(":")[1]
-        return helper.strip('"')
+        abstract = abstract.split(":")[1]
+        abstract = abstract.strip('"')
+        abstract = self.remove_tags(abstract)
+        return abstract
 
     def extract_journal(self, raw_metadata):
         raw_journal = raw_metadata.split(',')
@@ -72,8 +119,10 @@ class IEEEX_Spider(scrapy.Spider):
                 journal = rt
                 break
 
-        helper = journal.split(":")[1]
-        return helper.strip('"')
+        journal = journal.split(":")[1]
+        journal = journal.strip('"')
+        journal = self.remove_tags(journal)
+        return journal
 
     def extract_date(self, raw_metadata):
         raw_date = raw_metadata.split(',')
@@ -83,8 +132,10 @@ class IEEEX_Spider(scrapy.Spider):
                 date = rt
                 break
 
-        helper = date.split(":")[1]
-        return helper.strip('"')
+        date = date.split(":")[1]
+        date = date.strip('"')
+        date = self.remove_tags(date)
+        return date
 
     def extract_num_pages(self, raw_metadata):
         raw_num_pages = raw_metadata.split(',')
@@ -93,11 +144,13 @@ class IEEEX_Spider(scrapy.Spider):
         for rt in raw_num_pages:
             if( '"startPage"' in rt ):
                 start_page = (rt.split(":")[1]).strip('"')
+                start_page = self.remove_tags(start_page)
             if( '"endPage"' in rt ):
                 end_page = (rt.split(":")[1]).strip('"')
+                end_page = self.remove_tags(end_page)
 
         num_pages = int(end_page) - int(start_page)
-        return num_pages
+        return str(num_pages)
 
     def extract_doi(self, raw_metadata):
         raw_doi = raw_metadata.split(',')
@@ -107,9 +160,9 @@ class IEEEX_Spider(scrapy.Spider):
                 doi = rt
                 break
 
-        helper = doi.split(":")[1]
-        return helper.strip('"')
-
+        doi = doi.split(":")[1]
+        doi = doi.strip('"')
+        return doi
 
     def extract_keywords(self, raw_metadata):
         raw_keywords = raw_metadata.split(',')
@@ -156,15 +209,35 @@ class IEEEX_Spider(scrapy.Spider):
         return all_keywords
 
     ##############################################
+    
+    def remove_tags(self, string):
+        stack = []
+        aux = ""
+        for i in range(0, len(string)):
+            if( string[i] == '<' ):
+                for j in range(i, len(string)):
+                    aux = aux + string[j]
+                    if( string[j] == '>'):
+                        break
+                
+                stack.append( str(aux) )
+                aux = ""
+
+        for el in stack:
+            string = string.replace(el,' ')
+
+        return " ".join( string.split())
+    
+    ##############################################
+
 
     def parse(self, response):
         #  o title
         #  o authors
         #  o abstract
         #  o conference/journal
-        #  x date
-        #  x ids
-        #  x pages
+        #  o date
+        #  o pages
         #  o doi
         #  x isbn 
         #  x citations
@@ -172,16 +245,16 @@ class IEEEX_Spider(scrapy.Spider):
         #  x references
 
         raw_metadata = self.extract_metadata(response)
-        
-        title = self.extract_title(raw_metadata)
-        authors = self.extract_authors(raw_metadata)
-        abstract = self.extract_abstract(raw_metadata)
-        journal = self.extract_journal(raw_metadata)
-        date = self.extract_date(raw_metadata)
-        num_pages = self.extract_num_pages(raw_metadata)
-        doi = self.extract_doi(raw_metadata)
 
-        keywords = self.extract_keywords(raw_metadata)
+        article = dict()
+        article['title']     = self.extract_title(raw_metadata)        
+        article['authors']   = self.extract_authors(raw_metadata)        
+        article['abstract']  = self.extract_abstract(raw_metadata)        
+        article['journal']   = self.extract_journal(raw_metadata)        
+        article['date']      = self.extract_date(raw_metadata)        
+        article['num_pages'] = self.extract_num_pages(raw_metadata)        
+        article['doi']       = self.extract_doi(raw_metadata)
+        article['keywords']  = self.extract_keywords(raw_metadata)
 
         # conference = self.extract_conference(raw_metadata)
         # ids = self.extract_ids(raw_metadata)
@@ -192,20 +265,24 @@ class IEEEX_Spider(scrapy.Spider):
         # references = self.extract_references(response)
 
         ##############
-        print("=========================")
-        print("Authors: ", end="")
-        print(authors)
-        print("\nTitle: \"" + title + "\"")
-        print("\nAbstract: \"" + abstract + "\"")
-        print("Journal: \"" + journal + "\"")
-        print("Date: \"" + date + "\"")
-        print("Pages: \"" + str(num_pages) + "\"")
-        print("DOI: \"" + doi + "\"")
-        print("Keywords: ", end="")
-        print(keywords)
 
-        # print("ISBN: \"" + isbn + "\"")
+        ##############
+        print("=========================")
+        print("Authors: ")
+        for a in article['authors']:
+            print( '\t' + a )
+        print("\nTitle: \"" + article['title'] + "\"")
+        print("\nAbstract: \"" + article['abstract'] + "\"")
+        print("Journal: \"" + article['journal'] + "\"")
+        print("Date: \"" + article['date'] + "\"")
+        print("Pages: \"" + article['num_pages'] + "\"")
+        print("DOI: \"" + article['doi'] + "\"")
+        print( ">>>>>>>>>>>>>>>>>>>>> ARRUMAR ISSO <<<<<<<<<<<<<<<<<<<<<" )
+        print("Keywords: ", end="")
+        print( article['keywords'] )
+
         print("=========================\n")
+
         # # for r in article_references:
         # #     print(">> " + r)
         # print("Num referencias: " + str(len(article_references)))
