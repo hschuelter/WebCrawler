@@ -1,5 +1,6 @@
 # scrapy crawl ieeex -o Data/x.json > Data/ieee.data
 import scrapy
+import json
 
 class IEEEX_Spider(scrapy.Spider):
     name = "ieeex"
@@ -9,6 +10,69 @@ class IEEEX_Spider(scrapy.Spider):
                     "https://ieeexplore.ieee.org/document/1425674" ]
 
     ##############################################
+
+    def to_dict(self, text):
+
+        stack = []
+        metadata = dict()
+
+        stack.append( text[0] )
+        text = text[1:]
+
+        while len(stack) > 0:
+            if(text[0] == ','):
+                text = text[1:]
+
+            label = ""
+            value = ""
+
+            idx = text.find(':')
+            label = text[:idx]
+
+            for i in range(idx + 1, len(text)):
+                value += text[i]
+
+                if( text[i] == '{' ):
+                    stack.append( '{' )
+                    continue
+
+                if( text[i] == '}' ):
+                    stack.pop()
+                    continue
+                
+                if( text[i] == '[' ):
+                    stack.append( '[' )
+                    continue
+
+                if( text[i] == ']' ):
+                    stack.pop()
+                    continue
+
+                if( text[i] == '"' and stack[-1] != '"' ):
+                    stack.append( '"' )
+                    continue
+
+                if( text[i] == '"' and stack[-1] == '"' ):
+                    stack.pop()
+                    continue
+
+                if( text[i] == ',' and len(stack) == 1 ):
+                    break
+
+                if( text[i] == '{' and len(stack) == 1 ):
+                    break
+
+
+            text = text.replace(label + ':' + value, "")
+
+            # if (text[0] == '}'):
+            #     stack.pop()
+            #     break
+
+            print(label + ':' + value[:-1], end='\n=================\n')
+
+        print( metadata )
+
 
     def extract_metadata(self, response):
         metadata = []
@@ -20,12 +84,16 @@ class IEEEX_Spider(scrapy.Spider):
 
         for m in metadata:
             if('global.document.metadata' in m):
+                idx = m.find('{')
+                m = m[idx:]
+                # print(m)
+                self.to_dict(m)
                 return m
         
         return ''
 
     def extract_authors(self, raw_metadata):
-
+        # print( raw_metadata )
         authors = []
         start_index = raw_metadata.find('"authors":[')
         
