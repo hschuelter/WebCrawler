@@ -4,16 +4,16 @@ import scrapy
 
 import html
 import json
-import psycopg2
+
+from bs4 import BeautifulSoup
 from pymongo import MongoClient
 
 
 class IEEEX_Spider(scrapy.Spider):
     name = "ieeex"
     
-    start_urls = ['http://ieeexplore.ieee.org/document/5779074/']
-    # with open("input/10-ieeex.links", "r") as f:
-    #     start_urls = [url.strip() for url in f.readlines()]
+    with open("input/10-ieeex.links", "r") as f:
+        start_urls = [url.strip() for url in f.readlines()]
 
     ##############################################
 
@@ -21,19 +21,19 @@ class IEEEX_Spider(scrapy.Spider):
         metadata = []
         for raw_text in response.xpath("//script[@type='text/javascript']"):
             helper = raw_text.xpath("./text()").extract_first()
-            if( (helper is not None) and ("global.document.metadata" in helper) ):
+            if ((helper is not None) and ("global.document.metadata" in helper)):
                 metadata = helper.split('\n')
                 break
 
         for m in metadata:
-            if('global.document.metadata' in m):
+            if ('global.document.metadata' in m):
                 idx = m.find('{')
                 m = m[idx:]
                 meta = self.to_dict(m)
 
-                return m, meta
+                return meta
         
-        return '', ''
+        return ''
 
     ##############################################
 
@@ -166,30 +166,17 @@ class IEEEX_Spider(scrapy.Spider):
     ##############################################
     
     def remove_tags(self, string):
-        stack = []
-        aux = ""
-        for i in range(0, len(string)):
-            if( string[i] == '<' ):
-                for j in range(i, len(string)):
-                    aux = aux + string[j]
-                    if( string[j] == '>'):
-                        break
-                
-                stack.append( str(aux) )
-                aux = ""
-
-        for el in stack:
-            string = string.replace(el,' ')
-
-        return " ".join( string.split())
-
-    def print_metadata(self, metadata):
-        for key, value in metadata.items():
-            print(key, '->', value)
+        return BeautifulSoup(string, "lxml").text
 
     def to_dict(self, raw_metadata):
         raw_metadata = raw_metadata.strip(';')
         return json.loads(raw_metadata)
+
+    ############################################## 
+
+    def print_metadata(self, metadata):
+        for key, value in metadata.items():
+            print(key, '->', value)
 
     def debug_print(self, authors, article):
         print('Link:', article['link'])
@@ -262,10 +249,8 @@ class IEEEX_Spider(scrapy.Spider):
         art = self.save_article(article)
 
         print(au, art)
-
         self.save_authors_articles(authors, article)
     
-
     ##############################################
 
     def parse(self, response):
@@ -279,9 +264,11 @@ class IEEEX_Spider(scrapy.Spider):
         # x citations
         # x references
 
-        raw_metadata, metadata = self.extract_metadata(response)
+        metadata = self.extract_metadata(response)
+        if (metadata == ''):
+            return
 
-        article = dict()
+        article = {}
         article['title']     = self.extract_title(metadata)
         article['abstract']  = self.extract_abstract(metadata)
         article['journal']   = self.extract_journal(metadata)
@@ -290,11 +277,10 @@ class IEEEX_Spider(scrapy.Spider):
         article['doi']       = self.extract_doi(metadata)
         article['keywords']  = self.extract_keywords(metadata)
         article['publisher'] = self.extract_publisher(metadata)
-        article['link'] = response.request.url
+        article['link']      = response.request.url
         
-        authors   = self.extract_authors(metadata)
+        authors = self.extract_authors(metadata)
         
-        self.save(authors, article)
-        
-        print("=========================")
         self.debug_print(authors, article)
+
+        self.save(authors, article)
