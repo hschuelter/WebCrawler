@@ -1,17 +1,19 @@
 # scrapy crawl ieeex -o Data/x.json > Data/ieee.data
 # scrapy crawl ieeex > data/ieeex/10-ieeex.data
+import scrapy
+
 import html
 import json
 import psycopg2
-import scrapy
+from pymongo import MongoClient
 
 
 class IEEEX_Spider(scrapy.Spider):
     name = "ieeex"
     
-    start_urls = []
-    with open("input/10-ieeex.links", "r") as f:
-        start_urls = [url.strip() for url in f.readlines()]
+    start_urls = ['http://ieeexplore.ieee.org/document/5779074/']
+    # with open("input/10-ieeex.links", "r") as f:
+    #     start_urls = [url.strip() for url in f.readlines()]
 
     ##############################################
 
@@ -189,124 +191,80 @@ class IEEEX_Spider(scrapy.Spider):
         raw_metadata = raw_metadata.strip(';')
         return json.loads(raw_metadata)
 
-    ##############################################
-
-    def insert_author(self, connection, table, author_name, author_institute):
-        cur = connection.cursor()
-
-        sql_string = "INSERT INTO " + table + (" (name, institute) VALUES (%s, %s)" % (author_name, author_institute) )
-        cur.execute(sql_string)
-        connection.commit()
-
-        cur.close()
-
-    def export_authors(self, authors):
-        table = "ieee_authors"
-        conn = psycopg2.connect(database='ieee_db', user='arthur', password='senha')
-        cur = conn.cursor()
-        
+    def debug_print(self, authors, article):
+        print('Link:', article['link'])
+        print("Authors: ")
         for a in authors:
-            name = a['name']
-            institute = a['institute']
-            select_query = 'SELECT author_id from %s WHERE name = %s AND institute = %s' % (table, name, institute)
-            cur.execute(select_query)
-            records = cur.fetchall()
+            print( '\t' + a['name'] + '( ' + a['institute'] + ' )' )
+        print("\nTitle: \"" + article['title'] + "\"")
+        print("\nAbstract: \"" + article['abstract'] + "\"")
+        print("Journal: \"" + article['journal'] + "\"")
+        print("Date: \"" + article['date'] + "\"")
+        print("Pages: \"" + article['num_pages'] + "\"")
+        print("DOI: \"" + article['doi'] + "\"")
+        print("Publisher: \"" + article['publisher'] + "\"")
+        print("Keywords: ", end="")
+        print( article['keywords'] )
 
-            if(not bool(records)):
-                self.insert_author(conn, table, name, institute)
+        print("\n=========================")
 
-        cur.close()
-        conn.close()
+    ############################################## 
+    
+    def save_authors(self, authors):
+        client = MongoClient()
+        db = client['ieeex']
+        collection = db['ieeex-authors']
 
-        return ''
-
-    def insert_articles(self, title, abstract, date, num_pages, journal, doi, keywords, publisher):
-        table = "ieee_articles"
-
-        conn = psycopg2.connect(database='ieee_db', user='arthur', password='senha')
-        cur = conn.cursor()
-        
-        for i in range(0, len(keywords)):
-            keywords[i] = keywords[i].replace("'", "`")
-        keywords = "'" + ', '.join(keywords) + "'"
-
-        select_query = '''
-        select
-            article_id,
-            title,
-            date,
-            journal
-        from 
-            %s
-        where
-            title = %s AND
-            date = %s  AND
-            journal = %s AND
-            doi = %s;''' % (table, title, date, journal, doi)
-        cur.execute(select_query)
-        records = cur.fetchall()
-
-        if(not bool(records)):
-            sql_string = "INSERT INTO " + table + (" (title, abstract, date, num_pages, journal, doi, keywords, publisher) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)" % (title, abstract, date, num_pages, journal, doi, keywords, publisher) )
-            cur.execute(sql_string)
-            conn.commit()
-
-        cur.close()
-        conn.close()
-
-        return ''
-
-    def insert_authors_articles(self, authors, title, date, journal, doi):
-        table_authors  = "ieee_authors"
-        table_articles = "ieee_articles"
-        conn = psycopg2.connect(database='ieee_db', user='arthur', password='senha')
-        cur = conn.cursor()
-
-        article_id = -1
-        select_articles_query = '''
-        select
-            article_id
-        from 
-            %s
-        where
-            title = %s AND
-            date = %s  AND
-            journal = %s AND
-            doi = %s;''' % (table_articles, title, date, journal, doi)
-        
-        cur.execute(select_articles_query)
-        records = cur.fetchall()
-        if(bool(records)):
-            article_id = records[0][0]
-
-        author_id = []
+        id_array = []
         for a in authors:
-            name = a['name']
-            institute = a['institute']
-            
-            select_authors_query = 'SELECT author_id from %s WHERE name = %s AND institute = %s' % (table_authors, name, institute)
-            cur.execute(select_authors_query)
-            records = cur.fetchall()
+            result = collection.find_one(a)
+            if (result == None):
+                author_id = collection.insert_one(a).inserted_id
+                id_array.append(author_id)
+            else:
+                author_id = result['_id']
+                id_array.append(author_id)
+        
+        return id_array
 
-            if(bool(records)):
-                author_id.append(records[0][0])
+    def save_article(self, article):
+        client = MongoClient()
+        db = client['ieeex']
+        collection = db['ieeex-articles']
 
-        if(article_id != -1):
-            table = "ieee_authors_articles"
-            for au_id in author_id:
-                select_authors_articles_query = 'SELECT fk_article FROM %s WHERE fk_article = %s AND fk_author = %s' % (table, article_id, au_id)
-                cur.execute(select_authors_articles_query)
-                records = cur.fetchall()
-                # print(select_authors_articles_query)
-                # print(records)
-                if(not bool(records)):
-                    sql_string = "INSERT INTO %s (fk_article, fk_author) VALUES (%s, %s)" % (table, article_id, au_id)
-                    cur.execute(sql_string)
-                    conn.commit()
+        result = collection.find_one(article)
+        if (result == None):
+            article_id = collection.insert_one(article).inserted_id
+            return article_id
+        else:
+            return result['_id']
 
-        cur.close()
-        conn.close()
+    def save_authors_articles(self, authors, article):
+        client = MongoClient()
+        db = client['ieeex']
+        
+        authors_collection = db['ieeex-authors']
+        article_collection = db['ieeex-articles']
 
+        collection = db['ieeex-authors-articles']
+
+        article_id = article_collection.find_one(article)['_id']
+        for a in authors:
+            author_id = authors_collection.find_one(a)['_id']
+
+            post = {}
+            post['author_id']  = author_id
+            post['article_id'] = article_id
+            collection.insert_one(post)
+
+    def save(self, authors, article):
+        au  = self.save_authors(authors)
+        art = self.save_article(article)
+
+        print(au, art)
+
+        self.save_authors_articles(authors, article)
+    
 
     ##############################################
 
@@ -325,7 +283,6 @@ class IEEEX_Spider(scrapy.Spider):
 
         article = dict()
         article['title']     = self.extract_title(metadata)
-        article['authors']   = self.extract_authors(metadata)
         article['abstract']  = self.extract_abstract(metadata)
         article['journal']   = self.extract_journal(metadata)
         article['date']      = self.extract_date(metadata)
@@ -333,51 +290,11 @@ class IEEEX_Spider(scrapy.Spider):
         article['doi']       = self.extract_doi(metadata)
         article['keywords']  = self.extract_keywords(metadata)
         article['publisher'] = self.extract_publisher(metadata)
-        
         article['link'] = response.request.url
-
-        ##############
+        
+        authors   = self.extract_authors(metadata)
+        
+        self.save(authors, article)
+        
         print("=========================")
-        print('Link:', response.request.url)
-        print("Authors: ")
-        for a in article['authors']:
-            print( '\t' + a['name'] + '( ' + a['institute'] + ' )' )
-        print("\nTitle: \"" + article['title'] + "\"")
-        print("\nAbstract: \"" + article['abstract'] + "\"")
-        print("Journal: \"" + article['journal'] + "\"")
-        print("Date: \"" + article['date'] + "\"")
-        print("Pages: \"" + article['num_pages'] + "\"")
-        print("DOI: \"" + article['doi'] + "\"")
-        print("Publisher: \"" + article['publisher'] + "\"")
-        print("Keywords: ", end="")
-        print( article['keywords'] )
-
-        print(article)
-
-        print("=========================\n")
-
-
-        ############
-        
-        # article['title']       = "'" + article['title'].replace("'", "`") + "'"
-        
-        # for i in range(0, len(article['authors'])):
-        #     article['authors'][i]['name']       = "'" + article['authors'][i]['name'].replace("'", "`") + "'"
-        #     article['authors'][i]['institute']  = "'" + article['authors'][i]['institute'].replace("'", "`") + "'"
-
-        # article['abstract']    = "'" + article['abstract'].replace("'", "`") + "'"
-        # article['date']        = "'" + article['date'].replace("'", "`") + "'"
-        # article['num_pages']   = "'" + str(article['num_pages']) + "'"
-        # article['journal']     = "'" + article['journal'].replace("'", "`") + "'"
-        # article['doi']         = "'" + article['doi'] + "'"
-        # article['publisher']         = "'" + article['publisher'] + "'"
-
-        # for i in range(0, len(article['keywords'])):
-        #     article['keywords'][i]= "'" + article['keywords'][i].replace("'", "`") + "'"
-
-
-        # self.export_authors(article['authors'])
-        # if(not article['title'].replace(' ', '') == ''):
-        #     self.insert_articles(article['title'], article['abstract'], article['date'], article['num_pages'], article['journal'], article['doi'], article['keywords'], article['publisher'])
-        
-        # self.insert_authors_articles(article['authors'], article['title'], article['date'], article['journal'], article['doi'])
+        self.debug_print(authors, article)
