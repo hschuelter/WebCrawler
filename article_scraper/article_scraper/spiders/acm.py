@@ -253,11 +253,9 @@ class ACM_Spider(scrapy.Spider):
     def parse(self, response):
 
         authors = []
-        article = dict()
-        publication = dict()
+        article = {}
+        publication = {}
 
-
-        ################
         article['title'] = self.extract_title(response)
         article['abstract'] = self.extract_abstract(response)
         article['date'] = self.extract_date(response)

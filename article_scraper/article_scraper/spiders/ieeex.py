@@ -12,7 +12,8 @@ from pymongo import MongoClient
 class IEEEX_Spider(scrapy.Spider):
     name = "ieeex"
     
-    with open("input/10-ieeex.links", "r") as f:
+    filename = 'input/10-ieeex.links'
+    with open(filename, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
 
     ##############################################
@@ -183,13 +184,13 @@ class IEEEX_Spider(scrapy.Spider):
         print("Authors: ")
         for a in authors:
             print( '\t' + a['name'] + '( ' + a['institute'] + ' )' )
-        print("\nTitle: \"" + article['title'] + "\"")
-        print("\nAbstract: \"" + article['abstract'] + "\"")
-        print("Journal: \"" + article['journal'] + "\"")
-        print("Date: \"" + article['date'] + "\"")
-        print("Pages: \"" + article['num_pages'] + "\"")
-        print("DOI: \"" + article['doi'] + "\"")
-        print("Publisher: \"" + article['publisher'] + "\"")
+        print("\nTitle:", article['title'])
+        print("\nAbstract:", article['abstract'])
+        print("Journal:", article['journal'])
+        print("Date:", article['date'])
+        print("Pages:", article['num_pages'])
+        print("DOI:", article['doi'])
+        print("Publisher:", article['publisher'])
         print("Keywords: ", end="")
         print( article['keywords'] )
 
@@ -268,7 +269,9 @@ class IEEEX_Spider(scrapy.Spider):
         if (metadata == ''):
             return
 
+        authors = []
         article = {}
+
         article['title']     = self.extract_title(metadata)
         article['abstract']  = self.extract_abstract(metadata)
         article['journal']   = self.extract_journal(metadata)
