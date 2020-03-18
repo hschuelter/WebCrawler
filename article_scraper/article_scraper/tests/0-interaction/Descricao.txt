@@ -1,0 +1,16 @@
+Objetivo: Coletar os metadados e montar uma base de dados com todos os artigos de conferências cujo título possui a palavra-chave "Interaction" ou "Interactions"
+
+Passo 1:
+    Vasculhar o XML da DBLP em busca de conferências com a palavra-chave "Interaction"
+    A DBLP separa o tipo de produção com a tag do XML, por exemplo artigos recebem a tag <article>, enquanto livros recebem a tag <book>.
+    Para encontrar as conferências, buscou-se os dados com a tag <proceedings>, aplicando um filtro que verifica se a string "interaction" aparece no título.
+    Assim é possível encontrar tanto as conferências com "Interaction" ou "Interactions".
+    O resultado foi um conjunto de links para páginas da DBLP, cada página contém todos os artigos que foram publicados naquela conferência.
+    Arquivos resultado: 
+        Links obtidos: "interaction-conference.links"
+
+Passo 2:
+    Utilizar os links obtidos no passo anterior para obter o link de todos os artigos.
+    Arquivos resultado: 
+        Dados de cada conferência: "interaction-conference.data"
+        Links para os artigos: "artigos.links"
