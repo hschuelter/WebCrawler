@@ -118,5 +118,5 @@ class Interaction_Spider(scrapy.Spider):
         conference['num']       = len(conference['articles'])
         conference['link']      = response.request.url
 
-        # self.debug_print(conference)
+        self.debug_print(conference)
         # self.link_print(conference['articles'])

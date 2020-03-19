@@ -8,7 +8,7 @@ import html
 class IEEEX_Spider(scrapy.Spider):
     name = "doi-test-0"
 
-    filename = 'tests/0-interaction/artigos.links'
+    filename = 'tests/0-interaction/artigos-less.links'
     start_urls = []
     with open(filename, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]

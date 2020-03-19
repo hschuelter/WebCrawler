@@ -1,0 +1,10 @@
+link.springer.com -> 3041 -> 54.0 %
+ieeexplore.ieee.org -> 1105 -> 19.6 %
+dl.acm.org -> 1212 -> 21.5 %
+diglib.eg.org -> 48 -> 0.8 %
+arxiv.org -> 41 -> 0.7 %
+scitepress.org -> 67 -> 1.1 %
+isca-speech.org -> 11 -> 0.1 %
+scienceopen.com -> 104 -> 1.8 %
+==============
+Total -> 5629

@@ -14,3 +14,4 @@ Passo 2:
     Arquivos resultado: 
         Dados de cada conferência: "interaction-conference.data"
         Links para os artigos: "artigos.links"
+
