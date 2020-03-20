@@ -1,6 +1,7 @@
 # scrapy crawl acm > data/acm/10-acm.data
 import scrapy
 
+import json
 import requests
 
 from bs4 import BeautifulSoup
@@ -178,13 +179,13 @@ class ACM_Spider(scrapy.Spider):
         print('Link:', article['link'])
         print("Authors: ")
         for a in authors:
-            print( '\t' + a['name'] + '( ' + a['institute'] + ' )' )
+            print( '\t' + a['name'] + ' (' + a['institute'] + ')' )
         print("\nTitle: \"" + article['title'] + "\"")
         print("\nAbstract: \"" + article['abstract'] + "\"")
         print("Date: \"" + article['date'] + "\"")
-        print("Pages: \"" + article['num_pages'] + "\"")
+        print("Pages: \"" + article['pages'] + "\"")
         print("DOI: \"" + article['doi'] + "\"")
-        print("Publication: \"" + str(article['publication']) + "\"")
+        print("Publication: \"" + json.dumps(article['publication']) + "\"")
         # print("Journal: \"" + article['journal'] + "\"")
         # print("Publisher: \"" + article['publisher'] + "\"")
         print("References: ")
@@ -256,19 +257,22 @@ class ACM_Spider(scrapy.Spider):
         article = {}
         publication = {}
 
-        article['title'] = self.extract_title(response)
-        article['abstract'] = self.extract_abstract(response)
-        article['date'] = self.extract_date(response)
-        article['num_pages'] = self.extract_pages(response)
-        article['doi'] = self.extract_doi(response)
-        # article['keywords'] = article_keywords
-        article['references'] = self.extract_references(response)
-        article['publication'] = self.extract_publication(response)
-        article['link'] = response.request.url
+        article['title']        = self.extract_title(response)
+        article['abstract']     = self.extract_abstract(response)
+        article['date']         = self.extract_date(response)
+        article['pages']        = self.extract_pages(response)
+        article['doi']          = self.extract_doi(response)
+        article['references']   = self.extract_references(response)
+        article['publication']  = self.extract_publication(response)
+        article['link']         = response.request.url
 
         authors = self.extract_authors(response)
+
+        article['journal']      = ''
+        article['keywords']     = []
+        # article['keywords'] = article_keywords
 
 
         self.debug_print(authors, article)
 
-        self.save(authors, article)
+        # self.save(authors, article)

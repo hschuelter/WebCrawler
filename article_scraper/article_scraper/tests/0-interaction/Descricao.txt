@@ -15,3 +15,15 @@ Passo 2:
         Dados de cada conferência: "interaction-conference.data"
         Links para os artigos: "artigos.links"
 
+Passo 3: 
+    Como todos os links obtidos no passo anterior são do tipo DOI, foi necessário visitar o site de destino para obtermos a informação de onde esses artigos estão hospedados.
+    Também, foram removidos os links duplicados .
+    Assim, esses links foram separados de acordo com o domínio, resultando no seguinte gráfico:
+        @ Drive -> '0-Interaction/Links'
+
+Passo 4:
+    Rodar os crawlers/scrapers, salvando na base do MongoDB:
+        DB ->  'interaction'
+        IEEEX: 'ieeex-authors'
+               'ieeex-articles'
+               'ieeex-authors-articles'

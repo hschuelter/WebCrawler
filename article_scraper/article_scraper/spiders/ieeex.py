@@ -1,5 +1,4 @@
-# scrapy crawl ieeex -o Data/x.json > Data/ieee.data
-# scrapy crawl ieeex > data/ieeex/10-ieeex.data
+# scrapy crawl ieeex > tests/0-interaction/data/ieeexplore-ieee-org.data
 import scrapy
 
 import html
@@ -12,7 +11,7 @@ from pymongo import MongoClient
 class IEEEX_Spider(scrapy.Spider):
     name = "ieeex"
     
-    filename = 'input/10-ieeex.links'
+    filename = 'tests/0-interaction/links/ieeexplore-ieee-org.links'
     with open(filename, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
 
@@ -110,7 +109,7 @@ class IEEEX_Spider(scrapy.Spider):
         date = html.unescape(date)
         return date
 
-    def extract_num_pages(self, metadata):
+    def extract_pages(self, metadata):
         key_start = 'startPage'
         key_end   = 'endPage'
 
@@ -121,12 +120,12 @@ class IEEEX_Spider(scrapy.Spider):
         end_page = metadata[key_end]
 
         try:
-            num_pages = int(end_page) - int(start_page)
+            pages = int(end_page) - int(start_page)
         except ValueError:
-            num_pages = start_page + ' - ' + end_page
+            pages = start_page + ' - ' + end_page
             pass
 
-        return str(num_pages)
+        return str(pages)
 
     def extract_doi(self, metadata):
         key = 'doi'
@@ -153,6 +152,16 @@ class IEEEX_Spider(scrapy.Spider):
 
         return keywords
 
+    def extract_publication(self, metadata):
+        publication = {}
+        
+        publication['publisher'] = self.extract_publisher(metadata)
+        publication['title']     = self.extract_publication_title(metadata)
+        publication['date']      = self.extract_date(metadata)
+        publication['url']       = self.extract_publication_link(metadata)
+
+        return publication
+
     def extract_publisher(self, metadata):
         key = 'publisher'
 
@@ -163,6 +172,28 @@ class IEEEX_Spider(scrapy.Spider):
         publisher = self.remove_tags(publisher)
         publisher = html.unescape(publisher)
         return publisher
+
+    def extract_publication_title(self, metadata):
+        key = 'publicationTitle'
+
+        if key not in metadata:
+            return ""   
+
+        publication_title = metadata[key]
+        publication_title = self.remove_tags(publication_title)
+        publication_title = html.unescape(publication_title)
+
+        return publication_title
+
+    def extract_publication_link(self, metadata):
+        key = 'pubLink'
+
+        if key not in metadata:
+            return ""   
+
+        publication_link = 'https://ieeexplore.ieee.org' + metadata[key]
+
+        return publication_link
 
     ##############################################
     
@@ -179,28 +210,28 @@ class IEEEX_Spider(scrapy.Spider):
         for key, value in metadata.items():
             print(key, '->', value)
 
-    def debug_print(self, authors, article):
+    def debug_print(self, authors, article, publication):
         print('Link:', article['link'])
         print("Authors: ")
         for a in authors:
-            print( '\t' + a['name'] + '( ' + a['institute'] + ' )' )
+            print( '\t' + a['name'] + ' (' + a['institute'] + ')' )
         print("\nTitle:", article['title'])
         print("\nAbstract:", article['abstract'])
         print("Journal:", article['journal'])
         print("Date:", article['date'])
-        print("Pages:", article['num_pages'])
+        print("Pages:", article['pages'])
         print("DOI:", article['doi'])
-        print("Publisher:", article['publisher'])
-        print("Keywords: ", end="")
-        print( article['keywords'] )
+        print("Publication:", publication)
+        print("Keywords:", article['keywords'])
+        print("References:", article['references'])
 
         print("\n=========================")
 
     ############################################## 
     
-    def save_authors(self, authors):
+    def save_authors(self, database, authors):
         client = MongoClient()
-        db = client['ieeex']
+        db = client[database]
         collection = db['ieeex-authors']
 
         id_array = []
@@ -215,10 +246,26 @@ class IEEEX_Spider(scrapy.Spider):
         
         return id_array
 
-    def save_article(self, article):
+    def save_publication(self, database, publication):
         client = MongoClient()
-        db = client['ieeex']
+        db = client[database]
+        collection = db['ieeex-publications']
+
+        result = collection.find_one(publication)
+        if (result == None):
+            publication_id = collection.insert_one(publication).inserted_id
+            return publication_id
+        else:
+            return result['_id']
+
+    def save_article(self, database, article, publication):
+        client = MongoClient()
+        db = client[database]
         collection = db['ieeex-articles']
+
+        publication_id = self.get_publication_id(database, publication)
+        if (publication_id != ""):
+            article['publication_id'] = publication_id
 
         result = collection.find_one(article)
         if (result == None):
@@ -227,9 +274,9 @@ class IEEEX_Spider(scrapy.Spider):
         else:
             return result['_id']
 
-    def save_authors_articles(self, authors, article):
+    def save_authors_articles(self, database, authors, article):
         client = MongoClient()
-        db = client['ieeex']
+        db = client[database]
         
         authors_collection = db['ieeex-authors']
         article_collection = db['ieeex-articles']
@@ -245,12 +292,23 @@ class IEEEX_Spider(scrapy.Spider):
             post['article_id'] = article_id
             collection.insert_one(post)
 
-    def save(self, authors, article):
-        au  = self.save_authors(authors)
-        art = self.save_article(article)
+    def save(self, database, authors, article, publication):
+        self.save_authors(database, authors)
+        self.save_publication(database, publication)
+        self.save_article(database, article, publication)
 
-        print(au, art)
-        self.save_authors_articles(authors, article)
+        self.save_authors_articles(database, authors, article)
+
+    def get_publication_id(self, database, publication):
+        client = MongoClient()
+        db = client[database]
+        collection = db['ieeex-publications']
+
+        result = collection.find_one(publication)
+        if(result == None):
+            return ""
+
+        return result['_id']
     
     ##############################################
 
@@ -271,19 +329,23 @@ class IEEEX_Spider(scrapy.Spider):
 
         authors = []
         article = {}
+        publication = {}
 
-        article['title']     = self.extract_title(metadata)
-        article['abstract']  = self.extract_abstract(metadata)
-        article['journal']   = self.extract_journal(metadata)
-        article['date']      = self.extract_date(metadata)
-        article['num_pages'] = self.extract_num_pages(metadata)
-        article['doi']       = self.extract_doi(metadata)
-        article['keywords']  = self.extract_keywords(metadata)
-        article['publisher'] = self.extract_publisher(metadata)
-        article['link']      = response.request.url
-        
-        authors = self.extract_authors(metadata)
-        
-        self.debug_print(authors, article)
+        article['title']      = self.extract_title(metadata)
+        article['abstract']   = self.extract_abstract(metadata)
 
-        self.save(authors, article)
+        article['date']       = self.extract_date(metadata)
+        article['doi']        = self.extract_doi(metadata)
+        article['journal']    = self.extract_journal(metadata)
+        article['keywords']   = self.extract_keywords(metadata)
+        article['link']       = response.request.url
+        article['pages']      = self.extract_pages(metadata)
+        article['references'] = []
+        
+        authors     = self.extract_authors(metadata)
+        publication = self.extract_publication(metadata)
+        
+        self.debug_print(authors, article, publication)
+        
+        database = 'interaction'
+        self.save(database, authors, article, publication)
