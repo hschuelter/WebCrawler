@@ -11,8 +11,8 @@ from pymongo import MongoClient
 class IEEEX_Spider(scrapy.Spider):
     name = "ieeex"
     
-    filename = 'tests/0-interaction/links/ieeexplore-ieee-org.links'
-    with open(filename, "r") as f:
+    filepath = 'tests/0-interaction/links/ieeexplore-ieee-org.links'
+    with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
 
     ##############################################
@@ -36,6 +36,99 @@ class IEEEX_Spider(scrapy.Spider):
         return ''
 
     ##############################################
+
+    # ======= Articles =======
+
+    def extract_abstract(self, metadata):
+        key = 'abstract'
+        
+        if key not in metadata:
+            return ""   
+
+        abstract = metadata[key]
+        abstract = abstract
+        abstract = self.remove_tags(abstract)
+        abstract = html.unescape(abstract)
+        return abstract
+
+    def extract_date(self, metadata):
+        key = 'chronOrPublicationDate'
+
+        if key not in metadata:
+            return ""   
+
+        date = metadata[key]
+        date = self.remove_tags(date)
+        date = html.unescape(date)
+        return date
+
+    def extract_doi(self, metadata):
+        key = 'doi'
+
+        if key not in metadata:
+            return ""  
+
+        doi = metadata[key]
+        return doi
+
+    def extract_journal(self, metadata):
+        key = 'displayPublicationTitle'
+
+        if key not in metadata:
+            return ""   
+            
+        journal = metadata[key]
+        journal = self.remove_tags(journal)
+        journal = html.unescape(journal)
+        return journal
+
+    def extract_keywords(self, metadata):
+        key = 'keywords'
+
+        if key not in metadata:
+            return []        
+
+        array = metadata[key]
+
+        keywords = []
+        for a in array:
+            for kw in a['kwd']:
+                k = html.unescape(kw) 
+                keywords.append( k )
+
+        return keywords
+
+    def extract_link(self, response):
+        return response.request.url
+
+    def extract_pages(self, metadata):
+        key_start = 'startPage'
+        key_end   = 'endPage'
+
+        if ( (key_start not in metadata) or (key_end not in metadata)):
+            return "0"
+
+        start_page = metadata[key_start]
+        end_page = metadata[key_end]
+
+        try:
+            pages = int(end_page) - int(start_page)
+        except ValueError:
+            pages = start_page + ' - ' + end_page
+            pass
+
+        return str(pages)
+
+    def extract_references(self, metadata):
+        return []
+
+    def extract_title(self, metadata):
+        key = 'title'
+        
+        if key not in metadata:
+            return ""    
+
+    # ======= Authors =======
 
     def extract_authors(self, metadata):
         key = 'authors'
@@ -62,12 +155,6 @@ class IEEEX_Spider(scrapy.Spider):
             authors.append( author_info )
 
         return authors
-            
-    def extract_title(self, metadata):
-        key = 'title'
-        
-        if key not in metadata:
-            return ""    
 
 
         title = metadata[key]
@@ -75,82 +162,7 @@ class IEEEX_Spider(scrapy.Spider):
         title = html.unescape(title)
         return title
 
-    def extract_abstract(self, metadata):
-        key = 'abstract'
-        
-        if key not in metadata:
-            return ""   
-
-        abstract = metadata[key]
-        abstract = abstract
-        abstract = self.remove_tags(abstract)
-        abstract = html.unescape(abstract)
-        return abstract
-
-    def extract_journal(self, metadata):
-        key = 'displayPublicationTitle'
-
-        if key not in metadata:
-            return ""   
-            
-        journal = metadata[key]
-        journal = self.remove_tags(journal)
-        journal = html.unescape(journal)
-        return journal
-
-    def extract_date(self, metadata):
-        key = 'chronOrPublicationDate'
-
-        if key not in metadata:
-            return ""   
-
-        date = metadata[key]
-        date = self.remove_tags(date)
-        date = html.unescape(date)
-        return date
-
-    def extract_pages(self, metadata):
-        key_start = 'startPage'
-        key_end   = 'endPage'
-
-        if ( (key_start not in metadata) or (key_end not in metadata)):
-            return "0"
-
-        start_page = metadata[key_start]
-        end_page = metadata[key_end]
-
-        try:
-            pages = int(end_page) - int(start_page)
-        except ValueError:
-            pages = start_page + ' - ' + end_page
-            pass
-
-        return str(pages)
-
-    def extract_doi(self, metadata):
-        key = 'doi'
-
-        if key not in metadata:
-            return ""  
-
-        doi = metadata[key]
-        return doi
-
-    def extract_keywords(self, metadata):
-        key = 'keywords'
-
-        if key not in metadata:
-            return []        
-
-        array = metadata[key]
-
-        keywords = []
-        for a in array:
-            for kw in a['kwd']:
-                k = html.unescape(kw) 
-                keywords.append( k )
-
-        return keywords
+    # ======= Publications =======
 
     def extract_publication(self, metadata):
         publication = {}
@@ -327,20 +339,19 @@ class IEEEX_Spider(scrapy.Spider):
         if (metadata == ''):
             return
 
-        authors = []
         article = {}
+        authors = []
         publication = {}
 
-        article['title']      = self.extract_title(metadata)
         article['abstract']   = self.extract_abstract(metadata)
-
         article['date']       = self.extract_date(metadata)
         article['doi']        = self.extract_doi(metadata)
         article['journal']    = self.extract_journal(metadata)
         article['keywords']   = self.extract_keywords(metadata)
-        article['link']       = response.request.url
+        article['link']       = self.extract_link(response)
         article['pages']      = self.extract_pages(metadata)
-        article['references'] = []
+        article['references'] = self.extract_references(metadata) # Returns [] 
+        article['title']      = self.extract_title(metadata)
         
         authors     = self.extract_authors(metadata)
         publication = self.extract_publication(metadata)
