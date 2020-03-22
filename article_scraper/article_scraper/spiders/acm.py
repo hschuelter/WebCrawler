@@ -299,7 +299,7 @@ class ACM_Spider(scrapy.Spider):
         article['journal']      = self.extract_journal(response)  # Returns ''
         article['keywords']     = self.extract_keywords(response) # Returns []
         article['link']         = self.extract_link(response)
-        article['pages']        = self.extract_pages(response)
+        article['pages']        = self.extract_pages(response) # FIX THIS
         article['references']   = self.extract_references(response)
         article['title']        = self.extract_title(response)
 
