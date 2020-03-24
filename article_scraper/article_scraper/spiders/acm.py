@@ -8,15 +8,19 @@ import requests
 from bs4 import BeautifulSoup
 from lxml import html
 from pymongo import MongoClient
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 class ACM_Spider(scrapy.Spider):
     name = "acm"
 
-    # filepath = 'tests/0-interaction/links/dl-acm-org.links'
-    filepath = 'input/10-acm.links'
+    filepath = 'tests/0-interaction/links/dl-acm-org.links'
+    # filepath = 'input/10-acm.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
+    start_urls = list(filter (lambda u: not 'dl.acm.org/doi/proceedings/' in u, start_urls))
+    
 
     ##############################################
 
@@ -62,16 +66,11 @@ class ACM_Spider(scrapy.Spider):
         return response.request.url
 
     def extract_pages(self, response):
-        xpath_string = "//input[@type='hidden' and @name='content']/@value"
-        pages = response.xpath(xpath_string).extract_first()
+        # xpath_string = "//span[@class='html-tag']/text()"
+        # pages = response.xpath(xpath_string).getall()
+        # pages = list(filter(lambda a : 'pages' in a, pages))
         
-        print(response.request.url)
-        print('Pages:', pages)
-        print(response.meta)
-        print(response.request.meta)
-        print('===========')
-
-        return ""
+        return 0
 
     def extract_references(self, response):
         references = []
@@ -174,7 +173,7 @@ class ACM_Spider(scrapy.Spider):
     def save_authors(self, database, authors):
         client = MongoClient()
         db = client[database]
-        collection = db['acm-authors']
+        collection = db['acm_authors']
 
         id_array = []
         for a in authors:
@@ -191,7 +190,7 @@ class ACM_Spider(scrapy.Spider):
     def save_publication(self, database, publication):
         client = MongoClient()
         db = client[database]
-        collection = db['acm-publications']
+        collection = db['acm_publications']
 
         result = collection.find_one(publication)
         if (result == None):
@@ -203,7 +202,7 @@ class ACM_Spider(scrapy.Spider):
     def save_article(self, database, article, publication):
         client = MongoClient()
         db = client[database]
-        collection = db['acm-articles']
+        collection = db['acm_articles']
 
         publication_id = self.get_publication_id(database, publication)
         if (publication_id != ""):
@@ -216,14 +215,14 @@ class ACM_Spider(scrapy.Spider):
         else:
             return result['_id']
 
-    def save_authors_articles(self, authors, article):
+    def save_authors_articles(self, database, authors, article):
         client = MongoClient()
-        db = client['acm']
+        db = client[database]
         
-        authors_collection = db['acm-authors']
-        article_collection = db['acm-articles']
+        authors_collection = db['acm_authors']
+        article_collection = db['acm_articles']
 
-        collection = db['acm-authors-articles']
+        collection = db['acm_authors_articles']
 
         article_id = article_collection.find_one(article)['_id']
         for a in authors:
@@ -244,7 +243,7 @@ class ACM_Spider(scrapy.Spider):
     def get_publication_id(self, database, publication):
         client = MongoClient()
         db = client[database]
-        collection = db['acm-publications']
+        collection = db['acm_publications']
 
         result = collection.find_one(publication)
         if(result == None):
@@ -266,14 +265,14 @@ class ACM_Spider(scrapy.Spider):
         article['journal']      = self.extract_journal(response)  # Returns ''
         article['keywords']     = self.extract_keywords(response) # Returns []
         article['link']         = self.extract_link(response)
-        article['pages']        = self.extract_pages(response) # FIX THIS
+        article['pages']        = self.extract_pages(response)    # Returns 0
         article['references']   = self.extract_references(response)
         article['title']        = self.extract_title(response)
 
         authors = self.extract_authors(response)
         publication  = self.extract_publication(response)
 
-        # self.debug_print(authors, article, publication)
+        self.debug_print(authors, article, publication)
 
         database = 'interaction'
-        # self.save(database, authors, article, publication)
+        self.save(database, authors, article, publication)

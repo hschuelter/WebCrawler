@@ -126,7 +126,12 @@ class IEEEX_Spider(scrapy.Spider):
         key = 'title'
         
         if key not in metadata:
-            return ""    
+            return ""  
+
+        title = metadata[key]
+        title = self.remove_tags(title)
+        title = html.unescape(title)
+        return title  
 
     # ======= Authors =======
 
@@ -156,25 +161,19 @@ class IEEEX_Spider(scrapy.Spider):
 
         return authors
 
-
-        title = metadata[key]
-        title = self.remove_tags(title)
-        title = html.unescape(title)
-        return title
-
     # ======= Publications =======
 
     def extract_publication(self, metadata):
         publication = {}
         
-        publication['publisher'] = self.extract_publisher(metadata)
+        publication['publisher'] = self.extract_publication_publisher(metadata)
         publication['title']     = self.extract_publication_title(metadata)
         publication['date']      = self.extract_date(metadata)
         publication['url']       = self.extract_publication_link(metadata)
 
         return publication
 
-    def extract_publisher(self, metadata):
+    def extract_publication_publisher(self, metadata):
         key = 'publisher'
 
         if key not in metadata:
@@ -244,7 +243,7 @@ class IEEEX_Spider(scrapy.Spider):
     def save_authors(self, database, authors):
         client = MongoClient()
         db = client[database]
-        collection = db['ieeex-authors']
+        collection = db['ieeex_authors']
 
         id_array = []
         for a in authors:
@@ -261,7 +260,7 @@ class IEEEX_Spider(scrapy.Spider):
     def save_publication(self, database, publication):
         client = MongoClient()
         db = client[database]
-        collection = db['ieeex-publications']
+        collection = db['ieeex_publications']
 
         result = collection.find_one(publication)
         if (result == None):
@@ -273,7 +272,7 @@ class IEEEX_Spider(scrapy.Spider):
     def save_article(self, database, article, publication):
         client = MongoClient()
         db = client[database]
-        collection = db['ieeex-articles']
+        collection = db['ieeex_articles']
 
         publication_id = self.get_publication_id(database, publication)
         if (publication_id != ""):
@@ -290,10 +289,10 @@ class IEEEX_Spider(scrapy.Spider):
         client = MongoClient()
         db = client[database]
         
-        authors_collection = db['ieeex-authors']
-        article_collection = db['ieeex-articles']
+        authors_collection = db['ieeex_authors']
+        article_collection = db['ieeex_articles']
 
-        collection = db['ieeex-authors-articles']
+        collection = db['ieeex_authors_articles']
 
         article_id = article_collection.find_one(article)['_id']
         for a in authors:
@@ -314,7 +313,7 @@ class IEEEX_Spider(scrapy.Spider):
     def get_publication_id(self, database, publication):
         client = MongoClient()
         db = client[database]
-        collection = db['ieeex-publications']
+        collection = db['ieeex_publications']
 
         result = collection.find_one(publication)
         if(result == None):
