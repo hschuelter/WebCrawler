@@ -11,7 +11,7 @@ class ACM_Article_Spider(scrapy.Spider):
     name = "springer_articles"
     
     filepath = 'input/10-springer.links'
-    filepath = 'tests/0-interaction/links/link-springer-com.links'
+    # filepath = 'tests/0-interaction/links/link-springer-com.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
     start_urls = list(filter (lambda u: 'link.springer.com/article/' in u, start_urls))
@@ -22,16 +22,17 @@ class ACM_Article_Spider(scrapy.Spider):
 
     def extract_abstract(self, response):
         xpath_string = "//meta[@name='dc.description']/@content"
-        abstract = response.xpath(xpath_string).getall()
-        abstract = ''.join(abstract)
+        abstract = response.xpath(xpath_string).extract_first()
         
         return str(abstract)
 
+    def extract_book(self, response):
+        return ""
+
     def extract_date(self, response):
         xpath_string = "//meta[@name='dc.date']/@content"
-        date = response.xpath(xpath_string).getall()
-        date = ''.join(date)
-
+        date = response.xpath(xpath_string).extract_first()
+        
         return str(date)
 
     def extract_doi(self, response):
@@ -42,9 +43,8 @@ class ACM_Article_Spider(scrapy.Spider):
 
     def extract_journal(self, response):
         xpath_string = "//meta[@name='dc.source']/@content"
-        journal = response.xpath(xpath_string).getall()
-        journal = ''.join(journal)
-
+        journal = response.xpath(xpath_string).extract_first()
+        
         return str(journal)
 
     def extract_keywords(self, response):
@@ -123,6 +123,8 @@ class ACM_Article_Spider(scrapy.Spider):
 
     # ======= Publications =======
 
+    def extract_publication(self, response):
+        return {}
     # # Posso utilizar no futuro
     # def extract_conference(self, response): 
     #     conference = ""
@@ -139,7 +141,7 @@ class ACM_Article_Spider(scrapy.Spider):
     
     ##############################################
 
-    def debug_print(self, authors, article):
+    def debug_print(self, authors, article, publication):
         print('Link:', article['link'])
         print("\nAuthors: ")
         for a in authors:
@@ -153,9 +155,8 @@ class ACM_Article_Spider(scrapy.Spider):
         print("Book:", article['book'])
         print("Journal:", article['journal'])
         print("Keywords:", article['keywords'])
-        print("\nReferences: ")
-        for ref in article['references']:
-            print('\t' + ref)
+        print("\nReferences:", article['references'])
+        print("\nPublication:", publication)
         print("=========================")
 
     ############################################## 
@@ -245,10 +246,12 @@ class ACM_Article_Spider(scrapy.Spider):
 
     def parse(self, response):
 
-        authors = []
         article = {}
+        authors = []
+        publication = {}
 
         article['abstract']   = self.extract_abstract(response)
+        article['book']       = self.extract_book(response)
         article['date']       = self.extract_date(response)
         article['doi']        = self.extract_doi(response)
         article['journal']    = self.extract_journal(response)
@@ -259,7 +262,10 @@ class ACM_Article_Spider(scrapy.Spider):
         article['references'] = self.extract_references(response)
         article['title']      = self.extract_title(response)
         
-        authors = self.extract_authors(response)
+        authors     = self.extract_authors(response)
+        publication   = self.extract_publication(response)
+
+        self.debug_print(authors, article, publication)
 
         database = 'interaction'
-        # self.debug_print(, database, authors, article, publication)
+        # self.save(database, authors, article, publication)

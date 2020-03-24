@@ -6,6 +6,7 @@ import json
 import requests
 
 from bs4 import BeautifulSoup
+from lxml import html
 from pymongo import MongoClient
 
 
@@ -46,38 +47,31 @@ class ACM_Spider(scrapy.Spider):
     def extract_doi(self, response):
         xpath_string = "//input[@name='doiVal']/@value"
         doi = response.xpath(xpath_string).get()
+        return doi
 
     def extract_journal(self, response):
         return ''
     
     def extract_keywords(self, response):
-        return []
+        xpath_string = '//div[not(@id)]/p/a[not(@class)]/text()'
+        keywords = response.xpath(xpath_string).getall()
+        
+        return keywords
     
     def extract_link(self, response):
         return response.request.url
 
     def extract_pages(self, response):
-        pages = ""
-        for pages_raw in response.xpath("//span[@class='epub-section__pagerange']"):
-            pages_scraped = pages_raw.xpath("./text()").extract_first()
-            pages = pages_scraped.strip()
-
-        if( pages != ""):
-            pages = pages.replace('Pages', '')
-            pages = pages.replace(' ', '')
-            dash = ""
-            for ch in pages:
-                if(not ch.isdigit()):
-                    dash = ch
-
-            if(dash != ""):
-                pages = pages.split(dash)
-                pages = int(pages[1]) - int(pages[0]) + 1
+        xpath_string = "//input[@type='hidden' and @name='content']/@value"
+        pages = response.xpath(xpath_string).extract_first()
         
-        if pages == "":
-            pages = 0
+        print(response.request.url)
+        print('Pages:', pages)
+        print(response.meta)
+        print(response.request.meta)
+        print('===========')
 
-        return str(pages)
+        return ""
 
     def extract_references(self, response):
         references = []
@@ -131,48 +125,21 @@ class ACM_Spider(scrapy.Spider):
         url = response.xpath(xpath_string).get()
         url = response.urljoin(url)
 
-        publication = dict()
-        new_response = requests.get(url)
-        code = new_response.text.split('\n')
-
-        title = ""
-        publisher = ""
-        conference = ""
-        code = list( filter(lambda a: a != '', code) )
+        publication = {}
+        page = requests.get(url)
+        html_tree = html.fromstring(page.content)
         
-        for i in range(len(code)):
-            if( "Publisher:" in code[i]):
-                publisher = code[i].split('<ul class="rlist--inline comma">')[1]
-                publisher = publisher.split('</ul>')[0]
-                publisher = self.remove_tags(publisher)
-                publisher = publisher.replace("Publisher:", "")
-
-
-                conference = ""
-                conference = self.remove_tags( code[i] )
-                conference = conference.replace("Publisher:", "")
-                aux = conference.split("Conference:")
-
-                if(len(aux) == 1):
-                    conference = ""
-
-                if(len(aux) > 1):
-                    conference = self.remove_tags( aux[1] )
-                    conference = conference.strip(' ')
-
-                print( "Publisher  - " + publisher )
-                print( "Conference - " + conference )
-
-            if( "<title>" in code[i] ):
-                title = self.remove_tags( code[i] )
-                title = title.split( ' | ' )[0]
-
-        publication['title'] = title
-        publication['publisher'] = publisher
-        publication['conference'] = conference
-        publication['url'] = url
+        publication['title']      = self.extract_publication_title(html_tree)
+        publication['publisher']  = 'ACM'
+        publication['url']        = url
 
         return publication
+
+    def extract_publication_title(self, html_tree):
+        xpath_string = "//div[@class='left-bordered-title']/span/text()"
+        title = html_tree.xpath(xpath_string)
+        title = ''.join(title)
+        return title
 
     ##############################################
 
@@ -304,9 +271,9 @@ class ACM_Spider(scrapy.Spider):
         article['title']        = self.extract_title(response)
 
         authors = self.extract_authors(response)
-        publication  = self.extract_publication(response) # FIX THIS
+        publication  = self.extract_publication(response)
 
-        self.debug_print(authors, article, publication)
+        # self.debug_print(authors, article, publication)
 
         database = 'interaction'
         # self.save(database, authors, article, publication)
