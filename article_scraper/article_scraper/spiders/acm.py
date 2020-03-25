@@ -66,11 +66,11 @@ class ACM_Spider(scrapy.Spider):
         return response.request.url
 
     def extract_pages(self, response):
-        # xpath_string = "//span[@class='html-tag']/text()"
-        # pages = response.xpath(xpath_string).getall()
-        # pages = list(filter(lambda a : 'pages' in a, pages))
+        xpath_string = "//span[@class='epub-section__pagerange']/text()"
+        pages = response.xpath(xpath_string).extract_first()
+        pages = ' '.join(pages.split())
         
-        return 0
+        return pages
 
     def extract_references(self, response):
         references = []
