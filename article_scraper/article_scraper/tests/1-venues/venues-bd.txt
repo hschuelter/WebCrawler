@@ -1,0 +1,182 @@
+ACM Conference International Conference on Web Search and Data Mining
+ACM Conference on Recommender Systems
+ACM International Conference on Advances in Geographic Information Systems
+ACM International Conference on Information and Knowledge Management
+ACM International Conference on Management of Data
+ACM SIGIR Conference on Research and Development in Information Retrieval
+ACM SIGKDD conference on Knowledge Discovery and Data Mining
+ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems
+ACM SIGWEB International Symposium on Document Engineering
+ACM Symposium on Applied Computing
+ACM Symposium on Cloud Computing
+ACM Transactions on Database Systems
+ACM Transactions on Information Systems
+ACM Transactions on Intelligent Systems and Technology
+ACM Transactions on the Web
+Advances in Databases and Information Systems
+Alberto Mendelzon International Workshop on Foundations of Data Management
+Algorithmica
+Asia-Pacific Web Conference
+Biennial Conference on Innovative Data Systems Research
+Bioinformatics (Oxford. Online)
+Bioinformatics (Oxford. Print)
+BMC Bioinformatics
+Brazilian Symposium on Geoinformatics
+Business Process Management Journal
+Communications of the ACM
+Computer Supported Cooperative Work
+Computers in Biology and Medicine
+Computers in Human Behavior
+Concurrency and Computation: : Practice and Experience
+Conference on Conceptual Modeling
+Conference on Database and Expert Systems Applications
+Conference on Human Information Interaction and Retrieval
+Data & Knowledge Engineering
+Data Mining and Knowledge Discovery
+Data Mining and Knowledge Discovery (Dordrecht. Online)
+Decision Support Systems
+Design, Automation & Test in Europe Conference & Exhibition
+Distributed and Parallel Databases
+Distributed and Parallel Databases (Online)
+East European Conference on Advances in Databases and Information Systems
+European / Extended Semantic Web Conference
+European Conference on Information Retrieval
+European Conference on Information Retrieval
+European Conference on Information Systems
+European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases
+Expert Systems (Online)
+Expert Systems (Print)
+Expert Systems with Applications
+Future Generation Computer Systems
+Geoinformatica (Dordrecht. Online)
+Geoinformatica (Dordrecht)
+IEE International Symposium on Computer-Based Medical Systems
+IEEE Intelligence Transportation Systems Conference
+IEEE International Conference on Advanced Information Networking and Applications
+IEEE International Conference on Big Data
+IEEE International Conference on BigData
+IEEE International Conference on Cloud Computing
+IEEE International Conference on Cloud Computing Technology and Science
+IEEE International Conference on Data Engineering
+IEEE International Conference on Data Mining
+IEEE International Conference on Mobile Data Management
+IEEE International Conference on Utility and Cloud Computing
+IEEE International eScience Conference
+IEEE International Symposium on Multimedia
+IEEE International workshop on Cloud data management
+IEEE Multimedia
+IEEE Transaction on Reliability
+IEEE Transactions on Industrial Informatics
+IEEE Transactions on Knowledge and Data Engineering
+IEEE Transactions on Multimedia
+IEEE/ACM International Symposium on Cluster, Cloud, and Grid Computing
+IEEE/ACM Transactions on Computational Biology and Bioinformatics (Print)
+IFIP Int. Conf. on Testing Software and Systems
+Information Processing & Management
+Information Retrieval (Boston)
+Information Retrieval (Dordrecht. Online)
+Information Sciences
+Information Systems (Oxford)
+Information Systems Frontiers (Dordrecht. Online)
+Information Systems Frontiers (Print)
+Information Systems Management
+Intelligent Data Analysis (Print)
+International ACM SIGIR Conference on Research and Development in Information Retrieval
+International ACM SIGIR Conference on Research and Development in Information Retrieval
+International Conference on Advanced Information Systems Engineering
+International Conference on Cloud Computing and Services Science
+International Conference on Cooperative Information Systems
+International Conference on Data Integration in Life Sciences
+International Conference on Data Warehousing and Knowledge Discovery
+International Conference on Database Systems and Advanced Applications
+International Conference on Database Theory
+International Conference on Enterprise Information Systems
+International Conference on Extending Database Technology
+International Conference on Information Integration and Web-based Applications & Services
+International Conference on Information Systems
+International Conference on Knowledge Discovery and Information Retrieval
+International Conference on Knowledge-Based and Intelligent Information & Engineering Systems
+International Conference on Metadata and Semantics Research
+International Conference on Scientific and Statistical Database Management
+International Conference on Scientific and Statistical Database Management
+International Conference on Similarity Search and Applications
+International Conference on Similarity Search and Applications
+International Conference on Software and Data Technologies
+International Conference on the Theory of Information Retrieval
+International Conference on Very Large Data Bases
+International Conference on Web and Social Media
+International Conference on Web Information Systems Engineering
+International Database Engineering & Applications Symposium
+International Journal of Bioinformatics Research and Applications (Print)
+International Journal of Business Process Integration and Management (Print)
+International Journal of Data Mining and Bioinformatics
+International Journal of Data Warehousing and Mining
+International Journal of Medical Informatics
+International Journal of Metadata, Semantics and Ontologies (Print)
+International Journal of Semantic Computing
+International Journal of Spatial Data Infrastructures Research
+International Journal of Systems Science (Online)
+International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems
+International Journal of Web and Grid Services (Online)
+International Journal of Web and Grid Services (Print)
+International Journal of Web Based Communities (Print)
+International Journal of Web Engineering and Technology
+International Journal of Web Information Systems (Print)
+International Journal on Digital Libraries (Print)
+International Journal on Document Analysis and Recognition (Print)
+International Provenance and Annotation Workshop
+International Symposium on Spatial and Temporal Databases
+International Workshop On Data Warehousing and OLAP
+International Workshop on the Web and Databases
+International World Wide Web Conferences
+Internet Research
+ISWC - International Semantic Web Conference
+Journal of Bioinformatics and Computational Biology (Print)
+Journal of Data Science (Print)
+Journal of Database Management (Online)
+Journal of Decision Systems
+Journal of Grid Computing
+Journal of Information and Data Management
+Journal of Information Science
+Journal of Information Science and Engineering
+Journal of Information Technology (Online)
+Journal of Informetrics
+Journal of Intelligent Information Systems
+Journal of Intelligent Information Systems (Dordrecht. Online)
+Journal of Internet Engineering
+Journal of Internet Services and Applications
+Journal of Machine Learning Research
+Journal of Machine Learning Research (Online)
+Journal of Management Information Systems
+Journal of Network and Computer Applications
+Journal of the Brazilian Computer Society (Impresso)
+Journal of The Brazilian Computer Society (Online)
+Journal of Web Engineering
+Journal of Web Semantics
+Journal on Data Semantics (Print)
+Journal on Special Topics in Mobile Networks and Applications
+Knowledge and Information Systems (electronic resource)
+Knowledge and Information Systems (Print)
+Knowledge Engineering Review (Online)
+Knowledge-Based Systems
+Multimedia Systems
+Multimedia Systems (Online)
+Multimedia Tools and Applications
+Pacific-Asia Conference on Knowledge Discovery and Data Mining
+Principles of Knowledge Representations and Reasoning
+Proceedings of the VLDB Endowment
+Revista de Informática Teórica e Aplicada (Impresso)
+Revista de Informática Teórica e Aplicada: RITA
+Semantic Web
+Semantic Web: interoperability, usability, applicability
+SIAM International Conference on Data Mining
+SIGMOD Record
+Simpósio Brasileiro de Bancos de Dados
+Software: Practice and Experience
+Symposium on Computational Intelligence and Data Mining
+Symposium on Knowledge Discovery, Mining and Learning
+Symposium on Principles of Database Systems
+The Journal of Systems and Software
+The VLDB Journal
+Web Semantics: Science, Services and Agents on the World Wide Web
+World Wide Web (Bussum)

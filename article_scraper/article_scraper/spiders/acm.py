@@ -92,8 +92,6 @@ class ACM_Spider(scrapy.Spider):
 
         return str(title)
 
-        return str(doi)
-
     # ======= Authors =======
 
     def extract_authors(self, response):

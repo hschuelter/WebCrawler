@@ -21,8 +21,6 @@ def to_dict(type_, title_, links_):
     return d
 
 def get_data(fp, start, end):
-    start_elements = ['<article','<inproceedings','<proceedings','<book','<incollection','<phdthesis','<mastersthesis','<www']
-    end_elements = ['</article','</inproceedings','</proceedings','</book','</incollection','</phdthesis','</mastersthesis','</www']
     
     line = fp.readline()
     count = 0
