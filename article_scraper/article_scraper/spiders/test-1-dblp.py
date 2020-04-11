@@ -8,7 +8,7 @@ import html
 class IEEEX_Spider(scrapy.Spider):
     name = "doi_dblp_1"
 
-    filepath = 'tests/1-venues/input/journal-url-ihc.txt'
+    filepath = 'tests/1-venues/input/ihc/IHC-journals.links'
     start_urls = []
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]

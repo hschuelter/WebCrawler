@@ -10,7 +10,7 @@ import logging
 class IEEEX_Spider(scrapy.Spider):
     name = "doi_test_1"
 
-    filename = 'tests/1-venues/input/IHC-doi-artigos.links'
+    filename = 'tests/1-venues/input/ihc/IHC-doi-artigos.links'
     start_urls = []
     with open(filename, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]

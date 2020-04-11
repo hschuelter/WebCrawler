@@ -49,7 +49,11 @@ class ACM_Chapter_Spider(scrapy.Spider):
         return str(doi)
 
     def extract_journal(self, response):
-        return ''
+        xpath_string = "//span[@class='BookTitle']/a/text()"
+        journal = response.xpath(xpath_string).getall()
+        journal = ''.join(journal)
+
+        return str(journal)
 
     def extract_keywords(self, response):
         keywords = []

@@ -1,9 +1,9 @@
-# scrapy crawl acm > tests/0-interaction/data/dl-acm-org.data
-# scrapy crawl acm > data/acm/10-acm.data
+# scrapy crawl acm > tests/1-venues/data/bd/dl-acm-org.data
 import scrapy
 
 import json
 import requests
+import logging
 
 from bs4 import BeautifulSoup
 from lxml import html
@@ -15,12 +15,13 @@ from webdriver_manager.chrome import ChromeDriverManager
 class ACM_Spider(scrapy.Spider):
     name = "acm"
 
-    filepath = 'tests/0-interaction/links/dl-acm-org.links'
-    # filepath = 'input/10-acm.links'
+    filepath = 'tests/1-venues/BD-links/dl-acm-org.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
-    start_urls = list(filter (lambda u: not 'dl.acm.org/doi/proceedings/' in u, start_urls))
-    
+    start_urls = list(filter(lambda url: not 'proceedings' in url, start_urls))
+
+    log_file = 'tests/1-venues/logs/bd/BD-acm-artigos.log'
+    logging.basicConfig(filename=log_file,level=logging.DEBUG)
 
     ##############################################
 
@@ -36,6 +37,7 @@ class ACM_Spider(scrapy.Spider):
 
         if( len(abstract) > 0 ):
             abstract = ''.join(abstract)
+            abstract = ' '.join(abstract.split())
             return str(abstract)
         
         return ""
@@ -54,7 +56,10 @@ class ACM_Spider(scrapy.Spider):
         return doi
 
     def extract_journal(self, response):
-        return ''
+        xpath_string = "//div[@class='issue-item__detail']/a/@title"
+        journal = response.xpath(xpath_string).extract_first()
+
+        return journal
     
     def extract_keywords(self, response):
         xpath_string = '//div[not(@id)]/p/a[not(@class)]/text()'
@@ -68,7 +73,8 @@ class ACM_Spider(scrapy.Spider):
     def extract_pages(self, response):
         xpath_string = "//span[@class='epub-section__pagerange']/text()"
         pages = response.xpath(xpath_string).extract_first()
-        pages = ' '.join(pages.split())
+        if (pages != None):
+            pages = ' '.join(pages.split())
         
         return pages
 
@@ -252,7 +258,6 @@ class ACM_Spider(scrapy.Spider):
     ##############################################
 
     def parse(self, response):
-
         authors = []
         article = {}
         publication = {}
@@ -260,10 +265,10 @@ class ACM_Spider(scrapy.Spider):
         article['abstract']     = self.extract_abstract(response)
         article['date']         = self.extract_date(response)
         article['doi']          = self.extract_doi(response)
-        article['journal']      = self.extract_journal(response)  # Returns ''
-        article['keywords']     = self.extract_keywords(response) # Returns []
+        article['journal']      = self.extract_journal(response)
+        article['keywords']     = self.extract_keywords(response)
         article['link']         = self.extract_link(response)
-        article['pages']        = self.extract_pages(response)    # Returns 0
+        article['pages']        = self.extract_pages(response)
         article['references']   = self.extract_references(response)
         article['title']        = self.extract_title(response)
 
@@ -272,5 +277,5 @@ class ACM_Spider(scrapy.Spider):
 
         self.debug_print(authors, article, publication)
 
-        database = 'interaction'
+        database = 'venues'
         self.save(database, authors, article, publication)
