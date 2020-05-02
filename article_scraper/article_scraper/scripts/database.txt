@@ -1,0 +1,13 @@
+1) CREATE DATABASE ieee_db;
+2) CREATE USER "arthur";
+3) ALTER USER arthur WITH PASSWORD 'senha';
+4) ALTER USER arthur WITH SUPERUSER;
+5) \du
+
+
+CREATE TABLE ieee_authors(
+id serial PRIMARY KEY,
+name varchar(128) NOT NULL,
+institute varchar(512),
+unique(name, institute)
+);

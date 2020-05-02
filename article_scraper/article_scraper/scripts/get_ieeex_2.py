@@ -1,4 +1,4 @@
-# python3 get_ieeex_2.py > tests/1-venues/data/ihc/ieeexplore-ieee-org-2.data
+# python3 get_ieeex_2.py > ../tests/1-venues/data/ihc/ieeexplore-ieee-org-2.data
 import json
 import logging, sys
 import re
