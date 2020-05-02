@@ -1,4 +1,4 @@
-# scrapy crawl acm > tests/1-venues/data/bd/dl-acm-org.data
+# scrapy crawl acm > tests/1-venues/data/ihc/dl-acm-org-2.data
 import scrapy
 
 import json
@@ -15,14 +15,14 @@ from webdriver_manager.chrome import ChromeDriverManager
 class ACM_Spider(scrapy.Spider):
     name = "acm"
 
-    filepath = 'tests/1-venues/BD-links/dl-acm-org.links'
+    filepath = 'tests/1-venues/IHC-links/dl-acm-org-2.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
     start_urls = list(filter(lambda url: not 'proceedings' in url, start_urls))
 
-    log_file = 'tests/1-venues/logs/bd/BD-acm-artigos.log'
-    logging.basicConfig(filename=log_file,level=logging.DEBUG)
-
+    # log_file = 'tests/1-venues/logs/ihc/IHC-acm-artigos.log'
+    # logging.basicConfig(filename=log_file,level=logging.DEBUG)
+    
     ##############################################
 
     # ======= Articles =======
@@ -258,6 +258,9 @@ class ACM_Spider(scrapy.Spider):
     ##############################################
 
     def parse(self, response):
+        if ('proceedings' in response.request.url):
+            return
+
         authors = []
         article = {}
         publication = {}

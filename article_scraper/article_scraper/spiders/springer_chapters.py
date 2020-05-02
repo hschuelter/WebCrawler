@@ -1,6 +1,6 @@
-# scrapy crawl springer_chapters > tests/0-interaction/data/link-springer-com-chapters.data
-# scrapy crawl springer_chapters > data/springer/10-springer-chapters.data
+# scrapy crawl springer_chapters > tests/1-venues/data/ihc/springer-chapters.data
 import scrapy
+import logging
 import requests
 import unicodedata
 
@@ -11,11 +11,13 @@ from scrapy.crawler import CrawlerProcess
 class ACM_Chapter_Spider(scrapy.Spider):
     name = "springer_chapters"
     
-    # filepath = 'input/10-springer.links'
-    filepath = 'tests/0-interaction/links/link-springer-com.links'
+    filepath = 'tests/1-venues/IHC-links/link-springer-com.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
     start_urls = list(filter (lambda u: 'link.springer.com/chapter/' in u, start_urls))
+
+    # log_file = 'tests/1-venues/logs/ihc/IHC-springer-chapters.log'
+    # logging.basicConfig(filename=log_file,level=logging.DEBUG)
 
     ##############################################
 
@@ -288,7 +290,5 @@ class ACM_Chapter_Spider(scrapy.Spider):
         
         self.debug_print(authors, article, publication)
 
-        database = 'interaction'
+        database = 'venues'
         self.save(database, authors, article, publication)
-
-        

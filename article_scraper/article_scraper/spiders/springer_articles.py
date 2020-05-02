@@ -1,6 +1,7 @@
-# scrapy crawl springer_articles > data/springer/10-springer-articles.data
-# scrapy crawl springer_articles > tests/0-interaction/data/link-springer-com.data
+# scrapy crawl springer_articles > tests/1-venues/data/ihc/springer-articles.data
+
 import scrapy
+import logging
 import requests
 
 from bs4 import BeautifulSoup
@@ -10,11 +11,13 @@ from scrapy.crawler import CrawlerProcess
 class ACM_Article_Spider(scrapy.Spider):
     name = "springer_articles"
     
-    filepath = 'input/10-springer.links'
-    # filepath = 'tests/0-interaction/links/link-springer-com.links'
+    filepath = 'tests/1-venues/IHC-links/link-springer-com.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
     start_urls = list(filter (lambda u: 'link.springer.com/article/' in u, start_urls))
+
+    # log_file = 'tests/1-venues/logs/ihc/IHC-springer-articles.log'
+    # logging.basicConfig(filename=log_file,level=logging.DEBUG)
 
     ##############################################
 
@@ -30,7 +33,7 @@ class ACM_Article_Spider(scrapy.Spider):
         return ""
 
     def extract_date(self, response):
-        xpath_string = "//meta[@name='dc.date']/@content"
+        xpath_string = "//time/text()"
         date = response.xpath(xpath_string).extract_first()
         
         return str(date)
@@ -70,9 +73,6 @@ class ACM_Article_Spider(scrapy.Spider):
         num_pages = abs(int(start_page) - int(end_page)) + 1
 
         return num_pages
-
-    def extract_publisher(self, response): 
-        return ""
 
     def extract_references(self, response):
         references = []
@@ -124,15 +124,34 @@ class ACM_Article_Spider(scrapy.Spider):
     # ======= Publications =======
 
     def extract_publication(self, response):
-        return {}
-    # # Posso utilizar no futuro
-    # def extract_conference(self, response): 
-    #     conference = ""
-    #     for conference_raw in response.xpath("//span[@class='epub-section__title']"):
-    #         conference_scraped = conference_raw.xpath("./text()").extract_first()
-    #         conference = conference_scraped.strip()
+        publication = {}
+        
+        publication['publisher'] = self.extract_publication_publisher(response)
+        publication['title']     = self.extract_publication_title(response)
+        publication['date']      = self.extract_date(response)
+        publication['url']       = self.extract_publication_link(response)
 
-    #     return str(conference)
+        return publication
+
+    def extract_publication_publisher(self, response):
+        publisher = 'Springer'
+
+        return str(publisher)
+
+    def extract_publication_title(self, response):
+        xpath_string = "//i[@data-test='journal-title']/text()"
+        publisher = response.xpath(xpath_string).getall()
+        publisher = ''.join(publisher)
+
+        return str(publisher)
+    
+    def extract_publication_link(self, response):
+        xpath_string = "//a[@data-test='journal-link']/@href"
+        publication_url = response.xpath(xpath_string).get()
+        publication_url = response.urljoin(publication_url)
+
+        return str(publication_url)
+        
 
     ##############################################
 
@@ -151,7 +170,6 @@ class ACM_Article_Spider(scrapy.Spider):
         print("Date:", article['date'])
         print("Pages:", article['pages'])
         print("DOI:", article['doi'])
-        print("Publisher:", article['publisher'])
         print("Book:", article['book'])
         print("Journal:", article['journal'])
         print("Keywords:", article['keywords'])
@@ -161,10 +179,10 @@ class ACM_Article_Spider(scrapy.Spider):
 
     ############################################## 
     
-    def save_authors(self, authors):
+    def save_authors(self, database, authors):
         client = MongoClient()
         db = client[database]
-        collection = db['springer-authors']
+        collection = db['springer_authors']
 
         id_array = []
         for a in authors:
@@ -181,7 +199,7 @@ class ACM_Article_Spider(scrapy.Spider):
     def save_publication(self, database, publication):
         client = MongoClient()
         db = client[database]
-        collection = db['ieeex-publications']
+        collection = db['springer_publications']
 
         result = collection.find_one(publication)
         if (result == None):
@@ -190,10 +208,10 @@ class ACM_Article_Spider(scrapy.Spider):
         else:
             return result['_id']
 
-    def save_article(self, article):
+    def save_article(self, database, article, publication):
         client = MongoClient()
         db = client[database]
-        collection = db['springer-articles']
+        collection = db['springer_articles']
 
         publication_id = self.get_publication_id(database, publication)
         if (publication_id != ""):
@@ -206,14 +224,14 @@ class ACM_Article_Spider(scrapy.Spider):
         else:
             return result['_id']
 
-    def save_authors_articles(self, authors, article):
+    def save_authors_articles(self, database, authors, article):
         client = MongoClient()
         db = client[database]
         
-        authors_collection = db['springer-authors']
-        article_collection = db['springer-articles']
+        authors_collection = db['springer_authors']
+        article_collection = db['springer_articles']
 
-        collection = db['springer-authors-articles']
+        collection = db['springer_authors_articles']
 
         article_id = article_collection.find_one(article)['_id']
         for a in authors:
@@ -224,7 +242,7 @@ class ACM_Article_Spider(scrapy.Spider):
             post['article_id'] = article_id
             collection.insert_one(post)
 
-    def save(self, authors, article):
+    def save(self, database, authors, article, publication):
         self.save_authors(database, authors)
         self.save_publication(database, publication)
         self.save_article(database, article, publication)
@@ -234,7 +252,7 @@ class ACM_Article_Spider(scrapy.Spider):
     def get_publication_id(self, database, publication):
         client = MongoClient()
         db = client[database]
-        collection = db['ieeex-publications']
+        collection = db['springer_publications']
 
         result = collection.find_one(publication)
         if(result == None):
@@ -245,6 +263,8 @@ class ACM_Article_Spider(scrapy.Spider):
     ##############################################
 
     def parse(self, response):
+        if ('/chapter/' in response.request.url):
+            return
 
         article = {}
         authors = []
@@ -258,7 +278,6 @@ class ACM_Article_Spider(scrapy.Spider):
         article['keywords']   = self.extract_keywords(response)
         article['link']       = self.extract_link(response)
         article['pages']      = self.extract_pages(response)
-        article['publisher']  = self.extract_publisher(response)
         article['references'] = self.extract_references(response)
         article['title']      = self.extract_title(response)
         
@@ -267,5 +286,5 @@ class ACM_Article_Spider(scrapy.Spider):
 
         self.debug_print(authors, article, publication)
 
-        database = 'interaction'
-        # self.save(database, authors, article, publication)
+        database = 'venues'
+        self.save(database, authors, article, publication)
