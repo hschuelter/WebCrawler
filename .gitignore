@@ -1,5 +1,6 @@
 # Não adicionar o diretório data/
 article_scraper/article_scraper/data/
+article_scraper/article_scraper/tests/1-venues/data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

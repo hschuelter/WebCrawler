@@ -4,10 +4,61 @@
 4) ALTER USER arthur WITH SUPERUSER;
 5) \du
 
+CREATE TABLE articles(
+   article_id serial PRIMARY KEY,
+   title       VARCHAR (400)  NOT NULL,
+   abstract    VARCHAR (3500) NOT NULL,
+   pages       VARCHAR (50),
+   date        VARCHAR (50)   NOT NULL,
+   doi         VARCHAR (60)   NOT NULL,
+   link        VARCHAR (200)  NOT NULL,
 
-CREATE TABLE ieee_authors(
-id serial PRIMARY KEY,
-name varchar(128) NOT NULL,
-institute varchar(512),
-unique(name, institute)
+   fk_journal  int   REFERENCES  journals  (journal_id)
 );
+
+CREATE TABLE articles_keywords(
+   fk_article  int   REFERENCES  articles (article_id),
+   fk_keyword  int   REFERENCES  keywords (keyword_id),
+   CONSTRAINT  pk    PRIMARY KEY (fk_article, fk_keyword)
+);
+
+CREATE TABLE keywords(
+   keyword_id  serial   PRIMARY KEY,
+   keyword     VARCHAR (500)  NOT NULL
+);
+
+CREATE TABLE articles_references(
+   fk_article     int   REFERENCES  articles    (article_id),
+   fk_reference   int   REFERENCES  references  (reference_id),
+   CONSTRAINT     pk    PRIMARY KEY (fk_article, fk_reference)
+);
+
+CREATE TABLE references(
+   reference_id   serial   PRIMARY KEY,
+   reference      VARCHAR (2500)  NOT NULL
+);
+
+CREATE TABLE journals(
+   journal_id  serial   PRIMARY KEY,
+   title       VARCHAR (400)  NOT NULL,
+   publisher   VARCHAR (60)   NOT NULL,
+   link        VARCHAR (100)  NOT NULL
+);
+
+
+
+CREATE TABLE authors(
+   author_id serial PRIMARY KEY,
+   name VARCHAR (128) NOT NULL,
+   institute VARCHAR (512)
+);
+
+CREATE TABLE authors_articles(
+   fk_article int REFERENCES ieee_articles (article_id),
+   fk_author int REFERENCES ieee_authors (author_id),
+   CONSTRAINT pk PRIMARY KEY (fk_article, fk_author)
+);
+
+
+
+
