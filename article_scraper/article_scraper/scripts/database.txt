@@ -1,25 +1,35 @@
-1) CREATE DATABASE ieee_db;
+1) CREATE DATABASE venues_db;
+2) \c venues_db
 2) CREATE USER "arthur";
 3) ALTER USER arthur WITH PASSWORD 'senha';
 4) ALTER USER arthur WITH SUPERUSER;
 5) \du
 
-CREATE TABLE articles(
-   article_id serial PRIMARY KEY,
-   title       VARCHAR (400)  NOT NULL,
-   abstract    VARCHAR (3500) NOT NULL,
-   pages       VARCHAR (50),
-   date        VARCHAR (50)   NOT NULL,
-   doi         VARCHAR (60)   NOT NULL,
-   link        VARCHAR (200)  NOT NULL,
 
-   fk_journal  int   REFERENCES  journals  (journal_id)
+CREATE TABLE venues (
+   venue_id  serial   PRIMARY KEY,
+   title       VARCHAR (500)  NOT NULL,
+   publisher   VARCHAR (100)  NOT NULL,
+   link        VARCHAR (250)  NOT NULL
 );
 
-CREATE TABLE articles_keywords(
-   fk_article  int   REFERENCES  articles (article_id),
-   fk_keyword  int   REFERENCES  keywords (keyword_id),
-   CONSTRAINT  pk    PRIMARY KEY (fk_article, fk_keyword)
+CREATE TABLE articles (
+   article_id  serial   PRIMARY KEY,
+   title       VARCHAR  (500),
+   abstract    VARCHAR  (5000),
+   pages       VARCHAR  (100),
+   date        VARCHAR  (100),
+   doi         VARCHAR  (100),
+   link        VARCHAR  (300),
+   tipo        VARCHAR  (100),
+
+   fk_venue  int   REFERENCES  venues  (venue_id)
+);
+
+CREATE TABLE articles_keywords (
+   fk_article  int                  REFERENCES  articles (article_id),
+   fk_keyword  int                  REFERENCES  keywords (keyword_id),
+   CONSTRAINT  pk_article_keywords  PRIMARY KEY (fk_article, fk_keyword)
 );
 
 CREATE TABLE keywords(
@@ -27,38 +37,25 @@ CREATE TABLE keywords(
    keyword     VARCHAR (500)  NOT NULL
 );
 
-CREATE TABLE articles_references(
-   fk_article     int   REFERENCES  articles    (article_id),
-   fk_reference   int   REFERENCES  references  (reference_id),
-   CONSTRAINT     pk    PRIMARY KEY (fk_article, fk_reference)
+CREATE TABLE citations (
+   citation_id   serial   PRIMARY KEY,
+   citation      VARCHAR (4000)  NOT NULL
 );
 
-CREATE TABLE references(
-   reference_id   serial   PRIMARY KEY,
-   reference      VARCHAR (2500)  NOT NULL
+CREATE TABLE articles_citations (
+   fk_article     int                 REFERENCES  articles    (article_id),
+   fk_citation    int                 REFERENCES  citations   (citation_id),
+   CONSTRAINT     pk_article_citation PRIMARY KEY (fk_article, fk_citation)
 );
-
-CREATE TABLE journals(
-   journal_id  serial   PRIMARY KEY,
-   title       VARCHAR (400)  NOT NULL,
-   publisher   VARCHAR (60)   NOT NULL,
-   link        VARCHAR (100)  NOT NULL
-);
-
-
 
 CREATE TABLE authors(
-   author_id serial PRIMARY KEY,
-   name VARCHAR (128) NOT NULL,
-   institute VARCHAR (512)
+   author_id   serial   PRIMARY KEY,
+   name        VARCHAR (250) NOT NULL,
+   institute   VARCHAR (600)
 );
 
 CREATE TABLE authors_articles(
-   fk_article int REFERENCES ieee_articles (article_id),
-   fk_author int REFERENCES ieee_authors (author_id),
-   CONSTRAINT pk PRIMARY KEY (fk_article, fk_author)
+   fk_article  int   REFERENCES  articles (article_id),
+   fk_author   int   REFERENCES  authors (author_id),
+   CONSTRAINT  pk    PRIMARY KEY (fk_article, fk_author)
 );
-
-
-
-
