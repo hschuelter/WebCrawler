@@ -12,6 +12,9 @@ def dict_print(d):
     for key in d:
         print('\t', key, ':', d[key])
 
+def sanitize(s):
+    return s.replace("'", "`").replace('"', "`")
+
 def stats(db):
     
     print('Articles:')
