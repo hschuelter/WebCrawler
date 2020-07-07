@@ -1,4 +1,4 @@
-# scrapy crawl acm > tests/1-venues/data/ihc/dl-acm-org-2.data
+# scrapy crawl acm > output/ihc-2011.data
 import scrapy
 
 import json
@@ -11,14 +11,16 @@ from pymongo import MongoClient
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
+import pprint
 
 class ACM_Spider(scrapy.Spider):
     name = "acm"
 
-    filepath = 'tests/1-venues/IHC-links/dl-acm-org-2.links'
+    filepath = 'input/10-acm.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
     start_urls = list(filter(lambda url: not 'proceedings' in url, start_urls))
+
 
     # log_file = 'tests/1-venues/logs/ihc/IHC-acm-artigos.log'
     # logging.basicConfig(filename=log_file,level=logging.DEBUG)
@@ -278,7 +280,12 @@ class ACM_Spider(scrapy.Spider):
         authors = self.extract_authors(response)
         publication  = self.extract_publication(response)
 
-        self.debug_print(authors, article, publication)
+        article['authors'] = authors
+        article['venue'] = publication
 
-        database = 'venues'
-        self.save(database, authors, article, publication)
+        # pp = pprint.PrettyPrinter(indent=4)
+        print(json.dumps(article))
+        # self.debug_print(authors, article, publication)
+
+        # database = 'venues'
+        # self.save(database, authors, article, publication)

@@ -12,14 +12,15 @@ from pymongo import MongoClient
 class IEEEX_Spider(scrapy.Spider):
     name = "ieeex"
     
-    filepath = 'tests/1-venues/BD-links/ieeexplore-ieee-org.links'
+    filepath = 'input/10-acm.links'
+    # filepath = 'tests/1-venues/BD-links/ieeexplore-ieee-org.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
 
     start_urls = ['http://ieeexplore.ieee.org/document/1029681/']
 
-    log_file = 'tests/1-venues/logs/bd/BD-ieeex-artigos.log'
-    logging.basicConfig(filename=log_file,level=logging.DEBUG)
+    # log_file = 'tests/1-venues/logs/bd/BD-ieeex-artigos.log'
+    # logging.basicConfig(filename=log_file,level=logging.DEBUG)
 
     ##############################################
 

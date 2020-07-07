@@ -5,11 +5,11 @@ from psycopg2 import connect, sql
 from bson.objectid import ObjectId
 from utils import dict_print, pprint, sanitize, stats
 
-connection = connect ( user="arthur",
-                                password="senha",
-                                host="127.0.0.1",
-                                port="5432",
-                                database="venues_db")
+connection = connect (  user="arthur",
+                        password="senha",
+                        host="127.0.0.1",
+                        port="5432",
+                        database="venues_db")
 cursor = connection.cursor()
 
 
@@ -23,6 +23,7 @@ def insert_data(insert_query, input_):
     input_ = list(map(lambda x: sanitize(str(x)), input_))
     cursor.execute(insert_query, input_)
     connection.commit()
+    
 def retrieve_data(select_query, input_):
     input_ = list(map(lambda x: sanitize(str(x)), input_))
     cursor.execute(select_query, input_)

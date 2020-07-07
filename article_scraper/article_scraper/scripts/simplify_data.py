@@ -37,7 +37,6 @@ def get_authors(db, col_name, article_id):
 
     return authors
 
-
 def get_venue(db_from, col_name, publication_id):
     venue = db_from[col_name + '_publications'].find_one({ '_id' : publication_id }, {'_id' : False})
     return venue
