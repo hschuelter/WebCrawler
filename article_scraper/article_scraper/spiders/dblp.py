@@ -1,4 +1,4 @@
-# scrapy crawl dblp > output/x-artigos.links
+# scrapy crawl dblp > output/x-artigos-2.links
 import scrapy
 
 import json
@@ -15,10 +15,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 class DBLP_Spider(scrapy.Spider):
     name = "dblp"
 
-    filepath = 'output/5-venues.links'
+    start_urls = []
+    filepath = 'output/links/x-venues-2.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
-    start_urls = list(filter(lambda url: not 'proceedings' in url, start_urls))
 
     # ======= Links =======
 

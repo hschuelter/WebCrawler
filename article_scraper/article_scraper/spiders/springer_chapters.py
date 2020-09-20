@@ -1,8 +1,9 @@
-# scrapy crawl springer_chapters > tests/1-venues/data/ihc/springer-chapters.data
+# scrapy crawl springer_chapters > output/ban/springer-chapters.data
 import scrapy
 import logging
 import requests
 import unicodedata
+import json
 
 from bs4 import BeautifulSoup
 from pymongo import MongoClient
@@ -11,7 +12,7 @@ from scrapy.crawler import CrawlerProcess
 class ACM_Chapter_Spider(scrapy.Spider):
     name = "springer_chapters"
     
-    filepath = 'tests/1-venues/IHC-links/link-springer-com.links'
+    filepath = './input/ban/springer.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
     start_urls = list(filter (lambda u: 'link.springer.com/chapter/' in u, start_urls))
@@ -287,8 +288,11 @@ class ACM_Chapter_Spider(scrapy.Spider):
 
         authors = self.extract_authors(response)
         publication = self.extract_publication(response)
-        
-        self.debug_print(authors, article, publication)
 
-        database = 'venues'
-        self.save(database, authors, article, publication)
+        # self.debug_print(authors, article, publication)
+        # database = 'venues'
+        # self.save(database, authors, article, publication)
+        article['authors'] = authors
+        article['venue'] = publication
+
+        print(json.dumps(article))

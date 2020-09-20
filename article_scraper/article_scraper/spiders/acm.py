@@ -1,4 +1,4 @@
-# scrapy crawl acm > output/ihc-2011.data
+# scrapy crawl acm > output/ban/acm.data
 import scrapy
 
 import json
@@ -16,7 +16,7 @@ import pprint
 class ACM_Spider(scrapy.Spider):
     name = "acm"
 
-    filepath = 'input/10-acm.links'
+    filepath = './input/ban/acm.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
     start_urls = list(filter(lambda url: not 'proceedings' in url, start_urls))

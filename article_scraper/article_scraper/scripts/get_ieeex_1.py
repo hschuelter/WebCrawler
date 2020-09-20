@@ -1,4 +1,4 @@
-# python3 get_ieeex_1.py > ../tests/1-venues/data/ihc/ieeexplore-ieee-org-1.data
+# python3 get_ieeex_1.py >> ../output/ban/ieeex.data
 import json
 import logging, sys
 import re
@@ -153,7 +153,10 @@ def extract_authors(metadata):
         author = ht.unescape(author)
         author_info['name'] = author
 
-        institute = r['affiliation']
+        institute = ''
+        if 'affiliation' in r:
+            institute = ''.join(r['affiliation'])
+            
         institute = remove_tags(institute)
         institute = ht.unescape(institute)
         author_info['institute'] = institute
@@ -339,35 +342,43 @@ def parse(metadata, url):
     article['pages']      = extract_pages(metadata)
     article['references'] = extract_references(metadata) # Returns [] 
     article['title']      = extract_title(metadata)
-    
+
     authors     = extract_authors(metadata)
     publication = extract_publication(metadata)
 
+    article['authors'] = authors
+    article['venue'] = publication
+
+    print(json.dumps(article))
     return authors, article, publication
 
 def main():
     logging.basicConfig(stream=sys.stderr, level=logging.DEBUG)
 
-    filepath = 'tests/1-venues/IHC-links/ieeexplore-ieee-org-1.links'
+    filepath = '../input/ban/ieeex.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
 
     url_count = len(start_urls)
     count = 1
+    start = 11860
 
     for url in start_urls:
+        count += 1
+        if (count < start):
+            continue
+
         log('========= Começando um artigo =========')
         log('Artigo: ' + str(count) + ' / ' + str(url_count))
         log('Url - ' + url)
-        count += 1
 
         metadata = extract_metadata(url)
         if (metadata == '' or metadata == None):
             continue
         
         authors, article, publication = parse(metadata, url)
-        debug_print(authors, article, publication)
-        database = 'venues'
-        save(database, authors, article, publication)
+        # debug_print(authors, article, publication)
+        # database = 'venues'
+        # save(database, authors, article, publication)
 
 if __name__ == "__main__": main()
