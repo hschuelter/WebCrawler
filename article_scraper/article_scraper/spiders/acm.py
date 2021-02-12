@@ -7,7 +7,7 @@ import logging
 
 from bs4 import BeautifulSoup
 from lxml import html
-from pymongo import MongoClient
+# from pymongo import MongoClient
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
@@ -20,10 +20,6 @@ class ACM_Spider(scrapy.Spider):
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
     start_urls = list(filter(lambda url: not 'proceedings' in url, start_urls))
-
-
-    # log_file = 'tests/1-venues/logs/ihc/IHC-acm-artigos.log'
-    # logging.basicConfig(filename=log_file,level=logging.DEBUG)
     
     ##############################################
 
@@ -282,10 +278,6 @@ class ACM_Spider(scrapy.Spider):
 
         article['authors'] = authors
         article['venue'] = publication
-
-        # pp = pprint.PrettyPrinter(indent=4)
-        print(json.dumps(article))
-        # self.debug_print(authors, article, publication)
 
         # database = 'venues'
         # self.save(database, authors, article, publication)

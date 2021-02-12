@@ -6,7 +6,7 @@ import unicodedata
 import json
 
 from bs4 import BeautifulSoup
-from pymongo import MongoClient
+# from pymongo import MongoClient
 from scrapy.crawler import CrawlerProcess
 
 class ACM_Chapter_Spider(scrapy.Spider):
@@ -16,9 +16,6 @@ class ACM_Chapter_Spider(scrapy.Spider):
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
     start_urls = list(filter (lambda u: 'link.springer.com/chapter/' in u, start_urls))
-
-    # log_file = 'tests/1-venues/logs/ihc/IHC-springer-chapters.log'
-    # logging.basicConfig(filename=log_file,level=logging.DEBUG)
 
     ##############################################
 
@@ -292,7 +289,3 @@ class ACM_Chapter_Spider(scrapy.Spider):
         # self.debug_print(authors, article, publication)
         # database = 'venues'
         # self.save(database, authors, article, publication)
-        article['authors'] = authors
-        article['venue'] = publication
-
-        print(json.dumps(article))

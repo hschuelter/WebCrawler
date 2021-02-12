@@ -1,7 +1,7 @@
 # scrapy crawl doi_dblp_1 > tests/1-venues/input/IHC-doi-artigos.links
 import scrapy
 import json
-import psycopg2
+# import psycopg2
 import html
 
 

@@ -7,7 +7,7 @@ import logging
 
 from bs4 import BeautifulSoup
 from lxml import html
-from pymongo import MongoClient
+# from pymongo import MongoClient
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
@@ -41,6 +41,5 @@ class DBLP_Spider(scrapy.Spider):
 
     def parse(self, response):
         links = self.extract_doi_links(response)
-        # print(response.request.url)
         for l in links:
             print(l)

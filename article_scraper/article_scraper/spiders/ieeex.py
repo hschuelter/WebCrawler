@@ -6,7 +6,7 @@ import json
 import logging
 
 from bs4 import BeautifulSoup
-from pymongo import MongoClient
+# from pymongo import MongoClient
 
 
 class IEEEX_Spider(scrapy.Spider):
@@ -15,9 +15,6 @@ class IEEEX_Spider(scrapy.Spider):
     filepath = './input/ban/10-ieeex.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
-
-    # log_file = 'tests/1-venues/logs/bd/BD-ieeex-artigos.log'
-    # logging.basicConfig(filename=log_file,level=logging.DEBUG)
 
     ##############################################
 
@@ -352,5 +349,5 @@ class IEEEX_Spider(scrapy.Spider):
         
         self.debug_print(authors, article, publication)
         
-        database = 'venues'
-        self.save(database, authors, article, publication)
+        # database = 'venues'
+        # self.save(database, authors, article, publication)
