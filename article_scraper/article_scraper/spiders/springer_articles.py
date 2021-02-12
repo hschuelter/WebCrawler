@@ -12,7 +12,7 @@ from scrapy.crawler import CrawlerProcess
 class ACM_Article_Spider(scrapy.Spider):
     name = "springer_articles"
     
-    filepath = './input/ban/springer.links'
+    filepath = './input/ban/10-springer.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
     start_urls = list(filter (lambda u: 'link.springer.com/article/' in u, start_urls))

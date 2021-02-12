@@ -12,9 +12,7 @@ from pymongo import MongoClient
 class IEEEX_Spider(scrapy.Spider):
     name = "ieeex"
     
-    filepath = './input/ban/ieeex.links'
-
-    # filepath = 'tests/1-venues/BD-links/ieeexplore-ieee-org.links'
+    filepath = './input/ban/10-ieeex.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
 

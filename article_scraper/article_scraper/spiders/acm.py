@@ -16,7 +16,7 @@ import pprint
 class ACM_Spider(scrapy.Spider):
     name = "acm"
 
-    filepath = './input/ban/acm.links'
+    filepath = './input/ban/10-acm.links'
     with open(filepath, "r") as f:
         start_urls = [url.strip() for url in f.readlines()]
     start_urls = list(filter(lambda url: not 'proceedings' in url, start_urls))
